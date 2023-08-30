@@ -1,0 +1,14 @@
+{
+  "scripts": {
+    "build:css": "npx postcss \"**/*.postcss\" --base . --dir . --ext .css --config postcss.config.cjs",
+    "build": "npm run build:css",
+    "watch:css": "npx postcss \"**/*.postcss\" --base . --dir . --ext .css --config postcss.config.cjs --watch",
+    "watch": "npm watch:css",
+    "dev": "http-server -p 58505 --cors & open http://localhost:58505"
+  },
+  "devDependencies": {
+    "postcss": "^8.4.29",
+    "postcss-cli": "^10.1.0",
+    "postcss-nesting": "^12.0.1"
+  }
+}
