@@ -3,7 +3,7 @@
     "build:css": "npx postcss \"**/*.postcss\" --base . --dir . --ext .css --config postcss.config.cjs",
     "build": "npm run build:css",
     "watch:css": "npx postcss \"**/*.postcss\" --base . --dir . --ext .css --config postcss.config.cjs --watch",
-    "watch": "npm watch:css",
+    "watch": "npm run watch:css",
     "dev": "http-server -p 58505 --cors & open http://localhost:58505"
   },
   "devDependencies": {
