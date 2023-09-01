@@ -22,7 +22,17 @@ pre {
 <body>
 	<madata-auth id="toolbar_gh" :backend="github">GitHub:</madata-auth>
 
-	<details open>
+	<details>
+		<summary>
+			features.<select v-model="format.features">
+				<option>yml</option>
+				<option>json</option>
+			</select>
+			<download-button :filename="`features.${format.features}`" :data="stringified_features"></download-button>
+		</summary>
+		<pre>{{ stringified_features }}</pre>
+	</details>
+	<details>
 		<summary>
 			discussions.<select v-model="format.discussions">
 				<option>json</option>
@@ -43,16 +53,6 @@ pre {
 			<download-button :filename="`feature_meta.${format.feature_meta}`" :data="data.feature_meta"></download-button>
 		</summary>
 		<pre>{{ stringify(data.feature_meta, format.feature_meta) }}</pre>
-	</details>
-	<details>
-		<summary>
-			features.<select v-model="format.features">
-				<option>yml</option>
-				<option>json</option>
-			</select>
-			<download-button :filename="`features.${format.discussions}`" :data="data.features"></download-button>
-		</summary>
-		<pre>{{ stringify(features, format.features ) }}</pre>
 	</details>
 	<details>
 		<summary>

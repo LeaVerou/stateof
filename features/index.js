@@ -3,6 +3,7 @@ import Backend, { Format } from "https://madata.dev/src/index.js";
 import "https://madata.dev/components/auth/index.js";
 
 const lineBreaks = /(\r?\n|\r)+/g;
+const includeIf = new Set(["Yes", "Likely Yes", "Maybe"]);
 let github = Backend.from("https://github.com/leaverou/stateof/");
 let gh_discussions = Backend.from("https://api.github.com/graphql", {
 	query: `query {
@@ -34,7 +35,7 @@ globalThis.app = createApp({
 			data,
 			format: {
 				features: "yml",
-				discussions: "csv",
+				discussions: "json",
 				feature_meta: "json",
 				urls: "json",
 			},
@@ -90,6 +91,14 @@ globalThis.app = createApp({
 	},
 
 	computed: {
+		stringified_features () {
+			if (this.format.features === "yml") {
+				return this.features.map(f => this.stringify([f], "yml")).join("\n");
+			}
+
+			return this.stringify(this.features, this.format.features);
+		},
+
 		features () {
 			let { discussions, feature_meta, urls } = this.data;
 			return discussions.flatMap(feature => {
@@ -100,13 +109,14 @@ globalThis.app = createApp({
 					return [];
 				}
 
-				if (meta["In Part 1"] === "No" || meta["In Part 1"] === "Likely No") {
+				if (!includeIf.has(meta["In Part 1"])) {
 					return [];
 				}
 
 				let ret = {
 					id: meta.id,
 					name: feature.title,
+					needsTranslation: meta["Needs Translation"] === "true",
 				};
 
 				let body = feature.body.replace(lineBreaks, "\n");
@@ -191,6 +201,8 @@ globalThis.app = createApp({
 					}
 				}
 
+				ret.tags = ["features"];
+
 				return ret;
 			});
 		},
@@ -213,7 +225,7 @@ globalThis.app = createApp({
 		"download-button": {
 			props: {
 				filename: String,
-				data: Object,
+				data: Object | String,
 			},
 			data () {
 				return {

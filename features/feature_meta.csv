@@ -1,84 +1,82 @@
 id,Question,Needs Translation,Focus area,Type,Status,Discussion,Upvotes,In Part 1
-dialog_element,"<dialog> ",false,Interactivity,HTML element,Stable,https://github.com/Devographics/surveys/discussions/158,70,In checkbox question
-custom_elements_using,Using Custom Elements,true,Consuming Web Components,HTML element,Stable,https://github.com/Devographics/surveys/discussions/154,67,Yes
+dialog_element,"<dialog> ",false,Interactivity,HTML element,Stable,https://github.com/Devographics/surveys/discussions/158,77,Yes
 popover_api,"Popover API
 
-<div popover> ",false,Interactivity,"HTML attribute,JS API,CSS",Cutting Edge,https://github.com/Devographics/surveys/discussions/138,65,Yes
-form_validation,Form validation,true,Forms & Editing,JS API,Stable,https://github.com/Devographics/surveys/discussions/120,61,In checkbox question
-lazy_loading,Lazy loading,true,"Performance,Multimedia",JS API,Stable,https://github.com/Devographics/surveys/discussions/141,58,In checkbox question
-selectmenu,<selectlist>  (ex <selectmenu> ),false,Forms & Editing,HTML element,Future,https://github.com/Devographics/surveys/discussions/95,52,Yes
-shadow_dom,Shadow DOM,false,Making Web Components,Other,Stable,https://github.com/Devographics/surveys/discussions/156,52,In checkbox question
-breadcrumb,"<breadcrumb> ",false,Semantic HTML,HTML element,Future,https://github.com/Devographics/surveys/discussions/116,50,No
-picture_element,"<picture> ",false,Multimedia,HTML element,Stable,https://github.com/Devographics/surveys/discussions/122,47,In checkbox question
-slot_def,"Defining slots (<slot> ) ",true,Making Web Components,HTML element,Stable,https://github.com/Devographics/surveys/discussions/129,45,In checkbox question
-svg_element,"<svg> ",false,Embedding,HTML element,Stable,https://github.com/Devographics/surveys/discussions/125,45,In checkbox question
-details_element,"<details> / <summary> ",false,Interactivity,HTML element,Stable,https://github.com/Devographics/surveys/discussions/128,44,In checkbox question
-aria,ARIA,false,ARIA & Accessibility APIs,HTML attribute,Stable,https://github.com/Devographics/surveys/discussions/114,40,In checkbox question
-respimg,srcset and sizes attributes,true,Multimedia,HTML attribute,Stable,https://github.com/Devographics/surveys/discussions/123,40,In checkbox question
-inert_attribute,inert  attribute,true,Interactivity,HTML attribute,Recent,https://github.com/Devographics/surveys/discussions/139,40,Yes
-host_css,"Styling component host (:host, :host(), :host-context())",true,Making Web Components,CSS,Stable,https://github.com/Devographics/surveys/discussions/149,38,In checkbox question
-declarative_shadow,"Declarative Shadow DOM
-
-<template shadowrootmode=""open""> ",true,Making Web Components,HTML attribute,Cutting Edge,https://github.com/Devographics/surveys/discussions/100,36,Yes
-autocomplete,"autocomplete=""hint""",false,Forms & Editing,HTML attribute value,Mixed,https://github.com/Devographics/surveys/discussions/162,36,Yes
-search_element,"<search> ",false,"Semantic HTML,ARIA & Accessibility APIs",HTML element,Future,https://github.com/Devographics/surveys/discussions/130,35,Yes
-fetchpriority,Fetch Priority API (fetchpriority attribute),true,"Performance,Embedding,Multimedia",HTML attribute,Cutting Edge,https://github.com/Devographics/surveys/discussions/137,34,Yes
-part_selector,"::part() ",false,Consuming Web Components,CSS,Stable,https://github.com/Devographics/surveys/discussions/148,33,In checkbox question
-template_element,"<template> ",false,Templating,HTML element,Stable,https://github.com/Devographics/surveys/discussions/96,32,Likely Yes
-portal_element,"<portal> ",false,Embedding,HTML element,Near Future,https://github.com/Devographics/surveys/discussions/103,30,Yes
-pwa_manifest,PWA manifest,true,Bridging the gap with native,Other,Stable,https://github.com/Devographics/surveys/discussions/119,27,In checkbox question
-showpicker,"input.showPicker() ",false,Forms & Editing,JS API,Cutting Edge,https://github.com/Devographics/surveys/discussions/153,27,Yes
-tabindex,tabindex attribute,true,ARIA & Accessibility APIs,HTML attribute,Stable,https://github.com/Devographics/surveys/discussions/113,26,In checkbox question
-content_security_policy,Content-Security Policy (CSP),true,Security & Privacy,HTTP,Stable,https://github.com/Devographics/surveys/discussions/151,26,Likely Yes
-part_attr,part attribute,true,Making Web Components,HTML attribute,Stable,https://github.com/Devographics/surveys/discussions/134,24,In checkbox question
-structured_data,"Structured data (RDFa, Microdata, Microformats)",true,Semantic HTML,Other,Stable,https://github.com/Devographics/surveys/discussions/152,24,In checkbox question
-dom_parts,DOM Parts,true,Templating,HTML element,Future,https://github.com/Devographics/surveys/discussions/157,23,Yes
-extended_builtins,Extended built-ins,true,"Consuming Web Components,Making Web Components",JS API,Controversial,https://github.com/Devographics/surveys/discussions/99,22,In checkbox question
-element_internals,ElementInternals,false,Making Web Components,JS API,Cutting Edge,https://github.com/Devographics/surveys/discussions/101,22,Yes
-blocking_render,"blocking=”render” ",false,"Performance,Embedding",HTML attribute,Cutting Edge,https://github.com/Devographics/surveys/discussions/140,22,Yes
-contenteditable_plaintext,"contenteditable=”plaintext-only” ",false,Forms & Editing,HTML attribute value,Cutting Edge,https://github.com/Devographics/surveys/discussions/155,22,Yes
-crossorigin,crossorigin attribute,false,"Security & Privacy,Embedding",HTML attribute,Stable,https://github.com/Devographics/surveys/discussions/144,21,Likely No
-client_hints,Client Hints,true,Other,HTTP,Cutting Edge,https://github.com/Devographics/surveys/discussions/110,21,Likely No
-cors,CORS,false,Security & Privacy,HTTP,Stable,https://github.com/Devographics/surveys/discussions/150,21,Likely No
-resource_hints,Resource Hints (all),true,Performance,HTML attribute value,Cutting Edge,https://github.com/Devographics/surveys/discussions/109,18,In checkbox question
-focusgroup,focusgroup attribute,true,"ARIA & Accessibility APIs,Interactivity",HTML attribute,Future,https://github.com/Devographics/surveys/discussions/102,17,Yes
-math_element,"<math> ",false,Embedding,HTML element,Stable,https://github.com/Devographics/surveys/discussions/126,16,In checkbox question
+<div popover> ",false,Interactivity,"HTML attribute,JS API,CSS",Cutting Edge,https://github.com/Devographics/surveys/discussions/138,74,Yes
+custom_elements_using,Using Custom Elements,true,Consuming Web Components,HTML element,Stable,https://github.com/Devographics/surveys/discussions/154,73,Yes
+form_validation,Form validation,true,Forms & Editing,JS API,Stable,https://github.com/Devographics/surveys/discussions/120,69,In checkbox question
+lazy_loading,Lazy loading,true,"Performance,Multimedia",JS API,Stable,https://github.com/Devographics/surveys/discussions/141,68,In checkbox question
+selectmenu,<selectlist>  (ex <selectmenu> ),false,Forms & Editing,HTML element,Future,https://github.com/Devographics/surveys/discussions/95,61,Yes
+shadow_dom,Shadow DOM,false,Making Web Components,Other,Stable,https://github.com/Devographics/surveys/discussions/156,57,Yes
+breadcrumb,"<breadcrumb> ",false,Semantic HTML,HTML element,Future,https://github.com/Devographics/surveys/discussions/116,54,No
+svg_element,"<svg> ",false,Embedding,HTML element,Stable,https://github.com/Devographics/surveys/discussions/125,52,In checkbox question
+picture_element,"<picture> ",false,Multimedia,HTML element,Stable,https://github.com/Devographics/surveys/discussions/122,50,In checkbox question
+details_element,"<details> / <summary> ",false,Interactivity,HTML element,Stable,https://github.com/Devographics/surveys/discussions/128,49,Yes
+slot_def,"Defining slots (<slot> ) ",true,Making Web Components,HTML element,Stable,https://github.com/Devographics/surveys/discussions/129,47,In checkbox question
+aria,ARIA,false,ARIA & Accessibility APIs,HTML attribute,Stable,https://github.com/Devographics/surveys/discussions/114,44,In checkbox question
+respimg,srcset and sizes attributes,true,Multimedia,HTML attribute,Stable,https://github.com/Devographics/surveys/discussions/123,44,In checkbox question
+inert_attribute,inert  attribute,true,Interactivity,HTML attribute,Recent,https://github.com/Devographics/surveys/discussions/139,44,Yes
+declarative_shadow,Declarative Shadow DOM,true,Making Web Components,HTML attribute,Cutting Edge,https://github.com/Devographics/surveys/discussions/100,42,Yes
+host_css,"Styling component host (:host, :host(), :host-context())",true,Making Web Components,CSS,Stable,https://github.com/Devographics/surveys/discussions/149,42,In checkbox question
+autocomplete,"autocomplete=""hint""",false,Forms & Editing,HTML attribute value,Mixed,https://github.com/Devographics/surveys/discussions/162,41,Yes
+search_element,"<search> ",false,"Semantic HTML,ARIA & Accessibility APIs",HTML element,Future,https://github.com/Devographics/surveys/discussions/130,39,Yes
+fetchpriority,Fetch Priority API (fetchpriority attribute),true,"Performance,Embedding,Multimedia",HTML attribute,Cutting Edge,https://github.com/Devographics/surveys/discussions/137,37,Yes
+template_element,"<template> ",false,Templating,HTML element,Stable,https://github.com/Devographics/surveys/discussions/96,35,Likely Yes
+part_selector,"::part() ",false,Consuming Web Components,CSS,Stable,https://github.com/Devographics/surveys/discussions/148,35,In checkbox question
+showpicker,"input.showPicker() ",false,Forms & Editing,JS API,Cutting Edge,https://github.com/Devographics/surveys/discussions/153,34,Yes
+pwa_manifest,PWA manifest,true,Bridging the gap with native,Other,Stable,https://github.com/Devographics/surveys/discussions/119,33,In checkbox question
+portal_element,"<portal> ",false,Embedding,HTML element,Near Future,https://github.com/Devographics/surveys/discussions/103,32,Yes
+tabindex,tabindex attribute,true,ARIA & Accessibility APIs,HTML attribute,Stable,https://github.com/Devographics/surveys/discussions/113,30,In checkbox question
+content_security_policy,Content-Security Policy (CSP),true,Security & Privacy,HTTP,Stable,https://github.com/Devographics/surveys/discussions/151,28,Likely Yes
+structured_data,"Structured data (RDFa, Microdata, Microformats)",true,Semantic HTML,Other,Stable,https://github.com/Devographics/surveys/discussions/152,28,In checkbox question
+part_attr,part attribute,true,Making Web Components,HTML attribute,Stable,https://github.com/Devographics/surveys/discussions/134,26,In checkbox question
+element_internals,ElementInternals,false,Making Web Components,JS API,Cutting Edge,https://github.com/Devographics/surveys/discussions/101,25,Yes
+blocking_render,"blocking=”render” ",false,"Performance,Embedding",HTML attribute,Cutting Edge,https://github.com/Devographics/surveys/discussions/140,25,Yes
+contenteditable_plaintext,"contenteditable=”plaintext-only” ",false,Forms & Editing,HTML attribute value,Cutting Edge,https://github.com/Devographics/surveys/discussions/155,25,Yes
+dom_parts,DOM Parts,true,Templating,HTML element,Future,https://github.com/Devographics/surveys/discussions/157,25,Yes
+cors,CORS,false,Security & Privacy,HTTP,Stable,https://github.com/Devographics/surveys/discussions/150,24,Likely No
+extended_builtins,Extended built-ins,true,"Consuming Web Components,Making Web Components",JS API,Controversial,https://github.com/Devographics/surveys/discussions/99,23,In checkbox question
+crossorigin,crossorigin attribute,false,"Security & Privacy,Embedding",HTML attribute,Stable,https://github.com/Devographics/surveys/discussions/144,23,Likely No
+input_pattern,"pattern attribute for <input> ",true,Forms & Editing,HTML attribute,Stable,https://github.com/Devographics/surveys/discussions/172,23,No
+resource_hints,Resource Hints (all),true,Performance,HTML attribute value,Cutting Edge,https://github.com/Devographics/surveys/discussions/109,22,In checkbox question
+client_hints,Client Hints,true,Other,HTTP,Cutting Edge,https://github.com/Devographics/surveys/discussions/110,22,Likely No
+html_modules,HTML Modules,true,Consuming Web Components,JS API,Future,https://github.com/Devographics/surveys/discussions/169,22,Yes
 slot_assignment,"Explicit slot assignment
 
-slot=""foo""",true,Consuming Web Components,HTML attribute,Stable,https://github.com/Devographics/surveys/discussions/97,15,In checkbox question
-track_element,"<track> ",true,Multimedia,HTML element,Stable,https://github.com/Devographics/surveys/discussions/132,15,In checkbox question
-html_modules,HTML Modules,true,Consuming Web Components,JS API,Future,https://github.com/Devographics/surveys/discussions/169,15,Yes
-model_element,"<model> ",false,Multimedia,HTML element,Future,https://github.com/Devographics/surveys/discussions/124,14,Likely Yes
-input_pattern,"pattern attribute for <input> ",true,Forms & Editing,HTML attribute,Stable,https://github.com/Devographics/surveys/discussions/172,14,No
-controlslist,controlslist attribute,true,Multimedia,HTML attribute,Controversial,https://github.com/Devographics/surveys/discussions/131,13,In checkbox question
-media_capture,HTML Media Capture,true,Multimedia,HTML attribute,Cutting Edge,https://github.com/Devographics/surveys/discussions/133,13,Yes
-imperative_slot,Imperative slot assignment,true,Making Web Components,Other,Recent,https://github.com/Devographics/surveys/discussions/98,12,Yes
-exportparts,exportparts attribute,true,Making Web Components,HTML attribute,Stable,https://github.com/Devographics/surveys/discussions/135,12,No
-decoding,decoding attribute,true,"Multimedia,Performance",HTML attribute,Stable,https://github.com/Devographics/surveys/discussions/136,12,In checkbox question
-rh_preconnect,"Resource Hints: <link rel=”preconnect”> ",true,Performance,HTML element,Recent,https://github.com/Devographics/surveys/discussions/107,12,In checkbox question
-sandbox_attr,sandbox attribute for iframes,true,"Security & Privacy,Embedding",HTML attribute,Stable,https://github.com/Devographics/surveys/discussions/142,12,Likely No
-rh_preload,"Resource Hints: <link rel=”preload”> ",true,Performance,HTML element,Recent,https://github.com/Devographics/surveys/discussions/104,11,In checkbox question
-adaptive_streaming,Adaptive streaming,true,Multimedia,HTTP,Future,https://github.com/Devographics/surveys/discussions/147,10,No
-rh_prefetch,"Resource Hints: <link rel=”prefetch”> ",true,Performance,HTML element,Cutting Edge,https://github.com/Devographics/surveys/discussions/105,10,In checkbox question
-rh_prerender,"Resource Hints: <link rel=”prerender”> ",true,Performance,HTML element,Deprecated,https://github.com/Devographics/surveys/discussions/106,10,In checkbox question
-integrity,Subresource Integrity (integrity attribute),true,Security & Privacy,HTML attribute,Stable,https://github.com/Devographics/surveys/discussions/145,10,In checkbox question
-referrerpolicy,referrerpolicy attribute,true,Security & Privacy,HTML attribute,Stable,https://github.com/Devographics/surveys/discussions/146,10,Likely No
-fencedframe,<fencedframe>,false,"Embedding,Security & Privacy",HTML element,Cutting Edge,https://github.com/Devographics/surveys/discussions/127,9,Maybe
-multihandle_sliders,Multi-handle sliders (<input type=range multiple> ),true,Forms & Editing,HTML element,Removed,https://github.com/Devographics/surveys/discussions/173,9,No
-accordion,Exclusive accordion (<details name=”...”>),true,Interactivity,HTML element,Future,https://github.com/Devographics/surveys/discussions/176,8,Yes
-navigation_api,Navigation API,true,Interactivity,JS API,Cutting Edge,https://github.com/Devographics/surveys/discussions/175,8,Yes
+slot=""foo""",true,Consuming Web Components,HTML attribute,Stable,https://github.com/Devographics/surveys/discussions/97,19,In checkbox question
+focusgroup,focusgroup attribute,true,"ARIA & Accessibility APIs,Interactivity",HTML attribute,Future,https://github.com/Devographics/surveys/discussions/102,18,Yes
+math_element,"<math> ",false,Embedding,HTML element,Stable,https://github.com/Devographics/surveys/discussions/126,18,In checkbox question
+track_element,"<track> ",true,Multimedia,HTML element,Stable,https://github.com/Devographics/surveys/discussions/132,18,In checkbox question
+accordion,Exclusive accordion (<details name=”...”>),true,Interactivity,HTML element,Future,https://github.com/Devographics/surveys/discussions/176,18,Yes
+model_element,"<model> ",false,Multimedia,HTML element,Future,https://github.com/Devographics/surveys/discussions/124,17,Likely Yes
+navigation_api,Navigation API,true,Interactivity,JS API,Cutting Edge,https://github.com/Devographics/surveys/discussions/175,16,Yes
+exportparts,exportparts attribute,true,Making Web Components,HTML attribute,Stable,https://github.com/Devographics/surveys/discussions/135,14,No
+controlslist,controlslist attribute,true,Multimedia,HTML attribute,Controversial,https://github.com/Devographics/surveys/discussions/131,14,In checkbox question
+media_capture,HTML Media Capture,true,Multimedia,HTML attribute,Cutting Edge,https://github.com/Devographics/surveys/discussions/133,14,Yes
+rh_preload,"Resource Hints: <link rel=”preload”> ",true,Performance,HTML element,Recent,https://github.com/Devographics/surveys/discussions/104,14,In checkbox question
+rh_preconnect,"Resource Hints: <link rel=”preconnect”> ",true,Performance,HTML element,Recent,https://github.com/Devographics/surveys/discussions/107,14,In checkbox question
+imperative_slot,Imperative slot assignment,true,Making Web Components,Other,Recent,https://github.com/Devographics/surveys/discussions/98,13,Yes
+decoding,decoding attribute,true,"Multimedia,Performance",HTML attribute,Stable,https://github.com/Devographics/surveys/discussions/136,13,In checkbox question
+sandbox_attr,sandbox attribute for iframes,true,"Security & Privacy,Embedding",HTML attribute,Stable,https://github.com/Devographics/surveys/discussions/142,13,Likely No
+rh_prefetch,"Resource Hints: <link rel=”prefetch”> ",true,Performance,HTML element,Cutting Edge,https://github.com/Devographics/surveys/discussions/105,12,In checkbox question
+rh_prerender,"Resource Hints: <link rel=”prerender”> ",true,Performance,HTML element,Deprecated,https://github.com/Devographics/surveys/discussions/106,12,In checkbox question
+multihandle_sliders,Multi-handle sliders (<input type=range multiple> ),true,Forms & Editing,HTML element,Removed,https://github.com/Devographics/surveys/discussions/173,12,No
+fencedframe,<fencedframe>,false,"Embedding,Security & Privacy",HTML element,Cutting Edge,https://github.com/Devographics/surveys/discussions/127,11,Maybe
+adaptive_streaming,Adaptive streaming,true,Multimedia,HTTP,Future,https://github.com/Devographics/surveys/discussions/147,11,No
+integrity,Subresource Integrity (integrity attribute),true,Security & Privacy,HTML attribute,Stable,https://github.com/Devographics/surveys/discussions/145,11,In checkbox question
+referrerpolicy,referrerpolicy attribute,true,Security & Privacy,HTML attribute,Stable,https://github.com/Devographics/surveys/discussions/146,11,Likely No
 credentialless,"Credentialless iframes
 
-<iframe credentialless>",true,"Security & Privacy,Embedding",HTML attribute,Cutting Edge,https://github.com/Devographics/surveys/discussions/143,7,In checkbox question
-isolated_webapps,Isolated Web Apps,true,"Bridging the gap with native,Security & Privacy",Other,Future,https://github.com/Devographics/surveys/discussions/170,3,Likely Yes
-menu_element,"<menu> ",false,Semantic HTML,HTML element,Stable,https://github.com/Devographics/surveys/discussions/200,,In checkbox question
-badging_api,Badging API,true,Bridging the gap with native,JS API,Cutting Edge,https://github.com/Devographics/surveys/discussions/195,,Yes
-web_share_api,Web Share API,true,Bridging the gap with native,JS API,Cutting Edge,https://github.com/Devographics/surveys/discussions/196,,Yes
-window_controls_overlay,"Window Controls Overlay API ",true,Bridging the gap with native,"JS API,CSS,Other",Cutting Edge,https://github.com/Devographics/surveys/discussions/197,,Maybe
-text_fragments,URLs to Text Fragments,true,Other,"JS API,Other,CSS",Controversial,https://github.com/Devographics/surveys/discussions/199,,Maybe
-borderless_mode,Borderless mode,true,Bridging the gap with native,Other,Cutting Edge,https://github.com/Devographics/surveys/discussions/203,,Yes
-custom_elements_defining,Defining Custom Elements,true,Making Web Components,HTML element,Stable,https://github.com/Devographics/surveys/discussions/184,,In checkbox question
-scoped_element_registries,Scoped Custom Element Registries,true,Making Web Components,JS API,Future,https://github.com/Devographics/surveys/discussions/187,,Likely Yes
-sanitizer_api,Sanitizer API,true,Security & Privacy,JS API,Future,https://github.com/Devographics/surveys/discussions/192,,Maybe
-iframe_seamless,"<iframe seamless> ",false,Embedding,HTML attribute,Removed,https://github.com/Devographics/surveys/discussions/202,,No
+<iframe credentialless>",true,"Security & Privacy,Embedding",HTML attribute,Cutting Edge,https://github.com/Devographics/surveys/discussions/143,9,In checkbox question
+isolated_webapps,Isolated Web Apps,true,"Bridging the gap with native,Security & Privacy",Other,Future,https://github.com/Devographics/surveys/discussions/170,9,Likely Yes
+menu_element,"<menu> ",false,Semantic HTML,HTML element,Stable,https://github.com/Devographics/surveys/discussions/200,2,In checkbox question
+borderless_mode,Borderless mode,true,Bridging the gap with native,Other,Cutting Edge,https://github.com/Devographics/surveys/discussions/203,2,Yes
+custom_elements_defining,Defining Custom Elements,true,Making Web Components,HTML element,Stable,https://github.com/Devographics/surveys/discussions/184,2,Yes
+badging_api,Badging API,true,Bridging the gap with native,JS API,Cutting Edge,https://github.com/Devographics/surveys/discussions/195,1,Yes
+web_share_api,Web Share API,true,Bridging the gap with native,JS API,Cutting Edge,https://github.com/Devographics/surveys/discussions/196,1,Yes
+window_controls_overlay,"Window Controls Overlay API ",true,Bridging the gap with native,"JS API,CSS,Other",Cutting Edge,https://github.com/Devographics/surveys/discussions/197,1,Maybe
+text_fragments,URLs to Text Fragments,true,Other,"JS API,Other,CSS",Controversial,https://github.com/Devographics/surveys/discussions/199,1,Maybe
+scoped_element_registries,Scoped Custom Element Registries,true,Making Web Components,JS API,Future,https://github.com/Devographics/surveys/discussions/187,1,Likely Yes
+sanitizer_api,Sanitizer API,true,Security & Privacy,JS API,Future,https://github.com/Devographics/surveys/discussions/192,1,No
+iframe_seamless,"<iframe seamless> ",false,Embedding,HTML attribute,Removed,https://github.com/Devographics/surveys/discussions/202,1,No
 formdata,FormData,true,Forms & Editing,JS API,Stable,,,Maybe
