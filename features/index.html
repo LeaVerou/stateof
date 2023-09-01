@@ -1,31 +1,75 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Sync Features to Google Sheets</title>
-	<script src="index.js" type="module"></script>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Generate features.yml</title>
+<script src="index.js" type="module"></script>
+<link rel="stylesheet" href="https://nudeui.com/style.css">
+<style>
+summary button,
+summary .button {
+	margin: 0 .2em;
+}
+
+pre {
+	font-size: 80%;
+}
+</style>
+
 </head>
 <body>
-	<div id="toolbar_gh">
-		GitHub:
-		<span class="auth">
-			<button class="login" onclick="github.login()">Login</button>
-			<span class="username"></span>
-			<button class="logout" onclick="github.logout()">Logout</button>
-		</span>
-	</div>
-	<div id="toolbar_gs">
-		Google Sheets:
-		<button id="sync">Sync to Google Sheets</button>
-		<span class="auth">
-			<button class="login" onclick="gsheets.login()">Login</button>
-			<span class="username"></span>
-			<button class="logout" onclick="gsheets.logout()">Logout</button>
-		</span>
-	</div>
+	<madata-auth id="toolbar_gh" :backend="github">GitHub:</madata-auth>
 
-	<a href="" download="discussions.csv" id="download_csv">Download CSV</a>
-	<pre id="csv"></pre>
+	<details open>
+		<summary>
+			discussions.<select v-model="format.discussions">
+				<option>json</option>
+				<option>csv</option>
+			</select> (GitHub Discussions)
+			<button @click="gh_discussions.load()">Refresh from GitHub</button>
+			<download-button :filename="`discussions.${format.discussions}`" :data="format.discussions === 'csv'? discussions_csv : data.discussions"></download-button>
+			<button @click="github.store('features-yml/discussions.json')">Store on GitHub</button>
+		</summary>
+		<pre>{{ stringify(format.discussions === 'csv'? discussions_csv : data.discussions, format.discussions) }}</pre>
+	</details>
+	<details>
+		<summary>
+			feature_meta<select v-model="format.feature_meta">
+				<option>json</option>
+				<option>csv</option>
+			</select> (Data from Coda)
+			<download-button :filename="`feature_meta.${format.feature_meta}`" :data="data.feature_meta"></download-button>
+		</summary>
+		<pre>{{ stringify(data.feature_meta, format.feature_meta) }}</pre>
+	</details>
+	<details>
+		<summary>
+			features.<select v-model="format.features">
+				<option>yml</option>
+				<option>json</option>
+			</select>
+			<download-button :filename="`features.${format.discussions}`" :data="data.features"></download-button>
+		</summary>
+		<pre>{{ stringify(features, format.features ) }}</pre>
+	</details>
+	<details>
+		<summary>
+			URL meta ({{ Object.keys(data.urls).length }} total, {{ unknown_url_count }} with no title)
+			<button @click="fetch_url_titles()" :disabled="unknown_url_count === 0">Fetch titles</button>
+			<download-button filename="urlmeta.json" :data="data.urls"></download-button>
+		</summary>
+		<pre id="urls_pre">{{ stringify(data.urls) }}</pre>
+	</details>
+	<details open>
+		<summary>Issues ({{ Object.keys(problems).length }})</summary>
+		<ul>
+			<li v-for="(issues, problemURL) in problems">
+				<a :href="problemURL">{{ data.discussions.find(d => d.url === problemURL)?.title ?? problemURL }}</a>
+				({{ [...issues].map(issue => `no ${issue}` ).join(', ') }})
+			</li>
+		</ul>
+	</details>
 </body>
 </html>

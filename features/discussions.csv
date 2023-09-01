@@ -1,0 +1,76 @@
+title,number,url,upvoteCount
+Isolated Web Apps,170,https://github.com/Devographics/surveys/discussions/170,9
+Borderless mode,203,https://github.com/Devographics/surveys/discussions/203,2
+Shadow DOM,156,https://github.com/Devographics/surveys/discussions/156,57
+`<iframe seamless>`,202,https://github.com/Devographics/surveys/discussions/202,1
+`<menu>` element,200,https://github.com/Devographics/surveys/discussions/200,2
+URLs to Text Fragments,199,https://github.com/Devographics/surveys/discussions/199,1
+Window Controls Overlay API,197,https://github.com/Devographics/surveys/discussions/197,1
+Web Share API,196,https://github.com/Devographics/surveys/discussions/196,1
+Badging API,195,https://github.com/Devographics/surveys/discussions/195,1
+Sanitizer API,192,https://github.com/Devographics/surveys/discussions/192,1
+Tab/Spicy Sections,190,https://github.com/Devographics/surveys/discussions/190,1
+`<selectlist>` (ex `<selectmenu>`),95,https://github.com/Devographics/surveys/discussions/95,61
+"Explicit slot assignment (`slot=""foo""`)",97,https://github.com/Devographics/surveys/discussions/97,19
+`<portal>`,103,https://github.com/Devographics/surveys/discussions/103,32
+`tabindex` attribute,113,https://github.com/Devographics/surveys/discussions/113,30
+`srcset` and `sizes` attributes,123,https://github.com/Devographics/surveys/discussions/123,44
+`<model>` for AR/VR/3D content,124,https://github.com/Devographics/surveys/discussions/124,17
+Defining slots (`<slot>` and `::slotted()`),129,https://github.com/Devographics/surveys/discussions/129,47
+`controlslist` attribute,131,https://github.com/Devographics/surveys/discussions/131,14
+Popover API,138,https://github.com/Devographics/surveys/discussions/138,74
+Lazy loading,141,https://github.com/Devographics/surveys/discussions/141,68
+`sandbox` attribute for iframes,142,https://github.com/Devographics/surveys/discussions/142,13
+`<details>` and `<summary>`,128,https://github.com/Devographics/surveys/discussions/128,49
+`crossorigin` attribute,144,https://github.com/Devographics/surveys/discussions/144,23
+"Styling component host (`:host`, `:host()`, `:host-context()`)",149,https://github.com/Devographics/surveys/discussions/149,42
+`ElementInternals` API,101,https://github.com/Devographics/surveys/discussions/101,25
+CORS,150,https://github.com/Devographics/surveys/discussions/150,24
+Content-Security Policy (CSP),151,https://github.com/Devographics/surveys/discussions/151,28
+"Structured data (RDFa, Microdata, Microformats)",152,https://github.com/Devographics/surveys/discussions/152,28
+`<dialog>`,158,https://github.com/Devographics/surveys/discussions/158,77
+Extended built-ins,99,https://github.com/Devographics/surveys/discussions/99,23
+HTML Modules,169,https://github.com/Devographics/surveys/discussions/169,22
+Exclusive accordion,176,https://github.com/Devographics/surveys/discussions/176,18
+`<template>`,96,https://github.com/Devographics/surveys/discussions/96,35
+Imperative slot assignment,98,https://github.com/Devographics/surveys/discussions/98,13
+`focusgroup` attribute,102,https://github.com/Devographics/surveys/discussions/102,18
+Form validation,120,https://github.com/Devographics/surveys/discussions/120,69
+ARIA,114,https://github.com/Devographics/surveys/discussions/114,44
+Resource Hints: preconnect (`<link rel=preconnect>`),107,https://github.com/Devographics/surveys/discussions/107,14
+Resource Hints: prerender (`<link rel=prerender>`),106,https://github.com/Devographics/surveys/discussions/106,12
+Resource Hints: preload (`<link rel=preload>`),104,https://github.com/Devographics/surveys/discussions/104,14
+Resource Hints (all),109,https://github.com/Devographics/surveys/discussions/109,22
+Resource Hints: prefetch (`<link rel=prefetch>`),105,https://github.com/Devographics/surveys/discussions/105,12
+"Declarative Shadow DOM (`<template shadowrootmode=""open"">`)",100,https://github.com/Devographics/surveys/discussions/100,42
+`referrerpolicy` attribute,146,https://github.com/Devographics/surveys/discussions/146,11
+Subresource Integrity (`integrity` attribute),145,https://github.com/Devographics/surveys/discussions/145,11
+PWA manifest,119,https://github.com/Devographics/surveys/discussions/119,33
+Exposing component parts (`part` attribute),134,https://github.com/Devographics/surveys/discussions/134,26
+Styling component parts (`::part()`),148,https://github.com/Devographics/surveys/discussions/148,35
+Inline SVG (`<svg>`),125,https://github.com/Devographics/surveys/discussions/125,52
+Inline MathML (`<math>`),126,https://github.com/Devographics/surveys/discussions/126,18
+Scoped Custom Element Registries,187,https://github.com/Devographics/surveys/discussions/187,1
+Navigation API,175,https://github.com/Devographics/surveys/discussions/175,16
+Defining Custom Elements,184,https://github.com/Devographics/surveys/discussions/184,2
+`<track>` element,132,https://github.com/Devographics/surveys/discussions/132,18
+`decoding` attribute,136,https://github.com/Devographics/surveys/discussions/136,13
+Using Custom Elements,154,https://github.com/Devographics/surveys/discussions/154,73
+Fenced frames,127,https://github.com/Devographics/surveys/discussions/127,11
+Credentialess iframes,143,https://github.com/Devographics/surveys/discussions/143,9
+HTML Media Capture,133,https://github.com/Devographics/surveys/discussions/133,14
+`plaintext-only` value for `contenteditable`,155,https://github.com/Devographics/surveys/discussions/155,25
+"`blocking=""render""`",140,https://github.com/Devographics/surveys/discussions/140,25
+DOM Parts,157,https://github.com/Devographics/surveys/discussions/157,25
+`input.showPicker()`,153,https://github.com/Devographics/surveys/discussions/153,34
+`<search>`,130,https://github.com/Devographics/surveys/discussions/130,39
+Fetch Priority API (`fetchpriority` attribute),137,https://github.com/Devographics/surveys/discussions/137,37
+"`autocomplete=""hint""`",162,https://github.com/Devographics/surveys/discussions/162,41
+`inert` attribute,139,https://github.com/Devographics/surveys/discussions/139,44
+`<picture>`,122,https://github.com/Devographics/surveys/discussions/122,50
+input `pattern` attribute,172,https://github.com/Devographics/surveys/discussions/172,23
+Multi-handle sliders (`<input type=range multiple>`),173,https://github.com/Devographics/surveys/discussions/173,12
+`<breadcrumb>`,116,https://github.com/Devographics/surveys/discussions/116,54
+HTTP client hints,110,https://github.com/Devographics/surveys/discussions/110,22
+Adaptive streaming,147,https://github.com/Devographics/surveys/discussions/147,11
+`exportparts` attribute,135,https://github.com/Devographics/surveys/discussions/135,14
