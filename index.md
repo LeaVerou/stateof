@@ -6,4 +6,4 @@
 
 ## Automation
 
-- [Generate features.yml](./features-yml/)
+- [Generate features.yml](./features)

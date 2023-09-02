@@ -39,6 +39,7 @@ globalThis.app = createApp({
 				feature_meta: "json",
 				urls: "json",
 			},
+			includeIf: ["Yes", "Likely Yes", "Maybe"],
 			github: Backend.from("https://github.com/leaverou/stateof/"),
 			gh_discussions,
 			problems: {}
@@ -46,6 +47,10 @@ globalThis.app = createApp({
 	},
 
 	methods: {
+		copy (text) {
+			navigator.clipboard.writeText(text);
+		},
+
 		stringify (data, format = "JSON") {
 			let FormatClass = Format[format] ?? Format.find({ extension: format });
 			return FormatClass.stringify(data);
@@ -99,104 +104,111 @@ globalThis.app = createApp({
 			return this.stringify(this.features, this.format.features);
 		},
 
+		consideration_states () {
+			return new Set(this.data.feature_meta.map(meta => meta["In Part 1"]));
+		},
+
 		features () {
 			let { discussions, feature_meta, urls } = this.data;
-			return discussions.flatMap(feature => {
-				let meta = feature_meta.find(f => f.Discussion === feature.url);
+			return feature_meta.flatMap(meta => {
+				feature_meta[meta.Discussion] = meta;
+				let discussion = meta.discussion = discussions.find(d => d.url === meta.Discussion);
 
-				if (!meta) {
-					(this.problems[feature.url] ??= new Set()).add("meta");
-					return [];
+				if (!discussion) {
+					(this.problems[meta.Discussion] ??= new Set()).add("discussion");
+					// return [];
 				}
 
-				if (!includeIf.has(meta["In Part 1"])) {
+				if (!this.includeIf.includes(meta["In Part 1"])) {
 					return [];
 				}
 
 				let ret = {
 					id: meta.id,
-					name: feature.title,
+					name: discussion?.title ?? meta.title,
 					needsTranslation: meta["Needs Translation"] === "true",
 				};
 
-				let body = feature.body.replace(lineBreaks, "\n");
+				if (discussion) {
+					let body = discussion.body.replace(lineBreaks, "\n");
 
-				// Extract description
-				let description = body.match(/^[^#]+?(?=\n+###|\n+```)/);
-				if (description) {
-					ret.description = description[0].trim();
-					body = body.slice(description.length);
-				}
-				else {
-					(this.problems[feature.url] ??= new Set()).add("description");
-				}
-
-				// Extract code example, if present
-				if (body.includes("```")) {
-					// Extract first code example from markdown
-					const regex = /```(?<language>[a-zA-Z]*)\n(?<code>[^`]*)```/gm;
-					const matches = body.matchAll(regex);
-
-					let codeOffsets = {};
-					for (let match of matches) {
-						if (!ret.example) {
-							// We only want the first code example in the question
-							let code = match.groups.code;
-
-							ret.example = {
-								language: match.groups.language,
-								code
-							};
-
-							codeOffsets.start = match.index;
-						}
-
-						codeOffsets.end = match.index + match[0].length;
+					// Extract description
+					let description = body.match(/^[^#]+?(?=\n+###|\n+```)/);
+					if (description) {
+						ret.description = description[0].trim();
+						body = body.slice(description.length);
+					}
+					else {
+						(this.problems[discussion.url] ??= new Set()).add("description");
 					}
 
-					// Remove code examples from body to not trip up other matching (e.g. URLs)
-					if (codeOffsets.start !== undefined && codeOffsets.end !== undefined) {
-						body = body.slice(0, codeOffsets.start) + body.slice(codeOffsets.end);
+					// Extract code example, if present
+					if (body.includes("```")) {
+						// Extract first code example from markdown
+						const regex = /```(?<language>[a-zA-Z]*)\n(?<code>[^`]*)```/gm;
+						const matches = body.matchAll(regex);
+
+						let codeOffsets = {};
+						for (let match of matches) {
+							if (!ret.example) {
+								// We only want the first code example in the question
+								let code = match.groups.code;
+
+								ret.example = {
+									language: match.groups.language,
+									code
+								};
+
+								codeOffsets.start = match.index;
+							}
+
+							codeOffsets.end = match.index + match[0].length;
+						}
+
+						// Remove code examples from body to not trip up other matching (e.g. URLs)
+						if (codeOffsets.start !== undefined && codeOffsets.end !== undefined) {
+							body = body.slice(0, codeOffsets.start) + body.slice(codeOffsets.end);
+						}
 					}
-				}
-				else {
-					(this.problems[feature.url] ??= new Set()).add("code");
-				}
+					else {
+						(this.problems[discussion.url] ??= new Set()).add("code");
+					}
 
-				// Extract URLs
-				if (/https?:\/\//.test(body)) {
-					let urlMatches = body.matchAll(/https?:\/\/[^\s\)]+/g);
+					// Extract URLs
+					if (/https?:\/\//.test(body)) {
+						let urlMatches = body.matchAll(/https?:\/\/[^\s\)]+/g);
 
-					for (let url of urlMatches) {
-						url = url[0];
-						url = new URL(url);
-						let origin = url.origin;
+						for (let url of urlMatches) {
+							url = url[0];
+							url = new URL(url);
+							let origin = url.origin;
 
-						if (origin === "https://developer.mozilla.org") {
-							ret.mdn = url.href.substring(origin.length + 1);
-						}
-						else if (origin === "https://caniuse.com") {
-							ret.caniuse = url.href.substring(origin.length + 1);
-						}
-						else if (origin === "https://w3.org" || origin === "https://www.w3.org") {
-							ret.w3c = url.href.substring(origin.length + 1);
-						}
-						else if (url.href.startsWith("https://github.com/Devographics/surveys/discussions") || origin === "https://survey.devographics.com") {
-							// Ignore
-						}
-						else {
-							ret.resources ??= [];
-							url = url.href;
-							let resource = {url};
-
-							if (urls[url]) {
-								resource.title = urls[url];
+							if (origin === "https://developer.mozilla.org") {
+								ret.mdn = url.href.substring(origin.length + 1);
 							}
-							else if (urls[url] === undefined) {
-								urls[url] = undefined;
+							else if (origin === "https://caniuse.com") {
+								ret.caniuse = url.href.substring(origin.length + 1);
 							}
+							else if (origin === "https://w3.org" || origin === "https://www.w3.org") {
+								ret.w3c = url.href.substring(origin.length + 1);
+							}
+							else if (url.href.startsWith("https://github.com/Devographics/surveys/discussions") || origin === "https://survey.devographics.com") {
+								// Ignore
+							}
+							else {
+								ret.resources ??= [];
+								url = url.href;
+								let resource = {url};
 
-							ret.resources.push(resource);
+								if (urls[url]) {
+									resource.title = urls[url];
+								}
+								else if (urls[url] === undefined) {
+									urls[url] = undefined;
+								}
+
+								ret.resources.push(resource);
+							}
 						}
 					}
 				}

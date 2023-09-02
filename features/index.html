@@ -27,8 +27,14 @@ pre {
 			features.<select v-model="format.features">
 				<option>yml</option>
 				<option>json</option>
-			</select>
+			</select> ({{ features.length }})
 			<download-button :filename="`features.${format.features}`" :data="stringified_features"></download-button>
+			<button @click="copy(stringified_features)">Copy</button>
+			<div>
+				<label v-for="state in consideration_states">
+					<input type="checkbox" v-model="includeIf" :value="state"> {{ state }}
+				</label>
+			</div>
 		</summary>
 		<pre>{{ stringified_features }}</pre>
 	</details>
@@ -66,7 +72,7 @@ pre {
 		<summary>Issues ({{ Object.keys(problems).length }})</summary>
 		<ul>
 			<li v-for="(issues, problemURL) in problems">
-				<a :href="problemURL">{{ data.discussions.find(d => d.url === problemURL)?.title ?? problemURL }}</a>
+				<a :href="problemURL">{{ data.feature_meta[problemURL]?.discussion?.title ?? data.feature_meta[problemURL].Question ?? problemURL }}</a>
 				({{ [...issues].map(issue => `no ${issue}` ).join(', ') }})
 			</li>
 		</ul>
