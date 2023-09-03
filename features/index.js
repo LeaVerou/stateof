@@ -23,8 +23,11 @@ let gh_discussions = Backend.from("https://api.github.com/graphql", {
 
 gh_discussions.syncWith(github);
 
+let coda_features = new Backend.CodaTable("https://coda.io/apis/v1/docs/TGBFYq175J/tables/grid-AMXj_tfVvc/");
+
 let data = {
-	feature_meta: await fetch("./feature_meta.csv").then(r => r.text()).then(csv => Format.CSV.parse(csv)),
+	feature_meta: (await fetch("./feature_meta.json").then(r => r.ok && r.json())),
+	feature_meta_map: {},
 	urls: await fetch("./urlmeta.json").then(r => r.ok && r.json()),
 	discussions: await fetch("./discussions.json").then(r => r.ok && r.json()),
 };
@@ -42,6 +45,7 @@ globalThis.app = createApp({
 			includeIf: ["Yes", "Likely Yes", "Maybe"],
 			github: Backend.from("https://github.com/leaverou/stateof/"),
 			gh_discussions,
+			coda_features,
 			problems: {}
 		}
 	},
@@ -105,28 +109,35 @@ globalThis.app = createApp({
 		},
 
 		consideration_states () {
-			return new Set(this.data.feature_meta.map(meta => meta["In Part 1"]));
+			return new Set(this.data.feature_meta?.map?.(meta => meta["In Part 1"]?.name));
 		},
 
 		features () {
-			let { discussions, feature_meta, urls } = this.data;
-			return feature_meta.flatMap(meta => {
-				feature_meta[meta.Discussion] = meta;
-				let discussion = meta.discussion = discussions.find(d => d.url === meta.Discussion);
+			let { discussions, feature_meta, feature_meta_map, urls } = this.data;
 
-				if (!discussion) {
-					(this.problems[meta.Discussion] ??= new Set()).add("discussion");
-					// return [];
+			if (!feature_meta) {
+				return [];
+			}
+
+			return feature_meta.flatMap((meta, i) => {
+				let discussion_url = meta.Discussion?.url;
+				let id = discussion_url ?? meta.Question;
+
+				if (!discussion_url) {
+					(this.problems[id] ??= new Set()).add("discussion");
 				}
 
-				if (!this.includeIf.includes(meta["In Part 1"])) {
+				let discussion = discussions.find(d => d.url === discussion_url);
+				feature_meta_map[discussion_url] = meta;
+
+				if (!this.includeIf.includes(meta["In Part 1"]?.name)) {
 					return [];
 				}
 
 				let ret = {
 					id: meta.id,
-					name: discussion?.title ?? meta.title,
-					needsTranslation: meta["Needs Translation"] === "true",
+					name: discussion?.title ?? meta.Question,
+					needsTranslation: meta["Needs Translation"],
 				};
 
 				if (discussion) {
@@ -139,7 +150,7 @@ globalThis.app = createApp({
 						body = body.slice(description.length);
 					}
 					else {
-						(this.problems[discussion.url] ??= new Set()).add("description");
+						(this.problems[id] ??= new Set()).add("description");
 					}
 
 					// Extract code example, if present
@@ -171,7 +182,7 @@ globalThis.app = createApp({
 						}
 					}
 					else {
-						(this.problems[discussion.url] ??= new Set()).add("code");
+						(this.problems[id] ??= new Set()).add("code");
 					}
 
 					// Extract URLs
@@ -259,4 +270,14 @@ globalThis.app = createApp({
 gh_discussions.addEventListener("mv-load", evt => {
 	app.data.discussions = evt.detail.data?.repository?.discussions.nodes;
 	console.info(`Loaded ${app.data.discussions.length} discussions`);
+});
+
+coda_features.addEventListener("mv-login", evt => {
+	if (!app.data.feature_meta) {
+		coda_features.load();
+	}
+});
+
+coda_features.addEventListener("mv-load", evt => {
+	app.data.feature_meta = evt.detail.data;
 });

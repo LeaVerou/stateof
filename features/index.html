@@ -21,6 +21,7 @@ pre {
 </head>
 <body>
 	<madata-auth id="toolbar_gh" :backend="github">GitHub:</madata-auth>
+	<madata-auth id="toolbar_gh" :backend="coda_features">Coda:</madata-auth>
 
 	<details>
 		<summary>
@@ -46,19 +47,18 @@ pre {
 			</select> (GitHub Discussions)
 			<button @click="gh_discussions.load()">Refresh from GitHub</button>
 			<download-button :filename="`discussions.${format.discussions}`" :data="format.discussions === 'csv'? discussions_csv : data.discussions"></download-button>
-			<button @click="github.store('features-yml/discussions.json')">Store on GitHub</button>
+			<button @click="github.store(data.discussions, 'features/discussions.json')">Store on GitHub</button>
 		</summary>
 		<pre>{{ stringify(format.discussions === 'csv'? discussions_csv : data.discussions, format.discussions) }}</pre>
 	</details>
 	<details>
 		<summary>
-			feature_meta<select v-model="format.feature_meta">
-				<option>json</option>
-				<option>csv</option>
-			</select> (Data from Coda)
-			<download-button :filename="`feature_meta.${format.feature_meta}`" :data="data.feature_meta"></download-button>
+			feature_meta.json
+			<button @click="coda_features.load()">Refresh from Coda</button>
+			<download-button filename="feature_meta.json" :data="data.feature_meta"></download-button>
+			<button @click="github.store(data.discussions, 'features/feature_meta.json')">Store on GitHub</button>
 		</summary>
-		<pre>{{ stringify(data.feature_meta, format.feature_meta) }}</pre>
+		<pre>{{ stringify(data.feature_meta) }}</pre>
 	</details>
 	<details>
 		<summary>
@@ -72,7 +72,7 @@ pre {
 		<summary>Issues ({{ Object.keys(problems).length }})</summary>
 		<ul>
 			<li v-for="(issues, problemURL) in problems">
-				<a :href="problemURL">{{ data.feature_meta[problemURL]?.discussion?.title ?? data.feature_meta[problemURL].Question ?? problemURL }}</a>
+				<a :href="problemURL">{{ data.feature_meta_map[problemURL]?.discussion?.title ?? data.feature_meta_map[problemURL]?.Question ?? problemURL }}</a>
 				({{ [...issues].map(issue => `no ${issue}` ).join(', ') }})
 			</li>
 		</ul>
