@@ -56,7 +56,7 @@ pre {
 			feature_meta.json
 			<button @click="coda_features.load()">Refresh from Coda</button>
 			<download-button filename="feature_meta.json" :data="data.feature_meta"></download-button>
-			<button @click="github.store(data.discussions, 'features/feature_meta.json')">Store on GitHub</button>
+			<button @click="github.store(data.feature_meta, 'features/feature_meta.json')">Store on GitHub</button>
 		</summary>
 		<pre>{{ stringify(data.feature_meta) }}</pre>
 	</details>
