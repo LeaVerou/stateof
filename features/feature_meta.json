@@ -1,527 +1,3683 @@
 [
 	{
-		"title": "Isolated Web Apps",
-		"number": 170,
-		"body": "### Code sample\n\n_No response_\n\n### MDN URL:\n\n_No response_\n\n### Specification URL:\n\nhttps://github.com/WICG/isolated-web-apps\n\n### Any other links?\n\nhttps://chromestatus.com/feature/5146307550248960\n\n### How stable is this feature?\n\nFuture (No implementations yet)\n\n### Type of feature\n\nOther\n\n### What focus area does this feature fall under?\n\nSecurity & Privacy, Bridging the gap with native\n\n### Details\n\nIsolated Web Apps is related to [Subresource Integrity](https://github.com/Devographics/surveys/discussions/145) and [PWA manifest](https://github.com/Devographics/surveys/discussions/119). It provides a missing security layer that native apps have, which is signed updates to the app. A notable example is [Signal's refusal](https://github.com/WICG/isolated-web-apps/blob/64ee186/README.md?plain=1#L11) to implement a web version of their app due to this missing piece. It would be interesting to see if other developers also avoid building web apps due to this.",
-		"url": "https://github.com/Devographics/surveys/discussions/170",
-		"upvoteCount": 9
-	},
-	{
-		"title": "Borderless mode",
-		"number": 203,
-		"body": "### Code sample\r\n\r\n```json\r\n{\r\n  \"display_override\": [ \"borderless\" ]\r\n}\r\n```\r\n\r\n\r\n### MDN URL:\r\n\r\n_No response_\r\n\r\n### Specification URL:\r\n\r\nhttps://wicg.github.io/manifest-incubations/index.html#dfn-borderless\r\n\r\n### Any other links?\r\n\r\n- https://chromestatus.com/feature/5551475195904000\r\n- [Explainer](https://github.com/WICG/manifest-incubations/blob/gh-pages/borderless-explainer.md)\r\n- [TAG review](https://github.com/w3ctag/design-reviews/issues/852)\r\n\r\n### How stable is this feature?\r\n\r\nCutting edge (Shipped, but not in all browsers)\r\n\r\n### Type of feature\r\n\r\nOther\r\n\r\n### What focus area does this feature fall under?\r\n\r\nBridging the gap with native\r\n\r\n### Details\r\n\r\nShipped in Chrome 116",
-		"url": "https://github.com/Devographics/surveys/discussions/203",
-		"upvoteCount": 2
-	},
-	{
-		"title": "Shadow DOM",
-		"number": 156,
-		"body": "Encapsulate elements not visible from the outside, and style them with CSS not affecting the rest of the page.\r\n\r\n### Code sample\r\n\r\n```html\r\nthis.shadowRoot = this.attachShadow({mode: \"open\"});\r\n```\r\n\r\n### MDN URL:\r\n\r\nhttps://developer.mozilla.org/en-US/docs/Web/API/Web_components/Using_shadow_DOM\r\n\r\n### Specification URL:\r\n\r\n_No response_\r\n\r\n### Any other links?\r\n\r\n_No response_\r\n\r\n### How stable is this feature?\r\n\r\nStable (Widely supported for several years)\r\n\r\n### Type of feature\r\n\r\nJS API\r\n\r\n### What focus area does this feature fall under?\r\n\r\nMaking Web Components\r\n\r\n### Details\r\n\r\nWe should probably ask about Shadow DOM as a whole too.",
-		"url": "https://github.com/Devographics/surveys/discussions/156",
-		"upvoteCount": 57
-	},
-	{
-		"title": "`<iframe seamless>`",
-		"number": 202,
-		"body": "Makes an iframe's contents part of a page, adopting styles from its hosting page\r\n\r\n### Code sample\r\n\r\n```html\r\n<iframe src=\"header.html\" seamless></iframe>\r\n```\r\n\r\n\r\n### MDN URL:\r\n\r\n_No response_\r\n\r\n### Specification URL:\r\n\r\nhttps://www.w3.org/TR/2011/WD-html5-20110525/the-iframe-element.html#attr-iframe-seamless\r\n\r\n### Any other links?\r\n\r\nhttps://caniuse.com/iframe-seamless\r\n\r\n### How stable is this feature?\r\n\r\nRemoved (No longer supported in any major browsers)\r\n\r\n### Type of feature\r\n\r\nHTML attribute\r\n\r\n### What focus area does this feature fall under?\r\n\r\nEmbedding\r\n\r\n### Details\r\n\r\n@chrishtr mentioned this as a feature he is interested in getting data about, however, it's a feature that has been removed from the Web Platform. Is it disingenuous to ask about removed features? 🤔 ",
-		"url": "https://github.com/Devographics/surveys/discussions/202",
-		"upvoteCount": 1
-	},
-	{
-		"title": "`<menu>` element",
-		"number": 200,
-		"body": "### Code sample\n\n```html\n<menu>\r\n  <li><button id=\"save\">Save for later</button></li>\r\n  <li><button id=\"share\">Share this news</button></li>\r\n</menu>\n```\n\n\n### MDN URL:\n\nhttps://developer.mozilla.org/en-US/docs/Web/HTML/Element/menu\n\n### Specification URL:\n\nhttps://html.spec.whatwg.org/multipage/grouping-content.html#the-menu-element\n\n### Any other links?\n\n_No response_\n\n### How stable is this feature?\n\nStable (Widely supported for several years)\n\n### Type of feature\n\nHTML element\n\n### What focus area does this feature fall under?\n\nSemantic HTML\n\n### Details\n\n_No response_",
-		"url": "https://github.com/Devographics/surveys/discussions/200",
-		"upvoteCount": 2
-	},
-	{
-		"title": "URLs to Text Fragments",
-		"number": 199,
-		"body": "### Code sample\n\n```html\nhttps://example.com#:~:text=prefix-,startText,endText,-suffix\n```\n\n\n### MDN URL:\n\nhttps://developer.mozilla.org/en-US/docs/Web/Text_fragments\n\n### Specification URL:\n\nhttps://wicg.github.io/scroll-to-text-fragment/\n\n### Any other links?\n\n- https://chromestatus.com/feature/4733392803332096\r\n- https://web.dev/text-fragments/\n\n### How stable is this feature?\n\nControversial (Some shipped implementations, but some browsers have declined to implement)\n\n### Type of feature\n\nJS API, CSS, Other\n\n### What focus area does this feature fall under?\n\nOther\n\n### Details\n\n_No response_",
-		"url": "https://github.com/Devographics/surveys/discussions/199",
-		"upvoteCount": 1
-	},
-	{
-		"title": "Window Controls Overlay API",
-		"number": 197,
-		"body": "Allows PWAs to display custom content over the title bar area, whose controls become an overlay.\r\n\r\n### Code sample\r\n\r\n```js\r\nnavigator.windowControlsOverlay\r\n```\r\n\r\n\r\n### MDN URL:\r\n\r\nhttps://developer.mozilla.org/en-US/docs/Web/API/Window_Controls_Overlay_API\r\n\r\n### Specification URL:\r\n\r\nhttps://wicg.github.io/window-controls-overlay/\r\n\r\n### Any other links?\r\n\r\n- https://web.dev/window-controls-overlay/\r\n- https://alistapart.com/article/breaking-out-of-the-box/\r\n\r\n### How stable is this feature?\r\n\r\nCutting edge (Shipped, but not in all browsers)\r\n\r\n### Type of feature\r\n\r\nJS API, CSS, Other\r\n\r\n### What focus area does this feature fall under?\r\n\r\nBridging the gap with native\r\n\r\n### Details\r\n\r\nAlternatively, if we have a question about manifest fields, we could ask about this by asking about `display_override: \"window-controls-overlay\"`. Though then we'd have to pick between usage and awareness.",
-		"url": "https://github.com/Devographics/surveys/discussions/197",
-		"upvoteCount": 1
-	},
-	{
-		"title": "Web Share API",
-		"number": 196,
-		"body": "Exposes a mechanism for sharing content to various user-selected targets.\r\n\r\n### Code sample\r\n\r\n```js\r\nnavigator.share(shareData)\r\n```\r\n\r\n\r\n### MDN URL:\r\n\r\nhttps://developer.mozilla.org/en-US/docs/Web/API/Web_Share_API\r\n\r\n### Specification URL:\r\n\r\nhttps://www.w3.org/TR/web-share/\r\n\r\n### Any other links?\r\n\r\n- https://web.dev/web-share/\r\n- https://caniuse.com/web-share\r\n\r\n### How stable is this feature?\r\n\r\nCutting edge (Shipped, but not in all browsers)\r\n\r\n### Type of feature\r\n\r\nJS API\r\n\r\n### What focus area does this feature fall under?\r\n\r\nBridging the gap with native\r\n\r\n### Details\r\n\r\n_No response_",
-		"url": "https://github.com/Devographics/surveys/discussions/196",
-		"upvoteCount": 1
-	},
-	{
-		"title": "Badging API",
-		"number": 195,
-		"body": "Set a badge on the web application’s icon to notify about updated state in a less intrusive, persistent way.\r\n\r\n### Code sample\r\n\r\n```js\r\nnavigator.setAppBadge(unreadCount)\r\n```\r\n\r\n### MDN URL:\r\n\r\nhttps://developer.mozilla.org/en-US/docs/Web/API/Badging_API\r\n\r\n### Specification URL:\r\n\r\nhttps://www.w3.org/TR/badging/\r\n\r\n### Any other links?\r\n\r\nhttps://developer.chrome.com/articles/badging-api/\r\n\r\n### How stable is this feature?\r\n\r\nCutting edge (Shipped, but not in all browsers)\r\n\r\n### Type of feature\r\n\r\nJS API\r\n\r\n### What focus area does this feature fall under?\r\n\r\nBridging the gap with native\r\n\r\n### Details\r\n\r\n_No response_",
-		"url": "https://github.com/Devographics/surveys/discussions/195",
-		"upvoteCount": 1
-	},
-	{
-		"title": "Sanitizer API",
-		"number": 192,
-		"body": "API to prevent XSS attacks by sanitizing strings of HTML.\r\n\r\n### Code sample\r\n\r\n_No response_\r\n\r\n### MDN URL:\r\n\r\n_No response_\r\n\r\n### Specification URL:\r\n\r\n_No response_\r\n\r\n### Any other links?\r\n\r\n_No response_\r\n\r\n### How stable is this feature?\r\n\r\nFuture (No implementations yet)\r\n\r\n### Type of feature\r\n\r\nJS API\r\n\r\n### What focus area does this feature fall under?\r\n\r\nSecurity & Privacy\r\n\r\n### Details\r\n\r\nNo code sample and links on purpose, since API shape is in flux. Would still be good to gauge awareness and sentiment.",
-		"url": "https://github.com/Devographics/surveys/discussions/192",
-		"upvoteCount": 1
-	},
-	{
-		"title": "Tab/Spicy Sections",
-		"number": 190,
-		"body": "### Code sample\n\n```html\n<spicy-sections id=\"demos\">\r\n  <h2>Tabs</h2>\r\n  <div>\r\n    <p>\r\n      The <code>tab-bar</code> affordance\r\n      can use shadow-dom to establish\r\n      a styleable tab-bar and panels.\r\n      The required parts can be exposed for styling\r\n      with consistent pseudo-elements.\r\n    </p>\r\n    <p>\r\n      In a tab state, we likely want to style:\r\n    </p>\r\n    <ul>\r\n      <li>The outer box</li>\r\n      <li>The tab bar</li>\r\n      <li>The tabs themselves</li>\r\n      <li>The selected tab</li>\r\n      <li>The tab panel area</li>\r\n    </ul>\r\n  </div>\r\n  <h2>Collapse</h2>\r\n  <div>\r\n    <p>\r\n      The accordion-like <code>collapse</code> affordance\r\n      also uses shadow-dom to establish\r\n      summary-details like behavior for each section,\r\n      with an option to make the toggle-states\r\n      <code>exclusive-collapse</code>.\r\n    </p>\r\n    <p>\r\n      In an accordion state, we likely want to style:\r\n    </p>\r\n    <ul>\r\n      <li>The outer box</li>\r\n      <li>The section headings/buttons</li>\r\n      <li>The open/closed marker</li>\r\n      <li>Open and closed heading styles</li>\r\n      <li>Open and closed content styles</li>\r\n    </ul>\r\n  </div>\r\n  <h2>Structured Content</h2>\r\n  <div>\r\n    <p>\r\n      The fallback state is simply structured HTML,\r\n      without any show/hide affordances.\r\n      This does not require any special styling.\r\n    </p>\r\n  </div>\r\n</spicy-sections>\n```\n\n\n### MDN URL:\n\n_No response_\n\n### Specification URL:\n\nhttps://css-tricks.com/newsletter/281-tabs-and-spicy-drama/#:~:text=Except%20so%20far%20they%E2%80%99ve%20come%20to%20the%20conclusion,component%20based%20on%20the%20width%20of%20the%20browser.\n\n### Any other links?\n\nhttps://daverupert.com/2021/10/native-html-tabs/\n\n### How stable is this feature?\n\nFuture (No implementations yet)\n\n### Type of feature\n\nHTML element\n\n### What focus area does this feature fall under?\n\n_No response_\n\n### Details\n\n_No response_",
-		"url": "https://github.com/Devographics/surveys/discussions/190",
-		"upvoteCount": 1
-	},
-	{
-		"title": "`<selectlist>` (ex `<selectmenu>`)",
-		"number": 95,
-		"body": "```html\r\n<selectmenu>\r\n\t<option>Option 1</option>\r\n\t<option>Option 2</option>\r\n\t<option>Option 3</option>\r\n</selectmenu>\r\n```\r\n\r\n### Specification URL:\r\n\r\nhttps://open-ui.org/components/selectmenu/\r\n\r\n### MDN URL:\r\n\r\n_No response_\r\n\r\n### Any other links?\r\n\r\nhttps://web.dev/state-of-css-2022/#customizing-select-elements\r\nhttps://css-tricks.com/the-selectmenu-element/\r\nhttps://www.smashingmagazine.com/2023/06/advanced-form-control-styling-selectmenu-anchoring-api/\r\nhttps://hidde.blog/custom-select-with-selectmenu/\r\nhttps://microsoftedge.github.io/Demos/selectmenu/\r\n\r\n### How stable is this feature?\r\n\r\nFuture (No implementations yet)\r\n\r\n### Type of feature\r\n\r\nHTML element\r\n\r\n### What focus area does this feature fall into?\r\n\r\nForms\r\n\r\n### Details\r\n\r\nFully stylable, customizable dropdown menus",
-		"url": "https://github.com/Devographics/surveys/discussions/95",
-		"upvoteCount": 61
-	},
-	{
-		"title": "Explicit slot assignment (`slot=\"foo\"`)",
-		"number": 97,
-		"body": "Allows assigning light DOM elements to named slots.\r\n\r\n```html\r\n<auth-toolbar>\r\n  <span slot=\"login_btn\">Let me in!</span>\r\n</auth-toolbar>\r\n```\r\n\r\n### MDN URL:\r\n\r\nhttps://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes/slot\r\n\r\n### Specification URL:\r\n\r\nhttps://html.spec.whatwg.org/multipage/dom.html#attr-slot\r\n\r\n### Any other links?\r\n\r\n_No response_\r\n\r\n### How stable is this feature?\r\n\r\nStable (Has been widely supported for several years)\r\n\r\n### Type of feature\r\n\r\nHTML attribute\r\n\r\n### What focus area does this feature fall into?\r\n\r\nConsuming Web Components\r\n\r\n### Details\r\n\r\n_No response_",
-		"url": "https://github.com/Devographics/surveys/discussions/97",
-		"upvoteCount": 19
-	},
-	{
-		"title": "`<portal>`",
-		"number": 103,
-		"body": "Enables the embedding of another HTML page into the current one for the purposes of allowing smoother navigation into new pages.\r\n\r\n```html\r\n<portal id=\"exampleportal\" src=\"https://example.com/\"></portal>\r\n```\r\n\r\n### MDN URL:\r\n\r\nhttps://developer.mozilla.org/en-US/docs/Web/HTML/Element/portal\r\n\r\n### Specification URL:\r\n\r\nhttps://wicg.github.io/portals/#the-portal-element\r\n\r\n### Any other links?\r\n\r\nhttps://caniuse.com/mdn-html_elements_portal\r\n\r\n### How stable is this feature?\r\n\r\nNear Future (No shipped implementations yet, but at least one behind a flag)\r\n\r\n### Type of feature\r\n\r\nHTML element\r\n\r\n### What focus area does this feature fall into?\r\n\r\nEmbedding\r\n\r\n### Details\r\n\r\n_No response_",
-		"url": "https://github.com/Devographics/surveys/discussions/103",
-		"upvoteCount": 32
-	},
-	{
-		"title": "`tabindex` attribute",
-		"number": 113,
-		"body": "Make HTML elements focusable, allow or prevent them from being sequentially focusable\r\n\r\n```html\r\n<div role=\"button\" tabindex=\"0\">I’m Tabbable</div>\r\n```\r\n\r\n### MDN URL:\r\n\r\nhttps://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes/tabindex\r\n\r\n### Specification URL:\r\n\r\nhttps://html.spec.whatwg.org/multipage/interaction.html#attr-tabindex\r\n\r\n### Any other links?\r\n\r\n_No response_\r\n\r\n### How stable is this feature?\r\n\r\nStable (Widely supported for several years)\r\n\r\n### Type of feature\r\n\r\nHTML attribute\r\n\r\n### What focus area does this feature fall into?\r\n\r\nAccessibility\r\n\r\n### Details\r\n\r\n_No response_",
-		"url": "https://github.com/Devographics/surveys/discussions/113",
-		"upvoteCount": 30
-	},
-	{
-		"title": "`srcset` and `sizes` attributes",
-		"number": 123,
-		"body": "Attributes that allow providing several source images with hints to help the browser pick the right one.\r\n\r\n### Code sample\r\n\r\n```html\r\n<img\r\n  srcset=\"fairy-med.jpg 480w, fairy-large.jpg 800w\"\r\n  sizes=\"(max-width: 600px) 480px, 800px\"\r\n  src=\"fairy-large.jpg\"\r\n  alt=\"Elva dressed as a fairy\" />\r\n```\r\n\r\n\r\n### MDN URL:\r\n\r\nhttps://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Responsive_images\r\n\r\n### Specification URL:\r\n\r\nhttps://html.spec.whatwg.org/multipage/embedded-content.html#the-img-element\r\n\r\n### Any other links?\r\n\r\nhttps://developer.mozilla.org/en-US/docs/Web/HTML/Element/img#srcset\r\nhttps://developer.mozilla.org/en-US/docs/Web/HTML/Element/img#sizes\r\n\r\n### How stable is this feature?\r\n\r\nStable (Widely supported for several years)\r\n\r\n### Type of feature\r\n\r\nHTML attribute\r\n\r\n### What focus area does this feature fall into?\r\n\r\nMultimedia\r\n\r\n### Details\r\n\r\nWe may want to combine this with [`<picture>`](https://github.com/Devographics/surveys/discussions/122), as \"Responsive Images\"",
-		"url": "https://github.com/Devographics/surveys/discussions/123",
-		"upvoteCount": 44
-	},
-	{
-		"title": "`<model>` for AR/VR/3D content",
-		"number": 124,
-		"body": "Allows embedding 3D graphical content into HTML.\r\n\r\n### Code sample\r\n\r\n```html\r\n<model src=\"3d-assets/car\"></model>\r\n```\r\n\r\n### MDN URL:\r\n\r\n_No response_\r\n\r\n### Specification URL:\r\n\r\nhttps://immersive-web.github.io/model-element/\r\n\r\n### Any other links?\r\n\r\nhttps://keithclark.co.uk/labs/3d-model-custom-element/examples/tests/\r\nhttps://css-tricks.com/ar-vr-and-a-model-for-3d-in-html/\r\nhttps://github.com/WebKit/explainers/blob/main/model/HistoryAndEvolution.md\r\nhttps://developer.apple.com/documentation/safari-technology-preview-release-notes/stp-release-137\r\n\r\n### How stable is this feature?\r\n\r\nFuture (No implementations yet)\r\n\r\n### Type of feature\r\n\r\nHTML element\r\n\r\n### What focus area does this feature fall into?\r\n\r\nMultimedia\r\n\r\n### Details\r\n\r\nThe `<model>` element allows embedding 3D graphical content into an HTML page.",
-		"url": "https://github.com/Devographics/surveys/discussions/124",
-		"upvoteCount": 17
-	},
-	{
-		"title": "Defining slots (`<slot>` and `::slotted()`)",
-		"number": 129,
-		"body": "Slots are placeholders inside web components that can be filled with markup provided by the component consumer.\r\n\r\n### Code sample\r\n\r\nIn Shadow DOM:\r\n\r\n```html\r\n<div id=\"trigger-container\">\r\n\t<style>\r\n\tslot[name=trigger]::slotted(button) {\r\n\t\t/* ... */\r\n\t}\r\n\t</style>\r\n\t<slot name=\"trigger\"><button>Default</button></slot>\r\n</div>\r\n```\r\n\r\n### MDN URL:\r\n\r\n- https://developer.mozilla.org/en-US/docs/Web/HTML/Element/slot\r\n- https://developer.mozilla.org/en-US/docs/Web/CSS/::slotted\r\n\r\n### Specification URL:\r\n\r\n- https://html.spec.whatwg.org/multipage/scripting.html#the-slot-element\r\n- https://drafts.csswg.org/css-scoping/#slotted-pseudo\r\n\r\n### How stable is this feature?\r\n\r\nStable (Widely supported for several years)\r\n\r\n### Type of feature\r\n\r\nHTML element, CSS\r\n\r\n### What focus area does this feature fall under?\r\n\r\nMaking Web Components\r\n\r\n### Other details\r\n\r\nWe may want to separate `<slot>` and `::slotted()`.",
-		"url": "https://github.com/Devographics/surveys/discussions/129",
-		"upvoteCount": 47
-	},
-	{
-		"title": "`controlslist` attribute",
-		"number": 131,
-		"body": "Prevent certain controls from appearing in the toolbar of a media element.\r\n\r\n### Code sample\r\n\r\n```html\r\n<video src=\"fun.mp4\" controlslist=\"nodownload\"></video>\r\n```\r\n\r\n\r\n### MDN URL:\r\n\r\nhttps://developer.mozilla.org/en-US/docs/Web/API/HTMLMediaElement/controlsList\r\n\r\n### Specification URL:\r\n\r\nhttps://wicg.github.io/controls-list/#solution-outline\r\n\r\n### Any other links?\r\n\r\n- [Explainer](https://wicg.github.io/controls-list/explainer.html)\r\n- [Can I Use](https://caniuse.com/mdn-api_htmlmediaelement_controlslist)\r\n- [TAG review](https://github.com/w3ctag/design-reviews/issues/643)\r\n\r\n### How stable is this feature?\r\n\r\nControversial (Some shipped implementations, but some browsers have declined to implement)\r\n\r\n### Type of feature\r\n\r\nHTML attribute\r\n\r\n### What focus area does this feature fall into?\r\n\r\nMultimedia\r\n\r\n### Details\r\n\r\nSafari has so far declined to implement.\r\nTAG review closed with inability to reach consensus",
-		"url": "https://github.com/Devographics/surveys/discussions/131",
-		"upvoteCount": 14
-	},
-	{
-		"title": "Popover API",
-		"number": 138,
-		"body": "HTML syntax and JS API facilitating popovers such as overlays, popups, menus etc.\r\n\r\n### Code sample\r\n\r\n```html\r\n<button popovertarget=\"foo\">Toggle the popover</button>\r\n<div id=\"foo\" popover>Popover content</div>\r\n```\r\n\r\n\r\n### MDN URL:\r\n\r\nhttps://developer.mozilla.org/en-US/docs/Web/API/Popover_API\r\n\r\n### Specification URL:\r\n\r\nhttps://html.spec.whatwg.org/multipage/popover.html#dom-popover\r\n\r\n### Any other links?\r\n\r\n- [Can I Use](https://caniuse.com/mdn-html_global_attributes_popover)\r\n- [TAG review](https://github.com/w3ctag/design-reviews/issues/743)\r\n- [Explainer](https://open-ui.org/components/popover.research.explainer/)\r\n\r\n### How stable is this feature?\r\n\r\nCutting edge (Shipped, but not in all browsers)\r\n\r\n### Type of feature\r\n\r\nHTML attribute, JS API, CSS\r\n\r\n### What focus area does this feature fall into?\r\n\r\nInteractivity\r\n\r\n### Details\r\n\r\n_No response_",
-		"url": "https://github.com/Devographics/surveys/discussions/138",
-		"upvoteCount": 74
-	},
-	{
-		"title": "Lazy loading",
-		"number": 141,
-		"body": "Load certain resources only when needed.\r\n\r\n### Code sample\r\n\r\n```html\r\n<img src=\"picture.jpg\" loading=\"lazy\" />\r\n<iframe src=\"picture.jpg\" loading=\"lazy\" />\r\n```\r\n\r\n\r\n### MDN URL:\r\n\r\nhttps://developer.mozilla.org/en-US/docs/Web/Performance/Lazy_loading\r\n\r\n### Specification URL:\r\n\r\nhttps://html.spec.whatwg.org/multipage/urls-and-fetching.html#lazy-loading-attributes\r\n\r\n### Any other links?\r\n\r\n- [Can I Use](https://caniuse.com/loading-lazy-attr)\r\n- https://web.dev/browser-level-image-lazy-loading/\r\n\r\n### How stable is this feature?\r\n\r\nStable (Widely supported for several years)\r\n\r\n### Type of feature\r\n\r\nHTML attribute\r\n\r\n### What focus area does this feature fall into?\r\n\r\nPerformance\r\n\r\n### Details\r\n\r\nNote: Significantly better browser support for `<img loading>` than `<iframe loading>`.",
-		"url": "https://github.com/Devographics/surveys/discussions/141",
-		"upvoteCount": 68
-	},
-	{
-		"title": "`sandbox` attribute for iframes",
-		"number": 142,
-		"body": "Applies restrictions to the content embedded in the `<iframe>`.\r\n\r\n### Code sample\r\n\r\n```html\r\n<iframe sandbox=\"allow-forms allow-same-origin\" src=\"blank.html\"></iframe>\r\n```\r\n\r\n\r\n### MDN URL:\r\n\r\nhttps://developer.mozilla.org/en-US/docs/Web/HTML/Element/iframe#sandbox\r\n\r\n### Specification URL:\r\n\r\nhttps://html.spec.whatwg.org/multipage/iframe-embed-object.html#attr-iframe-sandbox\r\n\r\n### Any other links?\r\n\r\n- [Can I Use](https://caniuse.com/iframe-sandbox)\r\n\r\n### How stable is this feature?\r\n\r\nStable (Widely supported for several years)\r\n\r\n### Type of feature\r\n\r\nHTML attribute\r\n\r\n### What focus area does this feature fall into?\r\n\r\nSecurity & Privacy\r\n\r\n### Details\r\n\r\n_No response_",
-		"url": "https://github.com/Devographics/surveys/discussions/142",
-		"upvoteCount": 13
-	},
-	{
-		"title": "`<details>` and `<summary>`",
-		"number": 128,
-		"body": "A disclosure widget that can be toggled to hide or show content interactively.\r\n\r\n### Code sample\r\n\r\n```html\r\n<details>\r\n    <summary>Details</summary>\r\n    Longer content\r\n</details>\r\n```\r\n\r\n\r\n### MDN URL:\r\n\r\nhttps://developer.mozilla.org/en-US/docs/Web/HTML/Element/details\r\n\r\n### Specification URL:\r\n\r\nhttps://html.spec.whatwg.org/multipage/interactive-elements.html#the-details-element\r\n\r\n### Any other links?\r\n\r\n_No response_\r\n\r\n### How stable is this feature?\r\n\r\nStable (Widely supported for several years)\r\n\r\n### Type of feature\r\n\r\nHTML element\r\n\r\n### What focus area does this feature fall into?\r\n\r\nInteractivity\r\n\r\n### Details\r\n\r\n_No response_",
-		"url": "https://github.com/Devographics/surveys/discussions/128",
-		"upvoteCount": 49
-	},
-	{
-		"title": "`crossorigin` attribute",
-		"number": 144,
-		"body": "Defines how the element handles cross-origin requests\r\n\r\n### Code sample\r\n\r\n```html\r\n<script src=\"https://cdn.com/fancy-library.js\" crossorigin></script>\r\n```\r\n\r\n\r\n### MDN URL:\r\n\r\nhttps://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/crossorigin\r\n\r\n### Specification URL:\r\n\r\nhttps://html.spec.whatwg.org/multipage/urls-and-fetching.html#cors-settings-attributes\r\n\r\n### Any other links?\r\n\r\n- [Can I Use: `<img crossorigin>`](https://caniuse.com/mdn-html_elements_img_crossorigin)\r\n- [Can I Use: `<video crossorigin>`](https://caniuse.com/mdn-html_elements_video_crossorigin)\r\n- [Can I Use: `<link crossorigin>`](https://caniuse.com/mdn-html_elements_link_crossorigin)\r\n- [Can I Use: `<script crossorigin>`](https://caniuse.com/mdn-html_elements_script_crossorigin)\r\n- [Can I Use: `<image crossorigin>` (SVG)](https://caniuse.com/mdn-svg_elements_image_crossorigin)\r\n\r\n### How stable is this feature?\r\n\r\nStable (Widely supported for several years)\r\n\r\n### Type of feature\r\n\r\nHTML attribute\r\n\r\n### What focus area does this feature fall into?\r\n\r\nSecurity & Privacy\r\n\r\n### Details\r\n\r\nNote that support is *much* worse for SVG `<image>`.",
-		"url": "https://github.com/Devographics/surveys/discussions/144",
-		"upvoteCount": 23
-	},
-	{
-		"title": "Styling component host (`:host`, `:host()`, `:host-context()`)",
-		"number": 149,
-		"body": "Style the custom element root from within Shadow DOM.\r\n\r\n### Code sample\r\n\r\n```css\r\n:host([vertical]) {\r\n\tflex-flow: column;\r\n\talign-items: stretch;\r\n}\r\n```\r\n\r\n### MDN URL:\r\n\r\n- https://developer.mozilla.org/en-US/docs/Web/CSS/:host\r\n- https://developer.mozilla.org/en-US/docs/Web/CSS/:host_function\r\n- https://developer.mozilla.org/en-US/docs/Web/CSS/:host-context\r\n\r\n### Specification URL:\r\n\r\nhttps://drafts.csswg.org/css-scoping/#host-selector\r\n\r\n### How stable is this feature?\r\n\r\nStable (Widely supported for several years)\r\n\r\n### Type of feature\r\n\r\nCSS\r\n\r\n### What focus area does this feature fall under?\r\n\r\nMaking Web Components",
-		"url": "https://github.com/Devographics/surveys/discussions/149",
-		"upvoteCount": 42
-	},
-	{
-		"title": "`ElementInternals` API",
-		"number": 101,
-		"body": "Assign hidden semantics to custom elements, facilitating accessibility and allowing them to participate fully in forms.\r\n\r\n```js\r\nthis.#internals = this.attachInternals()\r\nthis.#internals.ariaChecked = true;\r\n```\r\n\r\n### MDN URL:\r\n\r\nhttps://developer.mozilla.org/en-US/docs/Web/API/ElementInternals\r\n\r\n### Specification URL:\r\n\r\nhttps://html.spec.whatwg.org/multipage/custom-elements.html#the-elementinternals-interface\r\n\r\n### Any other links?\r\n\r\nhttps://caniuse.com/mdn-api_elementinternals\r\n\r\n### How stable is this feature?\r\n\r\nCutting edge (Some implementations but not in all browsers and/or behind flags)\r\n\r\n### Type of feature\r\n\r\nJS API\r\n\r\n### What focus area does this feature fall under?\r\n\r\nMaking Web Components",
-		"url": "https://github.com/Devographics/surveys/discussions/101",
-		"upvoteCount": 25
-	},
-	{
-		"title": "CORS",
-		"number": 150,
-		"body": "Opt-in to allowing requests from different origins.\r\n\r\n### Code sample\r\n\r\n```http\r\nAccess-Control-Allow-Origin: *\r\nAccess-Control-Allow-Methods: POST, GET, OPTIONS\r\n```\r\n\r\n\r\n### MDN URL:\r\n\r\nhttps://developer.mozilla.org/en-US/docs/Web/HTTP/CORS\r\n\r\n### Specification URL:\r\n\r\nhttps://fetch.spec.whatwg.org/#http-access-control-allow-origin\r\n\r\n### Any other links?\r\n\r\n_No response_\r\n\r\n### How stable is this feature?\r\n\r\nStable (Widely supported for several years)\r\n\r\n### Type of feature\r\n\r\nHTTP\r\n\r\n### What focus area does this feature fall under?\r\n\r\nSecurity & Privacy",
-		"url": "https://github.com/Devographics/surveys/discussions/150",
-		"upvoteCount": 24
-	},
-	{
-		"title": "Content-Security Policy (CSP)",
-		"number": 151,
-		"body": "An added layer of security that helps to detect and mitigate XSS and other attacks.\r\n\r\n### Code sample\r\n\r\n```http\r\nContent-Security-Policy: default-src 'self'\r\n```\r\n\r\n\r\n### MDN URL:\r\n\r\nhttps://developer.mozilla.org/en-US/docs/Web/HTTP/CSP\r\n\r\n### Specification URL:\r\n\r\nhttps://www.w3.org/TR/CSP3/\r\n\r\n### Any other links?\r\n\r\n[Can I Use](https://caniuse.com/contentsecuritypolicy2)\r\n\r\n### How stable is this feature?\r\n\r\nStable (Widely supported for several years)\r\n\r\n### Type of feature\r\n\r\nHTTP\r\n\r\n### What focus area does this feature fall under?\r\n\r\nSecurity & Privacy\r\n\r\n### Details\r\n\r\n_No response_",
-		"url": "https://github.com/Devographics/surveys/discussions/151",
-		"upvoteCount": 28
-	},
-	{
-		"title": "Structured data (RDFa, Microdata, Microformats)",
-		"number": 152,
-		"body": "Technologies for embedding machine-readable data in HTML.\r\n\r\n```html\r\n<!-- RDFa: -->\r\n<time property=\"datePublished\" datetime=\"2009-05-08\">May 8, 2009</time>\r\n\r\n<!-- Microdata: -->\r\n<time itemprop=\"datePublished\" datetime=\"2009-05-08\">May 8, 2009</time>\r\n\r\n<!-- Microformats: -->\r\n<time class=\"dt-published\" datetime=\"2009-05-08\">May 8, 2009</time>\r\n```\r\n\r\n### URLs:\r\n\r\n- https://developer.mozilla.org/en-US/docs/Web/HTML/Microdata\r\n- https://developer.mozilla.org/en-US/docs/Web/HTML/microformats\r\n- https://en.wikipedia.org/wiki/RDFa\r\n- https://almanac.httparchive.org/en/2022/structured-data\r\n\r\n### How stable is this feature?\r\n\r\nStable (Widely supported for several years)\r\n\r\n### Type of feature\r\n\r\nHTML attribute, HTML attribute value\r\n\r\n### What focus area does this feature fall under?\r\n\r\nSemantic HTML\r\n\r\n### Details\r\n\r\nWe might want a separate, multiple choice, question: \r\n\r\n**Have you used any types of Structured data in HTML?**\r\n- [ ] RDFa\r\n- [ ] Microdata\r\n- [ ] Microformats\r\n- [ ] None",
-		"url": "https://github.com/Devographics/surveys/discussions/152",
-		"upvoteCount": 28
-	},
-	{
-		"title": "`<dialog>`",
-		"number": 158,
-		"body": "For dialog boxes or other interactive components, such as a dismissible alerts, or subwindows.\r\n\r\n### Code sample\r\n\r\n```html\r\n<dialog id=\"confirm\">\r\n\t<form method=\"dialog\">\r\n\t\tAre you sure?\r\n\t\t<button value=\"1\">Yes</button>\r\n\t\t<button value=\"0\">No</button>\r\n\t</form>\r\n</dialog>\r\n```\r\n\r\n```html\r\n<dialog open>\r\n  <p>Dialog</p>\r\n  <form method=\"dialog\">\r\n    <button>Close</button>\r\n  </form>\r\n</dialog>\r\n```\r\n\r\n\r\n### MDN URL:\r\n\r\nhttps://developer.mozilla.org/en-US/docs/Web/HTML/Element/dialog\r\n\r\n### Specification URL:\r\n\r\nhttps://html.spec.whatwg.org/multipage/interactive-elements.html#the-dialog-element\r\n\r\n### Any other links?\r\n\r\n_No response_\r\n\r\n### How stable is this feature?\r\n\r\nStable (Widely supported for several years)\r\n\r\n### Type of feature\r\n\r\nHTML element\r\n\r\n### What focus area does this feature fall under?\r\n\r\nInteractivity\r\n\r\n### Details\r\n\r\n_No response_",
-		"url": "https://github.com/Devographics/surveys/discussions/158",
-		"upvoteCount": 77
-	},
-	{
-		"title": "Extended built-ins",
-		"number": 99,
-		"body": "Extend built-in elements with custom behavior.\r\n\r\n```html\r\n<button is=\"primary-button\">Continue</button>\r\n<script>\r\n\tcustomElements.define(\"primary-button\", PrimaryButton, {extends: \"button\"});\r\n</script>\r\n```\r\n\r\n### MDN URL:\r\n\r\nhttps://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes/is\r\n\r\n### Specification URL:\r\n\r\nhttps://html.spec.whatwg.org/multipage/custom-elements.html#attr-is\r\n\r\n### Any other links?\r\n\r\n- https://developer.mozilla.org/en-US/docs/Web/API/CustomElementRegistry/define\r\n- [WebKit Standards Position](https://github.com/WebKit/standards-positions/issues/97)\r\n\r\n### How stable is this feature?\r\n\r\nControversial (Some implementations that have existed for years, other browsers have declined to implement)\r\n\r\n### Type of feature\r\n\r\nHTML attribute, JS API\r\n\r\n### What focus area does this feature fall into?\r\n\r\nConsuming Web Components, Making Web Components\r\n\r\n### Details\r\n\r\nWe could ask about the `is` attribute and `customElementRegistry.define(\"tagname\", Class, {extends})` separately if we want to distinguish consumption from usage.\r\nFor now, I’ve included them in the same item.",
-		"url": "https://github.com/Devographics/surveys/discussions/99",
-		"upvoteCount": 23
-	},
-	{
-		"title": "HTML Modules",
-		"number": 169,
-		"body": "Import HTML files via JS imports and access their elements and JS exports.\r\n\r\n### Code sample\r\n\r\n```html\r\n<script type=\"module\">\r\n\timport { TabList } from \"./tablist.html\";\r\n\tcustomElements.define(\"tab-list\", TabList);\r\n</script>\r\n```\r\n\r\n[`Main.html`](https://github.com/WICG/webcomponents/blob/c351fc9b4a40e04cb7a9c7ba4f3213a13c0f559e/proposals/HTML-Modules-Demo/Main.html)\r\n```html\r\n<!doctype html>\r\n<html>\r\n    <head>\r\n        <title>HTML Modules Demo</title>\r\n        <script type=\"module\">\r\n            import { HTML5Element } from \"./html5Element.html\";\r\n            window.customElements.define(\"my-html5-element\", HTML5Element);\r\n        </script>\r\n    </head>\r\n    <body>\r\n        <my-html5-element></my-html5-element>\r\n    </body>\r\n</html>\r\n```\r\n\r\n[`HTML5-Element.html`](https://github.com/WICG/webcomponents/blob/c351fc9b4a40e04cb7a9c7ba4f3213a13c0f559e/proposals/HTML-Modules-Demo/HTML5-Element.html)\r\n\r\n<details>\r\n\r\n<summary>Click to show</summary>\r\n\r\n```html\r\n<template id=\"html5ElementTemplate\">\r\n  <style>\r\n      .outerDiv {\r\n          border:0.1em solid blue;\r\n          display:inline-block;\r\n          padding: 0.4em;\r\n      }\r\n\r\n      .devText {\r\n          font-weight: bold;\r\n          font-size: 1.4em;\r\n          text-align: center;\r\n          margin-top: 0.3em;\r\n      }\r\n\r\n      .mainImage {\r\n          height:254px;\r\n      }\r\n  </style>\r\n  <div class=\"outerDiv\">\r\n      <img class=\"mainImage\" src=\"https://www.w3.org/html/logo/downloads/HTML5_Logo_512.png\" />\r\n      <div class=\"devText\">HTML Modules Are Great!</div>\r\n  </div>\r\n</template>\r\n<script type=\"module\">\r\n  let moduleDocument = import.meta.document;\r\n\r\n  class HTML5Element extends HTMLElement {\r\n      constructor() {\r\n          super();\r\n          console.log(\"HTML5Element constructor\");\r\n          let shadowRoot = this.attachShadow({ mode: \"closed\" });\r\n          let template = moduleDocument.getElementById(\"html5ElementTemplate\");\r\n          shadowRoot.appendChild(document.importNode(template.content, true));\r\n      }\r\n\r\n      connectedCallback() {\r\n          console.log(\"HTML5Element connectedCallback\");\r\n      }\r\n  }\r\n\r\n  export { HTML5Element };\r\n</script>\r\n```\r\n\r\n</details>\r\n\r\n\r\n### MDN URL:\r\n\r\n_No response_\r\n\r\n### Specification URL:\r\n\r\nhttps://github.com/WICG/webcomponents/blob/gh-pages/proposals/html-modules-explainer.md\r\n\r\n### Any other links?\r\n\r\nhttps://chromestatus.com/feature/4854408103854080\r\nhttps://github.com/MicrosoftEdge/MSEdgeExplainers/blob/main/HTMLModules/designDoc.md\r\n\r\n### How stable is this feature?\r\n\r\nFuture (No implementations yet)\r\n\r\n### Type of feature\r\n\r\nJS API\r\n\r\n### What focus area does this feature fall under?\r\n\r\nConsuming Web Components, Making Web Components, Templating\r\n\r\n### Details\r\n\r\nHTML Modules is a big deal for me personally.\r\n\r\nI would love to use the native `<template>` element for my Web Components/Custom Elements, without placing all the `<template>` tags for different components in the website's main document itself. HTML Modules is the only native way I've found to do this.\r\n\r\nIf I understand it correctly, it would allow components to be `.html` files with a `<template>`, `<script>` and maybe `<style>` as well, and you could then easily import the whole component.",
-		"url": "https://github.com/Devographics/surveys/discussions/169",
-		"upvoteCount": 22
-	},
-	{
-		"title": "Exclusive accordion",
-		"number": 176,
-		"body": "Group `<details>` elements so that only up to one in the group can be open at a time.\r\n\r\n### Code sample\r\n\r\n```html\r\n<details open name=\"sidebar_panel\" id=\"main_info\">\r\n\t<summary>Main info</summary>\r\n\t<!-- controls -->\r\n</details>\r\n<details open name=\"sidebar_panel\" id=\"style_settings\">\r\n\t<summary>Style</summary>\r\n\t<!-- controls -->\r\n</details>\r\n```\r\n\r\n\r\n### MDN URL:\r\n\r\n_No response_\r\n\r\n### Specification URL:\r\n\r\nhttps://github.com/whatwg/html/pull/9400\r\n\r\n### Any other links?\r\n\r\n- [TAG review](https://github.com/w3ctag/design-reviews/issues/866#issuecomment-1661272254)\r\n- [Open UI Exploration](https://open-ui.org/components/accordion.explainer/)\r\n- [Chrome Status](https://chromestatus.com/feature/6710427028815872)\r\n\r\n### How stable is this feature?\r\n\r\nFuture (No implementations yet)\r\n\r\n### Type of feature\r\n\r\nHTML attribute\r\n\r\n### What focus area does this feature fall under?\r\n\r\nInteractivity\r\n\r\n### Details\r\n\r\nThe `name` attribute groups creates groups of `<details>` elements, where opening one closes the others, allowing easier implementation of accordions.",
-		"url": "https://github.com/Devographics/surveys/discussions/176",
-		"upvoteCount": 18
-	},
-	{
-		"title": "`<template>`",
-		"number": 96,
-		"body": "A mechanism for holding HTML that is not to be rendered immediately but may be utilized later via JS.\r\n\r\n```html\r\n<template id=\"counter\">\r\n\t<div class=\"counter\">Clicked {{ times }} times</div>\r\n</template>\r\n```\r\n\r\n### MDN URL:\r\n\r\nhttps://developer.mozilla.org/en-US/docs/Web/HTML/Element/template\r\n\r\n### Specification URL:\r\n\r\nhttps://html.spec.whatwg.org/multipage/scripting.html#the-template-element\r\n\r\n### Any other links?\r\n\r\n_No response_\r\n\r\n### How stable is this feature?\r\n\r\nStable (Has been widely supported for several years)\r\n\r\n### Type of feature\r\n\r\nHTML element\r\n\r\n### What focus area does this feature fall into?\r\n\r\nTemplating\r\n\r\n### Details\r\n\r\nMore specific use cases for `<template>` e.g. declarative shadow DOM would be asked about separately.",
-		"url": "https://github.com/Devographics/surveys/discussions/96",
-		"upvoteCount": 35
-	},
-	{
-		"title": "Imperative slot assignment",
-		"number": 98,
-		"body": "A way to assign elements to slots manually via JS, so that slot assignment does not have to be managed by the component consumers.\r\n\r\n```js\r\nthis.attachShadow({mode: \"open\", slotAssignment: \"manual\" });\r\nthis.shadowRoot.querySelector(\"slot[name=foo]\").assign(element);\r\n```\r\n\r\n### MDN URL:\r\n\r\nhttps://developer.mozilla.org/en-US/docs/Web/API/HTMLSlotElement/assign\r\n\r\n### Specification URL:\r\n\r\nhttps://html.spec.whatwg.org/multipage/scripting.html#dom-slot-assign\r\n\r\n### Any other links?\r\n\r\nhttps://caniuse.com/mdn-api_shadowroot_slotassignment\r\n\r\n### How stable is this feature?\r\n\r\nRecent (Enabled by default in all major browsers)\r\n\r\n### Type of feature\r\n\r\nJS API\r\n\r\n### What focus area does this feature fall into?\r\n\r\nMaking Web Components\r\n\r\n### Details\r\n\r\n_No response_",
-		"url": "https://github.com/Devographics/surveys/discussions/98",
-		"upvoteCount": 13
-	},
-	{
-		"title": "`focusgroup` attribute",
-		"number": 102,
-		"body": "Facilitate keyboard focus navigation using the keyboard arrow keys among a set of focusable elements.\r\n\r\n```html\r\n<div focusgroup=\"wrap horizontal\">\r\n\t<!-- child elements -->\r\n</div>\r\n```\r\n\r\n### MDN URL:\r\n\r\n_No response_\r\n\r\n### Specification URL:\r\n\r\nhttps://open-ui.org/components/focusgroup.explainer/\r\n\r\n### Any other links?\r\n\r\n- Older Spec: [MicrosoftEdge/MSEdgeExplainers@main/Focusgroup/explainer.md](https://github.com/MicrosoftEdge/MSEdgeExplainers/blob/main/Focusgroup/explainer.md?rgh-link-date=2022-02-20T23%3A49%3A02Z)\r\n- Chrome:\r\n  - [chromestatus.com/feature/5637601087193088](https://chromestatus.com/feature/5637601087193088)\r\n  - [bugs.chromium.org/p/chromium/issues/detail?id=1286127](https://bugs.chromium.org/p/chromium/issues/detail?id=1286127)\r\n\r\n### How stable is this feature?\r\n\r\nFuture (No implementations yet)\r\n\r\n### Type of feature\r\n\r\nHTML attribute\r\n\r\n### What focus area does this feature fall into?\r\n\r\nAccessibility\r\n\r\n### Details\r\n\r\n_No response_",
-		"url": "https://github.com/Devographics/surveys/discussions/102",
-		"upvoteCount": 18
-	},
-	{
-		"title": "Form validation",
-		"number": 120,
-		"body": "Set of HTML attributes and JS APIs to facilitate client-side form validation (`<input pattern>`, `<input required>`, `input. setCustomValidity(msg)` etc)\r\n\r\n```html\r\n<input id=\"zip\" pattern=\"[0-9]{5}\" title=\"5 digits\" required />\r\n```\r\n\r\n### MDN URL:\r\n\r\nhttps://developer.mozilla.org/en-US/docs/Learn/Forms/Form_validation\r\n\r\n### Specification URL:\r\n\r\nhttps://html.spec.whatwg.org/multipage/form-control-infrastructure.html#the-constraint-validation-api\r\n\r\n### Any other links?\r\n\r\n_No response_\r\n\r\n### How stable is this feature?\r\n\r\nStable (Widely supported for several years)\r\n\r\n### Type of feature\r\n\r\nHTML attribute, JS API, CSS\r\n\r\n### What focus area does this feature fall into?\r\n\r\nForms\r\n\r\n### Details\r\n\r\n_No response_",
-		"url": "https://github.com/Devographics/surveys/discussions/120",
-		"upvoteCount": 69
-	},
-	{
-		"title": "ARIA",
-		"number": 114,
-		"body": "Attributes to make markup more accessible (`role`, `aria-label`, `aria-haspopup` etc).\r\n\r\n```html\r\n<div id=\"tab1\" aria-controls=\"panel1\" role=\"tab\">Prices</div>\r\n<div id=\"panel1\" class=\"panel\" aria-labelledby=\"tab1\" role=\"tabpanel\">       \r\n\t<!-- tab content -->\r\n</div> \r\n```\r\n\r\n### MDN URL:\r\n\r\nhttps://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA\r\n\r\n### Specification URL:\r\n\r\nhttps://www.w3.org/TR/wai-aria-1.2/\r\n\r\n### Any other links?\r\n\r\nhttps://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/Attributes\r\n\r\n### How stable is this feature?\r\n\r\nStable (Widely supported for several years)\r\n\r\n### Type of feature\r\n\r\nHTML attribute\r\n\r\n### What focus area does this feature fall into?\r\n\r\nAccessibility\r\n\r\n### Details\r\n\r\nARIA as a whole, including `role` and all the `aria-*` attributes.\r\nDo we want to break this down? If so, how? See also, [this discussion](https://github.com/Devographics/surveys/discussions/115).",
-		"url": "https://github.com/Devographics/surveys/discussions/114",
-		"upvoteCount": 44
-	},
-	{
-		"title": "Resource Hints: preconnect (`<link rel=preconnect>`)",
-		"number": 107,
-		"body": "Speed up future loads from a given origin by preemptively performing part or all of the DNS+TCP+TLS handshake.\r\n\r\n```html\r\n<link rel=\"preconnect\" href=\"(url)\" />\r\n```\r\n\r\n### MDN URL:\r\n\r\nhttps://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/rel/preconnect\r\n\r\n### Specification URL:\r\n\r\nhttps://html.spec.whatwg.org/multipage/links.html#link-type-preconnect\r\n\r\n### Any other links?\r\n\r\nhttps://caniuse.com/link-rel-preconnect\r\n\r\n### How stable is this feature?\r\n\r\nRecent (Shipped in all major browsers)\r\n\r\n### Type of feature\r\n\r\nHTML attribute value\r\n\r\n### What focus area does this feature fall into?\r\n\r\nPerformance\r\n\r\n### Details\r\n\r\nAlternatively, we may opt to ask about Resource Hints in general, see https://github.com/Devographics/surveys/discussions/109",
-		"url": "https://github.com/Devographics/surveys/discussions/107",
-		"upvoteCount": 14
-	},
-	{
-		"title": "Resource Hints: prerender (`<link rel=prerender>`)",
-		"number": 106,
-		"body": "A hint to browsers that the user might need the target resource for the next navigation\r\n\r\n```html\r\n<link rel=\"prerender\" href=\"(url)\" />\r\n```\r\n\r\n### MDN URL:\r\n\r\nhttps://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/rel/prerender\r\n\r\n### Specification URL:\r\n\r\nhttps://html.spec.whatwg.org/multipage/links.html#link-type-prerender\r\n\r\n### Any other links?\r\n\r\nhttps://caniuse.com/link-rel-prerender\r\n\r\n### How stable is this feature?\r\n\r\nDeprecated (Still supported, but not recommended for use in new projects)\r\n\r\n### Type of feature\r\n\r\nHTML attribute value\r\n\r\n### What focus area does this feature fall into?\r\n\r\nPerformance\r\n\r\n### Details\r\n\r\nAlternatively, we may opt to ask about Resource Hints in general, see https://github.com/Devographics/surveys/discussions/109",
-		"url": "https://github.com/Devographics/surveys/discussions/106",
-		"upvoteCount": 12
-	},
-	{
-		"title": "Resource Hints: preload (`<link rel=preload>`)",
-		"number": 104,
-		"body": "Start loading certain resources early in the page lifecycle.\r\n\r\n```html\r\n<link rel=\"preload\" href=\"(url)\" />\r\n```\r\n\r\n### MDN URL:\r\n\r\nhttps://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/rel/preload\r\n\r\n### Specification URL:\r\n\r\nhttps://html.spec.whatwg.org/multipage/links.html#link-type-preload\r\n\r\n### Any other links?\r\n\r\nhttps://caniuse.com/link-rel-preload\r\nhttps://www.smashingmagazine.com/2016/02/preload-what-is-it-good-for/\r\n\r\n### How stable is this feature?\r\n\r\nRecent (Shipped in all major browsers)\r\n\r\n### Type of feature\r\n\r\nHTML attribute value\r\n\r\n### What focus area does this feature fall into?\r\n\r\nPerformance\r\n\r\n### Details\r\n\r\nAlternatively, we may opt to ask about Resource Hints in general, see https://github.com/Devographics/surveys/discussions/109",
-		"url": "https://github.com/Devographics/surveys/discussions/104",
-		"upvoteCount": 14
-	},
-	{
-		"title": "Resource Hints (all)",
-		"number": 109,
-		"body": "Begin work on certain resources earlier to improve performance.\r\n\r\n```html\r\n<link rel=\"preconnect\" href=\"(url)\" />\r\n<link rel=\"prerender\" href=\"(url)\" />\r\n<link rel=\"preload\" href=\"(url)\" />\r\n<link rel=\"prefetch\" href=\"(url)\" />\r\n<link rel=\"dns-prefetch\" href=\"(url)\" />\r\n```\r\n\r\n### MDN URL:\r\n\r\nhttps://developer.mozilla.org/en-US/docs/Learn/Performance/Web_Performance_Basics\r\n\r\n### Specification URL:\r\n\r\n_No response_\r\n\r\n### Any other links?\r\n\r\nhttps://blog.logrocket.com/understanding-css-preload-other-resource-hints/\r\nhttps://medium.com/@luisvieira_gmr/html5-prefetch-1e54f6dda15d\r\n\r\n### How stable is this feature?\r\n\r\nCutting edge (Shipped, but not in all browsers)\r\n\r\n### Type of feature\r\n\r\nHTML attribute value\r\n\r\n### What focus area does this feature fall into?\r\n\r\nPerformance\r\n\r\n### Details\r\n\r\nThere are already suggestions for asking about these separately:\r\n- https://github.com/Devographics/surveys/discussions/104\r\n- https://github.com/Devographics/surveys/discussions/105\r\n- https://github.com/Devographics/surveys/discussions/106\r\n- https://github.com/Devographics/surveys/discussions/107\r\n\r\nHowever, we may instead want to ask about them all together, to reduce number of questions.",
-		"url": "https://github.com/Devographics/surveys/discussions/109",
-		"upvoteCount": 22
-	},
-	{
-		"title": "Resource Hints: prefetch (`<link rel=prefetch>`)",
-		"number": 105,
-		"body": "Prefetch a resource so it can be loaded more quickly.\r\n\r\n```html\r\n<link rel=\"prefetch\" href=\"(url)\">\r\n```\r\n\r\n### MDN URL:\r\n\r\nhttps://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/rel/prefetch\r\n\r\n### Specification URL:\r\n\r\nhttps://html.spec.whatwg.org/multipage/links.html#link-type-prefetch\r\n\r\n### Any other links?\r\n\r\nhttps://caniuse.com/link-rel-prefetch\r\n\r\n### How stable is this feature?\r\n\r\nCutting edge (Shipped, but not in all browsers)\r\n\r\n### Type of feature\r\n\r\nHTML attribute value\r\n\r\n### What focus area does this feature fall into?\r\n\r\nPerformance\r\n\r\n### Details\r\n\r\nAlternatively, we may opt to ask about Resource Hints in general, see https://github.com/Devographics/surveys/discussions/109",
-		"url": "https://github.com/Devographics/surveys/discussions/105",
-		"upvoteCount": 12
-	},
-	{
-		"title": "Declarative Shadow DOM (`<template shadowrootmode=\"open\">`)",
-		"number": 100,
-		"body": "Define shadow trees with HTML.\r\n\r\n### Code sample\r\n\r\n```html\r\n<host-element>\r\n    <template shadowrootmode=\"open\">\r\n        <!-- Shadow content -->\r\n    </template>\r\n</host-element>\r\n```\r\n\r\n### MDN URL:\r\n\r\n_No response_\r\n\r\n### Specification URL:\r\n\r\nhttps://github.com/mfreed7/declarative-shadow-dom\r\n\r\n### Any other links?\r\n\r\nhttps://developer.chrome.com/en/articles/declarative-shadow-dom/\r\nhttps://caniuse.com/declarative-shadow-dom\r\nhttps://webkit.org/blog/13851/declarative-shadow-dom/\r\nhttps://chromestatus.com/feature/5191745052606464\r\n\r\n### How stable is this feature?\r\n\r\nCutting edge (Some implementations but not in all browsers and/or behind flags)\r\n\r\n### Type of feature\r\n\r\nHTML attribute\r\n\r\n### What focus area does this feature fall under?\r\n\r\nMaking Web Components\r\n\r\n### Details\r\n\r\nA way to implement and use Shadow DOM directly in HTML.",
-		"url": "https://github.com/Devographics/surveys/discussions/100",
-		"upvoteCount": 42
-	},
-	{
-		"title": "`referrerpolicy` attribute",
-		"number": 146,
-		"body": "Limit how much referrer information is included with requests.\r\n\r\n### Code sample\r\n\r\n```html\r\n<a href=\"http://example.com\" referrerpolicy=\"origin\">…</a>\r\n```\r\n\r\n### MDN URL:\r\n\r\nhttps://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Referrer-Policy\r\n\r\n### Specification URL:\r\n\r\nhttps://www.w3.org/TR/referrer-policy/#referrer-policy-delivery-referrer-attribute\r\n\r\n### Any other links?\r\n\r\n[Can I Use: `<img referrerpolicy>`](https://caniuse.com/mdn-html_elements_img_referrerpolicy)\r\n\r\n### How stable is this feature?\r\n\r\nStable (Widely supported for several years)\r\n\r\n### Type of feature\r\n\r\nHTML attribute\r\n\r\n### What focus area does this feature fall into?\r\n\r\nSecurity & Privacy\r\n\r\n### Details\r\n\r\n_No response_",
-		"url": "https://github.com/Devographics/surveys/discussions/146",
-		"upvoteCount": 11
-	},
-	{
-		"title": "Subresource Integrity (`integrity` attribute)",
-		"number": 145,
-		"body": "A security feature to verify that fetched resources have not been tampered with.\r\n\r\n### Code sample\r\n\r\n```html\r\n<script src=\"https://code.jquery.com/jquery-3.js\" crossorigin\r\n integrity=\"sha384-q8i/X+965DzO0Kp4H+8aPi6jizo\"></script>\r\n```\r\n\r\n### MDN URL:\r\n\r\nhttps://developer.mozilla.org/en-US/docs/Web/Security/Subresource_Integrity\r\n\r\n### Specification URL:\r\n\r\nhttps://www.w3.org/TR/SRI/#the-integrity-attribute\r\n\r\n### Any other links?\r\n\r\n- https://css-tricks.com/securing-your-website-with-subresource-integrity/\r\n- https://www.smashingmagazine.com/2019/04/understanding-subresource-integrity/\r\n\r\n### How stable is this feature?\r\n\r\nStable (Widely supported for several years)\r\n\r\n### Type of feature\r\n\r\nHTML attribute\r\n\r\n### What focus area does this feature fall into?\r\n\r\nSecurity & Privacy\r\n\r\n### Details\r\n\r\n_No response_",
-		"url": "https://github.com/Devographics/surveys/discussions/145",
-		"upvoteCount": 11
-	},
-	{
-		"title": "PWA manifest",
-		"number": 119,
-		"body": "A separate file to define matadata about a web application.\r\n\r\n```html\r\n<link rel=\"manifest\" href=\"manifest.json\" />\r\n```\r\n\r\n```json\r\n{\r\n  \"display\": \"standalone\",\r\n  \"background_color\": \"#f06\"\r\n}\r\n```\r\n\r\n### MDN URL:\r\n\r\nhttps://developer.mozilla.org/en-US/docs/Web/Manifest\r\n\r\n### Specification URL:\r\n\r\nhttps://www.w3.org/TR/appmanifest/\r\n\r\n### Any other links?\r\n\r\n_No response_\r\n\r\n### How stable is this feature?\r\n\r\nStable (Widely supported for several years)\r\n\r\n### Type of feature\r\n\r\nHTML element, Separate file\r\n\r\n### What focus area does this feature fall into?\r\n\r\nBridging the gap with native\r\n\r\n### Details\r\n\r\n```html\r\n<link rel=\"manifest\" href=\"/app.webmanifest\" />\r\n```",
-		"url": "https://github.com/Devographics/surveys/discussions/119",
-		"upvoteCount": 33
-	},
-	{
-		"title": "Exposing component parts (`part` attribute)",
-		"number": 134,
-		"body": "Expose Shadow DOM elements to be stylable by component consumers.\r\n\r\n### Code sample\r\n\r\n```html\r\nthis.shadowRoot.innerHTML = `\r\n<input id=\"url\" part=\"input location\">`;\r\n```\r\n\r\n### MDN URL:\r\n\r\nhttps://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes/part\r\n\r\n### Specification URL:\r\n\r\nhttps://www.w3.org/TR/css-shadow-parts-1/#part-attr\r\n\r\n### Any other links?\r\n\r\n[Can I Use](https://caniuse.com/mdn-html_global_attributes_part)\r\n\r\n### How stable is this feature?\r\n\r\nStable (Widely supported for several years)\r\n\r\n### Type of feature\r\n\r\nHTML attribute\r\n\r\n### What focus area does this feature fall under?\r\n\r\nMaking Web Components\r\n\r\n### Details\r\n\r\nDefining parts so that consumers can style them via CSS (using `::part()`)",
-		"url": "https://github.com/Devographics/surveys/discussions/134",
-		"upvoteCount": 26
-	},
-	{
-		"title": "Styling component parts (`::part()`)",
-		"number": 148,
-		"body": "A way to style shadow DOM elements that have opted in to being stylable from the outside.\r\n\r\n### Code sample\r\n\r\n```css\r\nfancy-loader::part(loaded-bar) {\r\n  background: var(--accent-color);\r\n}\r\n```\r\n\r\n\r\n### MDN URL:\r\n\r\nhttps://developer.mozilla.org/en-US/docs/Web/CSS/::part\r\n\r\n### Specification URL:\r\n\r\nhttps://www.w3.org/TR/css-shadow-parts-1/#part\r\n\r\n### Any other links?\r\n\r\n_No response_\r\n\r\n### How stable is this feature?\r\n\r\nStable (Widely supported for several years)\r\n\r\n### Type of feature\r\n\r\nCSS\r\n\r\n### What focus area does this feature fall under?\r\n\r\nConsuming Web Components\r\n\r\n### Details\r\n\r\n_No response_",
-		"url": "https://github.com/Devographics/surveys/discussions/148",
-		"upvoteCount": 35
-	},
-	{
-		"title": "Inline SVG (`<svg>`)",
-		"number": 125,
-		"body": "Embed SVG vector graphics directly in markup\r\n\r\n### Code sample\r\n\r\n```html\r\n<svg>\r\n  <circle cx=\"50\" cy=\"50\" r=\"50\" />\r\n</svg>\r\n```\r\n\r\n\r\n### MDN URL:\r\n\r\nhttps://developer.mozilla.org/en-US/docs/Web/SVG/Element/svg\r\n\r\n### Specification URL:\r\n\r\nhttps://www.w3.org/TR/SVG2/struct.html#NewDocument\r\n\r\n### Any other links?\r\n\r\n_No response_\r\n\r\n### How stable is this feature?\r\n\r\nStable (Widely supported for several years)\r\n\r\n### Type of feature\r\n\r\nHTML element\r\n\r\n### What focus area does this feature fall into?\r\n\r\nEmbedding\r\n\r\n### Details\r\n\r\nWe could also ask about individual SVG elements, e.g. `<use>`",
-		"url": "https://github.com/Devographics/surveys/discussions/125",
-		"upvoteCount": 52
-	},
-	{
-		"title": "Inline MathML (`<math>`)",
-		"number": 126,
-		"body": "Display math directly in HTML, using MathML.\r\n\r\n### Code sample\r\n\r\n```html\r\n<math display=\"inline\">\r\n    <msup>\r\n        <mi>π</mi>\r\n        <mn>2</mn>\r\n    </msup>\r\n</math>\r\n```\r\n\r\n\r\n### MDN URL:\r\n\r\nhttps://developer.mozilla.org/en-US/docs/Web/MathML/Element/math\r\n\r\n### Specification URL:\r\n\r\nhttps://www.w3.org/TR/mathml-core/#the-top-level-math-element\r\n\r\n### Any other links?\r\n\r\n_No response_\r\n\r\n### How stable is this feature?\r\n\r\nStable (Widely supported for several years)\r\n\r\n### Type of feature\r\n\r\nHTML element\r\n\r\n### What focus area does this feature fall into?\r\n\r\nEmbedding\r\n\r\n### Details\r\n\r\n_No response_",
-		"url": "https://github.com/Devographics/surveys/discussions/126",
-		"upvoteCount": 18
-	},
-	{
-		"title": "Scoped Custom Element Registries",
-		"number": 187,
-		"body": "Allow multiple custom element definitions for a single tag name to exist within a page.\r\n\r\n### Code sample\r\n\r\n```js\r\nconst registry = new CustomElementRegistry();\r\nregistry.define('sub-element', SubElement);\r\n```\r\n\r\n\r\n### MDN URL:\r\n\r\n_No response_\r\n\r\n### Specification URL:\r\n\r\n_No response_\r\n\r\n### Any other links?\r\n\r\n- [Explainer](https://github.com/WICG/webcomponents/blob/gh-pages/proposals/Scoped-Custom-Element-Registries.md)\r\n- [Chrome Status](https://chromestatus.com/feature/5090435261792256)\r\n\r\n### How stable is this feature?\r\n\r\nFuture (No implementations yet)\r\n\r\n### Type of feature\r\n\r\nJS API\r\n\r\n### What focus area does this feature fall under?\r\n\r\nMaking Web Components\r\n\r\n### Details\r\n\r\n_No response_",
-		"url": "https://github.com/Devographics/surveys/discussions/187",
-		"upvoteCount": 1
-	},
-	{
-		"title": "Navigation API",
-		"number": 175,
-		"body": "Initiate, intercept, and manage navigation actions, examine history entries. Successor to the older `history` and `location` APIs.\r\n\r\n### Code sample\r\n\r\n```js\r\nnavigation.navigate(url, {history: \"push\"});\r\nnavigation.addEventListener(\"navigate\", interceptNavigation);\r\n```\r\n\r\n```js\r\nnavigation.addEventListener(\"navigate\", e => {\r\n  if (!e.canIntercept || e.hashChange || e.downloadRequest !== null) {\r\n    return;\r\n  }\r\n\r\n  if (routesTable.has(e.destination.url)) {\r\n    const routeHandler = routesTable.get(e.destination.url);\r\n    e.intercept({ handler: routeHandler });\r\n  }\r\n});\r\n```\r\n\r\n\r\n### MDN URL:\r\n\r\nhttps://developer.mozilla.org/en-US/docs/Web/API/Navigation_API\r\n\r\n### Specification URL:\r\n\r\nhttps://wicg.github.io/navigation-api/\r\n\r\n### Any other links?\r\n\r\nExplainer: https://github.com/WICG/navigation-api\r\n\r\n### How stable is this feature?\r\n\r\nCutting edge (Shipped, but not in all browsers)\r\n\r\n### Type of feature\r\n\r\nJS API\r\n\r\n### What focus area does this feature fall under?\r\n\r\nInteractivity, Bridging the gap with native\r\n\r\n### Details\r\n\r\nThe API was merged into html spec recently, but google was shipped this a long time ago. \r\nQuestions like: Did you use it? Do you waiting for shipping in all major browsers? Do you need a group- or stack-based navigation as same as native apps have?",
-		"url": "https://github.com/Devographics/surveys/discussions/175",
-		"upvoteCount": 16
-	},
-	{
-		"title": "Defining Custom Elements",
-		"number": 184,
-		"body": "Defining custom elements for use by others.\r\nIf you have never used this, you can probably skip the rest of this section.\r\n\r\n### Code sample\r\n\r\n```js\r\nclass MyElement extends HTMLElement { … }\r\ncustomElements.define(\"my-element\", MyElement);\r\n```\r\n\r\n\r\n### MDN URL:\r\n\r\nhttps://developer.mozilla.org/en-US/docs/Web/API/CustomElementRegistry/define\r\n\r\n### Specification URL:\r\n\r\nhttps://html.spec.whatwg.org/multipage/custom-elements.html#dom-customelementregistry-define-dev\r\n\r\n### Any other links?\r\n\r\n_No response_\r\n\r\n### How stable is this feature?\r\n\r\nStable (Widely supported for several years)\r\n\r\n### Type of feature\r\n\r\nJS API\r\n\r\n### What focus area does this feature fall under?\r\n\r\nMaking Web Components\r\n\r\n### Details\r\n\r\nThis question needs to be the first in the \"Making Web Components\" section.",
-		"url": "https://github.com/Devographics/surveys/discussions/184",
-		"upvoteCount": 2
-	},
-	{
-		"title": "`<track>` element",
-		"number": 132,
-		"body": "Provides subtitles or closed caption tracks for multimedia content.\r\n\r\n### Code sample\r\n\r\n```html\r\n<video controls src=\"movie.mp4\">\r\n    <track default srclang=\"el\" src=\"greek.srt\">\r\n</video>\r\n```\r\n\r\n\r\n### MDN URL:\r\n\r\nhttps://developer.mozilla.org/en-US/docs/Web/HTML/Element/track\r\n\r\n### Specification URL:\r\n\r\nhttps://html.spec.whatwg.org/multipage/media.html#the-track-element\r\n\r\n### Any other links?\r\n\r\n[Can I Use](https://caniuse.com/mdn-html_elements_track)\r\n\r\n### How stable is this feature?\r\n\r\nStable (Widely supported for several years)\r\n\r\n### Type of feature\r\n\r\nHTML element\r\n\r\n### What focus area does this feature fall into?\r\n\r\nMultimedia\r\n\r\n### Details\r\n\r\n_No response_",
-		"url": "https://github.com/Devographics/surveys/discussions/132",
-		"upvoteCount": 18
-	},
-	{
-		"title": "`decoding` attribute",
-		"number": 136,
-		"body": "Provides a hint to the browser as to whether it should wait for an image to be decoded before presenting other content updates or not.\r\n\r\n### Code sample\r\n\r\n```html\r\n<img src=\"large.jpg\" decoding=\"async\" />\r\n```\r\n\r\n\r\n### MDN URL:\r\n\r\nhttps://developer.mozilla.org/en-US/docs/Web/API/HTMLImageElement/decoding\r\n\r\n### Specification URL:\r\n\r\nhttps://html.spec.whatwg.org/multipage/embedded-content.html#dom-img-decoding\r\n\r\n### Any other links?\r\n\r\n- [Can I Use](https://caniuse.com/mdn-html_elements_img_decoding)\r\n- https://dev.to/jmau111/do-you-need-the-decoding-attribute-6h7\r\n\r\n### How stable is this feature?\r\n\r\nStable (Widely supported for several years)\r\n\r\n### Type of feature\r\n\r\nHTML attribute\r\n\r\n### What focus area does this feature fall into?\r\n\r\nPerformance, Multimedia\r\n\r\n### Details\r\n\r\n_No response_",
-		"url": "https://github.com/Devographics/surveys/discussions/136",
-		"upvoteCount": 13
-	},
-	{
-		"title": "Using Custom Elements",
-		"number": 154,
-		"body": "Using custom elements, that you or someone else defined.\r\n\r\n### Code sample\r\n\r\n```html\r\n<sl-switch>Switch</sl-switch>\r\n```\r\n\r\n### MDN URL:\r\n\r\nhttps://developer.mozilla.org/en-US/docs/Web/API/Web_components/Using_custom_elements\r\n\r\n### How stable is this feature?\r\n\r\nStable (Widely supported for several years)\r\n\r\n### Type of feature\r\n\r\nHTML element\r\n\r\n### What focus area does this feature fall under?\r\n\r\nConsuming Web Components\r\n\r\n### Details\r\n\r\nCurrently asked in [State of JS](https://survey.devographics.com/en-US/survey/state-of-js/2022/outline/2#custom_elements), this should probably move to State of HTML.",
-		"url": "https://github.com/Devographics/surveys/discussions/154",
-		"upvoteCount": 73
-	},
-	{
-		"title": "Fenced frames",
-		"number": 127,
-		"body": "Α new element to embed documents on a page that prevents communication between the embedder and the frame.\r\n\r\n### Code sample\r\n\r\n```html\r\n<fencedframe src=\"https://adsite.com/ads.html\"></fencedframe>\r\n```\r\n\r\n### MDN URL:\r\n\r\n_No response_\r\n\r\n### Specification URL:\r\n\r\nhttps://wicg.github.io/fenced-frame/\r\n\r\n### Any other links?\r\n\r\n[TAG review](https://github.com/w3ctag/design-reviews/issues/838)\r\nhttps://github.com/WICG/fenced-frame/tree/master/explainer\r\nhttps://github.com/WICG/fenced-frame\r\nhttps://chromestatus.com/feature/5699388062040064\r\nhttps://developer.chrome.com/en/docs/privacy-sandbox/fenced-frame/\r\nhttps://www.chromestory.com/2021/05/fenced-frames/\r\n\r\n### How stable is this feature?\r\n\r\nCutting edge (Shipped, but not in all browsers)\r\n\r\n### Type of feature\r\n\r\nHTML element\r\n\r\n### What focus area does this feature fall into?\r\n\r\nSecurity & Privacy, Embedding\r\n\r\n### Details\r\n\r\nShipped in Chrome 115, no signals from Gecko or WebKit.",
-		"url": "https://github.com/Devographics/surveys/discussions/127",
-		"upvoteCount": 11
-	},
-	{
-		"title": "Credentialess iframes",
-		"number": 143,
-		"body": "Load third-party resources in `<iframe>`s using a new, ephemeral context.\r\n\r\n### Code sample\r\n\r\n```html\r\n<iframe credentialless>\r\n```\r\n\r\n### MDN URL:\r\n\r\nhttps://developer.mozilla.org/en-US/docs/Web/Security/IFrame_credentialless\r\n\r\n### Specification URL:\r\n\r\nhttps://html.spec.whatwg.org/multipage/browsers.html#coep-credentialless\r\n\r\n### Any other links?\r\n\r\n- https://developer.chrome.com/blog/iframe-credentialless/\r\n- [Can I Use](https://caniuse.com/mdn-html_elements_iframe_credentialless)\r\n- [Chrome Status](https://chromestatus.com/feature/5729461725036544)\r\n- [TAG review](https://github.com/w3ctag/design-reviews/issues/582)\r\n\r\n### How stable is this feature?\r\n\r\nCutting edge (Shipped, but not in all browsers)\r\n\r\n### Type of feature\r\n\r\nHTML attribute, JS API\r\n\r\n### What focus area does this feature fall into?\r\n\r\nSecurity & Privacy\r\n\r\n### Details\r\n\r\nShipped in Chrome, other Browsers do not appear to be opposed, but do not appear to be actively working on implementing either.",
-		"url": "https://github.com/Devographics/surveys/discussions/143",
-		"upvoteCount": 9
-	},
-	{
-		"title": "HTML Media Capture",
-		"number": 133,
-		"body": "Capture input from the user’s camera.\r\n\r\n### Code sample\r\n\r\n```html\r\n<input type=\"file\" accept=\"video/*\" capture>\r\n```\r\n\r\n\r\n### MDN URL:\r\n\r\nhttps://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/capture\r\n\r\n### Specification URL:\r\n\r\nhttps://w3c.github.io/html-media-capture/#dfn-capture\r\n\r\n### Any other links?\r\n\r\n- [Can I Use](https://caniuse.com/html-media-capture)\r\n- https://addpipe.com/html-media-capture-demo/\r\n- https://mgearon.com/html/html-media-capture/\r\n\r\n### How stable is this feature?\r\n\r\nCutting edge (Shipped, but not in all browsers)\r\n\r\n### Type of feature\r\n\r\nHTML attribute\r\n\r\n### What focus area does this feature fall into?\r\n\r\nMultimedia\r\n\r\n### Details\r\n\r\n_No response_",
-		"url": "https://github.com/Devographics/surveys/discussions/133",
-		"upvoteCount": 14
-	},
-	{
-		"title": "`plaintext-only` value for `contenteditable`",
-		"number": 155,
-		"body": "Permits editing of the element's raw text, but not rich text formatting.\r\n\r\n### Code sample\r\n\r\n```html\r\n<h2 class=\"title\" contenteditable=\"plaintext-only\"></h2>\r\n```\r\n\r\n\r\n### MDN URL:\r\n\r\nhttps://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes/contenteditable\r\n\r\n### Specification URL:\r\n\r\nhttps://html.spec.whatwg.org/multipage/interaction.html#attr-contenteditable\r\n\r\n### Any other links?\r\n\r\n_No response_\r\n\r\n### How stable is this feature?\r\n\r\nCutting edge (Shipped, but not in all browsers)\r\n\r\n### Type of feature\r\n\r\nHTML attribute value\r\n\r\n### What focus area does this feature fall under?\r\n\r\nForms\r\n\r\n### Details\r\n\r\n_No response_",
-		"url": "https://github.com/Devographics/surveys/discussions/155",
-		"upvoteCount": 25
-	},
-	{
-		"title": "`blocking=\"render\"`",
-		"number": 140,
-		"body": "Specify that resources (scripts, stylesheets etc) should block rendering until loaded.\r\n\r\n### Code sample\r\n\r\n```html\r\n<script blocking=\"render\" async src=\"async-script.js\"></script>\r\n```\r\n\r\n\r\n### MDN URL:\r\n\r\nhttps://developer.mozilla.org/en-US/docs/Web/HTML/Element/script#blocking\r\n\r\n### Specification URL:\r\n\r\nhttps://html.spec.whatwg.org/multipage/urls-and-fetching.html#blocking-attributes\r\n\r\n### Any other links?\r\n\r\n- [Can I Use](https://caniuse.com/mdn-html_elements_link_blocking)\r\n- [Explainer](https://gist.github.com/xiaochengh/9404abbecdc3b45c0e9f3d5e99fbc65d)\r\n- [TAG review](https://github.com/w3ctag/design-reviews/issues/727)\r\n\r\n### How stable is this feature?\r\n\r\nCutting edge (Shipped, but not in all browsers)\r\n\r\n### Type of feature\r\n\r\nHTML attribute\r\n\r\n### What focus area does this feature fall into?\r\n\r\nPerformance\r\n\r\n### Details\r\n\r\nShipped in Chrome 105, other browsers mildly positive but no work yet.",
-		"url": "https://github.com/Devographics/surveys/discussions/140",
-		"upvoteCount": 25
-	},
-	{
-		"title": "DOM Parts",
-		"number": 157,
-		"body": "A cacheable representation of a part of the DOM that can be updated performantly.\r\n\r\n### Code sample\r\n\r\n_No response_\r\n\r\n### MDN URL:\r\n\r\n_No response_\r\n\r\n### Specification URL:\r\n\r\n_No response_\r\n\r\n### Any other links?\r\n\r\n- [Original proposal](https://github.com/WICG/webcomponents/blob/gh-pages/proposals/DOM-Parts.md)\r\n- [Latest proposal](https://github.com/tbondwilkinson/dom-parts#readme)\r\n- [Chrome Intent to Prototype](https://groups.google.com/a/chromium.org/g/blink-dev/c/wIADRnljZDA/m/Ghfv2jyRAgAJ)\r\n\r\n### How stable is this feature?\r\n\r\nFuture (No implementations yet)\r\n\r\n### Type of feature\r\n\r\nJS API\r\n\r\n### What focus area does this feature fall under?\r\n\r\nMaking Web Components, Templating\r\n\r\n### Details\r\n\r\n_No response_",
-		"url": "https://github.com/Devographics/surveys/discussions/157",
-		"upvoteCount": 25
-	},
-	{
-		"title": "`input.showPicker()`",
-		"number": 153,
-		"body": "Programmatically open the picker of form controls that have one (color pickers, date inputs etc).\r\n\r\n### Code sample\r\n\r\n```html\r\n<input id=\"dateInput\" type=\"date\">\r\n<button onclick=\"dateInput.showPicker()\">Select date</button>\r\n```\r\n\r\n\r\n### MDN URL:\r\n\r\nhttps://developer.mozilla.org/en-US/docs/Web/API/HTMLInputElement/showPicker\r\n\r\n### Specification URL:\r\n\r\nhttps://html.spec.whatwg.org/multipage/input.html#dom-input-showpicker\r\n\r\n### Any other links?\r\n\r\n- [TAG review](https://github.com/w3ctag/design-reviews/issues/688)\r\n\r\n### How stable is this feature?\r\n\r\nCutting edge (Shipped, but not in all browsers)\r\n\r\n### Type of feature\r\n\r\nJS API\r\n\r\n### What focus area does this feature fall under?\r\n\r\nForms\r\n\r\n### Details\r\n\r\n_No response_",
-		"url": "https://github.com/Devographics/surveys/discussions/153",
-		"upvoteCount": 34
-	},
-	{
-		"title": "`<search>`",
-		"number": 130,
-		"body": "Semantic element for wrapping search UI.\r\n\r\n### Code sample\r\n\r\n```html\r\n<search>\r\n  <form action=\"search.php\">\r\n    <label>Find: <input name=\"q\" type=\"search\"></label>\r\n    <button>Go!</button>\r\n  </form>\r\n</search>\r\n```\r\n\r\n\r\n### MDN URL:\r\n\r\nhttps://developer.mozilla.org/en-US/docs/Web/HTML/Element/search\r\n\r\n### Specification URL:\r\n\r\nhttps://html.spec.whatwg.org/multipage/grouping-content.html#the-search-element\r\n\r\n### Any other links?\r\n\r\n[Can I Use](https://caniuse.com/mdn-html_elements_search)\r\nhttps://www.scottohara.me/blog/2023/03/24/search-element.html\r\n[TAG review](https://github.com/w3ctag/design-reviews/issues/714)\r\n\r\n### How stable is this feature?\r\n\r\nFuture (No implementations yet)\r\n\r\n### Type of feature\r\n\r\nHTML element\r\n\r\n### What focus area does this feature fall into?\r\n\r\nSemantic HTML\r\n\r\n### Details\r\n\r\n_No response_",
-		"url": "https://github.com/Devographics/surveys/discussions/130",
-		"upvoteCount": 39
-	},
-	{
-		"title": "Fetch Priority API (`fetchpriority` attribute)",
-		"number": 137,
-		"body": "Allows specifying a hint to help the browser prioritize fetching various resources.\r\n\r\n### Code sample\r\n\r\n```html\r\n<img src=\"logo.svg\" fetchpriority=\"high\" />\r\n```\r\n\r\n### MDN URL:\r\n\r\nhttps://developer.mozilla.org/en-US/docs/Web/API/HTMLImageElement/fetchPriority\r\n\r\n### Specification URL:\r\n\r\nhttps://wicg.github.io/priority-hints/\r\n\r\n### Any other links?\r\n\r\n- [Can I Use `<img fetchpriority>`](https://caniuse.com/mdn-html_elements_img_fetchpriority)\r\n- [Can I Use `<link fetchpriority>`](https://caniuse.com/mdn-html_elements_link_fetchpriority)\r\n- [Can I Use `<script fetchpriority>`](https://caniuse.com/mdn-html_elements_script_fetchpriority)\r\n- [TAG review](https://github.com/w3ctag/design-reviews/issues/704)\r\n- [Explainer](https://github.com/WICG/priority-hints/blob/main/EXPLAINER.md)\r\n- [Chrome Status](https://chromestatus.com/feature/5273474901737472)\r\n- https://web.dev/fetch-priority/\r\n\r\n### How stable is this feature?\r\n\r\nCutting edge (Shipped, but not in all browsers)\r\n\r\n### Type of feature\r\n\r\nHTML attribute\r\n\r\n### What focus area does this feature fall into?\r\n\r\nPerformance, Embedding, Multimedia\r\n\r\n### Details\r\n\r\n_No response_",
-		"url": "https://github.com/Devographics/surveys/discussions/137",
-		"upvoteCount": 37
-	},
-	{
-		"title": "`autocomplete=\"hint\"`",
-		"number": 162,
-		"body": "Provide hints about what kind of information should be autocompleted.\r\n\r\n### Code sample\r\n\r\n```html\r\n<input name=\"first_name\" autocomplete=\"given-name\" />\r\n```\r\n\r\n### MDN URL:\r\n\r\nhttps://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/autocomplete\r\n\r\n### Specification URL:\r\n\r\nhttps://html.spec.whatwg.org/multipage/form-control-infrastructure.html#attr-fe-autocomplete\r\n\r\n### Any other links?\r\n\r\n_No response_\r\n\r\n### How stable is this feature?\r\n\r\nMixed (Some parts stable, others unimplemented or inconsistent)\r\n\r\n### Type of feature\r\n\r\nHTML attribute value\r\n\r\n### What focus area does this feature fall under?\r\n\r\nForms\r\n\r\n### Details\r\n\r\nBrowsers seem wildly inconsistent with their support for auto-completion, and I think this is one of the primary factors towards devs not using it.\r\n\r\nSome browsers may honor auto-completion rules, others will completely ignore it, and others still will guess their own auto-completion putting the wrong values in the wrong place even when the page's source code explicitly says to disable all auto-completion.\r\n\r\nIt's worth asking about form auto-completion because everyone seems to be confused about how it works in practice, causing many developers to refrain from using it.",
-		"url": "https://github.com/Devographics/surveys/discussions/162",
-		"upvoteCount": 41
-	},
-	{
-		"title": "`inert` attribute",
-		"number": 139,
-		"body": "Attribute to make an element and its descendants non-interactive, and invisible to assistive technology.\r\n\r\n### Code sample\r\n\r\n```html\r\n<div id=app inert class=loading>\r\n  ...\r\n</div>\r\n```\r\n\r\n\r\n### MDN URL:\r\n\r\nhttps://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes/inert\r\n\r\n### Specification URL:\r\n\r\nhttps://html.spec.whatwg.org/multipage/interaction.html#the-inert-attribute\r\n\r\n### Any other links?\r\n\r\n- https://developer.chrome.com/articles/inert/\r\n- https://www.stefanjudis.com/blog/the-inert-attribute-is-finally-coming-to-the-web/\r\n\r\n### How stable is this feature?\r\n\r\nRecent (Shipped in all major browsers)\r\n\r\n### Type of feature\r\n\r\nHTML attribute\r\n\r\n### What focus area does this feature fall into?\r\n\r\nInteractivity\r\n\r\n### Details\r\n\r\n_No response_",
-		"url": "https://github.com/Devographics/surveys/discussions/139",
-		"upvoteCount": 44
-	},
-	{
-		"title": "`<picture>`",
-		"number": 122,
-		"body": "A responsive images method to control which image resource a user agent presents to a user, based on various factors.\r\n\r\n### Code sample\r\n\r\n```html\r\n<picture>\r\n    <source srcset=\"vertical.jpg\"\r\n            media=\"(orientation: portrait)\">\r\n    <img src=\"horizontal.jpg\" alt=\"\">\r\n</picture>\r\n```\r\n\r\n\r\n### MDN URL:\r\n\r\nhttps://developer.mozilla.org/en-US/docs/Web/HTML/Element/picture\r\n\r\n### Specification URL:\r\n\r\nhttps://html.spec.whatwg.org/multipage/embedded-content.html#the-picture-element\r\n\r\n### Any other links?\r\n\r\nhttps://caniuse.com/picture\r\n\r\n### How stable is this feature?\r\n\r\nStable (Widely supported for several years)\r\n\r\n### Type of feature\r\n\r\nHTML element\r\n\r\n### What focus area does this feature fall into?\r\n\r\nMultimedia\r\n\r\n### Details\r\n\r\n_No response_",
-		"url": "https://github.com/Devographics/surveys/discussions/122",
-		"upvoteCount": 50
-	},
-	{
-		"title": "input `pattern` attribute",
-		"number": 172,
-		"body": "### Code sample\n\n```html\n<label for=\"username\">Username: (3-16 characters)</label>\r\n<input name=\"username\" type=\"text\" value=\"Sasha\" pattern=\"\\w{3,16}\" required>\r\n\r\n<label for=\"pin\">PIN: (4 digits)</label>\r\n<input name=\"pin\" type=\"password\" pattern=\"\\d{4,4}\" required>\n```\n\n\n### MDN URL:\n\nhttps://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/pattern\n\n### Specification URL:\n\nhttps://html.spec.whatwg.org/multipage/input.html#attr-input-pattern\n\n### Any other links?\n\nhttps://caniuse.com/input-pattern\n\n### How stable is this feature?\n\nStable (Widely supported for several years)\n\n### Type of feature\n\nHTML attribute\n\n### What focus area does this feature fall under?\n\nForms\n\n### Details\n\nThis is an attribute that seems like it would be really useful, but I don't recall ever seeing it outside of blog posts, it could be interesting to see if this is just due to a lack of knowledge about the attribute or something else that might be missing from it",
-		"url": "https://github.com/Devographics/surveys/discussions/172",
-		"upvoteCount": 23
-	},
-	{
-		"title": "Multi-handle sliders (`<input type=range multiple>`)",
-		"number": 173,
-		"body": "### Code sample\n\n```html\n<input type=\"range\" multiple />\n```\n\n\n### MDN URL:\n\n_No response_\n\n### Specification URL:\n\nhttps://github.com/whatwg/html/commit/1efac390abb3f95df61f2d2ac6c0feb47349d97b\n\n### Any other links?\n\nhttps://lea.verou.me/blog/2016/05/introducing-multirange-a-tiny-polyfill-for-html5-two-handle-sliders/\r\nhttps://github.com/whatwg/html/pull/1557\r\n\n\n### How stable is this feature?\n\nRemoved (No longer supported in any major browsers)\n\n### Type of feature\n\nHTML attribute\n\n### What focus area does this feature fall under?\n\nForms\n\n### Details\n\n(the spec existed at one point, but I couldn't find a way to get a proper link to it at the time, I can change the url if there's a way to get it)\r\n\r\nYeah... so [whu happen](https://www.youtube.com/watch?v=tAN2TYUGEPk) ?\r\n\r\nThis one always seemed like it would've been a _really_ useful feature, but I never saw anything about it online, no one implemented it, and then it was dropped.\r\n\r\nI wonder if it was due to lack of general knowledge about the attribute even being proposed in the first place (lea's blog post is the only time I ever saw anything about it), or if it actually wasn't meant to be for poor ol' range multiple",
-		"url": "https://github.com/Devographics/surveys/discussions/173",
-		"upvoteCount": 12
-	},
-	{
-		"title": "`<breadcrumb>`",
-		"number": 116,
-		"body": "### MDN URL:\n\n_No response_\n\n### Specification URL:\n\nhttps://open-ui.org/components/breadcrumb/\n\n### Any other links?\n\n_No response_\n\n### How stable is this feature?\n\nFuture (No implementations yet)\n\n### Type of feature\n\nHTML element\n\n### What focus area does this feature fall into?\n\nSemantic HTML\n\n### Details\n\n_No response_",
-		"url": "https://github.com/Devographics/surveys/discussions/116",
-		"upvoteCount": 54
-	},
-	{
-		"title": "HTTP client hints",
-		"number": 110,
-		"body": "```http\r\nAccept-CH: Width, Downlink, Sec-CH-UA\r\n```\r\n\r\n### MDN URL:\r\n\r\nhttps://developer.mozilla.org/en-US/docs/Web/HTTP/Client_hints\r\n\r\n### Specification URL:\r\n\r\nhttps://datatracker.ietf.org/doc/html/draft-grigorik-http-client-hints\r\n\r\n### Any other links?\r\n\r\nExtension Specs:\r\n- https://wicg.github.io/ua-client-hints/#navigatoruadata\r\n- https://wicg.github.io/user-preference-media-features-headers/\r\n\r\nOther links:\r\n- https://caniuse.com/client-hints-dpr-width-viewport\r\n- https://developer.chrome.com/articles/user-agent-client-hints/\r\n\r\n\r\n### How stable is this feature?\r\n\r\nCutting edge (Shipped, but not in all browsers)\r\n\r\n### Type of feature\r\n\r\nHTTP\r\n\r\n### What focus area does this feature fall under?\r\n\r\nOther",
-		"url": "https://github.com/Devographics/surveys/discussions/110",
-		"upvoteCount": 22
-	},
-	{
-		"title": "Adaptive streaming",
-		"number": 147,
-		"body": "### Code sample\n\n```html\n<video>\r\n  <source src=\"movie.mpd\" />\r\n  <source src=\"movie.webm\" />\r\n  Your browser does not support the video tag.\r\n</video>\n```\n\n\n### MDN URL:\n\nhttps://developer.mozilla.org/en-US/docs/Web/Media/DASH_Adaptive_Streaming_for_HTML_5_Video\n\n### Specification URL:\n\nhttp://wiki.webmproject.org/adaptive-streaming/webm-dash-specification\n\n### Any other links?\n\n- [Can I Use: MPEG DASH](https://caniuse.com/mpeg-dash)\r\n- [Can I Use: HTTP Live Streaming](https://caniuse.com/http-live-streaming)\r\n- https://developer.mozilla.org/en-US/docs/Web/Guide/Audio_and_video_delivery/Setting_up_adaptive_streaming_media_sources\r\n- https://developer.mozilla.org/en-US/docs/Web/Guide/Audio_and_video_delivery/Live_streaming_web_audio_and_video\n\n### How stable is this feature?\n\nFuture (No implementations yet)\n\n### Type of feature\n\nOther\n\n### What focus area does this feature fall under?\n\nMultimedia\n\n### Details\n\n_No response_",
-		"url": "https://github.com/Devographics/surveys/discussions/147",
-		"upvoteCount": 11
-	},
-	{
-		"title": "`exportparts` attribute",
-		"number": 135,
-		"body": "### Code sample\n\n```html\n<!-- In Shadow DOM: -->\r\n<img-input exportparts=\"dropzone: img-input-dropzone\"></img-input>\n```\n\n\n### MDN URL:\n\nhttps://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes/exportparts\n\n### Specification URL:\n\nhttps://drafts.csswg.org/css-shadow-parts/#element-attrdef-html-global-exportparts\n\n### Any other links?\n\n[Can I Use](https://caniuse.com/mdn-html_global_attributes_exportparts)\n\n### How stable is this feature?\n\nStable (Widely supported for several years)\n\n### Type of feature\n\nHTML attribute\n\n### What focus area does this feature fall into?\n\nConsuming Web Components, Making Web Components\n\n### Details\n\nExport parts of Shadow DOM components as parts of the consuming component so they can be styled by authors of that via `::part()`.",
-		"url": "https://github.com/Devographics/surveys/discussions/135",
-		"upvoteCount": 14
+		"Question": "`<datalist>` ",
+		"Focus area": [
+			{
+				"@context": "http://schema.org/",
+				"@type": "StructuredValue",
+				"additionalType": "row",
+				"name": "Forms & Editing",
+				"url": "https://coda.io/d/_dTGBFYq175J#_tugrid-IF1UMmZNt5/_rui-HITV9PbnY3",
+				"tableId": "grid-IF1UMmZNt5",
+				"rowId": "i-HITV9PbnY3",
+				"tableUrl": "https://coda.io/d/_dTGBFYq175J#_tugrid-IF1UMmZNt5"
+			}
+		],
+		"Type": [
+			"HTML element",
+			"HTML attribute"
+		],
+		"Discussion": {
+			"@context": "http://schema.org/",
+			"@type": "WebPage",
+			"url": "https://github.com/Devographics/surveys/discussions/207"
+		},
+		"Status": {
+			"@context": "http://schema.org/",
+			"@type": "StructuredValue",
+			"additionalType": "row",
+			"name": "Stable",
+			"url": "https://coda.io/d/_dTGBFYq175J#_tugrid-BqPGmglU_b/_rui-SyiVTehUqi",
+			"tableId": "grid-BqPGmglU_b",
+			"rowId": "i-SyiVTehUqi",
+			"tableUrl": "https://coda.io/d/_dTGBFYq175J#_tugrid-BqPGmglU_b"
+		},
+		"In Part 1": {
+			"@context": "http://schema.org/",
+			"@type": "StructuredValue",
+			"additionalType": "row",
+			"name": "Yes",
+			"url": "https://coda.io/d/_dTGBFYq175J#_tugrid-RUMkEBKBsZ/_rui-CiZ6xQAbPU",
+			"tableId": "grid-RUMkEBKBsZ",
+			"rowId": "i-CiZ6xQAbPU",
+			"tableUrl": "https://coda.io/d/_dTGBFYq175J#_tugrid-RUMkEBKBsZ"
+		},
+		"Upvotes": "",
+		"id": "datalist_element",
+		"Needs Translation": false
+	},
+	{
+		"Question": "`form.requestSubmit()`",
+		"Focus area": [
+			{
+				"@context": "http://schema.org/",
+				"@type": "StructuredValue",
+				"additionalType": "row",
+				"name": "Forms & Editing",
+				"url": "https://coda.io/d/_dTGBFYq175J#_tugrid-IF1UMmZNt5/_rui-HITV9PbnY3",
+				"tableId": "grid-IF1UMmZNt5",
+				"rowId": "i-HITV9PbnY3",
+				"tableUrl": "https://coda.io/d/_dTGBFYq175J#_tugrid-IF1UMmZNt5"
+			}
+		],
+		"Type": [
+			"JS API"
+		],
+		"Discussion": "",
+		"Status": {
+			"@context": "http://schema.org/",
+			"@type": "StructuredValue",
+			"additionalType": "row",
+			"name": "Recent",
+			"url": "https://coda.io/d/_dTGBFYq175J#_tugrid-BqPGmglU_b/_rui-bntRYhG1UO",
+			"tableId": "grid-BqPGmglU_b",
+			"rowId": "i-bntRYhG1UO",
+			"tableUrl": "https://coda.io/d/_dTGBFYq175J#_tugrid-BqPGmglU_b"
+		},
+		"In Part 1": {
+			"@context": "http://schema.org/",
+			"@type": "StructuredValue",
+			"additionalType": "row",
+			"name": "Maybe",
+			"url": "https://coda.io/d/_dTGBFYq175J#_tugrid-RUMkEBKBsZ/_rui-rCEFqlqfFX",
+			"tableId": "grid-RUMkEBKBsZ",
+			"rowId": "i-rCEFqlqfFX",
+			"tableUrl": "https://coda.io/d/_dTGBFYq175J#_tugrid-RUMkEBKBsZ"
+		},
+		"Upvotes": "",
+		"id": "form_request_submit",
+		"Needs Translation": false
+	},
+	{
+		"Question": "Borderless mode",
+		"Focus area": [
+			{
+				"@context": "http://schema.org/",
+				"@type": "StructuredValue",
+				"additionalType": "row",
+				"name": "Bridging the gap with native",
+				"url": "https://coda.io/d/_dTGBFYq175J#_tugrid-IF1UMmZNt5/_rui-g0DSoXECnm",
+				"tableId": "grid-IF1UMmZNt5",
+				"rowId": "i-g0DSoXECnm",
+				"tableUrl": "https://coda.io/d/_dTGBFYq175J#_tugrid-IF1UMmZNt5"
+			}
+		],
+		"Type": [
+			"Other"
+		],
+		"Discussion": {
+			"@context": "http://schema.org/",
+			"@type": "WebPage",
+			"url": "https://github.com/Devographics/surveys/discussions/203"
+		},
+		"Status": {
+			"@context": "http://schema.org/",
+			"@type": "StructuredValue",
+			"additionalType": "row",
+			"name": "Cutting Edge",
+			"url": "https://coda.io/d/_dTGBFYq175J#_tugrid-BqPGmglU_b/_rui-LMy3PoJR22",
+			"tableId": "grid-BqPGmglU_b",
+			"rowId": "i-LMy3PoJR22",
+			"tableUrl": "https://coda.io/d/_dTGBFYq175J#_tugrid-BqPGmglU_b"
+		},
+		"In Part 1": {
+			"@context": "http://schema.org/",
+			"@type": "StructuredValue",
+			"additionalType": "row",
+			"name": "Yes",
+			"url": "https://coda.io/d/_dTGBFYq175J#_tugrid-RUMkEBKBsZ/_rui-CiZ6xQAbPU",
+			"tableId": "grid-RUMkEBKBsZ",
+			"rowId": "i-CiZ6xQAbPU",
+			"tableUrl": "https://coda.io/d/_dTGBFYq175J#_tugrid-RUMkEBKBsZ"
+		},
+		"Upvotes": 2,
+		"id": "borderless_mode",
+		"Needs Translation": true
+	},
+	{
+		"Question": "`<iframe seamless>` ",
+		"Focus area": [
+			{
+				"@context": "http://schema.org/",
+				"@type": "StructuredValue",
+				"additionalType": "row",
+				"name": "Embedding",
+				"url": "https://coda.io/d/_dTGBFYq175J#_tugrid-IF1UMmZNt5/_rui-8jmGxZ5d17",
+				"tableId": "grid-IF1UMmZNt5",
+				"rowId": "i-8jmGxZ5d17",
+				"tableUrl": "https://coda.io/d/_dTGBFYq175J#_tugrid-IF1UMmZNt5"
+			}
+		],
+		"Type": [
+			"HTML attribute"
+		],
+		"Discussion": {
+			"@context": "http://schema.org/",
+			"@type": "WebPage",
+			"url": "https://github.com/Devographics/surveys/discussions/202"
+		},
+		"Status": {
+			"@context": "http://schema.org/",
+			"@type": "StructuredValue",
+			"additionalType": "row",
+			"name": "Removed",
+			"url": "https://coda.io/d/_dTGBFYq175J#_tugrid-BqPGmglU_b/_rui-bXfe43IRWh",
+			"tableId": "grid-BqPGmglU_b",
+			"rowId": "i-bXfe43IRWh",
+			"tableUrl": "https://coda.io/d/_dTGBFYq175J#_tugrid-BqPGmglU_b"
+		},
+		"In Part 1": {
+			"@context": "http://schema.org/",
+			"@type": "StructuredValue",
+			"additionalType": "row",
+			"name": "No",
+			"url": "https://coda.io/d/_dTGBFYq175J#_tugrid-RUMkEBKBsZ/_rui-RjHDLbCCCx",
+			"tableId": "grid-RUMkEBKBsZ",
+			"rowId": "i-RjHDLbCCCx",
+			"tableUrl": "https://coda.io/d/_dTGBFYq175J#_tugrid-RUMkEBKBsZ"
+		},
+		"Upvotes": 1,
+		"id": "iframe_seamless",
+		"Needs Translation": false
+	},
+	{
+		"Question": "`<menu>` ",
+		"Focus area": [
+			{
+				"@context": "http://schema.org/",
+				"@type": "StructuredValue",
+				"additionalType": "row",
+				"name": "Semantic HTML",
+				"url": "https://coda.io/d/_dTGBFYq175J#_tugrid-IF1UMmZNt5/_rui-lnIUWZdEr5",
+				"tableId": "grid-IF1UMmZNt5",
+				"rowId": "i-lnIUWZdEr5",
+				"tableUrl": "https://coda.io/d/_dTGBFYq175J#_tugrid-IF1UMmZNt5"
+			}
+		],
+		"Type": [
+			"HTML element"
+		],
+		"Discussion": {
+			"@context": "http://schema.org/",
+			"@type": "WebPage",
+			"url": "https://github.com/Devographics/surveys/discussions/200"
+		},
+		"Status": {
+			"@context": "http://schema.org/",
+			"@type": "StructuredValue",
+			"additionalType": "row",
+			"name": "Stable",
+			"url": "https://coda.io/d/_dTGBFYq175J#_tugrid-BqPGmglU_b/_rui-SyiVTehUqi",
+			"tableId": "grid-BqPGmglU_b",
+			"rowId": "i-SyiVTehUqi",
+			"tableUrl": "https://coda.io/d/_dTGBFYq175J#_tugrid-BqPGmglU_b"
+		},
+		"In Part 1": {
+			"@context": "http://schema.org/",
+			"@type": "StructuredValue",
+			"additionalType": "row",
+			"name": "Likely Yes",
+			"url": "https://coda.io/d/_dTGBFYq175J#_tugrid-RUMkEBKBsZ/_rui-4yGRpoH1zz",
+			"tableId": "grid-RUMkEBKBsZ",
+			"rowId": "i-4yGRpoH1zz",
+			"tableUrl": "https://coda.io/d/_dTGBFYq175J#_tugrid-RUMkEBKBsZ"
+		},
+		"Upvotes": 2,
+		"id": "menu_element",
+		"Needs Translation": false
+	},
+	{
+		"Question": "URLs to Text Fragments",
+		"Focus area": [
+			{
+				"@context": "http://schema.org/",
+				"@type": "StructuredValue",
+				"additionalType": "row",
+				"name": "Other",
+				"url": "https://coda.io/d/_dTGBFYq175J#_tugrid-IF1UMmZNt5/_rui-ywmcUsXGXQ",
+				"tableId": "grid-IF1UMmZNt5",
+				"rowId": "i-ywmcUsXGXQ",
+				"tableUrl": "https://coda.io/d/_dTGBFYq175J#_tugrid-IF1UMmZNt5"
+			}
+		],
+		"Type": [
+			"JS API",
+			"Other",
+			"CSS"
+		],
+		"Discussion": {
+			"@context": "http://schema.org/",
+			"@type": "WebPage",
+			"url": "https://github.com/Devographics/surveys/discussions/199"
+		},
+		"Status": {
+			"@context": "http://schema.org/",
+			"@type": "StructuredValue",
+			"additionalType": "row",
+			"name": "Controversial",
+			"url": "https://coda.io/d/_dTGBFYq175J#_tugrid-BqPGmglU_b/_rui-gxWA6yQFpf",
+			"tableId": "grid-BqPGmglU_b",
+			"rowId": "i-gxWA6yQFpf",
+			"tableUrl": "https://coda.io/d/_dTGBFYq175J#_tugrid-BqPGmglU_b"
+		},
+		"In Part 1": {
+			"@context": "http://schema.org/",
+			"@type": "StructuredValue",
+			"additionalType": "row",
+			"name": "Maybe",
+			"url": "https://coda.io/d/_dTGBFYq175J#_tugrid-RUMkEBKBsZ/_rui-rCEFqlqfFX",
+			"tableId": "grid-RUMkEBKBsZ",
+			"rowId": "i-rCEFqlqfFX",
+			"tableUrl": "https://coda.io/d/_dTGBFYq175J#_tugrid-RUMkEBKBsZ"
+		},
+		"Upvotes": 1,
+		"id": "text_fragments",
+		"Needs Translation": true
+	},
+	{
+		"Question": "Window Controls Overlay API ",
+		"Focus area": [
+			{
+				"@context": "http://schema.org/",
+				"@type": "StructuredValue",
+				"additionalType": "row",
+				"name": "Bridging the gap with native",
+				"url": "https://coda.io/d/_dTGBFYq175J#_tugrid-IF1UMmZNt5/_rui-g0DSoXECnm",
+				"tableId": "grid-IF1UMmZNt5",
+				"rowId": "i-g0DSoXECnm",
+				"tableUrl": "https://coda.io/d/_dTGBFYq175J#_tugrid-IF1UMmZNt5"
+			}
+		],
+		"Type": [
+			"JS API",
+			"CSS",
+			"Other"
+		],
+		"Discussion": {
+			"@context": "http://schema.org/",
+			"@type": "WebPage",
+			"url": "https://github.com/Devographics/surveys/discussions/197"
+		},
+		"Status": {
+			"@context": "http://schema.org/",
+			"@type": "StructuredValue",
+			"additionalType": "row",
+			"name": "Cutting Edge",
+			"url": "https://coda.io/d/_dTGBFYq175J#_tugrid-BqPGmglU_b/_rui-LMy3PoJR22",
+			"tableId": "grid-BqPGmglU_b",
+			"rowId": "i-LMy3PoJR22",
+			"tableUrl": "https://coda.io/d/_dTGBFYq175J#_tugrid-BqPGmglU_b"
+		},
+		"In Part 1": {
+			"@context": "http://schema.org/",
+			"@type": "StructuredValue",
+			"additionalType": "row",
+			"name": "Maybe",
+			"url": "https://coda.io/d/_dTGBFYq175J#_tugrid-RUMkEBKBsZ/_rui-rCEFqlqfFX",
+			"tableId": "grid-RUMkEBKBsZ",
+			"rowId": "i-rCEFqlqfFX",
+			"tableUrl": "https://coda.io/d/_dTGBFYq175J#_tugrid-RUMkEBKBsZ"
+		},
+		"Upvotes": 1,
+		"id": "window_controls_overlay",
+		"Needs Translation": true
+	},
+	{
+		"Question": "Web Share API",
+		"Focus area": [
+			{
+				"@context": "http://schema.org/",
+				"@type": "StructuredValue",
+				"additionalType": "row",
+				"name": "Bridging the gap with native",
+				"url": "https://coda.io/d/_dTGBFYq175J#_tugrid-IF1UMmZNt5/_rui-g0DSoXECnm",
+				"tableId": "grid-IF1UMmZNt5",
+				"rowId": "i-g0DSoXECnm",
+				"tableUrl": "https://coda.io/d/_dTGBFYq175J#_tugrid-IF1UMmZNt5"
+			}
+		],
+		"Type": [
+			"JS API"
+		],
+		"Discussion": {
+			"@context": "http://schema.org/",
+			"@type": "WebPage",
+			"url": "https://github.com/Devographics/surveys/discussions/196"
+		},
+		"Status": {
+			"@context": "http://schema.org/",
+			"@type": "StructuredValue",
+			"additionalType": "row",
+			"name": "Cutting Edge",
+			"url": "https://coda.io/d/_dTGBFYq175J#_tugrid-BqPGmglU_b/_rui-LMy3PoJR22",
+			"tableId": "grid-BqPGmglU_b",
+			"rowId": "i-LMy3PoJR22",
+			"tableUrl": "https://coda.io/d/_dTGBFYq175J#_tugrid-BqPGmglU_b"
+		},
+		"In Part 1": {
+			"@context": "http://schema.org/",
+			"@type": "StructuredValue",
+			"additionalType": "row",
+			"name": "Yes",
+			"url": "https://coda.io/d/_dTGBFYq175J#_tugrid-RUMkEBKBsZ/_rui-CiZ6xQAbPU",
+			"tableId": "grid-RUMkEBKBsZ",
+			"rowId": "i-CiZ6xQAbPU",
+			"tableUrl": "https://coda.io/d/_dTGBFYq175J#_tugrid-RUMkEBKBsZ"
+		},
+		"Upvotes": 1,
+		"id": "web_share_api",
+		"Needs Translation": true
+	},
+	{
+		"Question": "Badging API",
+		"Focus area": [
+			{
+				"@context": "http://schema.org/",
+				"@type": "StructuredValue",
+				"additionalType": "row",
+				"name": "Bridging the gap with native",
+				"url": "https://coda.io/d/_dTGBFYq175J#_tugrid-IF1UMmZNt5/_rui-g0DSoXECnm",
+				"tableId": "grid-IF1UMmZNt5",
+				"rowId": "i-g0DSoXECnm",
+				"tableUrl": "https://coda.io/d/_dTGBFYq175J#_tugrid-IF1UMmZNt5"
+			}
+		],
+		"Type": [
+			"JS API"
+		],
+		"Discussion": {
+			"@context": "http://schema.org/",
+			"@type": "WebPage",
+			"url": "https://github.com/Devographics/surveys/discussions/195"
+		},
+		"Status": {
+			"@context": "http://schema.org/",
+			"@type": "StructuredValue",
+			"additionalType": "row",
+			"name": "Cutting Edge",
+			"url": "https://coda.io/d/_dTGBFYq175J#_tugrid-BqPGmglU_b/_rui-LMy3PoJR22",
+			"tableId": "grid-BqPGmglU_b",
+			"rowId": "i-LMy3PoJR22",
+			"tableUrl": "https://coda.io/d/_dTGBFYq175J#_tugrid-BqPGmglU_b"
+		},
+		"In Part 1": {
+			"@context": "http://schema.org/",
+			"@type": "StructuredValue",
+			"additionalType": "row",
+			"name": "Yes",
+			"url": "https://coda.io/d/_dTGBFYq175J#_tugrid-RUMkEBKBsZ/_rui-CiZ6xQAbPU",
+			"tableId": "grid-RUMkEBKBsZ",
+			"rowId": "i-CiZ6xQAbPU",
+			"tableUrl": "https://coda.io/d/_dTGBFYq175J#_tugrid-RUMkEBKBsZ"
+		},
+		"Upvotes": 1,
+		"id": "badging_api",
+		"Needs Translation": true
+	},
+	{
+		"Question": "FormData",
+		"Focus area": [
+			{
+				"@context": "http://schema.org/",
+				"@type": "StructuredValue",
+				"additionalType": "row",
+				"name": "Forms & Editing",
+				"url": "https://coda.io/d/_dTGBFYq175J#_tugrid-IF1UMmZNt5/_rui-HITV9PbnY3",
+				"tableId": "grid-IF1UMmZNt5",
+				"rowId": "i-HITV9PbnY3",
+				"tableUrl": "https://coda.io/d/_dTGBFYq175J#_tugrid-IF1UMmZNt5"
+			}
+		],
+		"Type": [
+			"JS API"
+		],
+		"Discussion": "",
+		"Status": {
+			"@context": "http://schema.org/",
+			"@type": "StructuredValue",
+			"additionalType": "row",
+			"name": "Stable",
+			"url": "https://coda.io/d/_dTGBFYq175J#_tugrid-BqPGmglU_b/_rui-SyiVTehUqi",
+			"tableId": "grid-BqPGmglU_b",
+			"rowId": "i-SyiVTehUqi",
+			"tableUrl": "https://coda.io/d/_dTGBFYq175J#_tugrid-BqPGmglU_b"
+		},
+		"In Part 1": {
+			"@context": "http://schema.org/",
+			"@type": "StructuredValue",
+			"additionalType": "row",
+			"name": "Maybe",
+			"url": "https://coda.io/d/_dTGBFYq175J#_tugrid-RUMkEBKBsZ/_rui-rCEFqlqfFX",
+			"tableId": "grid-RUMkEBKBsZ",
+			"rowId": "i-rCEFqlqfFX",
+			"tableUrl": "https://coda.io/d/_dTGBFYq175J#_tugrid-RUMkEBKBsZ"
+		},
+		"Upvotes": "",
+		"id": "formdata",
+		"Needs Translation": true
+	},
+	{
+		"Question": "Sanitizer API",
+		"Focus area": [
+			{
+				"@context": "http://schema.org/",
+				"@type": "StructuredValue",
+				"additionalType": "row",
+				"name": "Security & Privacy",
+				"url": "https://coda.io/d/_dTGBFYq175J#_tugrid-IF1UMmZNt5/_rui-cgPPUwtNEO",
+				"tableId": "grid-IF1UMmZNt5",
+				"rowId": "i-cgPPUwtNEO",
+				"tableUrl": "https://coda.io/d/_dTGBFYq175J#_tugrid-IF1UMmZNt5"
+			}
+		],
+		"Type": [
+			"JS API"
+		],
+		"Discussion": {
+			"@context": "http://schema.org/",
+			"@type": "WebPage",
+			"url": "https://github.com/Devographics/surveys/discussions/192"
+		},
+		"Status": {
+			"@context": "http://schema.org/",
+			"@type": "StructuredValue",
+			"additionalType": "row",
+			"name": "Future",
+			"url": "https://coda.io/d/_dTGBFYq175J#_tugrid-BqPGmglU_b/_rui-vwaDIcBrtd",
+			"tableId": "grid-BqPGmglU_b",
+			"rowId": "i-vwaDIcBrtd",
+			"tableUrl": "https://coda.io/d/_dTGBFYq175J#_tugrid-BqPGmglU_b"
+		},
+		"In Part 1": {
+			"@context": "http://schema.org/",
+			"@type": "StructuredValue",
+			"additionalType": "row",
+			"name": "No",
+			"url": "https://coda.io/d/_dTGBFYq175J#_tugrid-RUMkEBKBsZ/_rui-RjHDLbCCCx",
+			"tableId": "grid-RUMkEBKBsZ",
+			"rowId": "i-RjHDLbCCCx",
+			"tableUrl": "https://coda.io/d/_dTGBFYq175J#_tugrid-RUMkEBKBsZ"
+		},
+		"Upvotes": 1,
+		"id": "sanitizer_api",
+		"Needs Translation": true
+	},
+	{
+		"Question": "Scoped Custom Element Registries",
+		"Focus area": [
+			{
+				"@context": "http://schema.org/",
+				"@type": "StructuredValue",
+				"additionalType": "row",
+				"name": "Making Web Components",
+				"url": "https://coda.io/d/_dTGBFYq175J#_tugrid-IF1UMmZNt5/_rui-FgI34TEfuP",
+				"tableId": "grid-IF1UMmZNt5",
+				"rowId": "i-FgI34TEfuP",
+				"tableUrl": "https://coda.io/d/_dTGBFYq175J#_tugrid-IF1UMmZNt5"
+			}
+		],
+		"Type": [
+			"JS API"
+		],
+		"Discussion": {
+			"@context": "http://schema.org/",
+			"@type": "WebPage",
+			"url": "https://github.com/Devographics/surveys/discussions/187"
+		},
+		"Status": {
+			"@context": "http://schema.org/",
+			"@type": "StructuredValue",
+			"additionalType": "row",
+			"name": "Future",
+			"url": "https://coda.io/d/_dTGBFYq175J#_tugrid-BqPGmglU_b/_rui-vwaDIcBrtd",
+			"tableId": "grid-BqPGmglU_b",
+			"rowId": "i-vwaDIcBrtd",
+			"tableUrl": "https://coda.io/d/_dTGBFYq175J#_tugrid-BqPGmglU_b"
+		},
+		"In Part 1": {
+			"@context": "http://schema.org/",
+			"@type": "StructuredValue",
+			"additionalType": "row",
+			"name": "Likely Yes",
+			"url": "https://coda.io/d/_dTGBFYq175J#_tugrid-RUMkEBKBsZ/_rui-4yGRpoH1zz",
+			"tableId": "grid-RUMkEBKBsZ",
+			"rowId": "i-4yGRpoH1zz",
+			"tableUrl": "https://coda.io/d/_dTGBFYq175J#_tugrid-RUMkEBKBsZ"
+		},
+		"Upvotes": 1,
+		"id": "scoped_element_registries",
+		"Needs Translation": true
+	},
+	{
+		"Question": "Defining Custom Elements",
+		"Focus area": [
+			{
+				"@context": "http://schema.org/",
+				"@type": "StructuredValue",
+				"additionalType": "row",
+				"name": "Making Web Components",
+				"url": "https://coda.io/d/_dTGBFYq175J#_tugrid-IF1UMmZNt5/_rui-FgI34TEfuP",
+				"tableId": "grid-IF1UMmZNt5",
+				"rowId": "i-FgI34TEfuP",
+				"tableUrl": "https://coda.io/d/_dTGBFYq175J#_tugrid-IF1UMmZNt5"
+			}
+		],
+		"Type": [
+			"HTML element"
+		],
+		"Discussion": {
+			"@context": "http://schema.org/",
+			"@type": "WebPage",
+			"url": "https://github.com/Devographics/surveys/discussions/184"
+		},
+		"Status": {
+			"@context": "http://schema.org/",
+			"@type": "StructuredValue",
+			"additionalType": "row",
+			"name": "Stable",
+			"url": "https://coda.io/d/_dTGBFYq175J#_tugrid-BqPGmglU_b/_rui-SyiVTehUqi",
+			"tableId": "grid-BqPGmglU_b",
+			"rowId": "i-SyiVTehUqi",
+			"tableUrl": "https://coda.io/d/_dTGBFYq175J#_tugrid-BqPGmglU_b"
+		},
+		"In Part 1": {
+			"@context": "http://schema.org/",
+			"@type": "StructuredValue",
+			"additionalType": "row",
+			"name": "Yes",
+			"url": "https://coda.io/d/_dTGBFYq175J#_tugrid-RUMkEBKBsZ/_rui-CiZ6xQAbPU",
+			"tableId": "grid-RUMkEBKBsZ",
+			"rowId": "i-CiZ6xQAbPU",
+			"tableUrl": "https://coda.io/d/_dTGBFYq175J#_tugrid-RUMkEBKBsZ"
+		},
+		"Upvotes": 2,
+		"id": "custom_elements_defining",
+		"Needs Translation": true
+	},
+	{
+		"Question": "`pattern` attribute for `<input>` ",
+		"Focus area": [
+			{
+				"@context": "http://schema.org/",
+				"@type": "StructuredValue",
+				"additionalType": "row",
+				"name": "Forms & Editing",
+				"url": "https://coda.io/d/_dTGBFYq175J#_tugrid-IF1UMmZNt5/_rui-HITV9PbnY3",
+				"tableId": "grid-IF1UMmZNt5",
+				"rowId": "i-HITV9PbnY3",
+				"tableUrl": "https://coda.io/d/_dTGBFYq175J#_tugrid-IF1UMmZNt5"
+			}
+		],
+		"Type": [
+			"HTML attribute"
+		],
+		"Discussion": {
+			"@context": "http://schema.org/",
+			"@type": "WebPage",
+			"url": "https://github.com/Devographics/surveys/discussions/172"
+		},
+		"Status": {
+			"@context": "http://schema.org/",
+			"@type": "StructuredValue",
+			"additionalType": "row",
+			"name": "Stable",
+			"url": "https://coda.io/d/_dTGBFYq175J#_tugrid-BqPGmglU_b/_rui-SyiVTehUqi",
+			"tableId": "grid-BqPGmglU_b",
+			"rowId": "i-SyiVTehUqi",
+			"tableUrl": "https://coda.io/d/_dTGBFYq175J#_tugrid-BqPGmglU_b"
+		},
+		"In Part 1": {
+			"@context": "http://schema.org/",
+			"@type": "StructuredValue",
+			"additionalType": "row",
+			"name": "No",
+			"url": "https://coda.io/d/_dTGBFYq175J#_tugrid-RUMkEBKBsZ/_rui-RjHDLbCCCx",
+			"tableId": "grid-RUMkEBKBsZ",
+			"rowId": "i-RjHDLbCCCx",
+			"tableUrl": "https://coda.io/d/_dTGBFYq175J#_tugrid-RUMkEBKBsZ"
+		},
+		"Upvotes": 23,
+		"id": "input_pattern",
+		"Needs Translation": true
+	},
+	{
+		"Question": "Isolated Web Apps",
+		"Focus area": [
+			{
+				"@context": "http://schema.org/",
+				"@type": "StructuredValue",
+				"additionalType": "row",
+				"name": "Bridging the gap with native",
+				"url": "https://coda.io/d/_dTGBFYq175J#_tugrid-IF1UMmZNt5/_rui-g0DSoXECnm",
+				"tableId": "grid-IF1UMmZNt5",
+				"rowId": "i-g0DSoXECnm",
+				"tableUrl": "https://coda.io/d/_dTGBFYq175J#_tugrid-IF1UMmZNt5"
+			},
+			{
+				"@context": "http://schema.org/",
+				"@type": "StructuredValue",
+				"additionalType": "row",
+				"name": "Security & Privacy",
+				"url": "https://coda.io/d/_dTGBFYq175J#_tugrid-IF1UMmZNt5/_rui-cgPPUwtNEO",
+				"tableId": "grid-IF1UMmZNt5",
+				"rowId": "i-cgPPUwtNEO",
+				"tableUrl": "https://coda.io/d/_dTGBFYq175J#_tugrid-IF1UMmZNt5"
+			}
+		],
+		"Type": [
+			"Other"
+		],
+		"Discussion": {
+			"@context": "http://schema.org/",
+			"@type": "WebPage",
+			"url": "https://github.com/Devographics/surveys/discussions/170"
+		},
+		"Status": {
+			"@context": "http://schema.org/",
+			"@type": "StructuredValue",
+			"additionalType": "row",
+			"name": "Future",
+			"url": "https://coda.io/d/_dTGBFYq175J#_tugrid-BqPGmglU_b/_rui-vwaDIcBrtd",
+			"tableId": "grid-BqPGmglU_b",
+			"rowId": "i-vwaDIcBrtd",
+			"tableUrl": "https://coda.io/d/_dTGBFYq175J#_tugrid-BqPGmglU_b"
+		},
+		"In Part 1": {
+			"@context": "http://schema.org/",
+			"@type": "StructuredValue",
+			"additionalType": "row",
+			"name": "Likely Yes",
+			"url": "https://coda.io/d/_dTGBFYq175J#_tugrid-RUMkEBKBsZ/_rui-4yGRpoH1zz",
+			"tableId": "grid-RUMkEBKBsZ",
+			"rowId": "i-4yGRpoH1zz",
+			"tableUrl": "https://coda.io/d/_dTGBFYq175J#_tugrid-RUMkEBKBsZ"
+		},
+		"Upvotes": 9,
+		"id": "isolated_webapps",
+		"Needs Translation": true
+	},
+	{
+		"Question": "Multi-handle sliders (`<input type=range multiple>` )",
+		"Focus area": [
+			{
+				"@context": "http://schema.org/",
+				"@type": "StructuredValue",
+				"additionalType": "row",
+				"name": "Forms & Editing",
+				"url": "https://coda.io/d/_dTGBFYq175J#_tugrid-IF1UMmZNt5/_rui-HITV9PbnY3",
+				"tableId": "grid-IF1UMmZNt5",
+				"rowId": "i-HITV9PbnY3",
+				"tableUrl": "https://coda.io/d/_dTGBFYq175J#_tugrid-IF1UMmZNt5"
+			}
+		],
+		"Type": [
+			"HTML element"
+		],
+		"Discussion": {
+			"@context": "http://schema.org/",
+			"@type": "WebPage",
+			"url": "https://github.com/Devographics/surveys/discussions/173"
+		},
+		"Status": {
+			"@context": "http://schema.org/",
+			"@type": "StructuredValue",
+			"additionalType": "row",
+			"name": "Removed",
+			"url": "https://coda.io/d/_dTGBFYq175J#_tugrid-BqPGmglU_b/_rui-bXfe43IRWh",
+			"tableId": "grid-BqPGmglU_b",
+			"rowId": "i-bXfe43IRWh",
+			"tableUrl": "https://coda.io/d/_dTGBFYq175J#_tugrid-BqPGmglU_b"
+		},
+		"In Part 1": {
+			"@context": "http://schema.org/",
+			"@type": "StructuredValue",
+			"additionalType": "row",
+			"name": "No",
+			"url": "https://coda.io/d/_dTGBFYq175J#_tugrid-RUMkEBKBsZ/_rui-RjHDLbCCCx",
+			"tableId": "grid-RUMkEBKBsZ",
+			"rowId": "i-RjHDLbCCCx",
+			"tableUrl": "https://coda.io/d/_dTGBFYq175J#_tugrid-RUMkEBKBsZ"
+		},
+		"Upvotes": 12,
+		"id": "multihandle_sliders",
+		"Needs Translation": true
+	},
+	{
+		"Question": "Navigation API",
+		"Focus area": [
+			{
+				"@context": "http://schema.org/",
+				"@type": "StructuredValue",
+				"additionalType": "row",
+				"name": "Interactivity",
+				"url": "https://coda.io/d/_dTGBFYq175J#_tugrid-IF1UMmZNt5/_rui-W4J_OBZ_-R",
+				"tableId": "grid-IF1UMmZNt5",
+				"rowId": "i-W4J_OBZ_-R",
+				"tableUrl": "https://coda.io/d/_dTGBFYq175J#_tugrid-IF1UMmZNt5"
+			}
+		],
+		"Type": [
+			"JS API"
+		],
+		"Discussion": {
+			"@context": "http://schema.org/",
+			"@type": "WebPage",
+			"url": "https://github.com/Devographics/surveys/discussions/175"
+		},
+		"Status": {
+			"@context": "http://schema.org/",
+			"@type": "StructuredValue",
+			"additionalType": "row",
+			"name": "Cutting Edge",
+			"url": "https://coda.io/d/_dTGBFYq175J#_tugrid-BqPGmglU_b/_rui-LMy3PoJR22",
+			"tableId": "grid-BqPGmglU_b",
+			"rowId": "i-LMy3PoJR22",
+			"tableUrl": "https://coda.io/d/_dTGBFYq175J#_tugrid-BqPGmglU_b"
+		},
+		"In Part 1": {
+			"@context": "http://schema.org/",
+			"@type": "StructuredValue",
+			"additionalType": "row",
+			"name": "Yes",
+			"url": "https://coda.io/d/_dTGBFYq175J#_tugrid-RUMkEBKBsZ/_rui-CiZ6xQAbPU",
+			"tableId": "grid-RUMkEBKBsZ",
+			"rowId": "i-CiZ6xQAbPU",
+			"tableUrl": "https://coda.io/d/_dTGBFYq175J#_tugrid-RUMkEBKBsZ"
+		},
+		"Upvotes": 16,
+		"id": "navigation_api",
+		"Needs Translation": true
+	},
+	{
+		"Question": "HTML Modules",
+		"Focus area": [
+			{
+				"@context": "http://schema.org/",
+				"@type": "StructuredValue",
+				"additionalType": "row",
+				"name": "Consuming Web Components",
+				"url": "https://coda.io/d/_dTGBFYq175J#_tugrid-IF1UMmZNt5/_rui-KPeW6x5nOV",
+				"tableId": "grid-IF1UMmZNt5",
+				"rowId": "i-KPeW6x5nOV",
+				"tableUrl": "https://coda.io/d/_dTGBFYq175J#_tugrid-IF1UMmZNt5"
+			}
+		],
+		"Type": [
+			"JS API"
+		],
+		"Discussion": {
+			"@context": "http://schema.org/",
+			"@type": "WebPage",
+			"url": "https://github.com/Devographics/surveys/discussions/169"
+		},
+		"Status": {
+			"@context": "http://schema.org/",
+			"@type": "StructuredValue",
+			"additionalType": "row",
+			"name": "Future",
+			"url": "https://coda.io/d/_dTGBFYq175J#_tugrid-BqPGmglU_b/_rui-vwaDIcBrtd",
+			"tableId": "grid-BqPGmglU_b",
+			"rowId": "i-vwaDIcBrtd",
+			"tableUrl": "https://coda.io/d/_dTGBFYq175J#_tugrid-BqPGmglU_b"
+		},
+		"In Part 1": {
+			"@context": "http://schema.org/",
+			"@type": "StructuredValue",
+			"additionalType": "row",
+			"name": "Yes",
+			"url": "https://coda.io/d/_dTGBFYq175J#_tugrid-RUMkEBKBsZ/_rui-CiZ6xQAbPU",
+			"tableId": "grid-RUMkEBKBsZ",
+			"rowId": "i-CiZ6xQAbPU",
+			"tableUrl": "https://coda.io/d/_dTGBFYq175J#_tugrid-RUMkEBKBsZ"
+		},
+		"Upvotes": 22,
+		"id": "html_modules",
+		"Needs Translation": true
+	},
+	{
+		"Question": "Exclusive accordion (`<details name=”...”>`)",
+		"Focus area": [
+			{
+				"@context": "http://schema.org/",
+				"@type": "StructuredValue",
+				"additionalType": "row",
+				"name": "Interactivity",
+				"url": "https://coda.io/d/_dTGBFYq175J#_tugrid-IF1UMmZNt5/_rui-W4J_OBZ_-R",
+				"tableId": "grid-IF1UMmZNt5",
+				"rowId": "i-W4J_OBZ_-R",
+				"tableUrl": "https://coda.io/d/_dTGBFYq175J#_tugrid-IF1UMmZNt5"
+			}
+		],
+		"Type": [
+			"HTML element"
+		],
+		"Discussion": {
+			"@context": "http://schema.org/",
+			"@type": "WebPage",
+			"url": "https://github.com/Devographics/surveys/discussions/176"
+		},
+		"Status": {
+			"@context": "http://schema.org/",
+			"@type": "StructuredValue",
+			"additionalType": "row",
+			"name": "Future",
+			"url": "https://coda.io/d/_dTGBFYq175J#_tugrid-BqPGmglU_b/_rui-vwaDIcBrtd",
+			"tableId": "grid-BqPGmglU_b",
+			"rowId": "i-vwaDIcBrtd",
+			"tableUrl": "https://coda.io/d/_dTGBFYq175J#_tugrid-BqPGmglU_b"
+		},
+		"In Part 1": {
+			"@context": "http://schema.org/",
+			"@type": "StructuredValue",
+			"additionalType": "row",
+			"name": "Yes",
+			"url": "https://coda.io/d/_dTGBFYq175J#_tugrid-RUMkEBKBsZ/_rui-CiZ6xQAbPU",
+			"tableId": "grid-RUMkEBKBsZ",
+			"rowId": "i-CiZ6xQAbPU",
+			"tableUrl": "https://coda.io/d/_dTGBFYq175J#_tugrid-RUMkEBKBsZ"
+		},
+		"Upvotes": 18,
+		"id": "accordion_element",
+		"Needs Translation": true
+	},
+	{
+		"Question": "`autocomplete=\"hint\"`",
+		"Focus area": [
+			{
+				"@context": "http://schema.org/",
+				"@type": "StructuredValue",
+				"additionalType": "row",
+				"name": "Forms & Editing",
+				"url": "https://coda.io/d/_dTGBFYq175J#_tugrid-IF1UMmZNt5/_rui-HITV9PbnY3",
+				"tableId": "grid-IF1UMmZNt5",
+				"rowId": "i-HITV9PbnY3",
+				"tableUrl": "https://coda.io/d/_dTGBFYq175J#_tugrid-IF1UMmZNt5"
+			}
+		],
+		"Type": [
+			"HTML attribute value"
+		],
+		"Discussion": {
+			"@context": "http://schema.org/",
+			"@type": "WebPage",
+			"url": "https://github.com/Devographics/surveys/discussions/162"
+		},
+		"Status": {
+			"@context": "http://schema.org/",
+			"@type": "StructuredValue",
+			"additionalType": "row",
+			"name": "Mixed",
+			"url": "https://coda.io/d/_dTGBFYq175J#_tugrid-BqPGmglU_b/_rui-7G-olOmKz9",
+			"tableId": "grid-BqPGmglU_b",
+			"rowId": "i-7G-olOmKz9",
+			"tableUrl": "https://coda.io/d/_dTGBFYq175J#_tugrid-BqPGmglU_b"
+		},
+		"In Part 1": {
+			"@context": "http://schema.org/",
+			"@type": "StructuredValue",
+			"additionalType": "row",
+			"name": "Yes",
+			"url": "https://coda.io/d/_dTGBFYq175J#_tugrid-RUMkEBKBsZ/_rui-CiZ6xQAbPU",
+			"tableId": "grid-RUMkEBKBsZ",
+			"rowId": "i-CiZ6xQAbPU",
+			"tableUrl": "https://coda.io/d/_dTGBFYq175J#_tugrid-RUMkEBKBsZ"
+		},
+		"Upvotes": 41,
+		"id": "autocomplete_element",
+		"Needs Translation": false
+	},
+	{
+		"Question": "`<dialog>` ",
+		"Focus area": [
+			{
+				"@context": "http://schema.org/",
+				"@type": "StructuredValue",
+				"additionalType": "row",
+				"name": "Interactivity",
+				"url": "https://coda.io/d/_dTGBFYq175J#_tugrid-IF1UMmZNt5/_rui-W4J_OBZ_-R",
+				"tableId": "grid-IF1UMmZNt5",
+				"rowId": "i-W4J_OBZ_-R",
+				"tableUrl": "https://coda.io/d/_dTGBFYq175J#_tugrid-IF1UMmZNt5"
+			}
+		],
+		"Type": [
+			"HTML element"
+		],
+		"Discussion": {
+			"@context": "http://schema.org/",
+			"@type": "WebPage",
+			"url": "https://github.com/Devographics/surveys/discussions/158"
+		},
+		"Status": {
+			"@context": "http://schema.org/",
+			"@type": "StructuredValue",
+			"additionalType": "row",
+			"name": "Stable",
+			"url": "https://coda.io/d/_dTGBFYq175J#_tugrid-BqPGmglU_b/_rui-SyiVTehUqi",
+			"tableId": "grid-BqPGmglU_b",
+			"rowId": "i-SyiVTehUqi",
+			"tableUrl": "https://coda.io/d/_dTGBFYq175J#_tugrid-BqPGmglU_b"
+		},
+		"In Part 1": {
+			"@context": "http://schema.org/",
+			"@type": "StructuredValue",
+			"additionalType": "row",
+			"name": "Yes",
+			"url": "https://coda.io/d/_dTGBFYq175J#_tugrid-RUMkEBKBsZ/_rui-CiZ6xQAbPU",
+			"tableId": "grid-RUMkEBKBsZ",
+			"rowId": "i-CiZ6xQAbPU",
+			"tableUrl": "https://coda.io/d/_dTGBFYq175J#_tugrid-RUMkEBKBsZ"
+		},
+		"Upvotes": 77,
+		"id": "dialog_element",
+		"Needs Translation": false
+	},
+	{
+		"Question": "Shadow DOM",
+		"Focus area": [
+			{
+				"@context": "http://schema.org/",
+				"@type": "StructuredValue",
+				"additionalType": "row",
+				"name": "Making Web Components",
+				"url": "https://coda.io/d/_dTGBFYq175J#_tugrid-IF1UMmZNt5/_rui-FgI34TEfuP",
+				"tableId": "grid-IF1UMmZNt5",
+				"rowId": "i-FgI34TEfuP",
+				"tableUrl": "https://coda.io/d/_dTGBFYq175J#_tugrid-IF1UMmZNt5"
+			}
+		],
+		"Type": [
+			"Other"
+		],
+		"Discussion": {
+			"@context": "http://schema.org/",
+			"@type": "WebPage",
+			"url": "https://github.com/Devographics/surveys/discussions/156"
+		},
+		"Status": {
+			"@context": "http://schema.org/",
+			"@type": "StructuredValue",
+			"additionalType": "row",
+			"name": "Stable",
+			"url": "https://coda.io/d/_dTGBFYq175J#_tugrid-BqPGmglU_b/_rui-SyiVTehUqi",
+			"tableId": "grid-BqPGmglU_b",
+			"rowId": "i-SyiVTehUqi",
+			"tableUrl": "https://coda.io/d/_dTGBFYq175J#_tugrid-BqPGmglU_b"
+		},
+		"In Part 1": {
+			"@context": "http://schema.org/",
+			"@type": "StructuredValue",
+			"additionalType": "row",
+			"name": "Yes",
+			"url": "https://coda.io/d/_dTGBFYq175J#_tugrid-RUMkEBKBsZ/_rui-CiZ6xQAbPU",
+			"tableId": "grid-RUMkEBKBsZ",
+			"rowId": "i-CiZ6xQAbPU",
+			"tableUrl": "https://coda.io/d/_dTGBFYq175J#_tugrid-RUMkEBKBsZ"
+		},
+		"Upvotes": 57,
+		"id": "shadow_dom",
+		"Needs Translation": false
+	},
+	{
+		"Question": "DOM Parts",
+		"Focus area": [
+			{
+				"@context": "http://schema.org/",
+				"@type": "StructuredValue",
+				"additionalType": "row",
+				"name": "Templating",
+				"url": "https://coda.io/d/_dTGBFYq175J#_tugrid-IF1UMmZNt5/_rui-_59LF43OON",
+				"tableId": "grid-IF1UMmZNt5",
+				"rowId": "i-_59LF43OON",
+				"tableUrl": "https://coda.io/d/_dTGBFYq175J#_tugrid-IF1UMmZNt5"
+			}
+		],
+		"Type": [
+			"HTML element"
+		],
+		"Discussion": {
+			"@context": "http://schema.org/",
+			"@type": "WebPage",
+			"url": "https://github.com/Devographics/surveys/discussions/157"
+		},
+		"Status": {
+			"@context": "http://schema.org/",
+			"@type": "StructuredValue",
+			"additionalType": "row",
+			"name": "Future",
+			"url": "https://coda.io/d/_dTGBFYq175J#_tugrid-BqPGmglU_b/_rui-vwaDIcBrtd",
+			"tableId": "grid-BqPGmglU_b",
+			"rowId": "i-vwaDIcBrtd",
+			"tableUrl": "https://coda.io/d/_dTGBFYq175J#_tugrid-BqPGmglU_b"
+		},
+		"In Part 1": {
+			"@context": "http://schema.org/",
+			"@type": "StructuredValue",
+			"additionalType": "row",
+			"name": "Yes",
+			"url": "https://coda.io/d/_dTGBFYq175J#_tugrid-RUMkEBKBsZ/_rui-CiZ6xQAbPU",
+			"tableId": "grid-RUMkEBKBsZ",
+			"rowId": "i-CiZ6xQAbPU",
+			"tableUrl": "https://coda.io/d/_dTGBFYq175J#_tugrid-RUMkEBKBsZ"
+		},
+		"Upvotes": 25,
+		"id": "dom_parts",
+		"Needs Translation": true
+	},
+	{
+		"Question": "`contenteditable=”plaintext-only”` ",
+		"Focus area": [
+			{
+				"@context": "http://schema.org/",
+				"@type": "StructuredValue",
+				"additionalType": "row",
+				"name": "Forms & Editing",
+				"url": "https://coda.io/d/_dTGBFYq175J#_tugrid-IF1UMmZNt5/_rui-HITV9PbnY3",
+				"tableId": "grid-IF1UMmZNt5",
+				"rowId": "i-HITV9PbnY3",
+				"tableUrl": "https://coda.io/d/_dTGBFYq175J#_tugrid-IF1UMmZNt5"
+			}
+		],
+		"Type": [
+			"HTML attribute value"
+		],
+		"Discussion": {
+			"@context": "http://schema.org/",
+			"@type": "WebPage",
+			"url": "https://github.com/Devographics/surveys/discussions/155"
+		},
+		"Status": {
+			"@context": "http://schema.org/",
+			"@type": "StructuredValue",
+			"additionalType": "row",
+			"name": "Cutting Edge",
+			"url": "https://coda.io/d/_dTGBFYq175J#_tugrid-BqPGmglU_b/_rui-LMy3PoJR22",
+			"tableId": "grid-BqPGmglU_b",
+			"rowId": "i-LMy3PoJR22",
+			"tableUrl": "https://coda.io/d/_dTGBFYq175J#_tugrid-BqPGmglU_b"
+		},
+		"In Part 1": {
+			"@context": "http://schema.org/",
+			"@type": "StructuredValue",
+			"additionalType": "row",
+			"name": "Yes",
+			"url": "https://coda.io/d/_dTGBFYq175J#_tugrid-RUMkEBKBsZ/_rui-CiZ6xQAbPU",
+			"tableId": "grid-RUMkEBKBsZ",
+			"rowId": "i-CiZ6xQAbPU",
+			"tableUrl": "https://coda.io/d/_dTGBFYq175J#_tugrid-RUMkEBKBsZ"
+		},
+		"Upvotes": 25,
+		"id": "contenteditable_plaintext",
+		"Needs Translation": false
+	},
+	{
+		"Question": "Using Custom Elements",
+		"Focus area": [
+			{
+				"@context": "http://schema.org/",
+				"@type": "StructuredValue",
+				"additionalType": "row",
+				"name": "Consuming Web Components",
+				"url": "https://coda.io/d/_dTGBFYq175J#_tugrid-IF1UMmZNt5/_rui-KPeW6x5nOV",
+				"tableId": "grid-IF1UMmZNt5",
+				"rowId": "i-KPeW6x5nOV",
+				"tableUrl": "https://coda.io/d/_dTGBFYq175J#_tugrid-IF1UMmZNt5"
+			}
+		],
+		"Type": [
+			"HTML element"
+		],
+		"Discussion": {
+			"@context": "http://schema.org/",
+			"@type": "WebPage",
+			"url": "https://github.com/Devographics/surveys/discussions/154"
+		},
+		"Status": {
+			"@context": "http://schema.org/",
+			"@type": "StructuredValue",
+			"additionalType": "row",
+			"name": "Stable",
+			"url": "https://coda.io/d/_dTGBFYq175J#_tugrid-BqPGmglU_b/_rui-SyiVTehUqi",
+			"tableId": "grid-BqPGmglU_b",
+			"rowId": "i-SyiVTehUqi",
+			"tableUrl": "https://coda.io/d/_dTGBFYq175J#_tugrid-BqPGmglU_b"
+		},
+		"In Part 1": {
+			"@context": "http://schema.org/",
+			"@type": "StructuredValue",
+			"additionalType": "row",
+			"name": "Yes",
+			"url": "https://coda.io/d/_dTGBFYq175J#_tugrid-RUMkEBKBsZ/_rui-CiZ6xQAbPU",
+			"tableId": "grid-RUMkEBKBsZ",
+			"rowId": "i-CiZ6xQAbPU",
+			"tableUrl": "https://coda.io/d/_dTGBFYq175J#_tugrid-RUMkEBKBsZ"
+		},
+		"Upvotes": 73,
+		"id": "custom_elements_using",
+		"Needs Translation": true
+	},
+	{
+		"Question": "`input.showPicker()` ",
+		"Focus area": [
+			{
+				"@context": "http://schema.org/",
+				"@type": "StructuredValue",
+				"additionalType": "row",
+				"name": "Forms & Editing",
+				"url": "https://coda.io/d/_dTGBFYq175J#_tugrid-IF1UMmZNt5/_rui-HITV9PbnY3",
+				"tableId": "grid-IF1UMmZNt5",
+				"rowId": "i-HITV9PbnY3",
+				"tableUrl": "https://coda.io/d/_dTGBFYq175J#_tugrid-IF1UMmZNt5"
+			}
+		],
+		"Type": [
+			"JS API"
+		],
+		"Discussion": {
+			"@context": "http://schema.org/",
+			"@type": "WebPage",
+			"url": "https://github.com/Devographics/surveys/discussions/153"
+		},
+		"Status": {
+			"@context": "http://schema.org/",
+			"@type": "StructuredValue",
+			"additionalType": "row",
+			"name": "Cutting Edge",
+			"url": "https://coda.io/d/_dTGBFYq175J#_tugrid-BqPGmglU_b/_rui-LMy3PoJR22",
+			"tableId": "grid-BqPGmglU_b",
+			"rowId": "i-LMy3PoJR22",
+			"tableUrl": "https://coda.io/d/_dTGBFYq175J#_tugrid-BqPGmglU_b"
+		},
+		"In Part 1": {
+			"@context": "http://schema.org/",
+			"@type": "StructuredValue",
+			"additionalType": "row",
+			"name": "Yes",
+			"url": "https://coda.io/d/_dTGBFYq175J#_tugrid-RUMkEBKBsZ/_rui-CiZ6xQAbPU",
+			"tableId": "grid-RUMkEBKBsZ",
+			"rowId": "i-CiZ6xQAbPU",
+			"tableUrl": "https://coda.io/d/_dTGBFYq175J#_tugrid-RUMkEBKBsZ"
+		},
+		"Upvotes": 34,
+		"id": "showpicker",
+		"Needs Translation": false
+	},
+	{
+		"Question": "Structured data (RDFa, Microdata, Microformats)",
+		"Focus area": [
+			{
+				"@context": "http://schema.org/",
+				"@type": "StructuredValue",
+				"additionalType": "row",
+				"name": "Semantic HTML",
+				"url": "https://coda.io/d/_dTGBFYq175J#_tugrid-IF1UMmZNt5/_rui-lnIUWZdEr5",
+				"tableId": "grid-IF1UMmZNt5",
+				"rowId": "i-lnIUWZdEr5",
+				"tableUrl": "https://coda.io/d/_dTGBFYq175J#_tugrid-IF1UMmZNt5"
+			}
+		],
+		"Type": [
+			"Other"
+		],
+		"Discussion": {
+			"@context": "http://schema.org/",
+			"@type": "WebPage",
+			"url": "https://github.com/Devographics/surveys/discussions/152"
+		},
+		"Status": {
+			"@context": "http://schema.org/",
+			"@type": "StructuredValue",
+			"additionalType": "row",
+			"name": "Stable",
+			"url": "https://coda.io/d/_dTGBFYq175J#_tugrid-BqPGmglU_b/_rui-SyiVTehUqi",
+			"tableId": "grid-BqPGmglU_b",
+			"rowId": "i-SyiVTehUqi",
+			"tableUrl": "https://coda.io/d/_dTGBFYq175J#_tugrid-BqPGmglU_b"
+		},
+		"In Part 1": {
+			"@context": "http://schema.org/",
+			"@type": "StructuredValue",
+			"additionalType": "row",
+			"name": "In checkbox question",
+			"url": "https://coda.io/d/_dTGBFYq175J#_tugrid-RUMkEBKBsZ/_rui-r49H6EfVVa",
+			"tableId": "grid-RUMkEBKBsZ",
+			"rowId": "i-r49H6EfVVa",
+			"tableUrl": "https://coda.io/d/_dTGBFYq175J#_tugrid-RUMkEBKBsZ"
+		},
+		"Upvotes": 28,
+		"id": "structured_data",
+		"Needs Translation": true
+	},
+	{
+		"Question": "Content-Security Policy (CSP)",
+		"Focus area": [
+			{
+				"@context": "http://schema.org/",
+				"@type": "StructuredValue",
+				"additionalType": "row",
+				"name": "Security & Privacy",
+				"url": "https://coda.io/d/_dTGBFYq175J#_tugrid-IF1UMmZNt5/_rui-cgPPUwtNEO",
+				"tableId": "grid-IF1UMmZNt5",
+				"rowId": "i-cgPPUwtNEO",
+				"tableUrl": "https://coda.io/d/_dTGBFYq175J#_tugrid-IF1UMmZNt5"
+			}
+		],
+		"Type": [
+			"HTTP"
+		],
+		"Discussion": {
+			"@context": "http://schema.org/",
+			"@type": "WebPage",
+			"url": "https://github.com/Devographics/surveys/discussions/151"
+		},
+		"Status": {
+			"@context": "http://schema.org/",
+			"@type": "StructuredValue",
+			"additionalType": "row",
+			"name": "Stable",
+			"url": "https://coda.io/d/_dTGBFYq175J#_tugrid-BqPGmglU_b/_rui-SyiVTehUqi",
+			"tableId": "grid-BqPGmglU_b",
+			"rowId": "i-SyiVTehUqi",
+			"tableUrl": "https://coda.io/d/_dTGBFYq175J#_tugrid-BqPGmglU_b"
+		},
+		"In Part 1": {
+			"@context": "http://schema.org/",
+			"@type": "StructuredValue",
+			"additionalType": "row",
+			"name": "Likely Yes",
+			"url": "https://coda.io/d/_dTGBFYq175J#_tugrid-RUMkEBKBsZ/_rui-4yGRpoH1zz",
+			"tableId": "grid-RUMkEBKBsZ",
+			"rowId": "i-4yGRpoH1zz",
+			"tableUrl": "https://coda.io/d/_dTGBFYq175J#_tugrid-RUMkEBKBsZ"
+		},
+		"Upvotes": 28,
+		"id": "content_security_policy",
+		"Needs Translation": true
+	},
+	{
+		"Question": "CORS",
+		"Focus area": [
+			{
+				"@context": "http://schema.org/",
+				"@type": "StructuredValue",
+				"additionalType": "row",
+				"name": "Security & Privacy",
+				"url": "https://coda.io/d/_dTGBFYq175J#_tugrid-IF1UMmZNt5/_rui-cgPPUwtNEO",
+				"tableId": "grid-IF1UMmZNt5",
+				"rowId": "i-cgPPUwtNEO",
+				"tableUrl": "https://coda.io/d/_dTGBFYq175J#_tugrid-IF1UMmZNt5"
+			}
+		],
+		"Type": [
+			"HTTP"
+		],
+		"Discussion": {
+			"@context": "http://schema.org/",
+			"@type": "WebPage",
+			"url": "https://github.com/Devographics/surveys/discussions/150"
+		},
+		"Status": {
+			"@context": "http://schema.org/",
+			"@type": "StructuredValue",
+			"additionalType": "row",
+			"name": "Stable",
+			"url": "https://coda.io/d/_dTGBFYq175J#_tugrid-BqPGmglU_b/_rui-SyiVTehUqi",
+			"tableId": "grid-BqPGmglU_b",
+			"rowId": "i-SyiVTehUqi",
+			"tableUrl": "https://coda.io/d/_dTGBFYq175J#_tugrid-BqPGmglU_b"
+		},
+		"In Part 1": {
+			"@context": "http://schema.org/",
+			"@type": "StructuredValue",
+			"additionalType": "row",
+			"name": "Likely No",
+			"url": "https://coda.io/d/_dTGBFYq175J#_tugrid-RUMkEBKBsZ/_rui-tL7JBvZWvM",
+			"tableId": "grid-RUMkEBKBsZ",
+			"rowId": "i-tL7JBvZWvM",
+			"tableUrl": "https://coda.io/d/_dTGBFYq175J#_tugrid-RUMkEBKBsZ"
+		},
+		"Upvotes": 24,
+		"id": "cors",
+		"Needs Translation": false
+	},
+	{
+		"Question": "`part` attribute",
+		"Focus area": [
+			{
+				"@context": "http://schema.org/",
+				"@type": "StructuredValue",
+				"additionalType": "row",
+				"name": "Making Web Components",
+				"url": "https://coda.io/d/_dTGBFYq175J#_tugrid-IF1UMmZNt5/_rui-FgI34TEfuP",
+				"tableId": "grid-IF1UMmZNt5",
+				"rowId": "i-FgI34TEfuP",
+				"tableUrl": "https://coda.io/d/_dTGBFYq175J#_tugrid-IF1UMmZNt5"
+			}
+		],
+		"Type": [
+			"HTML attribute"
+		],
+		"Discussion": {
+			"@context": "http://schema.org/",
+			"@type": "WebPage",
+			"url": "https://github.com/Devographics/surveys/discussions/134"
+		},
+		"Status": {
+			"@context": "http://schema.org/",
+			"@type": "StructuredValue",
+			"additionalType": "row",
+			"name": "Stable",
+			"url": "https://coda.io/d/_dTGBFYq175J#_tugrid-BqPGmglU_b/_rui-SyiVTehUqi",
+			"tableId": "grid-BqPGmglU_b",
+			"rowId": "i-SyiVTehUqi",
+			"tableUrl": "https://coda.io/d/_dTGBFYq175J#_tugrid-BqPGmglU_b"
+		},
+		"In Part 1": {
+			"@context": "http://schema.org/",
+			"@type": "StructuredValue",
+			"additionalType": "row",
+			"name": "In checkbox question",
+			"url": "https://coda.io/d/_dTGBFYq175J#_tugrid-RUMkEBKBsZ/_rui-r49H6EfVVa",
+			"tableId": "grid-RUMkEBKBsZ",
+			"rowId": "i-r49H6EfVVa",
+			"tableUrl": "https://coda.io/d/_dTGBFYq175J#_tugrid-RUMkEBKBsZ"
+		},
+		"Upvotes": 26,
+		"id": "part_attribute",
+		"Needs Translation": true
+	},
+	{
+		"Question": "Resource Hints (all)",
+		"Focus area": [
+			{
+				"@context": "http://schema.org/",
+				"@type": "StructuredValue",
+				"additionalType": "row",
+				"name": "Performance",
+				"url": "https://coda.io/d/_dTGBFYq175J#_tugrid-IF1UMmZNt5/_rui-bYbJdhJNeD",
+				"tableId": "grid-IF1UMmZNt5",
+				"rowId": "i-bYbJdhJNeD",
+				"tableUrl": "https://coda.io/d/_dTGBFYq175J#_tugrid-IF1UMmZNt5"
+			}
+		],
+		"Type": [
+			"HTML attribute value"
+		],
+		"Discussion": {
+			"@context": "http://schema.org/",
+			"@type": "WebPage",
+			"url": "https://github.com/Devographics/surveys/discussions/109"
+		},
+		"Status": {
+			"@context": "http://schema.org/",
+			"@type": "StructuredValue",
+			"additionalType": "row",
+			"name": "Cutting Edge",
+			"url": "https://coda.io/d/_dTGBFYq175J#_tugrid-BqPGmglU_b/_rui-LMy3PoJR22",
+			"tableId": "grid-BqPGmglU_b",
+			"rowId": "i-LMy3PoJR22",
+			"tableUrl": "https://coda.io/d/_dTGBFYq175J#_tugrid-BqPGmglU_b"
+		},
+		"In Part 1": {
+			"@context": "http://schema.org/",
+			"@type": "StructuredValue",
+			"additionalType": "row",
+			"name": "In checkbox question",
+			"url": "https://coda.io/d/_dTGBFYq175J#_tugrid-RUMkEBKBsZ/_rui-r49H6EfVVa",
+			"tableId": "grid-RUMkEBKBsZ",
+			"rowId": "i-r49H6EfVVa",
+			"tableUrl": "https://coda.io/d/_dTGBFYq175J#_tugrid-RUMkEBKBsZ"
+		},
+		"Upvotes": 22,
+		"id": "resource_hints",
+		"Needs Translation": true
+	},
+	{
+		"Question": "`<breadcrumb>` ",
+		"Focus area": [
+			{
+				"@context": "http://schema.org/",
+				"@type": "StructuredValue",
+				"additionalType": "row",
+				"name": "Semantic HTML",
+				"url": "https://coda.io/d/_dTGBFYq175J#_tugrid-IF1UMmZNt5/_rui-lnIUWZdEr5",
+				"tableId": "grid-IF1UMmZNt5",
+				"rowId": "i-lnIUWZdEr5",
+				"tableUrl": "https://coda.io/d/_dTGBFYq175J#_tugrid-IF1UMmZNt5"
+			}
+		],
+		"Type": [
+			"HTML element"
+		],
+		"Discussion": {
+			"@context": "http://schema.org/",
+			"@type": "WebPage",
+			"url": "https://github.com/Devographics/surveys/discussions/116"
+		},
+		"Status": {
+			"@context": "http://schema.org/",
+			"@type": "StructuredValue",
+			"additionalType": "row",
+			"name": "Future",
+			"url": "https://coda.io/d/_dTGBFYq175J#_tugrid-BqPGmglU_b/_rui-vwaDIcBrtd",
+			"tableId": "grid-BqPGmglU_b",
+			"rowId": "i-vwaDIcBrtd",
+			"tableUrl": "https://coda.io/d/_dTGBFYq175J#_tugrid-BqPGmglU_b"
+		},
+		"In Part 1": {
+			"@context": "http://schema.org/",
+			"@type": "StructuredValue",
+			"additionalType": "row",
+			"name": "No",
+			"url": "https://coda.io/d/_dTGBFYq175J#_tugrid-RUMkEBKBsZ/_rui-RjHDLbCCCx",
+			"tableId": "grid-RUMkEBKBsZ",
+			"rowId": "i-RjHDLbCCCx",
+			"tableUrl": "https://coda.io/d/_dTGBFYq175J#_tugrid-RUMkEBKBsZ"
+		},
+		"Upvotes": 54,
+		"id": "breadcrumb_element",
+		"Needs Translation": false
+	},
+	{
+		"Question": "Client Hints",
+		"Focus area": [
+			{
+				"@context": "http://schema.org/",
+				"@type": "StructuredValue",
+				"additionalType": "row",
+				"name": "Other",
+				"url": "https://coda.io/d/_dTGBFYq175J#_tugrid-IF1UMmZNt5/_rui-ywmcUsXGXQ",
+				"tableId": "grid-IF1UMmZNt5",
+				"rowId": "i-ywmcUsXGXQ",
+				"tableUrl": "https://coda.io/d/_dTGBFYq175J#_tugrid-IF1UMmZNt5"
+			}
+		],
+		"Type": [
+			"HTTP"
+		],
+		"Discussion": {
+			"@context": "http://schema.org/",
+			"@type": "WebPage",
+			"url": "https://github.com/Devographics/surveys/discussions/110"
+		},
+		"Status": {
+			"@context": "http://schema.org/",
+			"@type": "StructuredValue",
+			"additionalType": "row",
+			"name": "Cutting Edge",
+			"url": "https://coda.io/d/_dTGBFYq175J#_tugrid-BqPGmglU_b/_rui-LMy3PoJR22",
+			"tableId": "grid-BqPGmglU_b",
+			"rowId": "i-LMy3PoJR22",
+			"tableUrl": "https://coda.io/d/_dTGBFYq175J#_tugrid-BqPGmglU_b"
+		},
+		"In Part 1": {
+			"@context": "http://schema.org/",
+			"@type": "StructuredValue",
+			"additionalType": "row",
+			"name": "Likely No",
+			"url": "https://coda.io/d/_dTGBFYq175J#_tugrid-RUMkEBKBsZ/_rui-tL7JBvZWvM",
+			"tableId": "grid-RUMkEBKBsZ",
+			"rowId": "i-tL7JBvZWvM",
+			"tableUrl": "https://coda.io/d/_dTGBFYq175J#_tugrid-RUMkEBKBsZ"
+		},
+		"Upvotes": 22,
+		"id": "client_hints",
+		"Needs Translation": true
+	},
+	{
+		"Question": "Imperative slot assignment",
+		"Focus area": [
+			{
+				"@context": "http://schema.org/",
+				"@type": "StructuredValue",
+				"additionalType": "row",
+				"name": "Making Web Components",
+				"url": "https://coda.io/d/_dTGBFYq175J#_tugrid-IF1UMmZNt5/_rui-FgI34TEfuP",
+				"tableId": "grid-IF1UMmZNt5",
+				"rowId": "i-FgI34TEfuP",
+				"tableUrl": "https://coda.io/d/_dTGBFYq175J#_tugrid-IF1UMmZNt5"
+			}
+		],
+		"Type": [
+			"Other"
+		],
+		"Discussion": {
+			"@context": "http://schema.org/",
+			"@type": "WebPage",
+			"url": "https://github.com/Devographics/surveys/discussions/98"
+		},
+		"Status": {
+			"@context": "http://schema.org/",
+			"@type": "StructuredValue",
+			"additionalType": "row",
+			"name": "Recent",
+			"url": "https://coda.io/d/_dTGBFYq175J#_tugrid-BqPGmglU_b/_rui-bntRYhG1UO",
+			"tableId": "grid-BqPGmglU_b",
+			"rowId": "i-bntRYhG1UO",
+			"tableUrl": "https://coda.io/d/_dTGBFYq175J#_tugrid-BqPGmglU_b"
+		},
+		"In Part 1": {
+			"@context": "http://schema.org/",
+			"@type": "StructuredValue",
+			"additionalType": "row",
+			"name": "Yes",
+			"url": "https://coda.io/d/_dTGBFYq175J#_tugrid-RUMkEBKBsZ/_rui-CiZ6xQAbPU",
+			"tableId": "grid-RUMkEBKBsZ",
+			"rowId": "i-CiZ6xQAbPU",
+			"tableUrl": "https://coda.io/d/_dTGBFYq175J#_tugrid-RUMkEBKBsZ"
+		},
+		"Upvotes": 13,
+		"id": "imperative_slot",
+		"Needs Translation": true
+	},
+	{
+		"Question": "Form validation",
+		"Focus area": [
+			{
+				"@context": "http://schema.org/",
+				"@type": "StructuredValue",
+				"additionalType": "row",
+				"name": "Forms & Editing",
+				"url": "https://coda.io/d/_dTGBFYq175J#_tugrid-IF1UMmZNt5/_rui-HITV9PbnY3",
+				"tableId": "grid-IF1UMmZNt5",
+				"rowId": "i-HITV9PbnY3",
+				"tableUrl": "https://coda.io/d/_dTGBFYq175J#_tugrid-IF1UMmZNt5"
+			}
+		],
+		"Type": [
+			"JS API"
+		],
+		"Discussion": {
+			"@context": "http://schema.org/",
+			"@type": "WebPage",
+			"url": "https://github.com/Devographics/surveys/discussions/120"
+		},
+		"Status": {
+			"@context": "http://schema.org/",
+			"@type": "StructuredValue",
+			"additionalType": "row",
+			"name": "Stable",
+			"url": "https://coda.io/d/_dTGBFYq175J#_tugrid-BqPGmglU_b/_rui-SyiVTehUqi",
+			"tableId": "grid-BqPGmglU_b",
+			"rowId": "i-SyiVTehUqi",
+			"tableUrl": "https://coda.io/d/_dTGBFYq175J#_tugrid-BqPGmglU_b"
+		},
+		"In Part 1": {
+			"@context": "http://schema.org/",
+			"@type": "StructuredValue",
+			"additionalType": "row",
+			"name": "In checkbox question",
+			"url": "https://coda.io/d/_dTGBFYq175J#_tugrid-RUMkEBKBsZ/_rui-r49H6EfVVa",
+			"tableId": "grid-RUMkEBKBsZ",
+			"rowId": "i-r49H6EfVVa",
+			"tableUrl": "https://coda.io/d/_dTGBFYq175J#_tugrid-RUMkEBKBsZ"
+		},
+		"Upvotes": 69,
+		"id": "form_validation",
+		"Needs Translation": true
+	},
+	{
+		"Question": "`<math>` ",
+		"Focus area": [
+			{
+				"@context": "http://schema.org/",
+				"@type": "StructuredValue",
+				"additionalType": "row",
+				"name": "Embedding",
+				"url": "https://coda.io/d/_dTGBFYq175J#_tugrid-IF1UMmZNt5/_rui-8jmGxZ5d17",
+				"tableId": "grid-IF1UMmZNt5",
+				"rowId": "i-8jmGxZ5d17",
+				"tableUrl": "https://coda.io/d/_dTGBFYq175J#_tugrid-IF1UMmZNt5"
+			}
+		],
+		"Type": [
+			"HTML element"
+		],
+		"Discussion": {
+			"@context": "http://schema.org/",
+			"@type": "WebPage",
+			"url": "https://github.com/Devographics/surveys/discussions/126"
+		},
+		"Status": {
+			"@context": "http://schema.org/",
+			"@type": "StructuredValue",
+			"additionalType": "row",
+			"name": "Stable",
+			"url": "https://coda.io/d/_dTGBFYq175J#_tugrid-BqPGmglU_b/_rui-SyiVTehUqi",
+			"tableId": "grid-BqPGmglU_b",
+			"rowId": "i-SyiVTehUqi",
+			"tableUrl": "https://coda.io/d/_dTGBFYq175J#_tugrid-BqPGmglU_b"
+		},
+		"In Part 1": {
+			"@context": "http://schema.org/",
+			"@type": "StructuredValue",
+			"additionalType": "row",
+			"name": "In checkbox question",
+			"url": "https://coda.io/d/_dTGBFYq175J#_tugrid-RUMkEBKBsZ/_rui-r49H6EfVVa",
+			"tableId": "grid-RUMkEBKBsZ",
+			"rowId": "i-r49H6EfVVa",
+			"tableUrl": "https://coda.io/d/_dTGBFYq175J#_tugrid-RUMkEBKBsZ"
+		},
+		"Upvotes": 18,
+		"id": "math_element",
+		"Needs Translation": false
+	},
+	{
+		"Question": "`<svg>` ",
+		"Focus area": [
+			{
+				"@context": "http://schema.org/",
+				"@type": "StructuredValue",
+				"additionalType": "row",
+				"name": "Embedding",
+				"url": "https://coda.io/d/_dTGBFYq175J#_tugrid-IF1UMmZNt5/_rui-8jmGxZ5d17",
+				"tableId": "grid-IF1UMmZNt5",
+				"rowId": "i-8jmGxZ5d17",
+				"tableUrl": "https://coda.io/d/_dTGBFYq175J#_tugrid-IF1UMmZNt5"
+			}
+		],
+		"Type": [
+			"HTML element"
+		],
+		"Discussion": {
+			"@context": "http://schema.org/",
+			"@type": "WebPage",
+			"url": "https://github.com/Devographics/surveys/discussions/125"
+		},
+		"Status": {
+			"@context": "http://schema.org/",
+			"@type": "StructuredValue",
+			"additionalType": "row",
+			"name": "Stable",
+			"url": "https://coda.io/d/_dTGBFYq175J#_tugrid-BqPGmglU_b/_rui-SyiVTehUqi",
+			"tableId": "grid-BqPGmglU_b",
+			"rowId": "i-SyiVTehUqi",
+			"tableUrl": "https://coda.io/d/_dTGBFYq175J#_tugrid-BqPGmglU_b"
+		},
+		"In Part 1": {
+			"@context": "http://schema.org/",
+			"@type": "StructuredValue",
+			"additionalType": "row",
+			"name": "In checkbox question",
+			"url": "https://coda.io/d/_dTGBFYq175J#_tugrid-RUMkEBKBsZ/_rui-r49H6EfVVa",
+			"tableId": "grid-RUMkEBKBsZ",
+			"rowId": "i-r49H6EfVVa",
+			"tableUrl": "https://coda.io/d/_dTGBFYq175J#_tugrid-RUMkEBKBsZ"
+		},
+		"Upvotes": 52,
+		"id": "svg_element",
+		"Needs Translation": false
+	},
+	{
+		"Question": "Fetch Priority API (`fetchpriority` attribute)",
+		"Focus area": [
+			{
+				"@context": "http://schema.org/",
+				"@type": "StructuredValue",
+				"additionalType": "row",
+				"name": "Performance",
+				"url": "https://coda.io/d/_dTGBFYq175J#_tugrid-IF1UMmZNt5/_rui-bYbJdhJNeD",
+				"tableId": "grid-IF1UMmZNt5",
+				"rowId": "i-bYbJdhJNeD",
+				"tableUrl": "https://coda.io/d/_dTGBFYq175J#_tugrid-IF1UMmZNt5"
+			},
+			{
+				"@context": "http://schema.org/",
+				"@type": "StructuredValue",
+				"additionalType": "row",
+				"name": "Embedding",
+				"url": "https://coda.io/d/_dTGBFYq175J#_tugrid-IF1UMmZNt5/_rui-8jmGxZ5d17",
+				"tableId": "grid-IF1UMmZNt5",
+				"rowId": "i-8jmGxZ5d17",
+				"tableUrl": "https://coda.io/d/_dTGBFYq175J#_tugrid-IF1UMmZNt5"
+			},
+			{
+				"@context": "http://schema.org/",
+				"@type": "StructuredValue",
+				"additionalType": "row",
+				"name": "Multimedia",
+				"url": "https://coda.io/d/_dTGBFYq175J#_tugrid-IF1UMmZNt5/_rui-KBPi_lQvQe",
+				"tableId": "grid-IF1UMmZNt5",
+				"rowId": "i-KBPi_lQvQe",
+				"tableUrl": "https://coda.io/d/_dTGBFYq175J#_tugrid-IF1UMmZNt5"
+			}
+		],
+		"Type": [
+			"HTML attribute"
+		],
+		"Discussion": {
+			"@context": "http://schema.org/",
+			"@type": "WebPage",
+			"url": "https://github.com/Devographics/surveys/discussions/137"
+		},
+		"Status": {
+			"@context": "http://schema.org/",
+			"@type": "StructuredValue",
+			"additionalType": "row",
+			"name": "Cutting Edge",
+			"url": "https://coda.io/d/_dTGBFYq175J#_tugrid-BqPGmglU_b/_rui-LMy3PoJR22",
+			"tableId": "grid-BqPGmglU_b",
+			"rowId": "i-LMy3PoJR22",
+			"tableUrl": "https://coda.io/d/_dTGBFYq175J#_tugrid-BqPGmglU_b"
+		},
+		"In Part 1": {
+			"@context": "http://schema.org/",
+			"@type": "StructuredValue",
+			"additionalType": "row",
+			"name": "Yes",
+			"url": "https://coda.io/d/_dTGBFYq175J#_tugrid-RUMkEBKBsZ/_rui-CiZ6xQAbPU",
+			"tableId": "grid-RUMkEBKBsZ",
+			"rowId": "i-CiZ6xQAbPU",
+			"tableUrl": "https://coda.io/d/_dTGBFYq175J#_tugrid-RUMkEBKBsZ"
+		},
+		"Upvotes": 37,
+		"id": "fetchpriority_attribute",
+		"Needs Translation": true
+	},
+	{
+		"Question": "`decoding` attribute",
+		"Focus area": [
+			{
+				"@context": "http://schema.org/",
+				"@type": "StructuredValue",
+				"additionalType": "row",
+				"name": "Multimedia",
+				"url": "https://coda.io/d/_dTGBFYq175J#_tugrid-IF1UMmZNt5/_rui-KBPi_lQvQe",
+				"tableId": "grid-IF1UMmZNt5",
+				"rowId": "i-KBPi_lQvQe",
+				"tableUrl": "https://coda.io/d/_dTGBFYq175J#_tugrid-IF1UMmZNt5"
+			},
+			{
+				"@context": "http://schema.org/",
+				"@type": "StructuredValue",
+				"additionalType": "row",
+				"name": "Performance",
+				"url": "https://coda.io/d/_dTGBFYq175J#_tugrid-IF1UMmZNt5/_rui-bYbJdhJNeD",
+				"tableId": "grid-IF1UMmZNt5",
+				"rowId": "i-bYbJdhJNeD",
+				"tableUrl": "https://coda.io/d/_dTGBFYq175J#_tugrid-IF1UMmZNt5"
+			}
+		],
+		"Type": [
+			"HTML attribute"
+		],
+		"Discussion": {
+			"@context": "http://schema.org/",
+			"@type": "WebPage",
+			"url": "https://github.com/Devographics/surveys/discussions/136"
+		},
+		"Status": {
+			"@context": "http://schema.org/",
+			"@type": "StructuredValue",
+			"additionalType": "row",
+			"name": "Stable",
+			"url": "https://coda.io/d/_dTGBFYq175J#_tugrid-BqPGmglU_b/_rui-SyiVTehUqi",
+			"tableId": "grid-BqPGmglU_b",
+			"rowId": "i-SyiVTehUqi",
+			"tableUrl": "https://coda.io/d/_dTGBFYq175J#_tugrid-BqPGmglU_b"
+		},
+		"In Part 1": {
+			"@context": "http://schema.org/",
+			"@type": "StructuredValue",
+			"additionalType": "row",
+			"name": "In checkbox question",
+			"url": "https://coda.io/d/_dTGBFYq175J#_tugrid-RUMkEBKBsZ/_rui-r49H6EfVVa",
+			"tableId": "grid-RUMkEBKBsZ",
+			"rowId": "i-r49H6EfVVa",
+			"tableUrl": "https://coda.io/d/_dTGBFYq175J#_tugrid-RUMkEBKBsZ"
+		},
+		"Upvotes": 13,
+		"id": "decoding_attribute",
+		"Needs Translation": true
+	},
+	{
+		"Question": "`<template>` ",
+		"Focus area": [
+			{
+				"@context": "http://schema.org/",
+				"@type": "StructuredValue",
+				"additionalType": "row",
+				"name": "Templating",
+				"url": "https://coda.io/d/_dTGBFYq175J#_tugrid-IF1UMmZNt5/_rui-_59LF43OON",
+				"tableId": "grid-IF1UMmZNt5",
+				"rowId": "i-_59LF43OON",
+				"tableUrl": "https://coda.io/d/_dTGBFYq175J#_tugrid-IF1UMmZNt5"
+			}
+		],
+		"Type": [
+			"HTML element"
+		],
+		"Discussion": {
+			"@context": "http://schema.org/",
+			"@type": "WebPage",
+			"url": "https://github.com/Devographics/surveys/discussions/96"
+		},
+		"Status": {
+			"@context": "http://schema.org/",
+			"@type": "StructuredValue",
+			"additionalType": "row",
+			"name": "Stable",
+			"url": "https://coda.io/d/_dTGBFYq175J#_tugrid-BqPGmglU_b/_rui-SyiVTehUqi",
+			"tableId": "grid-BqPGmglU_b",
+			"rowId": "i-SyiVTehUqi",
+			"tableUrl": "https://coda.io/d/_dTGBFYq175J#_tugrid-BqPGmglU_b"
+		},
+		"In Part 1": {
+			"@context": "http://schema.org/",
+			"@type": "StructuredValue",
+			"additionalType": "row",
+			"name": "Likely Yes",
+			"url": "https://coda.io/d/_dTGBFYq175J#_tugrid-RUMkEBKBsZ/_rui-4yGRpoH1zz",
+			"tableId": "grid-RUMkEBKBsZ",
+			"rowId": "i-4yGRpoH1zz",
+			"tableUrl": "https://coda.io/d/_dTGBFYq175J#_tugrid-RUMkEBKBsZ"
+		},
+		"Upvotes": 35,
+		"id": "template_element",
+		"Needs Translation": false
+	},
+	{
+		"Question": "Resource Hints: `<link rel=”preconnect”>` ",
+		"Focus area": [
+			{
+				"@context": "http://schema.org/",
+				"@type": "StructuredValue",
+				"additionalType": "row",
+				"name": "Performance",
+				"url": "https://coda.io/d/_dTGBFYq175J#_tugrid-IF1UMmZNt5/_rui-bYbJdhJNeD",
+				"tableId": "grid-IF1UMmZNt5",
+				"rowId": "i-bYbJdhJNeD",
+				"tableUrl": "https://coda.io/d/_dTGBFYq175J#_tugrid-IF1UMmZNt5"
+			}
+		],
+		"Type": [
+			"HTML element"
+		],
+		"Discussion": {
+			"@context": "http://schema.org/",
+			"@type": "WebPage",
+			"url": "https://github.com/Devographics/surveys/discussions/107"
+		},
+		"Status": {
+			"@context": "http://schema.org/",
+			"@type": "StructuredValue",
+			"additionalType": "row",
+			"name": "Recent",
+			"url": "https://coda.io/d/_dTGBFYq175J#_tugrid-BqPGmglU_b/_rui-bntRYhG1UO",
+			"tableId": "grid-BqPGmglU_b",
+			"rowId": "i-bntRYhG1UO",
+			"tableUrl": "https://coda.io/d/_dTGBFYq175J#_tugrid-BqPGmglU_b"
+		},
+		"In Part 1": {
+			"@context": "http://schema.org/",
+			"@type": "StructuredValue",
+			"additionalType": "row",
+			"name": "In checkbox question",
+			"url": "https://coda.io/d/_dTGBFYq175J#_tugrid-RUMkEBKBsZ/_rui-r49H6EfVVa",
+			"tableId": "grid-RUMkEBKBsZ",
+			"rowId": "i-r49H6EfVVa",
+			"tableUrl": "https://coda.io/d/_dTGBFYq175J#_tugrid-RUMkEBKBsZ"
+		},
+		"Upvotes": 14,
+		"id": "rh_preconnect",
+		"Needs Translation": true
+	},
+	{
+		"Question": "PWA manifest",
+		"Focus area": [
+			{
+				"@context": "http://schema.org/",
+				"@type": "StructuredValue",
+				"additionalType": "row",
+				"name": "Bridging the gap with native",
+				"url": "https://coda.io/d/_dTGBFYq175J#_tugrid-IF1UMmZNt5/_rui-g0DSoXECnm",
+				"tableId": "grid-IF1UMmZNt5",
+				"rowId": "i-g0DSoXECnm",
+				"tableUrl": "https://coda.io/d/_dTGBFYq175J#_tugrid-IF1UMmZNt5"
+			}
+		],
+		"Type": [
+			"Other"
+		],
+		"Discussion": {
+			"@context": "http://schema.org/",
+			"@type": "WebPage",
+			"url": "https://github.com/Devographics/surveys/discussions/119"
+		},
+		"Status": {
+			"@context": "http://schema.org/",
+			"@type": "StructuredValue",
+			"additionalType": "row",
+			"name": "Stable",
+			"url": "https://coda.io/d/_dTGBFYq175J#_tugrid-BqPGmglU_b/_rui-SyiVTehUqi",
+			"tableId": "grid-BqPGmglU_b",
+			"rowId": "i-SyiVTehUqi",
+			"tableUrl": "https://coda.io/d/_dTGBFYq175J#_tugrid-BqPGmglU_b"
+		},
+		"In Part 1": {
+			"@context": "http://schema.org/",
+			"@type": "StructuredValue",
+			"additionalType": "row",
+			"name": "In checkbox question",
+			"url": "https://coda.io/d/_dTGBFYq175J#_tugrid-RUMkEBKBsZ/_rui-r49H6EfVVa",
+			"tableId": "grid-RUMkEBKBsZ",
+			"rowId": "i-r49H6EfVVa",
+			"tableUrl": "https://coda.io/d/_dTGBFYq175J#_tugrid-RUMkEBKBsZ"
+		},
+		"Upvotes": 33,
+		"id": "pwa_manifest",
+		"Needs Translation": true
+	},
+	{
+		"Question": "Resource Hints: `<link rel=”prerender”>` ",
+		"Focus area": [
+			{
+				"@context": "http://schema.org/",
+				"@type": "StructuredValue",
+				"additionalType": "row",
+				"name": "Performance",
+				"url": "https://coda.io/d/_dTGBFYq175J#_tugrid-IF1UMmZNt5/_rui-bYbJdhJNeD",
+				"tableId": "grid-IF1UMmZNt5",
+				"rowId": "i-bYbJdhJNeD",
+				"tableUrl": "https://coda.io/d/_dTGBFYq175J#_tugrid-IF1UMmZNt5"
+			}
+		],
+		"Type": [
+			"HTML element"
+		],
+		"Discussion": {
+			"@context": "http://schema.org/",
+			"@type": "WebPage",
+			"url": "https://github.com/Devographics/surveys/discussions/106"
+		},
+		"Status": {
+			"@context": "http://schema.org/",
+			"@type": "StructuredValue",
+			"additionalType": "row",
+			"name": "Deprecated",
+			"url": "https://coda.io/d/_dTGBFYq175J#_tugrid-BqPGmglU_b/_rui-kk1oMqoM2T",
+			"tableId": "grid-BqPGmglU_b",
+			"rowId": "i-kk1oMqoM2T",
+			"tableUrl": "https://coda.io/d/_dTGBFYq175J#_tugrid-BqPGmglU_b"
+		},
+		"In Part 1": {
+			"@context": "http://schema.org/",
+			"@type": "StructuredValue",
+			"additionalType": "row",
+			"name": "In checkbox question",
+			"url": "https://coda.io/d/_dTGBFYq175J#_tugrid-RUMkEBKBsZ/_rui-r49H6EfVVa",
+			"tableId": "grid-RUMkEBKBsZ",
+			"rowId": "i-r49H6EfVVa",
+			"tableUrl": "https://coda.io/d/_dTGBFYq175J#_tugrid-RUMkEBKBsZ"
+		},
+		"Upvotes": 12,
+		"id": "rh_prerender",
+		"Needs Translation": true
+	},
+	{
+		"Question": "`focusgroup` attribute",
+		"Focus area": [
+			{
+				"@context": "http://schema.org/",
+				"@type": "StructuredValue",
+				"additionalType": "row",
+				"name": "ARIA & Accessibility APIs",
+				"url": "https://coda.io/d/_dTGBFYq175J#_tugrid-IF1UMmZNt5/_rui-qdh-vpq31x",
+				"tableId": "grid-IF1UMmZNt5",
+				"rowId": "i-qdh-vpq31x",
+				"tableUrl": "https://coda.io/d/_dTGBFYq175J#_tugrid-IF1UMmZNt5"
+			},
+			{
+				"@context": "http://schema.org/",
+				"@type": "StructuredValue",
+				"additionalType": "row",
+				"name": "Interactivity",
+				"url": "https://coda.io/d/_dTGBFYq175J#_tugrid-IF1UMmZNt5/_rui-W4J_OBZ_-R",
+				"tableId": "grid-IF1UMmZNt5",
+				"rowId": "i-W4J_OBZ_-R",
+				"tableUrl": "https://coda.io/d/_dTGBFYq175J#_tugrid-IF1UMmZNt5"
+			}
+		],
+		"Type": [
+			"HTML attribute"
+		],
+		"Discussion": {
+			"@context": "http://schema.org/",
+			"@type": "WebPage",
+			"url": "https://github.com/Devographics/surveys/discussions/102"
+		},
+		"Status": {
+			"@context": "http://schema.org/",
+			"@type": "StructuredValue",
+			"additionalType": "row",
+			"name": "Future",
+			"url": "https://coda.io/d/_dTGBFYq175J#_tugrid-BqPGmglU_b/_rui-vwaDIcBrtd",
+			"tableId": "grid-BqPGmglU_b",
+			"rowId": "i-vwaDIcBrtd",
+			"tableUrl": "https://coda.io/d/_dTGBFYq175J#_tugrid-BqPGmglU_b"
+		},
+		"In Part 1": {
+			"@context": "http://schema.org/",
+			"@type": "StructuredValue",
+			"additionalType": "row",
+			"name": "Yes",
+			"url": "https://coda.io/d/_dTGBFYq175J#_tugrid-RUMkEBKBsZ/_rui-CiZ6xQAbPU",
+			"tableId": "grid-RUMkEBKBsZ",
+			"rowId": "i-CiZ6xQAbPU",
+			"tableUrl": "https://coda.io/d/_dTGBFYq175J#_tugrid-RUMkEBKBsZ"
+		},
+		"Upvotes": 18,
+		"id": "focusgroup_attribute",
+		"Needs Translation": true
+	},
+	{
+		"Question": "`referrerpolicy` attribute",
+		"Focus area": [
+			{
+				"@context": "http://schema.org/",
+				"@type": "StructuredValue",
+				"additionalType": "row",
+				"name": "Security & Privacy",
+				"url": "https://coda.io/d/_dTGBFYq175J#_tugrid-IF1UMmZNt5/_rui-cgPPUwtNEO",
+				"tableId": "grid-IF1UMmZNt5",
+				"rowId": "i-cgPPUwtNEO",
+				"tableUrl": "https://coda.io/d/_dTGBFYq175J#_tugrid-IF1UMmZNt5"
+			}
+		],
+		"Type": [
+			"HTML attribute"
+		],
+		"Discussion": {
+			"@context": "http://schema.org/",
+			"@type": "WebPage",
+			"url": "https://github.com/Devographics/surveys/discussions/146"
+		},
+		"Status": {
+			"@context": "http://schema.org/",
+			"@type": "StructuredValue",
+			"additionalType": "row",
+			"name": "Stable",
+			"url": "https://coda.io/d/_dTGBFYq175J#_tugrid-BqPGmglU_b/_rui-SyiVTehUqi",
+			"tableId": "grid-BqPGmglU_b",
+			"rowId": "i-SyiVTehUqi",
+			"tableUrl": "https://coda.io/d/_dTGBFYq175J#_tugrid-BqPGmglU_b"
+		},
+		"In Part 1": {
+			"@context": "http://schema.org/",
+			"@type": "StructuredValue",
+			"additionalType": "row",
+			"name": "Likely No",
+			"url": "https://coda.io/d/_dTGBFYq175J#_tugrid-RUMkEBKBsZ/_rui-tL7JBvZWvM",
+			"tableId": "grid-RUMkEBKBsZ",
+			"rowId": "i-tL7JBvZWvM",
+			"tableUrl": "https://coda.io/d/_dTGBFYq175J#_tugrid-RUMkEBKBsZ"
+		},
+		"Upvotes": 11,
+		"id": "referrerpolicy_attribute",
+		"Needs Translation": true
+	},
+	{
+		"Question": "Subresource Integrity (`integrity` attribute)",
+		"Focus area": [
+			{
+				"@context": "http://schema.org/",
+				"@type": "StructuredValue",
+				"additionalType": "row",
+				"name": "Security & Privacy",
+				"url": "https://coda.io/d/_dTGBFYq175J#_tugrid-IF1UMmZNt5/_rui-cgPPUwtNEO",
+				"tableId": "grid-IF1UMmZNt5",
+				"rowId": "i-cgPPUwtNEO",
+				"tableUrl": "https://coda.io/d/_dTGBFYq175J#_tugrid-IF1UMmZNt5"
+			}
+		],
+		"Type": [
+			"HTML attribute"
+		],
+		"Discussion": {
+			"@context": "http://schema.org/",
+			"@type": "WebPage",
+			"url": "https://github.com/Devographics/surveys/discussions/145"
+		},
+		"Status": {
+			"@context": "http://schema.org/",
+			"@type": "StructuredValue",
+			"additionalType": "row",
+			"name": "Stable",
+			"url": "https://coda.io/d/_dTGBFYq175J#_tugrid-BqPGmglU_b/_rui-SyiVTehUqi",
+			"tableId": "grid-BqPGmglU_b",
+			"rowId": "i-SyiVTehUqi",
+			"tableUrl": "https://coda.io/d/_dTGBFYq175J#_tugrid-BqPGmglU_b"
+		},
+		"In Part 1": {
+			"@context": "http://schema.org/",
+			"@type": "StructuredValue",
+			"additionalType": "row",
+			"name": "In checkbox question",
+			"url": "https://coda.io/d/_dTGBFYq175J#_tugrid-RUMkEBKBsZ/_rui-r49H6EfVVa",
+			"tableId": "grid-RUMkEBKBsZ",
+			"rowId": "i-r49H6EfVVa",
+			"tableUrl": "https://coda.io/d/_dTGBFYq175J#_tugrid-RUMkEBKBsZ"
+		},
+		"Upvotes": 11,
+		"id": "integrity_attribute",
+		"Needs Translation": true
+	},
+	{
+		"Question": "`crossorigin` attribute",
+		"Focus area": [
+			{
+				"@context": "http://schema.org/",
+				"@type": "StructuredValue",
+				"additionalType": "row",
+				"name": "Security & Privacy",
+				"url": "https://coda.io/d/_dTGBFYq175J#_tugrid-IF1UMmZNt5/_rui-cgPPUwtNEO",
+				"tableId": "grid-IF1UMmZNt5",
+				"rowId": "i-cgPPUwtNEO",
+				"tableUrl": "https://coda.io/d/_dTGBFYq175J#_tugrid-IF1UMmZNt5"
+			},
+			{
+				"@context": "http://schema.org/",
+				"@type": "StructuredValue",
+				"additionalType": "row",
+				"name": "Embedding",
+				"url": "https://coda.io/d/_dTGBFYq175J#_tugrid-IF1UMmZNt5/_rui-8jmGxZ5d17",
+				"tableId": "grid-IF1UMmZNt5",
+				"rowId": "i-8jmGxZ5d17",
+				"tableUrl": "https://coda.io/d/_dTGBFYq175J#_tugrid-IF1UMmZNt5"
+			}
+		],
+		"Type": [
+			"HTML attribute"
+		],
+		"Discussion": {
+			"@context": "http://schema.org/",
+			"@type": "WebPage",
+			"url": "https://github.com/Devographics/surveys/discussions/144"
+		},
+		"Status": {
+			"@context": "http://schema.org/",
+			"@type": "StructuredValue",
+			"additionalType": "row",
+			"name": "Stable",
+			"url": "https://coda.io/d/_dTGBFYq175J#_tugrid-BqPGmglU_b/_rui-SyiVTehUqi",
+			"tableId": "grid-BqPGmglU_b",
+			"rowId": "i-SyiVTehUqi",
+			"tableUrl": "https://coda.io/d/_dTGBFYq175J#_tugrid-BqPGmglU_b"
+		},
+		"In Part 1": {
+			"@context": "http://schema.org/",
+			"@type": "StructuredValue",
+			"additionalType": "row",
+			"name": "Likely No",
+			"url": "https://coda.io/d/_dTGBFYq175J#_tugrid-RUMkEBKBsZ/_rui-tL7JBvZWvM",
+			"tableId": "grid-RUMkEBKBsZ",
+			"rowId": "i-tL7JBvZWvM",
+			"tableUrl": "https://coda.io/d/_dTGBFYq175J#_tugrid-RUMkEBKBsZ"
+		},
+		"Upvotes": 23,
+		"id": "crossorigin_attribute",
+		"Needs Translation": false
+	},
+	{
+		"Question": "ARIA",
+		"Focus area": [
+			{
+				"@context": "http://schema.org/",
+				"@type": "StructuredValue",
+				"additionalType": "row",
+				"name": "ARIA & Accessibility APIs",
+				"url": "https://coda.io/d/_dTGBFYq175J#_tugrid-IF1UMmZNt5/_rui-qdh-vpq31x",
+				"tableId": "grid-IF1UMmZNt5",
+				"rowId": "i-qdh-vpq31x",
+				"tableUrl": "https://coda.io/d/_dTGBFYq175J#_tugrid-IF1UMmZNt5"
+			}
+		],
+		"Type": [
+			"HTML attribute"
+		],
+		"Discussion": {
+			"@context": "http://schema.org/",
+			"@type": "WebPage",
+			"url": "https://github.com/Devographics/surveys/discussions/114"
+		},
+		"Status": {
+			"@context": "http://schema.org/",
+			"@type": "StructuredValue",
+			"additionalType": "row",
+			"name": "Stable",
+			"url": "https://coda.io/d/_dTGBFYq175J#_tugrid-BqPGmglU_b/_rui-SyiVTehUqi",
+			"tableId": "grid-BqPGmglU_b",
+			"rowId": "i-SyiVTehUqi",
+			"tableUrl": "https://coda.io/d/_dTGBFYq175J#_tugrid-BqPGmglU_b"
+		},
+		"In Part 1": {
+			"@context": "http://schema.org/",
+			"@type": "StructuredValue",
+			"additionalType": "row",
+			"name": "In checkbox question",
+			"url": "https://coda.io/d/_dTGBFYq175J#_tugrid-RUMkEBKBsZ/_rui-r49H6EfVVa",
+			"tableId": "grid-RUMkEBKBsZ",
+			"rowId": "i-r49H6EfVVa",
+			"tableUrl": "https://coda.io/d/_dTGBFYq175J#_tugrid-RUMkEBKBsZ"
+		},
+		"Upvotes": 44,
+		"id": "aria",
+		"Needs Translation": false
+	},
+	{
+		"Question": "`srcset` and `sizes` attributes",
+		"Focus area": [
+			{
+				"@context": "http://schema.org/",
+				"@type": "StructuredValue",
+				"additionalType": "row",
+				"name": "Multimedia",
+				"url": "https://coda.io/d/_dTGBFYq175J#_tugrid-IF1UMmZNt5/_rui-KBPi_lQvQe",
+				"tableId": "grid-IF1UMmZNt5",
+				"rowId": "i-KBPi_lQvQe",
+				"tableUrl": "https://coda.io/d/_dTGBFYq175J#_tugrid-IF1UMmZNt5"
+			}
+		],
+		"Type": [
+			"HTML attribute"
+		],
+		"Discussion": {
+			"@context": "http://schema.org/",
+			"@type": "WebPage",
+			"url": "https://github.com/Devographics/surveys/discussions/123"
+		},
+		"Status": {
+			"@context": "http://schema.org/",
+			"@type": "StructuredValue",
+			"additionalType": "row",
+			"name": "Stable",
+			"url": "https://coda.io/d/_dTGBFYq175J#_tugrid-BqPGmglU_b/_rui-SyiVTehUqi",
+			"tableId": "grid-BqPGmglU_b",
+			"rowId": "i-SyiVTehUqi",
+			"tableUrl": "https://coda.io/d/_dTGBFYq175J#_tugrid-BqPGmglU_b"
+		},
+		"In Part 1": {
+			"@context": "http://schema.org/",
+			"@type": "StructuredValue",
+			"additionalType": "row",
+			"name": "In checkbox question",
+			"url": "https://coda.io/d/_dTGBFYq175J#_tugrid-RUMkEBKBsZ/_rui-r49H6EfVVa",
+			"tableId": "grid-RUMkEBKBsZ",
+			"rowId": "i-r49H6EfVVa",
+			"tableUrl": "https://coda.io/d/_dTGBFYq175J#_tugrid-RUMkEBKBsZ"
+		},
+		"Upvotes": 44,
+		"id": "respimg_attributes",
+		"Needs Translation": true
+	},
+	{
+		"Question": "HTML Media Capture",
+		"Focus area": [
+			{
+				"@context": "http://schema.org/",
+				"@type": "StructuredValue",
+				"additionalType": "row",
+				"name": "Multimedia",
+				"url": "https://coda.io/d/_dTGBFYq175J#_tugrid-IF1UMmZNt5/_rui-KBPi_lQvQe",
+				"tableId": "grid-IF1UMmZNt5",
+				"rowId": "i-KBPi_lQvQe",
+				"tableUrl": "https://coda.io/d/_dTGBFYq175J#_tugrid-IF1UMmZNt5"
+			},
+			{
+				"@context": "http://schema.org/",
+				"@type": "StructuredValue",
+				"additionalType": "row",
+				"name": "Forms & Editing",
+				"url": "https://coda.io/d/_dTGBFYq175J#_tugrid-IF1UMmZNt5/_rui-HITV9PbnY3",
+				"tableId": "grid-IF1UMmZNt5",
+				"rowId": "i-HITV9PbnY3",
+				"tableUrl": "https://coda.io/d/_dTGBFYq175J#_tugrid-IF1UMmZNt5"
+			}
+		],
+		"Type": [
+			"HTML attribute"
+		],
+		"Discussion": {
+			"@context": "http://schema.org/",
+			"@type": "WebPage",
+			"url": "https://github.com/Devographics/surveys/discussions/133"
+		},
+		"Status": {
+			"@context": "http://schema.org/",
+			"@type": "StructuredValue",
+			"additionalType": "row",
+			"name": "Cutting Edge",
+			"url": "https://coda.io/d/_dTGBFYq175J#_tugrid-BqPGmglU_b/_rui-LMy3PoJR22",
+			"tableId": "grid-BqPGmglU_b",
+			"rowId": "i-LMy3PoJR22",
+			"tableUrl": "https://coda.io/d/_dTGBFYq175J#_tugrid-BqPGmglU_b"
+		},
+		"In Part 1": {
+			"@context": "http://schema.org/",
+			"@type": "StructuredValue",
+			"additionalType": "row",
+			"name": "Yes",
+			"url": "https://coda.io/d/_dTGBFYq175J#_tugrid-RUMkEBKBsZ/_rui-CiZ6xQAbPU",
+			"tableId": "grid-RUMkEBKBsZ",
+			"rowId": "i-CiZ6xQAbPU",
+			"tableUrl": "https://coda.io/d/_dTGBFYq175J#_tugrid-RUMkEBKBsZ"
+		},
+		"Upvotes": 14,
+		"id": "media_capture",
+		"Needs Translation": true
+	},
+	{
+		"Question": "Credentialless iframes\n\n```\n<iframe credentialless>\n```",
+		"Focus area": [
+			{
+				"@context": "http://schema.org/",
+				"@type": "StructuredValue",
+				"additionalType": "row",
+				"name": "Security & Privacy",
+				"url": "https://coda.io/d/_dTGBFYq175J#_tugrid-IF1UMmZNt5/_rui-cgPPUwtNEO",
+				"tableId": "grid-IF1UMmZNt5",
+				"rowId": "i-cgPPUwtNEO",
+				"tableUrl": "https://coda.io/d/_dTGBFYq175J#_tugrid-IF1UMmZNt5"
+			},
+			{
+				"@context": "http://schema.org/",
+				"@type": "StructuredValue",
+				"additionalType": "row",
+				"name": "Embedding",
+				"url": "https://coda.io/d/_dTGBFYq175J#_tugrid-IF1UMmZNt5/_rui-8jmGxZ5d17",
+				"tableId": "grid-IF1UMmZNt5",
+				"rowId": "i-8jmGxZ5d17",
+				"tableUrl": "https://coda.io/d/_dTGBFYq175J#_tugrid-IF1UMmZNt5"
+			}
+		],
+		"Type": [
+			"HTML attribute"
+		],
+		"Discussion": {
+			"@context": "http://schema.org/",
+			"@type": "WebPage",
+			"url": "https://github.com/Devographics/surveys/discussions/143"
+		},
+		"Status": {
+			"@context": "http://schema.org/",
+			"@type": "StructuredValue",
+			"additionalType": "row",
+			"name": "Cutting Edge",
+			"url": "https://coda.io/d/_dTGBFYq175J#_tugrid-BqPGmglU_b/_rui-LMy3PoJR22",
+			"tableId": "grid-BqPGmglU_b",
+			"rowId": "i-LMy3PoJR22",
+			"tableUrl": "https://coda.io/d/_dTGBFYq175J#_tugrid-BqPGmglU_b"
+		},
+		"In Part 1": {
+			"@context": "http://schema.org/",
+			"@type": "StructuredValue",
+			"additionalType": "row",
+			"name": "In checkbox question",
+			"url": "https://coda.io/d/_dTGBFYq175J#_tugrid-RUMkEBKBsZ/_rui-r49H6EfVVa",
+			"tableId": "grid-RUMkEBKBsZ",
+			"rowId": "i-r49H6EfVVa",
+			"tableUrl": "https://coda.io/d/_dTGBFYq175J#_tugrid-RUMkEBKBsZ"
+		},
+		"Upvotes": 9,
+		"id": "credentialless_attribute",
+		"Needs Translation": true
+	},
+	{
+		"Question": "`sandbox` attribute for iframes",
+		"Focus area": [
+			{
+				"@context": "http://schema.org/",
+				"@type": "StructuredValue",
+				"additionalType": "row",
+				"name": "Security & Privacy",
+				"url": "https://coda.io/d/_dTGBFYq175J#_tugrid-IF1UMmZNt5/_rui-cgPPUwtNEO",
+				"tableId": "grid-IF1UMmZNt5",
+				"rowId": "i-cgPPUwtNEO",
+				"tableUrl": "https://coda.io/d/_dTGBFYq175J#_tugrid-IF1UMmZNt5"
+			},
+			{
+				"@context": "http://schema.org/",
+				"@type": "StructuredValue",
+				"additionalType": "row",
+				"name": "Embedding",
+				"url": "https://coda.io/d/_dTGBFYq175J#_tugrid-IF1UMmZNt5/_rui-8jmGxZ5d17",
+				"tableId": "grid-IF1UMmZNt5",
+				"rowId": "i-8jmGxZ5d17",
+				"tableUrl": "https://coda.io/d/_dTGBFYq175J#_tugrid-IF1UMmZNt5"
+			}
+		],
+		"Type": [
+			"HTML attribute"
+		],
+		"Discussion": {
+			"@context": "http://schema.org/",
+			"@type": "WebPage",
+			"url": "https://github.com/Devographics/surveys/discussions/142"
+		},
+		"Status": {
+			"@context": "http://schema.org/",
+			"@type": "StructuredValue",
+			"additionalType": "row",
+			"name": "Stable",
+			"url": "https://coda.io/d/_dTGBFYq175J#_tugrid-BqPGmglU_b/_rui-SyiVTehUqi",
+			"tableId": "grid-BqPGmglU_b",
+			"rowId": "i-SyiVTehUqi",
+			"tableUrl": "https://coda.io/d/_dTGBFYq175J#_tugrid-BqPGmglU_b"
+		},
+		"In Part 1": {
+			"@context": "http://schema.org/",
+			"@type": "StructuredValue",
+			"additionalType": "row",
+			"name": "Likely No",
+			"url": "https://coda.io/d/_dTGBFYq175J#_tugrid-RUMkEBKBsZ/_rui-tL7JBvZWvM",
+			"tableId": "grid-RUMkEBKBsZ",
+			"rowId": "i-tL7JBvZWvM",
+			"tableUrl": "https://coda.io/d/_dTGBFYq175J#_tugrid-RUMkEBKBsZ"
+		},
+		"Upvotes": 13,
+		"id": "sandbox_attribute",
+		"Needs Translation": true
+	},
+	{
+		"Question": "`<track>` ",
+		"Focus area": [
+			{
+				"@context": "http://schema.org/",
+				"@type": "StructuredValue",
+				"additionalType": "row",
+				"name": "Multimedia",
+				"url": "https://coda.io/d/_dTGBFYq175J#_tugrid-IF1UMmZNt5/_rui-KBPi_lQvQe",
+				"tableId": "grid-IF1UMmZNt5",
+				"rowId": "i-KBPi_lQvQe",
+				"tableUrl": "https://coda.io/d/_dTGBFYq175J#_tugrid-IF1UMmZNt5"
+			}
+		],
+		"Type": [
+			"HTML element"
+		],
+		"Discussion": {
+			"@context": "http://schema.org/",
+			"@type": "WebPage",
+			"url": "https://github.com/Devographics/surveys/discussions/132"
+		},
+		"Status": {
+			"@context": "http://schema.org/",
+			"@type": "StructuredValue",
+			"additionalType": "row",
+			"name": "Stable",
+			"url": "https://coda.io/d/_dTGBFYq175J#_tugrid-BqPGmglU_b/_rui-SyiVTehUqi",
+			"tableId": "grid-BqPGmglU_b",
+			"rowId": "i-SyiVTehUqi",
+			"tableUrl": "https://coda.io/d/_dTGBFYq175J#_tugrid-BqPGmglU_b"
+		},
+		"In Part 1": {
+			"@context": "http://schema.org/",
+			"@type": "StructuredValue",
+			"additionalType": "row",
+			"name": "In checkbox question",
+			"url": "https://coda.io/d/_dTGBFYq175J#_tugrid-RUMkEBKBsZ/_rui-r49H6EfVVa",
+			"tableId": "grid-RUMkEBKBsZ",
+			"rowId": "i-r49H6EfVVa",
+			"tableUrl": "https://coda.io/d/_dTGBFYq175J#_tugrid-RUMkEBKBsZ"
+		},
+		"Upvotes": 18,
+		"id": "track_element",
+		"Needs Translation": true
+	},
+	{
+		"Question": "Lazy loading",
+		"Focus area": [
+			{
+				"@context": "http://schema.org/",
+				"@type": "StructuredValue",
+				"additionalType": "row",
+				"name": "Performance",
+				"url": "https://coda.io/d/_dTGBFYq175J#_tugrid-IF1UMmZNt5/_rui-bYbJdhJNeD",
+				"tableId": "grid-IF1UMmZNt5",
+				"rowId": "i-bYbJdhJNeD",
+				"tableUrl": "https://coda.io/d/_dTGBFYq175J#_tugrid-IF1UMmZNt5"
+			},
+			{
+				"@context": "http://schema.org/",
+				"@type": "StructuredValue",
+				"additionalType": "row",
+				"name": "Multimedia",
+				"url": "https://coda.io/d/_dTGBFYq175J#_tugrid-IF1UMmZNt5/_rui-KBPi_lQvQe",
+				"tableId": "grid-IF1UMmZNt5",
+				"rowId": "i-KBPi_lQvQe",
+				"tableUrl": "https://coda.io/d/_dTGBFYq175J#_tugrid-IF1UMmZNt5"
+			}
+		],
+		"Type": [
+			"JS API"
+		],
+		"Discussion": {
+			"@context": "http://schema.org/",
+			"@type": "WebPage",
+			"url": "https://github.com/Devographics/surveys/discussions/141"
+		},
+		"Status": {
+			"@context": "http://schema.org/",
+			"@type": "StructuredValue",
+			"additionalType": "row",
+			"name": "Stable",
+			"url": "https://coda.io/d/_dTGBFYq175J#_tugrid-BqPGmglU_b/_rui-SyiVTehUqi",
+			"tableId": "grid-BqPGmglU_b",
+			"rowId": "i-SyiVTehUqi",
+			"tableUrl": "https://coda.io/d/_dTGBFYq175J#_tugrid-BqPGmglU_b"
+		},
+		"In Part 1": {
+			"@context": "http://schema.org/",
+			"@type": "StructuredValue",
+			"additionalType": "row",
+			"name": "In checkbox question",
+			"url": "https://coda.io/d/_dTGBFYq175J#_tugrid-RUMkEBKBsZ/_rui-r49H6EfVVa",
+			"tableId": "grid-RUMkEBKBsZ",
+			"rowId": "i-r49H6EfVVa",
+			"tableUrl": "https://coda.io/d/_dTGBFYq175J#_tugrid-RUMkEBKBsZ"
+		},
+		"Upvotes": 68,
+		"id": "lazy_loading",
+		"Needs Translation": true
+	},
+	{
+		"Question": "`blocking=”render”` ",
+		"Focus area": [
+			{
+				"@context": "http://schema.org/",
+				"@type": "StructuredValue",
+				"additionalType": "row",
+				"name": "Performance",
+				"url": "https://coda.io/d/_dTGBFYq175J#_tugrid-IF1UMmZNt5/_rui-bYbJdhJNeD",
+				"tableId": "grid-IF1UMmZNt5",
+				"rowId": "i-bYbJdhJNeD",
+				"tableUrl": "https://coda.io/d/_dTGBFYq175J#_tugrid-IF1UMmZNt5"
+			},
+			{
+				"@context": "http://schema.org/",
+				"@type": "StructuredValue",
+				"additionalType": "row",
+				"name": "Embedding",
+				"url": "https://coda.io/d/_dTGBFYq175J#_tugrid-IF1UMmZNt5/_rui-8jmGxZ5d17",
+				"tableId": "grid-IF1UMmZNt5",
+				"rowId": "i-8jmGxZ5d17",
+				"tableUrl": "https://coda.io/d/_dTGBFYq175J#_tugrid-IF1UMmZNt5"
+			}
+		],
+		"Type": [
+			"HTML attribute"
+		],
+		"Discussion": {
+			"@context": "http://schema.org/",
+			"@type": "WebPage",
+			"url": "https://github.com/Devographics/surveys/discussions/140"
+		},
+		"Status": {
+			"@context": "http://schema.org/",
+			"@type": "StructuredValue",
+			"additionalType": "row",
+			"name": "Cutting Edge",
+			"url": "https://coda.io/d/_dTGBFYq175J#_tugrid-BqPGmglU_b/_rui-LMy3PoJR22",
+			"tableId": "grid-BqPGmglU_b",
+			"rowId": "i-LMy3PoJR22",
+			"tableUrl": "https://coda.io/d/_dTGBFYq175J#_tugrid-BqPGmglU_b"
+		},
+		"In Part 1": {
+			"@context": "http://schema.org/",
+			"@type": "StructuredValue",
+			"additionalType": "row",
+			"name": "Yes",
+			"url": "https://coda.io/d/_dTGBFYq175J#_tugrid-RUMkEBKBsZ/_rui-CiZ6xQAbPU",
+			"tableId": "grid-RUMkEBKBsZ",
+			"rowId": "i-CiZ6xQAbPU",
+			"tableUrl": "https://coda.io/d/_dTGBFYq175J#_tugrid-RUMkEBKBsZ"
+		},
+		"Upvotes": 25,
+		"id": "blocking_render",
+		"Needs Translation": false
+	},
+	{
+		"Question": "Resource Hints: `<link rel=”prefetch”>` ",
+		"Focus area": [
+			{
+				"@context": "http://schema.org/",
+				"@type": "StructuredValue",
+				"additionalType": "row",
+				"name": "Performance",
+				"url": "https://coda.io/d/_dTGBFYq175J#_tugrid-IF1UMmZNt5/_rui-bYbJdhJNeD",
+				"tableId": "grid-IF1UMmZNt5",
+				"rowId": "i-bYbJdhJNeD",
+				"tableUrl": "https://coda.io/d/_dTGBFYq175J#_tugrid-IF1UMmZNt5"
+			}
+		],
+		"Type": [
+			"HTML element"
+		],
+		"Discussion": {
+			"@context": "http://schema.org/",
+			"@type": "WebPage",
+			"url": "https://github.com/Devographics/surveys/discussions/105"
+		},
+		"Status": {
+			"@context": "http://schema.org/",
+			"@type": "StructuredValue",
+			"additionalType": "row",
+			"name": "Cutting Edge",
+			"url": "https://coda.io/d/_dTGBFYq175J#_tugrid-BqPGmglU_b/_rui-LMy3PoJR22",
+			"tableId": "grid-BqPGmglU_b",
+			"rowId": "i-LMy3PoJR22",
+			"tableUrl": "https://coda.io/d/_dTGBFYq175J#_tugrid-BqPGmglU_b"
+		},
+		"In Part 1": {
+			"@context": "http://schema.org/",
+			"@type": "StructuredValue",
+			"additionalType": "row",
+			"name": "In checkbox question",
+			"url": "https://coda.io/d/_dTGBFYq175J#_tugrid-RUMkEBKBsZ/_rui-r49H6EfVVa",
+			"tableId": "grid-RUMkEBKBsZ",
+			"rowId": "i-r49H6EfVVa",
+			"tableUrl": "https://coda.io/d/_dTGBFYq175J#_tugrid-RUMkEBKBsZ"
+		},
+		"Upvotes": 12,
+		"id": "rh_prefetch",
+		"Needs Translation": true
+	},
+	{
+		"Question": "Resource Hints: `<link rel=”preload”>` ",
+		"Focus area": [
+			{
+				"@context": "http://schema.org/",
+				"@type": "StructuredValue",
+				"additionalType": "row",
+				"name": "Performance",
+				"url": "https://coda.io/d/_dTGBFYq175J#_tugrid-IF1UMmZNt5/_rui-bYbJdhJNeD",
+				"tableId": "grid-IF1UMmZNt5",
+				"rowId": "i-bYbJdhJNeD",
+				"tableUrl": "https://coda.io/d/_dTGBFYq175J#_tugrid-IF1UMmZNt5"
+			}
+		],
+		"Type": [
+			"HTML element"
+		],
+		"Discussion": {
+			"@context": "http://schema.org/",
+			"@type": "WebPage",
+			"url": "https://github.com/Devographics/surveys/discussions/104"
+		},
+		"Status": {
+			"@context": "http://schema.org/",
+			"@type": "StructuredValue",
+			"additionalType": "row",
+			"name": "Recent",
+			"url": "https://coda.io/d/_dTGBFYq175J#_tugrid-BqPGmglU_b/_rui-bntRYhG1UO",
+			"tableId": "grid-BqPGmglU_b",
+			"rowId": "i-bntRYhG1UO",
+			"tableUrl": "https://coda.io/d/_dTGBFYq175J#_tugrid-BqPGmglU_b"
+		},
+		"In Part 1": {
+			"@context": "http://schema.org/",
+			"@type": "StructuredValue",
+			"additionalType": "row",
+			"name": "In checkbox question",
+			"url": "https://coda.io/d/_dTGBFYq175J#_tugrid-RUMkEBKBsZ/_rui-r49H6EfVVa",
+			"tableId": "grid-RUMkEBKBsZ",
+			"rowId": "i-r49H6EfVVa",
+			"tableUrl": "https://coda.io/d/_dTGBFYq175J#_tugrid-RUMkEBKBsZ"
+		},
+		"Upvotes": 14,
+		"id": "rh_preload",
+		"Needs Translation": true
+	},
+	{
+		"Question": "`ElementInternals`",
+		"Focus area": [
+			{
+				"@context": "http://schema.org/",
+				"@type": "StructuredValue",
+				"additionalType": "row",
+				"name": "Making Web Components",
+				"url": "https://coda.io/d/_dTGBFYq175J#_tugrid-IF1UMmZNt5/_rui-FgI34TEfuP",
+				"tableId": "grid-IF1UMmZNt5",
+				"rowId": "i-FgI34TEfuP",
+				"tableUrl": "https://coda.io/d/_dTGBFYq175J#_tugrid-IF1UMmZNt5"
+			}
+		],
+		"Type": [
+			"JS API"
+		],
+		"Discussion": {
+			"@context": "http://schema.org/",
+			"@type": "WebPage",
+			"url": "https://github.com/Devographics/surveys/discussions/101"
+		},
+		"Status": {
+			"@context": "http://schema.org/",
+			"@type": "StructuredValue",
+			"additionalType": "row",
+			"name": "Cutting Edge",
+			"url": "https://coda.io/d/_dTGBFYq175J#_tugrid-BqPGmglU_b/_rui-LMy3PoJR22",
+			"tableId": "grid-BqPGmglU_b",
+			"rowId": "i-LMy3PoJR22",
+			"tableUrl": "https://coda.io/d/_dTGBFYq175J#_tugrid-BqPGmglU_b"
+		},
+		"In Part 1": {
+			"@context": "http://schema.org/",
+			"@type": "StructuredValue",
+			"additionalType": "row",
+			"name": "Yes",
+			"url": "https://coda.io/d/_dTGBFYq175J#_tugrid-RUMkEBKBsZ/_rui-CiZ6xQAbPU",
+			"tableId": "grid-RUMkEBKBsZ",
+			"rowId": "i-CiZ6xQAbPU",
+			"tableUrl": "https://coda.io/d/_dTGBFYq175J#_tugrid-RUMkEBKBsZ"
+		},
+		"Upvotes": 25,
+		"id": "element_internals",
+		"Needs Translation": false
+	},
+	{
+		"Question": "Styling component host (`:host`, `:host()`, `:host-context()`)",
+		"Focus area": [
+			{
+				"@context": "http://schema.org/",
+				"@type": "StructuredValue",
+				"additionalType": "row",
+				"name": "Making Web Components",
+				"url": "https://coda.io/d/_dTGBFYq175J#_tugrid-IF1UMmZNt5/_rui-FgI34TEfuP",
+				"tableId": "grid-IF1UMmZNt5",
+				"rowId": "i-FgI34TEfuP",
+				"tableUrl": "https://coda.io/d/_dTGBFYq175J#_tugrid-IF1UMmZNt5"
+			}
+		],
+		"Type": [
+			"CSS"
+		],
+		"Discussion": {
+			"@context": "http://schema.org/",
+			"@type": "WebPage",
+			"url": "https://github.com/Devographics/surveys/discussions/149"
+		},
+		"Status": {
+			"@context": "http://schema.org/",
+			"@type": "StructuredValue",
+			"additionalType": "row",
+			"name": "Stable",
+			"url": "https://coda.io/d/_dTGBFYq175J#_tugrid-BqPGmglU_b/_rui-SyiVTehUqi",
+			"tableId": "grid-BqPGmglU_b",
+			"rowId": "i-SyiVTehUqi",
+			"tableUrl": "https://coda.io/d/_dTGBFYq175J#_tugrid-BqPGmglU_b"
+		},
+		"In Part 1": {
+			"@context": "http://schema.org/",
+			"@type": "StructuredValue",
+			"additionalType": "row",
+			"name": "In checkbox question",
+			"url": "https://coda.io/d/_dTGBFYq175J#_tugrid-RUMkEBKBsZ/_rui-r49H6EfVVa",
+			"tableId": "grid-RUMkEBKBsZ",
+			"rowId": "i-r49H6EfVVa",
+			"tableUrl": "https://coda.io/d/_dTGBFYq175J#_tugrid-RUMkEBKBsZ"
+		},
+		"Upvotes": 42,
+		"id": "host_css",
+		"Needs Translation": true
+	},
+	{
+		"Question": "`inert`  attribute",
+		"Focus area": [
+			{
+				"@context": "http://schema.org/",
+				"@type": "StructuredValue",
+				"additionalType": "row",
+				"name": "Interactivity",
+				"url": "https://coda.io/d/_dTGBFYq175J#_tugrid-IF1UMmZNt5/_rui-W4J_OBZ_-R",
+				"tableId": "grid-IF1UMmZNt5",
+				"rowId": "i-W4J_OBZ_-R",
+				"tableUrl": "https://coda.io/d/_dTGBFYq175J#_tugrid-IF1UMmZNt5"
+			}
+		],
+		"Type": [
+			"HTML attribute"
+		],
+		"Discussion": {
+			"@context": "http://schema.org/",
+			"@type": "WebPage",
+			"url": "https://github.com/Devographics/surveys/discussions/139"
+		},
+		"Status": {
+			"@context": "http://schema.org/",
+			"@type": "StructuredValue",
+			"additionalType": "row",
+			"name": "Recent",
+			"url": "https://coda.io/d/_dTGBFYq175J#_tugrid-BqPGmglU_b/_rui-bntRYhG1UO",
+			"tableId": "grid-BqPGmglU_b",
+			"rowId": "i-bntRYhG1UO",
+			"tableUrl": "https://coda.io/d/_dTGBFYq175J#_tugrid-BqPGmglU_b"
+		},
+		"In Part 1": {
+			"@context": "http://schema.org/",
+			"@type": "StructuredValue",
+			"additionalType": "row",
+			"name": "Yes",
+			"url": "https://coda.io/d/_dTGBFYq175J#_tugrid-RUMkEBKBsZ/_rui-CiZ6xQAbPU",
+			"tableId": "grid-RUMkEBKBsZ",
+			"rowId": "i-CiZ6xQAbPU",
+			"tableUrl": "https://coda.io/d/_dTGBFYq175J#_tugrid-RUMkEBKBsZ"
+		},
+		"Upvotes": 44,
+		"id": "inert_attribute",
+		"Needs Translation": true
+	},
+	{
+		"Question": "Extended built-ins",
+		"Focus area": [
+			{
+				"@context": "http://schema.org/",
+				"@type": "StructuredValue",
+				"additionalType": "row",
+				"name": "Consuming Web Components",
+				"url": "https://coda.io/d/_dTGBFYq175J#_tugrid-IF1UMmZNt5/_rui-KPeW6x5nOV",
+				"tableId": "grid-IF1UMmZNt5",
+				"rowId": "i-KPeW6x5nOV",
+				"tableUrl": "https://coda.io/d/_dTGBFYq175J#_tugrid-IF1UMmZNt5"
+			},
+			{
+				"@context": "http://schema.org/",
+				"@type": "StructuredValue",
+				"additionalType": "row",
+				"name": "Making Web Components",
+				"url": "https://coda.io/d/_dTGBFYq175J#_tugrid-IF1UMmZNt5/_rui-FgI34TEfuP",
+				"tableId": "grid-IF1UMmZNt5",
+				"rowId": "i-FgI34TEfuP",
+				"tableUrl": "https://coda.io/d/_dTGBFYq175J#_tugrid-IF1UMmZNt5"
+			}
+		],
+		"Type": [
+			"JS API"
+		],
+		"Discussion": {
+			"@context": "http://schema.org/",
+			"@type": "WebPage",
+			"url": "https://github.com/Devographics/surveys/discussions/99"
+		},
+		"Status": {
+			"@context": "http://schema.org/",
+			"@type": "StructuredValue",
+			"additionalType": "row",
+			"name": "Controversial",
+			"url": "https://coda.io/d/_dTGBFYq175J#_tugrid-BqPGmglU_b/_rui-gxWA6yQFpf",
+			"tableId": "grid-BqPGmglU_b",
+			"rowId": "i-gxWA6yQFpf",
+			"tableUrl": "https://coda.io/d/_dTGBFYq175J#_tugrid-BqPGmglU_b"
+		},
+		"In Part 1": {
+			"@context": "http://schema.org/",
+			"@type": "StructuredValue",
+			"additionalType": "row",
+			"name": "In checkbox question",
+			"url": "https://coda.io/d/_dTGBFYq175J#_tugrid-RUMkEBKBsZ/_rui-r49H6EfVVa",
+			"tableId": "grid-RUMkEBKBsZ",
+			"rowId": "i-r49H6EfVVa",
+			"tableUrl": "https://coda.io/d/_dTGBFYq175J#_tugrid-RUMkEBKBsZ"
+		},
+		"Upvotes": 23,
+		"id": "extended_builtins",
+		"Needs Translation": true
+	},
+	{
+		"Question": "Explicit slot assignment\n\n`slot=\"foo\"`",
+		"Focus area": [
+			{
+				"@context": "http://schema.org/",
+				"@type": "StructuredValue",
+				"additionalType": "row",
+				"name": "Consuming Web Components",
+				"url": "https://coda.io/d/_dTGBFYq175J#_tugrid-IF1UMmZNt5/_rui-KPeW6x5nOV",
+				"tableId": "grid-IF1UMmZNt5",
+				"rowId": "i-KPeW6x5nOV",
+				"tableUrl": "https://coda.io/d/_dTGBFYq175J#_tugrid-IF1UMmZNt5"
+			}
+		],
+		"Type": [
+			"HTML attribute"
+		],
+		"Discussion": {
+			"@context": "http://schema.org/",
+			"@type": "WebPage",
+			"url": "https://github.com/Devographics/surveys/discussions/97"
+		},
+		"Status": {
+			"@context": "http://schema.org/",
+			"@type": "StructuredValue",
+			"additionalType": "row",
+			"name": "Stable",
+			"url": "https://coda.io/d/_dTGBFYq175J#_tugrid-BqPGmglU_b/_rui-SyiVTehUqi",
+			"tableId": "grid-BqPGmglU_b",
+			"rowId": "i-SyiVTehUqi",
+			"tableUrl": "https://coda.io/d/_dTGBFYq175J#_tugrid-BqPGmglU_b"
+		},
+		"In Part 1": {
+			"@context": "http://schema.org/",
+			"@type": "StructuredValue",
+			"additionalType": "row",
+			"name": "In checkbox question",
+			"url": "https://coda.io/d/_dTGBFYq175J#_tugrid-RUMkEBKBsZ/_rui-r49H6EfVVa",
+			"tableId": "grid-RUMkEBKBsZ",
+			"rowId": "i-r49H6EfVVa",
+			"tableUrl": "https://coda.io/d/_dTGBFYq175J#_tugrid-RUMkEBKBsZ"
+		},
+		"Upvotes": 19,
+		"id": "slot_assignment",
+		"Needs Translation": true
+	},
+	{
+		"Question": "Defining slots (`<slot>` ) ",
+		"Focus area": [
+			{
+				"@context": "http://schema.org/",
+				"@type": "StructuredValue",
+				"additionalType": "row",
+				"name": "Making Web Components",
+				"url": "https://coda.io/d/_dTGBFYq175J#_tugrid-IF1UMmZNt5/_rui-FgI34TEfuP",
+				"tableId": "grid-IF1UMmZNt5",
+				"rowId": "i-FgI34TEfuP",
+				"tableUrl": "https://coda.io/d/_dTGBFYq175J#_tugrid-IF1UMmZNt5"
+			}
+		],
+		"Type": [
+			"HTML element"
+		],
+		"Discussion": {
+			"@context": "http://schema.org/",
+			"@type": "WebPage",
+			"url": "https://github.com/Devographics/surveys/discussions/129"
+		},
+		"Status": {
+			"@context": "http://schema.org/",
+			"@type": "StructuredValue",
+			"additionalType": "row",
+			"name": "Stable",
+			"url": "https://coda.io/d/_dTGBFYq175J#_tugrid-BqPGmglU_b/_rui-SyiVTehUqi",
+			"tableId": "grid-BqPGmglU_b",
+			"rowId": "i-SyiVTehUqi",
+			"tableUrl": "https://coda.io/d/_dTGBFYq175J#_tugrid-BqPGmglU_b"
+		},
+		"In Part 1": {
+			"@context": "http://schema.org/",
+			"@type": "StructuredValue",
+			"additionalType": "row",
+			"name": "In checkbox question",
+			"url": "https://coda.io/d/_dTGBFYq175J#_tugrid-RUMkEBKBsZ/_rui-r49H6EfVVa",
+			"tableId": "grid-RUMkEBKBsZ",
+			"rowId": "i-r49H6EfVVa",
+			"tableUrl": "https://coda.io/d/_dTGBFYq175J#_tugrid-RUMkEBKBsZ"
+		},
+		"Upvotes": 47,
+		"id": "slot_def",
+		"Needs Translation": true
+	},
+	{
+		"Question": "`<fencedframe>`",
+		"Focus area": [
+			{
+				"@context": "http://schema.org/",
+				"@type": "StructuredValue",
+				"additionalType": "row",
+				"name": "Embedding",
+				"url": "https://coda.io/d/_dTGBFYq175J#_tugrid-IF1UMmZNt5/_rui-8jmGxZ5d17",
+				"tableId": "grid-IF1UMmZNt5",
+				"rowId": "i-8jmGxZ5d17",
+				"tableUrl": "https://coda.io/d/_dTGBFYq175J#_tugrid-IF1UMmZNt5"
+			},
+			{
+				"@context": "http://schema.org/",
+				"@type": "StructuredValue",
+				"additionalType": "row",
+				"name": "Security & Privacy",
+				"url": "https://coda.io/d/_dTGBFYq175J#_tugrid-IF1UMmZNt5/_rui-cgPPUwtNEO",
+				"tableId": "grid-IF1UMmZNt5",
+				"rowId": "i-cgPPUwtNEO",
+				"tableUrl": "https://coda.io/d/_dTGBFYq175J#_tugrid-IF1UMmZNt5"
+			}
+		],
+		"Type": [
+			"HTML element"
+		],
+		"Discussion": {
+			"@context": "http://schema.org/",
+			"@type": "WebPage",
+			"url": "https://github.com/Devographics/surveys/discussions/127"
+		},
+		"Status": {
+			"@context": "http://schema.org/",
+			"@type": "StructuredValue",
+			"additionalType": "row",
+			"name": "Cutting Edge",
+			"url": "https://coda.io/d/_dTGBFYq175J#_tugrid-BqPGmglU_b/_rui-LMy3PoJR22",
+			"tableId": "grid-BqPGmglU_b",
+			"rowId": "i-LMy3PoJR22",
+			"tableUrl": "https://coda.io/d/_dTGBFYq175J#_tugrid-BqPGmglU_b"
+		},
+		"In Part 1": {
+			"@context": "http://schema.org/",
+			"@type": "StructuredValue",
+			"additionalType": "row",
+			"name": "Maybe",
+			"url": "https://coda.io/d/_dTGBFYq175J#_tugrid-RUMkEBKBsZ/_rui-rCEFqlqfFX",
+			"tableId": "grid-RUMkEBKBsZ",
+			"rowId": "i-rCEFqlqfFX",
+			"tableUrl": "https://coda.io/d/_dTGBFYq175J#_tugrid-RUMkEBKBsZ"
+		},
+		"Upvotes": 11,
+		"id": "fencedframe_element",
+		"Needs Translation": false
+	},
+	{
+		"Question": "Popover API\n\n`<div popover>` ",
+		"Focus area": [
+			{
+				"@context": "http://schema.org/",
+				"@type": "StructuredValue",
+				"additionalType": "row",
+				"name": "Interactivity",
+				"url": "https://coda.io/d/_dTGBFYq175J#_tugrid-IF1UMmZNt5/_rui-W4J_OBZ_-R",
+				"tableId": "grid-IF1UMmZNt5",
+				"rowId": "i-W4J_OBZ_-R",
+				"tableUrl": "https://coda.io/d/_dTGBFYq175J#_tugrid-IF1UMmZNt5"
+			}
+		],
+		"Type": [
+			"HTML attribute",
+			"JS API",
+			"CSS"
+		],
+		"Discussion": {
+			"@context": "http://schema.org/",
+			"@type": "WebPage",
+			"url": "https://github.com/Devographics/surveys/discussions/138"
+		},
+		"Status": {
+			"@context": "http://schema.org/",
+			"@type": "StructuredValue",
+			"additionalType": "row",
+			"name": "Cutting Edge",
+			"url": "https://coda.io/d/_dTGBFYq175J#_tugrid-BqPGmglU_b/_rui-LMy3PoJR22",
+			"tableId": "grid-BqPGmglU_b",
+			"rowId": "i-LMy3PoJR22",
+			"tableUrl": "https://coda.io/d/_dTGBFYq175J#_tugrid-BqPGmglU_b"
+		},
+		"In Part 1": {
+			"@context": "http://schema.org/",
+			"@type": "StructuredValue",
+			"additionalType": "row",
+			"name": "Yes",
+			"url": "https://coda.io/d/_dTGBFYq175J#_tugrid-RUMkEBKBsZ/_rui-CiZ6xQAbPU",
+			"tableId": "grid-RUMkEBKBsZ",
+			"rowId": "i-CiZ6xQAbPU",
+			"tableUrl": "https://coda.io/d/_dTGBFYq175J#_tugrid-RUMkEBKBsZ"
+		},
+		"Upvotes": 74,
+		"id": "popover_api",
+		"Needs Translation": false
+	},
+	{
+		"Question": "`<details>` / `<summary>` ",
+		"Focus area": [
+			{
+				"@context": "http://schema.org/",
+				"@type": "StructuredValue",
+				"additionalType": "row",
+				"name": "Interactivity",
+				"url": "https://coda.io/d/_dTGBFYq175J#_tugrid-IF1UMmZNt5/_rui-W4J_OBZ_-R",
+				"tableId": "grid-IF1UMmZNt5",
+				"rowId": "i-W4J_OBZ_-R",
+				"tableUrl": "https://coda.io/d/_dTGBFYq175J#_tugrid-IF1UMmZNt5"
+			}
+		],
+		"Type": [
+			"HTML element"
+		],
+		"Discussion": {
+			"@context": "http://schema.org/",
+			"@type": "WebPage",
+			"url": "https://github.com/Devographics/surveys/discussions/128"
+		},
+		"Status": {
+			"@context": "http://schema.org/",
+			"@type": "StructuredValue",
+			"additionalType": "row",
+			"name": "Stable",
+			"url": "https://coda.io/d/_dTGBFYq175J#_tugrid-BqPGmglU_b/_rui-SyiVTehUqi",
+			"tableId": "grid-BqPGmglU_b",
+			"rowId": "i-SyiVTehUqi",
+			"tableUrl": "https://coda.io/d/_dTGBFYq175J#_tugrid-BqPGmglU_b"
+		},
+		"In Part 1": {
+			"@context": "http://schema.org/",
+			"@type": "StructuredValue",
+			"additionalType": "row",
+			"name": "Yes",
+			"url": "https://coda.io/d/_dTGBFYq175J#_tugrid-RUMkEBKBsZ/_rui-CiZ6xQAbPU",
+			"tableId": "grid-RUMkEBKBsZ",
+			"rowId": "i-CiZ6xQAbPU",
+			"tableUrl": "https://coda.io/d/_dTGBFYq175J#_tugrid-RUMkEBKBsZ"
+		},
+		"Upvotes": 49,
+		"id": "details_element",
+		"Needs Translation": false
+	},
+	{
+		"Question": "`<search>` ",
+		"Focus area": [
+			{
+				"@context": "http://schema.org/",
+				"@type": "StructuredValue",
+				"additionalType": "row",
+				"name": "Semantic HTML",
+				"url": "https://coda.io/d/_dTGBFYq175J#_tugrid-IF1UMmZNt5/_rui-lnIUWZdEr5",
+				"tableId": "grid-IF1UMmZNt5",
+				"rowId": "i-lnIUWZdEr5",
+				"tableUrl": "https://coda.io/d/_dTGBFYq175J#_tugrid-IF1UMmZNt5"
+			},
+			{
+				"@context": "http://schema.org/",
+				"@type": "StructuredValue",
+				"additionalType": "row",
+				"name": "ARIA & Accessibility APIs",
+				"url": "https://coda.io/d/_dTGBFYq175J#_tugrid-IF1UMmZNt5/_rui-qdh-vpq31x",
+				"tableId": "grid-IF1UMmZNt5",
+				"rowId": "i-qdh-vpq31x",
+				"tableUrl": "https://coda.io/d/_dTGBFYq175J#_tugrid-IF1UMmZNt5"
+			}
+		],
+		"Type": [
+			"HTML element"
+		],
+		"Discussion": {
+			"@context": "http://schema.org/",
+			"@type": "WebPage",
+			"url": "https://github.com/Devographics/surveys/discussions/130"
+		},
+		"Status": {
+			"@context": "http://schema.org/",
+			"@type": "StructuredValue",
+			"additionalType": "row",
+			"name": "Future",
+			"url": "https://coda.io/d/_dTGBFYq175J#_tugrid-BqPGmglU_b/_rui-vwaDIcBrtd",
+			"tableId": "grid-BqPGmglU_b",
+			"rowId": "i-vwaDIcBrtd",
+			"tableUrl": "https://coda.io/d/_dTGBFYq175J#_tugrid-BqPGmglU_b"
+		},
+		"In Part 1": {
+			"@context": "http://schema.org/",
+			"@type": "StructuredValue",
+			"additionalType": "row",
+			"name": "Yes",
+			"url": "https://coda.io/d/_dTGBFYq175J#_tugrid-RUMkEBKBsZ/_rui-CiZ6xQAbPU",
+			"tableId": "grid-RUMkEBKBsZ",
+			"rowId": "i-CiZ6xQAbPU",
+			"tableUrl": "https://coda.io/d/_dTGBFYq175J#_tugrid-RUMkEBKBsZ"
+		},
+		"Upvotes": 39,
+		"id": "search_element",
+		"Needs Translation": false
+	},
+	{
+		"Question": "`controlslist` attribute",
+		"Focus area": [
+			{
+				"@context": "http://schema.org/",
+				"@type": "StructuredValue",
+				"additionalType": "row",
+				"name": "Multimedia",
+				"url": "https://coda.io/d/_dTGBFYq175J#_tugrid-IF1UMmZNt5/_rui-KBPi_lQvQe",
+				"tableId": "grid-IF1UMmZNt5",
+				"rowId": "i-KBPi_lQvQe",
+				"tableUrl": "https://coda.io/d/_dTGBFYq175J#_tugrid-IF1UMmZNt5"
+			}
+		],
+		"Type": [
+			"HTML attribute"
+		],
+		"Discussion": {
+			"@context": "http://schema.org/",
+			"@type": "WebPage",
+			"url": "https://github.com/Devographics/surveys/discussions/131"
+		},
+		"Status": {
+			"@context": "http://schema.org/",
+			"@type": "StructuredValue",
+			"additionalType": "row",
+			"name": "Controversial",
+			"url": "https://coda.io/d/_dTGBFYq175J#_tugrid-BqPGmglU_b/_rui-gxWA6yQFpf",
+			"tableId": "grid-BqPGmglU_b",
+			"rowId": "i-gxWA6yQFpf",
+			"tableUrl": "https://coda.io/d/_dTGBFYq175J#_tugrid-BqPGmglU_b"
+		},
+		"In Part 1": {
+			"@context": "http://schema.org/",
+			"@type": "StructuredValue",
+			"additionalType": "row",
+			"name": "In checkbox question",
+			"url": "https://coda.io/d/_dTGBFYq175J#_tugrid-RUMkEBKBsZ/_rui-r49H6EfVVa",
+			"tableId": "grid-RUMkEBKBsZ",
+			"rowId": "i-r49H6EfVVa",
+			"tableUrl": "https://coda.io/d/_dTGBFYq175J#_tugrid-RUMkEBKBsZ"
+		},
+		"Upvotes": 14,
+		"id": "controlslist_attribute",
+		"Needs Translation": true
+	},
+	{
+		"Question": "Adaptive streaming",
+		"Focus area": [
+			{
+				"@context": "http://schema.org/",
+				"@type": "StructuredValue",
+				"additionalType": "row",
+				"name": "Multimedia",
+				"url": "https://coda.io/d/_dTGBFYq175J#_tugrid-IF1UMmZNt5/_rui-KBPi_lQvQe",
+				"tableId": "grid-IF1UMmZNt5",
+				"rowId": "i-KBPi_lQvQe",
+				"tableUrl": "https://coda.io/d/_dTGBFYq175J#_tugrid-IF1UMmZNt5"
+			}
+		],
+		"Type": [
+			"HTTP"
+		],
+		"Discussion": {
+			"@context": "http://schema.org/",
+			"@type": "WebPage",
+			"url": "https://github.com/Devographics/surveys/discussions/147"
+		},
+		"Status": {
+			"@context": "http://schema.org/",
+			"@type": "StructuredValue",
+			"additionalType": "row",
+			"name": "Future",
+			"url": "https://coda.io/d/_dTGBFYq175J#_tugrid-BqPGmglU_b/_rui-vwaDIcBrtd",
+			"tableId": "grid-BqPGmglU_b",
+			"rowId": "i-vwaDIcBrtd",
+			"tableUrl": "https://coda.io/d/_dTGBFYq175J#_tugrid-BqPGmglU_b"
+		},
+		"In Part 1": {
+			"@context": "http://schema.org/",
+			"@type": "StructuredValue",
+			"additionalType": "row",
+			"name": "No",
+			"url": "https://coda.io/d/_dTGBFYq175J#_tugrid-RUMkEBKBsZ/_rui-RjHDLbCCCx",
+			"tableId": "grid-RUMkEBKBsZ",
+			"rowId": "i-RjHDLbCCCx",
+			"tableUrl": "https://coda.io/d/_dTGBFYq175J#_tugrid-RUMkEBKBsZ"
+		},
+		"Upvotes": 11,
+		"id": "adaptive_streaming",
+		"Needs Translation": true
+	},
+	{
+		"Question": "`<model>` ",
+		"Focus area": [
+			{
+				"@context": "http://schema.org/",
+				"@type": "StructuredValue",
+				"additionalType": "row",
+				"name": "Multimedia",
+				"url": "https://coda.io/d/_dTGBFYq175J#_tugrid-IF1UMmZNt5/_rui-KBPi_lQvQe",
+				"tableId": "grid-IF1UMmZNt5",
+				"rowId": "i-KBPi_lQvQe",
+				"tableUrl": "https://coda.io/d/_dTGBFYq175J#_tugrid-IF1UMmZNt5"
+			}
+		],
+		"Type": [
+			"HTML element"
+		],
+		"Discussion": {
+			"@context": "http://schema.org/",
+			"@type": "WebPage",
+			"url": "https://github.com/Devographics/surveys/discussions/124"
+		},
+		"Status": {
+			"@context": "http://schema.org/",
+			"@type": "StructuredValue",
+			"additionalType": "row",
+			"name": "Future",
+			"url": "https://coda.io/d/_dTGBFYq175J#_tugrid-BqPGmglU_b/_rui-vwaDIcBrtd",
+			"tableId": "grid-BqPGmglU_b",
+			"rowId": "i-vwaDIcBrtd",
+			"tableUrl": "https://coda.io/d/_dTGBFYq175J#_tugrid-BqPGmglU_b"
+		},
+		"In Part 1": {
+			"@context": "http://schema.org/",
+			"@type": "StructuredValue",
+			"additionalType": "row",
+			"name": "Likely Yes",
+			"url": "https://coda.io/d/_dTGBFYq175J#_tugrid-RUMkEBKBsZ/_rui-4yGRpoH1zz",
+			"tableId": "grid-RUMkEBKBsZ",
+			"rowId": "i-4yGRpoH1zz",
+			"tableUrl": "https://coda.io/d/_dTGBFYq175J#_tugrid-RUMkEBKBsZ"
+		},
+		"Upvotes": 17,
+		"id": "model_element",
+		"Needs Translation": false
+	},
+	{
+		"Question": "`exportparts` attribute",
+		"Focus area": [
+			{
+				"@context": "http://schema.org/",
+				"@type": "StructuredValue",
+				"additionalType": "row",
+				"name": "Making Web Components",
+				"url": "https://coda.io/d/_dTGBFYq175J#_tugrid-IF1UMmZNt5/_rui-FgI34TEfuP",
+				"tableId": "grid-IF1UMmZNt5",
+				"rowId": "i-FgI34TEfuP",
+				"tableUrl": "https://coda.io/d/_dTGBFYq175J#_tugrid-IF1UMmZNt5"
+			}
+		],
+		"Type": [
+			"HTML attribute"
+		],
+		"Discussion": {
+			"@context": "http://schema.org/",
+			"@type": "WebPage",
+			"url": "https://github.com/Devographics/surveys/discussions/135"
+		},
+		"Status": {
+			"@context": "http://schema.org/",
+			"@type": "StructuredValue",
+			"additionalType": "row",
+			"name": "Stable",
+			"url": "https://coda.io/d/_dTGBFYq175J#_tugrid-BqPGmglU_b/_rui-SyiVTehUqi",
+			"tableId": "grid-BqPGmglU_b",
+			"rowId": "i-SyiVTehUqi",
+			"tableUrl": "https://coda.io/d/_dTGBFYq175J#_tugrid-BqPGmglU_b"
+		},
+		"In Part 1": {
+			"@context": "http://schema.org/",
+			"@type": "StructuredValue",
+			"additionalType": "row",
+			"name": "No",
+			"url": "https://coda.io/d/_dTGBFYq175J#_tugrid-RUMkEBKBsZ/_rui-RjHDLbCCCx",
+			"tableId": "grid-RUMkEBKBsZ",
+			"rowId": "i-RjHDLbCCCx",
+			"tableUrl": "https://coda.io/d/_dTGBFYq175J#_tugrid-RUMkEBKBsZ"
+		},
+		"Upvotes": 14,
+		"id": "exportparts_attribute",
+		"Needs Translation": true
+	},
+	{
+		"Question": "`<picture>` ",
+		"Focus area": [
+			{
+				"@context": "http://schema.org/",
+				"@type": "StructuredValue",
+				"additionalType": "row",
+				"name": "Multimedia",
+				"url": "https://coda.io/d/_dTGBFYq175J#_tugrid-IF1UMmZNt5/_rui-KBPi_lQvQe",
+				"tableId": "grid-IF1UMmZNt5",
+				"rowId": "i-KBPi_lQvQe",
+				"tableUrl": "https://coda.io/d/_dTGBFYq175J#_tugrid-IF1UMmZNt5"
+			}
+		],
+		"Type": [
+			"HTML element"
+		],
+		"Discussion": {
+			"@context": "http://schema.org/",
+			"@type": "WebPage",
+			"url": "https://github.com/Devographics/surveys/discussions/122"
+		},
+		"Status": {
+			"@context": "http://schema.org/",
+			"@type": "StructuredValue",
+			"additionalType": "row",
+			"name": "Stable",
+			"url": "https://coda.io/d/_dTGBFYq175J#_tugrid-BqPGmglU_b/_rui-SyiVTehUqi",
+			"tableId": "grid-BqPGmglU_b",
+			"rowId": "i-SyiVTehUqi",
+			"tableUrl": "https://coda.io/d/_dTGBFYq175J#_tugrid-BqPGmglU_b"
+		},
+		"In Part 1": {
+			"@context": "http://schema.org/",
+			"@type": "StructuredValue",
+			"additionalType": "row",
+			"name": "In checkbox question",
+			"url": "https://coda.io/d/_dTGBFYq175J#_tugrid-RUMkEBKBsZ/_rui-r49H6EfVVa",
+			"tableId": "grid-RUMkEBKBsZ",
+			"rowId": "i-r49H6EfVVa",
+			"tableUrl": "https://coda.io/d/_dTGBFYq175J#_tugrid-RUMkEBKBsZ"
+		},
+		"Upvotes": 50,
+		"id": "picture_element",
+		"Needs Translation": false
+	},
+	{
+		"Question": "`<portal>` ",
+		"Focus area": [
+			{
+				"@context": "http://schema.org/",
+				"@type": "StructuredValue",
+				"additionalType": "row",
+				"name": "Embedding",
+				"url": "https://coda.io/d/_dTGBFYq175J#_tugrid-IF1UMmZNt5/_rui-8jmGxZ5d17",
+				"tableId": "grid-IF1UMmZNt5",
+				"rowId": "i-8jmGxZ5d17",
+				"tableUrl": "https://coda.io/d/_dTGBFYq175J#_tugrid-IF1UMmZNt5"
+			}
+		],
+		"Type": [
+			"HTML element"
+		],
+		"Discussion": {
+			"@context": "http://schema.org/",
+			"@type": "WebPage",
+			"url": "https://github.com/Devographics/surveys/discussions/103"
+		},
+		"Status": {
+			"@context": "http://schema.org/",
+			"@type": "StructuredValue",
+			"additionalType": "row",
+			"name": "Near Future",
+			"url": "https://coda.io/d/_dTGBFYq175J#_tugrid-BqPGmglU_b/_rui-aNMqPe7AtT",
+			"tableId": "grid-BqPGmglU_b",
+			"rowId": "i-aNMqPe7AtT",
+			"tableUrl": "https://coda.io/d/_dTGBFYq175J#_tugrid-BqPGmglU_b"
+		},
+		"In Part 1": {
+			"@context": "http://schema.org/",
+			"@type": "StructuredValue",
+			"additionalType": "row",
+			"name": "Yes",
+			"url": "https://coda.io/d/_dTGBFYq175J#_tugrid-RUMkEBKBsZ/_rui-CiZ6xQAbPU",
+			"tableId": "grid-RUMkEBKBsZ",
+			"rowId": "i-CiZ6xQAbPU",
+			"tableUrl": "https://coda.io/d/_dTGBFYq175J#_tugrid-RUMkEBKBsZ"
+		},
+		"Upvotes": 32,
+		"id": "portal_element",
+		"Needs Translation": false
+	},
+	{
+		"Question": "`tabindex` attribute",
+		"Focus area": [
+			{
+				"@context": "http://schema.org/",
+				"@type": "StructuredValue",
+				"additionalType": "row",
+				"name": "ARIA & Accessibility APIs",
+				"url": "https://coda.io/d/_dTGBFYq175J#_tugrid-IF1UMmZNt5/_rui-qdh-vpq31x",
+				"tableId": "grid-IF1UMmZNt5",
+				"rowId": "i-qdh-vpq31x",
+				"tableUrl": "https://coda.io/d/_dTGBFYq175J#_tugrid-IF1UMmZNt5"
+			}
+		],
+		"Type": [
+			"HTML attribute"
+		],
+		"Discussion": {
+			"@context": "http://schema.org/",
+			"@type": "WebPage",
+			"url": "https://github.com/Devographics/surveys/discussions/113"
+		},
+		"Status": {
+			"@context": "http://schema.org/",
+			"@type": "StructuredValue",
+			"additionalType": "row",
+			"name": "Stable",
+			"url": "https://coda.io/d/_dTGBFYq175J#_tugrid-BqPGmglU_b/_rui-SyiVTehUqi",
+			"tableId": "grid-BqPGmglU_b",
+			"rowId": "i-SyiVTehUqi",
+			"tableUrl": "https://coda.io/d/_dTGBFYq175J#_tugrid-BqPGmglU_b"
+		},
+		"In Part 1": {
+			"@context": "http://schema.org/",
+			"@type": "StructuredValue",
+			"additionalType": "row",
+			"name": "In checkbox question",
+			"url": "https://coda.io/d/_dTGBFYq175J#_tugrid-RUMkEBKBsZ/_rui-r49H6EfVVa",
+			"tableId": "grid-RUMkEBKBsZ",
+			"rowId": "i-r49H6EfVVa",
+			"tableUrl": "https://coda.io/d/_dTGBFYq175J#_tugrid-RUMkEBKBsZ"
+		},
+		"Upvotes": 30,
+		"id": "tabindex_attribute",
+		"Needs Translation": true
+	},
+	{
+		"Question": "`<selectlist>`  (ex `<selectmenu>` )",
+		"Focus area": [
+			{
+				"@context": "http://schema.org/",
+				"@type": "StructuredValue",
+				"additionalType": "row",
+				"name": "Forms & Editing",
+				"url": "https://coda.io/d/_dTGBFYq175J#_tugrid-IF1UMmZNt5/_rui-HITV9PbnY3",
+				"tableId": "grid-IF1UMmZNt5",
+				"rowId": "i-HITV9PbnY3",
+				"tableUrl": "https://coda.io/d/_dTGBFYq175J#_tugrid-IF1UMmZNt5"
+			}
+		],
+		"Type": [
+			"HTML element"
+		],
+		"Discussion": {
+			"@context": "http://schema.org/",
+			"@type": "WebPage",
+			"url": "https://github.com/Devographics/surveys/discussions/95"
+		},
+		"Status": {
+			"@context": "http://schema.org/",
+			"@type": "StructuredValue",
+			"additionalType": "row",
+			"name": "Future",
+			"url": "https://coda.io/d/_dTGBFYq175J#_tugrid-BqPGmglU_b/_rui-vwaDIcBrtd",
+			"tableId": "grid-BqPGmglU_b",
+			"rowId": "i-vwaDIcBrtd",
+			"tableUrl": "https://coda.io/d/_dTGBFYq175J#_tugrid-BqPGmglU_b"
+		},
+		"In Part 1": {
+			"@context": "http://schema.org/",
+			"@type": "StructuredValue",
+			"additionalType": "row",
+			"name": "Yes",
+			"url": "https://coda.io/d/_dTGBFYq175J#_tugrid-RUMkEBKBsZ/_rui-CiZ6xQAbPU",
+			"tableId": "grid-RUMkEBKBsZ",
+			"rowId": "i-CiZ6xQAbPU",
+			"tableUrl": "https://coda.io/d/_dTGBFYq175J#_tugrid-RUMkEBKBsZ"
+		},
+		"Upvotes": 61,
+		"id": "selectlist_element",
+		"Needs Translation": false
+	},
+	{
+		"Question": "`::part()` ",
+		"Focus area": [
+			{
+				"@context": "http://schema.org/",
+				"@type": "StructuredValue",
+				"additionalType": "row",
+				"name": "Consuming Web Components",
+				"url": "https://coda.io/d/_dTGBFYq175J#_tugrid-IF1UMmZNt5/_rui-KPeW6x5nOV",
+				"tableId": "grid-IF1UMmZNt5",
+				"rowId": "i-KPeW6x5nOV",
+				"tableUrl": "https://coda.io/d/_dTGBFYq175J#_tugrid-IF1UMmZNt5"
+			}
+		],
+		"Type": [
+			"CSS"
+		],
+		"Discussion": {
+			"@context": "http://schema.org/",
+			"@type": "WebPage",
+			"url": "https://github.com/Devographics/surveys/discussions/148"
+		},
+		"Status": {
+			"@context": "http://schema.org/",
+			"@type": "StructuredValue",
+			"additionalType": "row",
+			"name": "Stable",
+			"url": "https://coda.io/d/_dTGBFYq175J#_tugrid-BqPGmglU_b/_rui-SyiVTehUqi",
+			"tableId": "grid-BqPGmglU_b",
+			"rowId": "i-SyiVTehUqi",
+			"tableUrl": "https://coda.io/d/_dTGBFYq175J#_tugrid-BqPGmglU_b"
+		},
+		"In Part 1": {
+			"@context": "http://schema.org/",
+			"@type": "StructuredValue",
+			"additionalType": "row",
+			"name": "In checkbox question",
+			"url": "https://coda.io/d/_dTGBFYq175J#_tugrid-RUMkEBKBsZ/_rui-r49H6EfVVa",
+			"tableId": "grid-RUMkEBKBsZ",
+			"rowId": "i-r49H6EfVVa",
+			"tableUrl": "https://coda.io/d/_dTGBFYq175J#_tugrid-RUMkEBKBsZ"
+		},
+		"Upvotes": 35,
+		"id": "part_selector",
+		"Needs Translation": false
+	},
+	{
+		"Question": "Declarative Shadow DOM",
+		"Focus area": [
+			{
+				"@context": "http://schema.org/",
+				"@type": "StructuredValue",
+				"additionalType": "row",
+				"name": "Making Web Components",
+				"url": "https://coda.io/d/_dTGBFYq175J#_tugrid-IF1UMmZNt5/_rui-FgI34TEfuP",
+				"tableId": "grid-IF1UMmZNt5",
+				"rowId": "i-FgI34TEfuP",
+				"tableUrl": "https://coda.io/d/_dTGBFYq175J#_tugrid-IF1UMmZNt5"
+			}
+		],
+		"Type": [
+			"HTML attribute"
+		],
+		"Discussion": {
+			"@context": "http://schema.org/",
+			"@type": "WebPage",
+			"url": "https://github.com/Devographics/surveys/discussions/100"
+		},
+		"Status": {
+			"@context": "http://schema.org/",
+			"@type": "StructuredValue",
+			"additionalType": "row",
+			"name": "Cutting Edge",
+			"url": "https://coda.io/d/_dTGBFYq175J#_tugrid-BqPGmglU_b/_rui-LMy3PoJR22",
+			"tableId": "grid-BqPGmglU_b",
+			"rowId": "i-LMy3PoJR22",
+			"tableUrl": "https://coda.io/d/_dTGBFYq175J#_tugrid-BqPGmglU_b"
+		},
+		"In Part 1": {
+			"@context": "http://schema.org/",
+			"@type": "StructuredValue",
+			"additionalType": "row",
+			"name": "Yes",
+			"url": "https://coda.io/d/_dTGBFYq175J#_tugrid-RUMkEBKBsZ/_rui-CiZ6xQAbPU",
+			"tableId": "grid-RUMkEBKBsZ",
+			"rowId": "i-CiZ6xQAbPU",
+			"tableUrl": "https://coda.io/d/_dTGBFYq175J#_tugrid-RUMkEBKBsZ"
+		},
+		"Upvotes": 42,
+		"id": "declarative_shadow_dom",
+		"Needs Translation": true
 	}
 ]
