@@ -44,7 +44,7 @@ pre {
 			discussions.<select v-model="format.discussions">
 				<option>json</option>
 				<option>csv</option>
-			</select> (GitHub Discussions)
+			</select>
 			<button @click="gh_discussions.load()">Refresh from GitHub</button>
 			<download-button :filename="`discussions.${format.discussions}`" :data="format.discussions === 'csv'? discussions_csv : data.discussions"></download-button>
 			<button @click="github.store(data.discussions, 'features/discussions.json')">Store on GitHub</button>
@@ -71,8 +71,8 @@ pre {
 	<details open>
 		<summary>Issues ({{ Object.keys(problems).length }})</summary>
 		<ul>
-			<li v-for="(issues, problemURL) in problems">
-				<a :href="problemURL">{{ data.feature_meta_map[problemURL]?.discussion?.title ?? data.feature_meta_map[problemURL]?.Question ?? problemURL }}</a>
+			<li v-for="(issues, id) in problems">
+				<a :href="data.feature_meta_map[id].Discussion || null">{{ data.feature_meta_map[id]?.Question ?? id }}</a>
 				({{ [...issues].map(issue => `no ${issue}` ).join(', ') }})
 			</li>
 		</ul>

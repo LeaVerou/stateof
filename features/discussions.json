@@ -1,10 +1,52 @@
 [
 	{
+		"title": "`<menu>` element",
+		"number": 200,
+		"body": "Semantic wrapper for menus.\r\n\r\n```html\r\n<menu>\r\n  <li><button id=\"save\">Save for later</button></li>\r\n  <li><button id=\"share\">Share this news</button></li>\r\n</menu>\r\n```\r\n\r\n\r\n### MDN URL:\r\n\r\nhttps://developer.mozilla.org/en-US/docs/Web/HTML/Element/menu\r\n\r\n### Specification URL:\r\n\r\nhttps://html.spec.whatwg.org/multipage/grouping-content.html#the-menu-element\r\n\r\n### Any other links?\r\n\r\n_No response_\r\n\r\n### How stable is this feature?\r\n\r\nStable (Widely supported for several years)\r\n\r\n### Type of feature\r\n\r\nHTML element\r\n\r\n### What focus area does this feature fall under?\r\n\r\nSemantic HTML\r\n\r\n### Details\r\n\r\n_No response_",
+		"url": "https://github.com/Devographics/surveys/discussions/200",
+		"upvoteCount": 2
+	},
+	{
+		"title": "`<selectlist>` (ex `<selectmenu>`)",
+		"number": 95,
+		"body": "Stylable, customizable dropdown control.\r\n\r\n```html\r\n<selectmenu>\r\n\t<option>Option 1</option>\r\n\t<option>Option 2</option>\r\n\t<option>Option 3</option>\r\n</selectmenu>\r\n```\r\n\r\n### Specification URL:\r\n\r\nhttps://open-ui.org/components/selectmenu/\r\n\r\n### MDN URL:\r\n\r\n_No response_\r\n\r\n### Any other links?\r\n\r\nhttps://web.dev/state-of-css-2022/#customizing-select-elements\r\nhttps://css-tricks.com/the-selectmenu-element/\r\nhttps://www.smashingmagazine.com/2023/06/advanced-form-control-styling-selectmenu-anchoring-api/\r\nhttps://hidde.blog/custom-select-with-selectmenu/\r\nhttps://microsoftedge.github.io/Demos/selectmenu/\r\n\r\n### How stable is this feature?\r\n\r\nFuture (No implementations yet)\r\n\r\n### Type of feature\r\n\r\nHTML element\r\n\r\n### What focus area does this feature fall into?\r\n\r\nForms\r\n\r\n### Details\r\n\r\nFully stylable, customizable dropdown menus",
+		"url": "https://github.com/Devographics/surveys/discussions/95",
+		"upvoteCount": 61
+	},
+	{
+		"title": "Shadow DOM",
+		"number": 156,
+		"body": "Encapsulate elements not visible from the outside, and style them with CSS not affecting the rest of the page.\r\n\r\n### Code sample\r\n\r\n```js\r\nthis.shadowRoot = this.attachShadow({mode: \"open\"});\r\n```\r\n\r\n### MDN URL:\r\n\r\nhttps://developer.mozilla.org/en-US/docs/Web/API/Web_components/Using_shadow_DOM\r\n\r\n### Specification URL:\r\n\r\n_No response_\r\n\r\n### Any other links?\r\n\r\n_No response_\r\n\r\n### How stable is this feature?\r\n\r\nStable (Widely supported for several years)\r\n\r\n### Type of feature\r\n\r\nJS API\r\n\r\n### What focus area does this feature fall under?\r\n\r\nMaking Web Components\r\n\r\n### Details\r\n\r\nWe should probably ask about Shadow DOM as a whole too.",
+		"url": "https://github.com/Devographics/surveys/discussions/156",
+		"upvoteCount": 57
+	},
+	{
+		"title": "Defining Custom Elements",
+		"number": 184,
+		"body": "Defining custom elements for use by others.\r\n\r\n### Code sample\r\n\r\n```js\r\nclass MyElement extends HTMLElement { … }\r\ncustomElements.define(\"my-element\", MyElement);\r\n```\r\n\r\n\r\n### MDN URL:\r\n\r\nhttps://developer.mozilla.org/en-US/docs/Web/API/CustomElementRegistry/define\r\n\r\n### Specification URL:\r\n\r\nhttps://html.spec.whatwg.org/multipage/custom-elements.html#dom-customelementregistry-define-dev\r\n\r\n### Any other links?\r\n\r\n_No response_\r\n\r\n### How stable is this feature?\r\n\r\nStable (Widely supported for several years)\r\n\r\n### Type of feature\r\n\r\nJS API\r\n\r\n### What focus area does this feature fall under?\r\n\r\nMaking Web Components\r\n\r\n### Details\r\n\r\nThis question needs to be the first in the \"Making Web Components\" section.",
+		"url": "https://github.com/Devographics/surveys/discussions/184",
+		"upvoteCount": 2
+	},
+	{
 		"title": "Isolated Web Apps",
 		"number": 170,
 		"body": "### Code sample\n\n_No response_\n\n### MDN URL:\n\n_No response_\n\n### Specification URL:\n\nhttps://github.com/WICG/isolated-web-apps\n\n### Any other links?\n\nhttps://chromestatus.com/feature/5146307550248960\n\n### How stable is this feature?\n\nFuture (No implementations yet)\n\n### Type of feature\n\nOther\n\n### What focus area does this feature fall under?\n\nSecurity & Privacy, Bridging the gap with native\n\n### Details\n\nIsolated Web Apps is related to [Subresource Integrity](https://github.com/Devographics/surveys/discussions/145) and [PWA manifest](https://github.com/Devographics/surveys/discussions/119). It provides a missing security layer that native apps have, which is signed updates to the app. A notable example is [Signal's refusal](https://github.com/WICG/isolated-web-apps/blob/64ee186/README.md?plain=1#L11) to implement a web version of their app due to this missing piece. It would be interesting to see if other developers also avoid building web apps due to this.",
 		"url": "https://github.com/Devographics/surveys/discussions/170",
 		"upvoteCount": 9
+	},
+	{
+		"title": "`<datalist>`",
+		"number": 207,
+		"body": "Method of providing a list of presets for a user to select in a form control, while still allowing custom options.\r\n\r\n### Code sample\r\n\r\n```html\r\n<input name=\"country\" list=\"countries\">\r\n<datalist id=\"countries\">\r\n  <option>Afghanistan</option>\r\n  ...\r\n</datalist>\r\n```\r\n\r\n### MDN URL:\r\n\r\nhttps://developer.mozilla.org/en-US/docs/Web/HTML/Element/datalist\r\n\r\n### Specification URL:\r\n\r\nhttps://html.spec.whatwg.org/multipage/form-elements.html#the-datalist-element\r\n\r\n### Any other links?\r\n\r\nhttps://caniuse.com/datalist\r\n\r\n### How stable is this feature?\r\n\r\nStable (Widely supported for several years)\r\n\r\n### Type of feature\r\n\r\nHTML element\r\n\r\n### What focus area does this feature fall under?\r\n\r\nForms\r\n\r\n### Details\r\n\r\n_No response_",
+		"url": "https://github.com/Devographics/surveys/discussions/207",
+		"upvoteCount": 1
+	},
+	{
+		"title": "Autocomplete hints",
+		"number": 162,
+		"body": "Provide hints about what kind of information is expected, e.g. `name`, `honorific-prefix`, `tel`,  `cc-number` etc\r\n\r\n### Code sample\r\n\r\n```html\r\n<input name=\"address_firstline\" autocomplete=\"billing street-address\" />\r\n```\r\n\r\n### MDN URL:\r\n\r\nhttps://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/autocomplete\r\n\r\n### Specification URL:\r\n\r\nhttps://html.spec.whatwg.org/multipage/form-control-infrastructure.html#attr-fe-autocomplete\r\n\r\n### Any other links?\r\n\r\n_No response_\r\n\r\n### How stable is this feature?\r\n\r\nMixed (Some parts stable, others unimplemented or inconsistent)\r\n\r\n### Type of feature\r\n\r\nHTML attribute value\r\n\r\n### What focus area does this feature fall under?\r\n\r\nForms\r\n\r\n### Details\r\n\r\nBrowsers seem wildly inconsistent with their support for auto-completion, and I think this is one of the primary factors towards devs not using it.\r\n\r\nSome browsers may honor auto-completion rules, others will completely ignore it, and others still will guess their own auto-completion putting the wrong values in the wrong place even when the page's source code explicitly says to disable all auto-completion.\r\n\r\nIt's worth asking about form auto-completion because everyone seems to be confused about how it works in practice, causing many developers to refrain from using it.",
+		"url": "https://github.com/Devographics/surveys/discussions/162",
+		"upvoteCount": 41
 	},
 	{
 		"title": "Borderless mode",
@@ -14,25 +56,11 @@
 		"upvoteCount": 2
 	},
 	{
-		"title": "Shadow DOM",
-		"number": 156,
-		"body": "Encapsulate elements not visible from the outside, and style them with CSS not affecting the rest of the page.\r\n\r\n### Code sample\r\n\r\n```html\r\nthis.shadowRoot = this.attachShadow({mode: \"open\"});\r\n```\r\n\r\n### MDN URL:\r\n\r\nhttps://developer.mozilla.org/en-US/docs/Web/API/Web_components/Using_shadow_DOM\r\n\r\n### Specification URL:\r\n\r\n_No response_\r\n\r\n### Any other links?\r\n\r\n_No response_\r\n\r\n### How stable is this feature?\r\n\r\nStable (Widely supported for several years)\r\n\r\n### Type of feature\r\n\r\nJS API\r\n\r\n### What focus area does this feature fall under?\r\n\r\nMaking Web Components\r\n\r\n### Details\r\n\r\nWe should probably ask about Shadow DOM as a whole too.",
-		"url": "https://github.com/Devographics/surveys/discussions/156",
-		"upvoteCount": 57
-	},
-	{
 		"title": "`<iframe seamless>`",
 		"number": 202,
 		"body": "Makes an iframe's contents part of a page, adopting styles from its hosting page\r\n\r\n### Code sample\r\n\r\n```html\r\n<iframe src=\"header.html\" seamless></iframe>\r\n```\r\n\r\n\r\n### MDN URL:\r\n\r\n_No response_\r\n\r\n### Specification URL:\r\n\r\nhttps://www.w3.org/TR/2011/WD-html5-20110525/the-iframe-element.html#attr-iframe-seamless\r\n\r\n### Any other links?\r\n\r\nhttps://caniuse.com/iframe-seamless\r\n\r\n### How stable is this feature?\r\n\r\nRemoved (No longer supported in any major browsers)\r\n\r\n### Type of feature\r\n\r\nHTML attribute\r\n\r\n### What focus area does this feature fall under?\r\n\r\nEmbedding\r\n\r\n### Details\r\n\r\n@chrishtr mentioned this as a feature he is interested in getting data about, however, it's a feature that has been removed from the Web Platform. Is it disingenuous to ask about removed features? 🤔 ",
 		"url": "https://github.com/Devographics/surveys/discussions/202",
 		"upvoteCount": 1
-	},
-	{
-		"title": "`<menu>` element",
-		"number": 200,
-		"body": "### Code sample\n\n```html\n<menu>\r\n  <li><button id=\"save\">Save for later</button></li>\r\n  <li><button id=\"share\">Share this news</button></li>\r\n</menu>\n```\n\n\n### MDN URL:\n\nhttps://developer.mozilla.org/en-US/docs/Web/HTML/Element/menu\n\n### Specification URL:\n\nhttps://html.spec.whatwg.org/multipage/grouping-content.html#the-menu-element\n\n### Any other links?\n\n_No response_\n\n### How stable is this feature?\n\nStable (Widely supported for several years)\n\n### Type of feature\n\nHTML element\n\n### What focus area does this feature fall under?\n\nSemantic HTML\n\n### Details\n\n_No response_",
-		"url": "https://github.com/Devographics/surveys/discussions/200",
-		"upvoteCount": 2
 	},
 	{
 		"title": "URLs to Text Fragments",
@@ -75,13 +103,6 @@
 		"body": "### Code sample\n\n```html\n<spicy-sections id=\"demos\">\r\n  <h2>Tabs</h2>\r\n  <div>\r\n    <p>\r\n      The <code>tab-bar</code> affordance\r\n      can use shadow-dom to establish\r\n      a styleable tab-bar and panels.\r\n      The required parts can be exposed for styling\r\n      with consistent pseudo-elements.\r\n    </p>\r\n    <p>\r\n      In a tab state, we likely want to style:\r\n    </p>\r\n    <ul>\r\n      <li>The outer box</li>\r\n      <li>The tab bar</li>\r\n      <li>The tabs themselves</li>\r\n      <li>The selected tab</li>\r\n      <li>The tab panel area</li>\r\n    </ul>\r\n  </div>\r\n  <h2>Collapse</h2>\r\n  <div>\r\n    <p>\r\n      The accordion-like <code>collapse</code> affordance\r\n      also uses shadow-dom to establish\r\n      summary-details like behavior for each section,\r\n      with an option to make the toggle-states\r\n      <code>exclusive-collapse</code>.\r\n    </p>\r\n    <p>\r\n      In an accordion state, we likely want to style:\r\n    </p>\r\n    <ul>\r\n      <li>The outer box</li>\r\n      <li>The section headings/buttons</li>\r\n      <li>The open/closed marker</li>\r\n      <li>Open and closed heading styles</li>\r\n      <li>Open and closed content styles</li>\r\n    </ul>\r\n  </div>\r\n  <h2>Structured Content</h2>\r\n  <div>\r\n    <p>\r\n      The fallback state is simply structured HTML,\r\n      without any show/hide affordances.\r\n      This does not require any special styling.\r\n    </p>\r\n  </div>\r\n</spicy-sections>\n```\n\n\n### MDN URL:\n\n_No response_\n\n### Specification URL:\n\nhttps://css-tricks.com/newsletter/281-tabs-and-spicy-drama/#:~:text=Except%20so%20far%20they%E2%80%99ve%20come%20to%20the%20conclusion,component%20based%20on%20the%20width%20of%20the%20browser.\n\n### Any other links?\n\nhttps://daverupert.com/2021/10/native-html-tabs/\n\n### How stable is this feature?\n\nFuture (No implementations yet)\n\n### Type of feature\n\nHTML element\n\n### What focus area does this feature fall under?\n\n_No response_\n\n### Details\n\n_No response_",
 		"url": "https://github.com/Devographics/surveys/discussions/190",
 		"upvoteCount": 1
-	},
-	{
-		"title": "`<selectlist>` (ex `<selectmenu>`)",
-		"number": 95,
-		"body": "```html\r\n<selectmenu>\r\n\t<option>Option 1</option>\r\n\t<option>Option 2</option>\r\n\t<option>Option 3</option>\r\n</selectmenu>\r\n```\r\n\r\n### Specification URL:\r\n\r\nhttps://open-ui.org/components/selectmenu/\r\n\r\n### MDN URL:\r\n\r\n_No response_\r\n\r\n### Any other links?\r\n\r\nhttps://web.dev/state-of-css-2022/#customizing-select-elements\r\nhttps://css-tricks.com/the-selectmenu-element/\r\nhttps://www.smashingmagazine.com/2023/06/advanced-form-control-styling-selectmenu-anchoring-api/\r\nhttps://hidde.blog/custom-select-with-selectmenu/\r\nhttps://microsoftedge.github.io/Demos/selectmenu/\r\n\r\n### How stable is this feature?\r\n\r\nFuture (No implementations yet)\r\n\r\n### Type of feature\r\n\r\nHTML element\r\n\r\n### What focus area does this feature fall into?\r\n\r\nForms\r\n\r\n### Details\r\n\r\nFully stylable, customizable dropdown menus",
-		"url": "https://github.com/Devographics/surveys/discussions/95",
-		"upvoteCount": 61
 	},
 	{
 		"title": "Explicit slot assignment (`slot=\"foo\"`)",
@@ -371,13 +392,6 @@
 		"upvoteCount": 16
 	},
 	{
-		"title": "Defining Custom Elements",
-		"number": 184,
-		"body": "Defining custom elements for use by others.\r\nIf you have never used this, you can probably skip the rest of this section.\r\n\r\n### Code sample\r\n\r\n```js\r\nclass MyElement extends HTMLElement { … }\r\ncustomElements.define(\"my-element\", MyElement);\r\n```\r\n\r\n\r\n### MDN URL:\r\n\r\nhttps://developer.mozilla.org/en-US/docs/Web/API/CustomElementRegistry/define\r\n\r\n### Specification URL:\r\n\r\nhttps://html.spec.whatwg.org/multipage/custom-elements.html#dom-customelementregistry-define-dev\r\n\r\n### Any other links?\r\n\r\n_No response_\r\n\r\n### How stable is this feature?\r\n\r\nStable (Widely supported for several years)\r\n\r\n### Type of feature\r\n\r\nJS API\r\n\r\n### What focus area does this feature fall under?\r\n\r\nMaking Web Components\r\n\r\n### Details\r\n\r\nThis question needs to be the first in the \"Making Web Components\" section.",
-		"url": "https://github.com/Devographics/surveys/discussions/184",
-		"upvoteCount": 2
-	},
-	{
 		"title": "`<track>` element",
 		"number": 132,
 		"body": "Provides subtitles or closed caption tracks for multimedia content.\r\n\r\n### Code sample\r\n\r\n```html\r\n<video controls src=\"movie.mp4\">\r\n    <track default srclang=\"el\" src=\"greek.srt\">\r\n</video>\r\n```\r\n\r\n\r\n### MDN URL:\r\n\r\nhttps://developer.mozilla.org/en-US/docs/Web/HTML/Element/track\r\n\r\n### Specification URL:\r\n\r\nhttps://html.spec.whatwg.org/multipage/media.html#the-track-element\r\n\r\n### Any other links?\r\n\r\n[Can I Use](https://caniuse.com/mdn-html_elements_track)\r\n\r\n### How stable is this feature?\r\n\r\nStable (Widely supported for several years)\r\n\r\n### Type of feature\r\n\r\nHTML element\r\n\r\n### What focus area does this feature fall into?\r\n\r\nMultimedia\r\n\r\n### Details\r\n\r\n_No response_",
@@ -420,7 +434,7 @@
 		"upvoteCount": 14
 	},
 	{
-		"title": "`plaintext-only` value for `contenteditable`",
+		"title": "`contenteditable=\"plaintext-only\"`",
 		"number": 155,
 		"body": "Permits editing of the element's raw text, but not rich text formatting.\r\n\r\n### Code sample\r\n\r\n```html\r\n<h2 class=\"title\" contenteditable=\"plaintext-only\"></h2>\r\n```\r\n\r\n\r\n### MDN URL:\r\n\r\nhttps://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes/contenteditable\r\n\r\n### Specification URL:\r\n\r\nhttps://html.spec.whatwg.org/multipage/interaction.html#attr-contenteditable\r\n\r\n### Any other links?\r\n\r\n_No response_\r\n\r\n### How stable is this feature?\r\n\r\nCutting edge (Shipped, but not in all browsers)\r\n\r\n### Type of feature\r\n\r\nHTML attribute value\r\n\r\n### What focus area does this feature fall under?\r\n\r\nForms\r\n\r\n### Details\r\n\r\n_No response_",
 		"url": "https://github.com/Devographics/surveys/discussions/155",
@@ -460,13 +474,6 @@
 		"body": "Allows specifying a hint to help the browser prioritize fetching various resources.\r\n\r\n### Code sample\r\n\r\n```html\r\n<img src=\"logo.svg\" fetchpriority=\"high\" />\r\n```\r\n\r\n### MDN URL:\r\n\r\nhttps://developer.mozilla.org/en-US/docs/Web/API/HTMLImageElement/fetchPriority\r\n\r\n### Specification URL:\r\n\r\nhttps://wicg.github.io/priority-hints/\r\n\r\n### Any other links?\r\n\r\n- [Can I Use `<img fetchpriority>`](https://caniuse.com/mdn-html_elements_img_fetchpriority)\r\n- [Can I Use `<link fetchpriority>`](https://caniuse.com/mdn-html_elements_link_fetchpriority)\r\n- [Can I Use `<script fetchpriority>`](https://caniuse.com/mdn-html_elements_script_fetchpriority)\r\n- [TAG review](https://github.com/w3ctag/design-reviews/issues/704)\r\n- [Explainer](https://github.com/WICG/priority-hints/blob/main/EXPLAINER.md)\r\n- [Chrome Status](https://chromestatus.com/feature/5273474901737472)\r\n- https://web.dev/fetch-priority/\r\n\r\n### How stable is this feature?\r\n\r\nCutting edge (Shipped, but not in all browsers)\r\n\r\n### Type of feature\r\n\r\nHTML attribute\r\n\r\n### What focus area does this feature fall into?\r\n\r\nPerformance, Embedding, Multimedia\r\n\r\n### Details\r\n\r\n_No response_",
 		"url": "https://github.com/Devographics/surveys/discussions/137",
 		"upvoteCount": 37
-	},
-	{
-		"title": "`autocomplete=\"hint\"`",
-		"number": 162,
-		"body": "Provide hints about what kind of information should be autocompleted.\r\n\r\n### Code sample\r\n\r\n```html\r\n<input name=\"first_name\" autocomplete=\"given-name\" />\r\n```\r\n\r\n### MDN URL:\r\n\r\nhttps://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/autocomplete\r\n\r\n### Specification URL:\r\n\r\nhttps://html.spec.whatwg.org/multipage/form-control-infrastructure.html#attr-fe-autocomplete\r\n\r\n### Any other links?\r\n\r\n_No response_\r\n\r\n### How stable is this feature?\r\n\r\nMixed (Some parts stable, others unimplemented or inconsistent)\r\n\r\n### Type of feature\r\n\r\nHTML attribute value\r\n\r\n### What focus area does this feature fall under?\r\n\r\nForms\r\n\r\n### Details\r\n\r\nBrowsers seem wildly inconsistent with their support for auto-completion, and I think this is one of the primary factors towards devs not using it.\r\n\r\nSome browsers may honor auto-completion rules, others will completely ignore it, and others still will guess their own auto-completion putting the wrong values in the wrong place even when the page's source code explicitly says to disable all auto-completion.\r\n\r\nIt's worth asking about form auto-completion because everyone seems to be confused about how it works in practice, causing many developers to refrain from using it.",
-		"url": "https://github.com/Devographics/surveys/discussions/162",
-		"upvoteCount": 41
 	},
 	{
 		"title": "`inert` attribute",

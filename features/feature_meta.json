@@ -2,3682 +2,1407 @@
 	{
 		"Question": "`<datalist>` ",
 		"Focus area": [
-			{
-				"@context": "http://schema.org/",
-				"@type": "StructuredValue",
-				"additionalType": "row",
-				"name": "Forms & Editing",
-				"url": "https://coda.io/d/_dTGBFYq175J#_tugrid-IF1UMmZNt5/_rui-HITV9PbnY3",
-				"tableId": "grid-IF1UMmZNt5",
-				"rowId": "i-HITV9PbnY3",
-				"tableUrl": "https://coda.io/d/_dTGBFYq175J#_tugrid-IF1UMmZNt5"
-			}
+			"Forms & Editing"
 		],
 		"Type": [
 			"HTML element",
 			"HTML attribute"
 		],
-		"Discussion": {
-			"@context": "http://schema.org/",
-			"@type": "WebPage",
-			"url": "https://github.com/Devographics/surveys/discussions/207"
-		},
-		"Status": {
-			"@context": "http://schema.org/",
-			"@type": "StructuredValue",
-			"additionalType": "row",
-			"name": "Stable",
-			"url": "https://coda.io/d/_dTGBFYq175J#_tugrid-BqPGmglU_b/_rui-SyiVTehUqi",
-			"tableId": "grid-BqPGmglU_b",
-			"rowId": "i-SyiVTehUqi",
-			"tableUrl": "https://coda.io/d/_dTGBFYq175J#_tugrid-BqPGmglU_b"
-		},
-		"In Part 1": {
-			"@context": "http://schema.org/",
-			"@type": "StructuredValue",
-			"additionalType": "row",
-			"name": "Yes",
-			"url": "https://coda.io/d/_dTGBFYq175J#_tugrid-RUMkEBKBsZ/_rui-CiZ6xQAbPU",
-			"tableId": "grid-RUMkEBKBsZ",
-			"rowId": "i-CiZ6xQAbPU",
-			"tableUrl": "https://coda.io/d/_dTGBFYq175J#_tugrid-RUMkEBKBsZ"
-		},
+		"Discussion": "https://github.com/Devographics/surveys/discussions/207",
+		"Status": "Stable",
+		"In Part 1": "Yes",
 		"Upvotes": "",
 		"id": "datalist_element",
-		"Needs Translation": false
+		"Needs Translation": false,
+		"Description": "",
+		"Code snippet": "",
+		"URLs": ""
 	},
 	{
 		"Question": "`form.requestSubmit()`",
 		"Focus area": [
-			{
-				"@context": "http://schema.org/",
-				"@type": "StructuredValue",
-				"additionalType": "row",
-				"name": "Forms & Editing",
-				"url": "https://coda.io/d/_dTGBFYq175J#_tugrid-IF1UMmZNt5/_rui-HITV9PbnY3",
-				"tableId": "grid-IF1UMmZNt5",
-				"rowId": "i-HITV9PbnY3",
-				"tableUrl": "https://coda.io/d/_dTGBFYq175J#_tugrid-IF1UMmZNt5"
-			}
+			"Forms & Editing"
 		],
 		"Type": [
 			"JS API"
 		],
 		"Discussion": "",
-		"Status": {
-			"@context": "http://schema.org/",
-			"@type": "StructuredValue",
-			"additionalType": "row",
-			"name": "Recent",
-			"url": "https://coda.io/d/_dTGBFYq175J#_tugrid-BqPGmglU_b/_rui-bntRYhG1UO",
-			"tableId": "grid-BqPGmglU_b",
-			"rowId": "i-bntRYhG1UO",
-			"tableUrl": "https://coda.io/d/_dTGBFYq175J#_tugrid-BqPGmglU_b"
-		},
-		"In Part 1": {
-			"@context": "http://schema.org/",
-			"@type": "StructuredValue",
-			"additionalType": "row",
-			"name": "Maybe",
-			"url": "https://coda.io/d/_dTGBFYq175J#_tugrid-RUMkEBKBsZ/_rui-rCEFqlqfFX",
-			"tableId": "grid-RUMkEBKBsZ",
-			"rowId": "i-rCEFqlqfFX",
-			"tableUrl": "https://coda.io/d/_dTGBFYq175J#_tugrid-RUMkEBKBsZ"
-		},
+		"Status": "Recent",
+		"In Part 1": "Maybe",
 		"Upvotes": "",
 		"id": "form_request_submit",
-		"Needs Translation": false
+		"Needs Translation": false,
+		"Description": "Programmatically submit a form in a way that mimics real form submission",
+		"Code snippet": "",
+		"URLs": "- [https://developer.mozilla.org/en-US/docs/Web/API/HTMLFormElement/requestSubmit](https://developer.mozilla.org/en-US/docs/Web/API/HTMLFormElement/requestSubmit)"
 	},
 	{
 		"Question": "Borderless mode",
 		"Focus area": [
-			{
-				"@context": "http://schema.org/",
-				"@type": "StructuredValue",
-				"additionalType": "row",
-				"name": "Bridging the gap with native",
-				"url": "https://coda.io/d/_dTGBFYq175J#_tugrid-IF1UMmZNt5/_rui-g0DSoXECnm",
-				"tableId": "grid-IF1UMmZNt5",
-				"rowId": "i-g0DSoXECnm",
-				"tableUrl": "https://coda.io/d/_dTGBFYq175J#_tugrid-IF1UMmZNt5"
-			}
+			"Progressive Web Apps"
 		],
 		"Type": [
 			"Other"
 		],
-		"Discussion": {
-			"@context": "http://schema.org/",
-			"@type": "WebPage",
-			"url": "https://github.com/Devographics/surveys/discussions/203"
-		},
-		"Status": {
-			"@context": "http://schema.org/",
-			"@type": "StructuredValue",
-			"additionalType": "row",
-			"name": "Cutting Edge",
-			"url": "https://coda.io/d/_dTGBFYq175J#_tugrid-BqPGmglU_b/_rui-LMy3PoJR22",
-			"tableId": "grid-BqPGmglU_b",
-			"rowId": "i-LMy3PoJR22",
-			"tableUrl": "https://coda.io/d/_dTGBFYq175J#_tugrid-BqPGmglU_b"
-		},
-		"In Part 1": {
-			"@context": "http://schema.org/",
-			"@type": "StructuredValue",
-			"additionalType": "row",
-			"name": "Yes",
-			"url": "https://coda.io/d/_dTGBFYq175J#_tugrid-RUMkEBKBsZ/_rui-CiZ6xQAbPU",
-			"tableId": "grid-RUMkEBKBsZ",
-			"rowId": "i-CiZ6xQAbPU",
-			"tableUrl": "https://coda.io/d/_dTGBFYq175J#_tugrid-RUMkEBKBsZ"
-		},
+		"Discussion": "https://github.com/Devographics/surveys/discussions/203",
+		"Status": "Cutting Edge",
+		"In Part 1": "Yes",
 		"Upvotes": 2,
 		"id": "borderless_mode",
-		"Needs Translation": true
+		"Needs Translation": true,
+		"Description": "",
+		"Code snippet": "",
+		"URLs": ""
 	},
 	{
 		"Question": "`<iframe seamless>` ",
 		"Focus area": [
-			{
-				"@context": "http://schema.org/",
-				"@type": "StructuredValue",
-				"additionalType": "row",
-				"name": "Embedding",
-				"url": "https://coda.io/d/_dTGBFYq175J#_tugrid-IF1UMmZNt5/_rui-8jmGxZ5d17",
-				"tableId": "grid-IF1UMmZNt5",
-				"rowId": "i-8jmGxZ5d17",
-				"tableUrl": "https://coda.io/d/_dTGBFYq175J#_tugrid-IF1UMmZNt5"
-			}
+			"Embedding"
 		],
 		"Type": [
 			"HTML attribute"
 		],
-		"Discussion": {
-			"@context": "http://schema.org/",
-			"@type": "WebPage",
-			"url": "https://github.com/Devographics/surveys/discussions/202"
-		},
-		"Status": {
-			"@context": "http://schema.org/",
-			"@type": "StructuredValue",
-			"additionalType": "row",
-			"name": "Removed",
-			"url": "https://coda.io/d/_dTGBFYq175J#_tugrid-BqPGmglU_b/_rui-bXfe43IRWh",
-			"tableId": "grid-BqPGmglU_b",
-			"rowId": "i-bXfe43IRWh",
-			"tableUrl": "https://coda.io/d/_dTGBFYq175J#_tugrid-BqPGmglU_b"
-		},
-		"In Part 1": {
-			"@context": "http://schema.org/",
-			"@type": "StructuredValue",
-			"additionalType": "row",
-			"name": "No",
-			"url": "https://coda.io/d/_dTGBFYq175J#_tugrid-RUMkEBKBsZ/_rui-RjHDLbCCCx",
-			"tableId": "grid-RUMkEBKBsZ",
-			"rowId": "i-RjHDLbCCCx",
-			"tableUrl": "https://coda.io/d/_dTGBFYq175J#_tugrid-RUMkEBKBsZ"
-		},
+		"Discussion": "https://github.com/Devographics/surveys/discussions/202",
+		"Status": "Removed",
+		"In Part 1": "No",
 		"Upvotes": 1,
 		"id": "iframe_seamless",
-		"Needs Translation": false
+		"Needs Translation": false,
+		"Description": "",
+		"Code snippet": "",
+		"URLs": ""
 	},
 	{
 		"Question": "`<menu>` ",
 		"Focus area": [
-			{
-				"@context": "http://schema.org/",
-				"@type": "StructuredValue",
-				"additionalType": "row",
-				"name": "Semantic HTML",
-				"url": "https://coda.io/d/_dTGBFYq175J#_tugrid-IF1UMmZNt5/_rui-lnIUWZdEr5",
-				"tableId": "grid-IF1UMmZNt5",
-				"rowId": "i-lnIUWZdEr5",
-				"tableUrl": "https://coda.io/d/_dTGBFYq175J#_tugrid-IF1UMmZNt5"
-			}
+			"Accessibility"
 		],
 		"Type": [
 			"HTML element"
 		],
-		"Discussion": {
-			"@context": "http://schema.org/",
-			"@type": "WebPage",
-			"url": "https://github.com/Devographics/surveys/discussions/200"
-		},
-		"Status": {
-			"@context": "http://schema.org/",
-			"@type": "StructuredValue",
-			"additionalType": "row",
-			"name": "Stable",
-			"url": "https://coda.io/d/_dTGBFYq175J#_tugrid-BqPGmglU_b/_rui-SyiVTehUqi",
-			"tableId": "grid-BqPGmglU_b",
-			"rowId": "i-SyiVTehUqi",
-			"tableUrl": "https://coda.io/d/_dTGBFYq175J#_tugrid-BqPGmglU_b"
-		},
-		"In Part 1": {
-			"@context": "http://schema.org/",
-			"@type": "StructuredValue",
-			"additionalType": "row",
-			"name": "Likely Yes",
-			"url": "https://coda.io/d/_dTGBFYq175J#_tugrid-RUMkEBKBsZ/_rui-4yGRpoH1zz",
-			"tableId": "grid-RUMkEBKBsZ",
-			"rowId": "i-4yGRpoH1zz",
-			"tableUrl": "https://coda.io/d/_dTGBFYq175J#_tugrid-RUMkEBKBsZ"
-		},
+		"Discussion": "https://github.com/Devographics/surveys/discussions/200",
+		"Status": "Stable",
+		"In Part 1": "Likely Yes",
 		"Upvotes": 2,
 		"id": "menu_element",
-		"Needs Translation": false
+		"Needs Translation": false,
+		"Description": "",
+		"Code snippet": "",
+		"URLs": ""
 	},
 	{
 		"Question": "URLs to Text Fragments",
 		"Focus area": [
-			{
-				"@context": "http://schema.org/",
-				"@type": "StructuredValue",
-				"additionalType": "row",
-				"name": "Other",
-				"url": "https://coda.io/d/_dTGBFYq175J#_tugrid-IF1UMmZNt5/_rui-ywmcUsXGXQ",
-				"tableId": "grid-IF1UMmZNt5",
-				"rowId": "i-ywmcUsXGXQ",
-				"tableUrl": "https://coda.io/d/_dTGBFYq175J#_tugrid-IF1UMmZNt5"
-			}
+			"Content"
 		],
 		"Type": [
 			"JS API",
 			"Other",
 			"CSS"
 		],
-		"Discussion": {
-			"@context": "http://schema.org/",
-			"@type": "WebPage",
-			"url": "https://github.com/Devographics/surveys/discussions/199"
-		},
-		"Status": {
-			"@context": "http://schema.org/",
-			"@type": "StructuredValue",
-			"additionalType": "row",
-			"name": "Controversial",
-			"url": "https://coda.io/d/_dTGBFYq175J#_tugrid-BqPGmglU_b/_rui-gxWA6yQFpf",
-			"tableId": "grid-BqPGmglU_b",
-			"rowId": "i-gxWA6yQFpf",
-			"tableUrl": "https://coda.io/d/_dTGBFYq175J#_tugrid-BqPGmglU_b"
-		},
-		"In Part 1": {
-			"@context": "http://schema.org/",
-			"@type": "StructuredValue",
-			"additionalType": "row",
-			"name": "Maybe",
-			"url": "https://coda.io/d/_dTGBFYq175J#_tugrid-RUMkEBKBsZ/_rui-rCEFqlqfFX",
-			"tableId": "grid-RUMkEBKBsZ",
-			"rowId": "i-rCEFqlqfFX",
-			"tableUrl": "https://coda.io/d/_dTGBFYq175J#_tugrid-RUMkEBKBsZ"
-		},
+		"Discussion": "https://github.com/Devographics/surveys/discussions/199",
+		"Status": "Controversial",
+		"In Part 1": "Maybe",
 		"Upvotes": 1,
 		"id": "text_fragments",
-		"Needs Translation": true
+		"Needs Translation": true,
+		"Description": "",
+		"Code snippet": "",
+		"URLs": ""
 	},
 	{
 		"Question": "Window Controls Overlay API ",
 		"Focus area": [
-			{
-				"@context": "http://schema.org/",
-				"@type": "StructuredValue",
-				"additionalType": "row",
-				"name": "Bridging the gap with native",
-				"url": "https://coda.io/d/_dTGBFYq175J#_tugrid-IF1UMmZNt5/_rui-g0DSoXECnm",
-				"tableId": "grid-IF1UMmZNt5",
-				"rowId": "i-g0DSoXECnm",
-				"tableUrl": "https://coda.io/d/_dTGBFYq175J#_tugrid-IF1UMmZNt5"
-			}
+			"Progressive Web Apps"
 		],
 		"Type": [
 			"JS API",
 			"CSS",
 			"Other"
 		],
-		"Discussion": {
-			"@context": "http://schema.org/",
-			"@type": "WebPage",
-			"url": "https://github.com/Devographics/surveys/discussions/197"
-		},
-		"Status": {
-			"@context": "http://schema.org/",
-			"@type": "StructuredValue",
-			"additionalType": "row",
-			"name": "Cutting Edge",
-			"url": "https://coda.io/d/_dTGBFYq175J#_tugrid-BqPGmglU_b/_rui-LMy3PoJR22",
-			"tableId": "grid-BqPGmglU_b",
-			"rowId": "i-LMy3PoJR22",
-			"tableUrl": "https://coda.io/d/_dTGBFYq175J#_tugrid-BqPGmglU_b"
-		},
-		"In Part 1": {
-			"@context": "http://schema.org/",
-			"@type": "StructuredValue",
-			"additionalType": "row",
-			"name": "Maybe",
-			"url": "https://coda.io/d/_dTGBFYq175J#_tugrid-RUMkEBKBsZ/_rui-rCEFqlqfFX",
-			"tableId": "grid-RUMkEBKBsZ",
-			"rowId": "i-rCEFqlqfFX",
-			"tableUrl": "https://coda.io/d/_dTGBFYq175J#_tugrid-RUMkEBKBsZ"
-		},
+		"Discussion": "https://github.com/Devographics/surveys/discussions/197",
+		"Status": "Cutting Edge",
+		"In Part 1": "Maybe",
 		"Upvotes": 1,
 		"id": "window_controls_overlay",
-		"Needs Translation": true
+		"Needs Translation": true,
+		"Description": "",
+		"Code snippet": "",
+		"URLs": ""
 	},
 	{
 		"Question": "Web Share API",
 		"Focus area": [
-			{
-				"@context": "http://schema.org/",
-				"@type": "StructuredValue",
-				"additionalType": "row",
-				"name": "Bridging the gap with native",
-				"url": "https://coda.io/d/_dTGBFYq175J#_tugrid-IF1UMmZNt5/_rui-g0DSoXECnm",
-				"tableId": "grid-IF1UMmZNt5",
-				"rowId": "i-g0DSoXECnm",
-				"tableUrl": "https://coda.io/d/_dTGBFYq175J#_tugrid-IF1UMmZNt5"
-			}
+			"Progressive Web Apps"
 		],
 		"Type": [
 			"JS API"
 		],
-		"Discussion": {
-			"@context": "http://schema.org/",
-			"@type": "WebPage",
-			"url": "https://github.com/Devographics/surveys/discussions/196"
-		},
-		"Status": {
-			"@context": "http://schema.org/",
-			"@type": "StructuredValue",
-			"additionalType": "row",
-			"name": "Cutting Edge",
-			"url": "https://coda.io/d/_dTGBFYq175J#_tugrid-BqPGmglU_b/_rui-LMy3PoJR22",
-			"tableId": "grid-BqPGmglU_b",
-			"rowId": "i-LMy3PoJR22",
-			"tableUrl": "https://coda.io/d/_dTGBFYq175J#_tugrid-BqPGmglU_b"
-		},
-		"In Part 1": {
-			"@context": "http://schema.org/",
-			"@type": "StructuredValue",
-			"additionalType": "row",
-			"name": "Yes",
-			"url": "https://coda.io/d/_dTGBFYq175J#_tugrid-RUMkEBKBsZ/_rui-CiZ6xQAbPU",
-			"tableId": "grid-RUMkEBKBsZ",
-			"rowId": "i-CiZ6xQAbPU",
-			"tableUrl": "https://coda.io/d/_dTGBFYq175J#_tugrid-RUMkEBKBsZ"
-		},
+		"Discussion": "https://github.com/Devographics/surveys/discussions/196",
+		"Status": "Cutting Edge",
+		"In Part 1": "Yes",
 		"Upvotes": 1,
 		"id": "web_share_api",
-		"Needs Translation": true
+		"Needs Translation": true,
+		"Description": "",
+		"Code snippet": "",
+		"URLs": ""
 	},
 	{
 		"Question": "Badging API",
 		"Focus area": [
-			{
-				"@context": "http://schema.org/",
-				"@type": "StructuredValue",
-				"additionalType": "row",
-				"name": "Bridging the gap with native",
-				"url": "https://coda.io/d/_dTGBFYq175J#_tugrid-IF1UMmZNt5/_rui-g0DSoXECnm",
-				"tableId": "grid-IF1UMmZNt5",
-				"rowId": "i-g0DSoXECnm",
-				"tableUrl": "https://coda.io/d/_dTGBFYq175J#_tugrid-IF1UMmZNt5"
-			}
+			"Progressive Web Apps"
 		],
 		"Type": [
 			"JS API"
 		],
-		"Discussion": {
-			"@context": "http://schema.org/",
-			"@type": "WebPage",
-			"url": "https://github.com/Devographics/surveys/discussions/195"
-		},
-		"Status": {
-			"@context": "http://schema.org/",
-			"@type": "StructuredValue",
-			"additionalType": "row",
-			"name": "Cutting Edge",
-			"url": "https://coda.io/d/_dTGBFYq175J#_tugrid-BqPGmglU_b/_rui-LMy3PoJR22",
-			"tableId": "grid-BqPGmglU_b",
-			"rowId": "i-LMy3PoJR22",
-			"tableUrl": "https://coda.io/d/_dTGBFYq175J#_tugrid-BqPGmglU_b"
-		},
-		"In Part 1": {
-			"@context": "http://schema.org/",
-			"@type": "StructuredValue",
-			"additionalType": "row",
-			"name": "Yes",
-			"url": "https://coda.io/d/_dTGBFYq175J#_tugrid-RUMkEBKBsZ/_rui-CiZ6xQAbPU",
-			"tableId": "grid-RUMkEBKBsZ",
-			"rowId": "i-CiZ6xQAbPU",
-			"tableUrl": "https://coda.io/d/_dTGBFYq175J#_tugrid-RUMkEBKBsZ"
-		},
+		"Discussion": "https://github.com/Devographics/surveys/discussions/195",
+		"Status": "Cutting Edge",
+		"In Part 1": "Yes",
 		"Upvotes": 1,
 		"id": "badging_api",
-		"Needs Translation": true
+		"Needs Translation": true,
+		"Description": "",
+		"Code snippet": "",
+		"URLs": ""
 	},
 	{
-		"Question": "FormData",
+		"Question": "FormData API",
 		"Focus area": [
-			{
-				"@context": "http://schema.org/",
-				"@type": "StructuredValue",
-				"additionalType": "row",
-				"name": "Forms & Editing",
-				"url": "https://coda.io/d/_dTGBFYq175J#_tugrid-IF1UMmZNt5/_rui-HITV9PbnY3",
-				"tableId": "grid-IF1UMmZNt5",
-				"rowId": "i-HITV9PbnY3",
-				"tableUrl": "https://coda.io/d/_dTGBFYq175J#_tugrid-IF1UMmZNt5"
-			}
+			"Forms & Editing"
 		],
 		"Type": [
 			"JS API"
 		],
 		"Discussion": "",
-		"Status": {
-			"@context": "http://schema.org/",
-			"@type": "StructuredValue",
-			"additionalType": "row",
-			"name": "Stable",
-			"url": "https://coda.io/d/_dTGBFYq175J#_tugrid-BqPGmglU_b/_rui-SyiVTehUqi",
-			"tableId": "grid-BqPGmglU_b",
-			"rowId": "i-SyiVTehUqi",
-			"tableUrl": "https://coda.io/d/_dTGBFYq175J#_tugrid-BqPGmglU_b"
-		},
-		"In Part 1": {
-			"@context": "http://schema.org/",
-			"@type": "StructuredValue",
-			"additionalType": "row",
-			"name": "Maybe",
-			"url": "https://coda.io/d/_dTGBFYq175J#_tugrid-RUMkEBKBsZ/_rui-rCEFqlqfFX",
-			"tableId": "grid-RUMkEBKBsZ",
-			"rowId": "i-rCEFqlqfFX",
-			"tableUrl": "https://coda.io/d/_dTGBFYq175J#_tugrid-RUMkEBKBsZ"
-		},
+		"Status": "Stable",
+		"In Part 1": "Maybe",
 		"Upvotes": "",
 		"id": "formdata",
-		"Needs Translation": true
+		"Needs Translation": true,
+		"Description": "Easy handling of form data values",
+		"Code snippet": "```\nlet fd = new FormData(form);\nlet data = JSON.stringify(Object.fromEntries(fd));\n```",
+		"URLs": "- [https://developer.mozilla.org/en-US/docs/Web/API/FormData/FormData](https://developer.mozilla.org/en-US/docs/Web/API/FormData/FormData)\n- [https://xhr.spec.whatwg.org/#dom-formdata](https://xhr.spec.whatwg.org/#dom-formdata)\n- [https://caniuse.com/mdn-api_formdata](https://caniuse.com/mdn-api_formdata)"
 	},
 	{
 		"Question": "Sanitizer API",
 		"Focus area": [
-			{
-				"@context": "http://schema.org/",
-				"@type": "StructuredValue",
-				"additionalType": "row",
-				"name": "Security & Privacy",
-				"url": "https://coda.io/d/_dTGBFYq175J#_tugrid-IF1UMmZNt5/_rui-cgPPUwtNEO",
-				"tableId": "grid-IF1UMmZNt5",
-				"rowId": "i-cgPPUwtNEO",
-				"tableUrl": "https://coda.io/d/_dTGBFYq175J#_tugrid-IF1UMmZNt5"
-			}
+			"Security & Privacy"
 		],
 		"Type": [
 			"JS API"
 		],
-		"Discussion": {
-			"@context": "http://schema.org/",
-			"@type": "WebPage",
-			"url": "https://github.com/Devographics/surveys/discussions/192"
-		},
-		"Status": {
-			"@context": "http://schema.org/",
-			"@type": "StructuredValue",
-			"additionalType": "row",
-			"name": "Future",
-			"url": "https://coda.io/d/_dTGBFYq175J#_tugrid-BqPGmglU_b/_rui-vwaDIcBrtd",
-			"tableId": "grid-BqPGmglU_b",
-			"rowId": "i-vwaDIcBrtd",
-			"tableUrl": "https://coda.io/d/_dTGBFYq175J#_tugrid-BqPGmglU_b"
-		},
-		"In Part 1": {
-			"@context": "http://schema.org/",
-			"@type": "StructuredValue",
-			"additionalType": "row",
-			"name": "No",
-			"url": "https://coda.io/d/_dTGBFYq175J#_tugrid-RUMkEBKBsZ/_rui-RjHDLbCCCx",
-			"tableId": "grid-RUMkEBKBsZ",
-			"rowId": "i-RjHDLbCCCx",
-			"tableUrl": "https://coda.io/d/_dTGBFYq175J#_tugrid-RUMkEBKBsZ"
-		},
+		"Discussion": "https://github.com/Devographics/surveys/discussions/192",
+		"Status": "Future",
+		"In Part 1": "No",
 		"Upvotes": 1,
 		"id": "sanitizer_api",
-		"Needs Translation": true
+		"Needs Translation": true,
+		"Description": "",
+		"Code snippet": "",
+		"URLs": ""
 	},
 	{
 		"Question": "Scoped Custom Element Registries",
 		"Focus area": [
-			{
-				"@context": "http://schema.org/",
-				"@type": "StructuredValue",
-				"additionalType": "row",
-				"name": "Making Web Components",
-				"url": "https://coda.io/d/_dTGBFYq175J#_tugrid-IF1UMmZNt5/_rui-FgI34TEfuP",
-				"tableId": "grid-IF1UMmZNt5",
-				"rowId": "i-FgI34TEfuP",
-				"tableUrl": "https://coda.io/d/_dTGBFYq175J#_tugrid-IF1UMmZNt5"
-			}
+			"Making Web Components"
 		],
 		"Type": [
 			"JS API"
 		],
-		"Discussion": {
-			"@context": "http://schema.org/",
-			"@type": "WebPage",
-			"url": "https://github.com/Devographics/surveys/discussions/187"
-		},
-		"Status": {
-			"@context": "http://schema.org/",
-			"@type": "StructuredValue",
-			"additionalType": "row",
-			"name": "Future",
-			"url": "https://coda.io/d/_dTGBFYq175J#_tugrid-BqPGmglU_b/_rui-vwaDIcBrtd",
-			"tableId": "grid-BqPGmglU_b",
-			"rowId": "i-vwaDIcBrtd",
-			"tableUrl": "https://coda.io/d/_dTGBFYq175J#_tugrid-BqPGmglU_b"
-		},
-		"In Part 1": {
-			"@context": "http://schema.org/",
-			"@type": "StructuredValue",
-			"additionalType": "row",
-			"name": "Likely Yes",
-			"url": "https://coda.io/d/_dTGBFYq175J#_tugrid-RUMkEBKBsZ/_rui-4yGRpoH1zz",
-			"tableId": "grid-RUMkEBKBsZ",
-			"rowId": "i-4yGRpoH1zz",
-			"tableUrl": "https://coda.io/d/_dTGBFYq175J#_tugrid-RUMkEBKBsZ"
-		},
+		"Discussion": "https://github.com/Devographics/surveys/discussions/187",
+		"Status": "Future",
+		"In Part 1": "Likely Yes",
 		"Upvotes": 1,
 		"id": "scoped_element_registries",
-		"Needs Translation": true
+		"Needs Translation": true,
+		"Description": "",
+		"Code snippet": "",
+		"URLs": ""
 	},
 	{
 		"Question": "Defining Custom Elements",
 		"Focus area": [
-			{
-				"@context": "http://schema.org/",
-				"@type": "StructuredValue",
-				"additionalType": "row",
-				"name": "Making Web Components",
-				"url": "https://coda.io/d/_dTGBFYq175J#_tugrid-IF1UMmZNt5/_rui-FgI34TEfuP",
-				"tableId": "grid-IF1UMmZNt5",
-				"rowId": "i-FgI34TEfuP",
-				"tableUrl": "https://coda.io/d/_dTGBFYq175J#_tugrid-IF1UMmZNt5"
-			}
+			"Making Web Components"
 		],
 		"Type": [
 			"HTML element"
 		],
-		"Discussion": {
-			"@context": "http://schema.org/",
-			"@type": "WebPage",
-			"url": "https://github.com/Devographics/surveys/discussions/184"
-		},
-		"Status": {
-			"@context": "http://schema.org/",
-			"@type": "StructuredValue",
-			"additionalType": "row",
-			"name": "Stable",
-			"url": "https://coda.io/d/_dTGBFYq175J#_tugrid-BqPGmglU_b/_rui-SyiVTehUqi",
-			"tableId": "grid-BqPGmglU_b",
-			"rowId": "i-SyiVTehUqi",
-			"tableUrl": "https://coda.io/d/_dTGBFYq175J#_tugrid-BqPGmglU_b"
-		},
-		"In Part 1": {
-			"@context": "http://schema.org/",
-			"@type": "StructuredValue",
-			"additionalType": "row",
-			"name": "Yes",
-			"url": "https://coda.io/d/_dTGBFYq175J#_tugrid-RUMkEBKBsZ/_rui-CiZ6xQAbPU",
-			"tableId": "grid-RUMkEBKBsZ",
-			"rowId": "i-CiZ6xQAbPU",
-			"tableUrl": "https://coda.io/d/_dTGBFYq175J#_tugrid-RUMkEBKBsZ"
-		},
+		"Discussion": "https://github.com/Devographics/surveys/discussions/184",
+		"Status": "Stable",
+		"In Part 1": "Yes",
 		"Upvotes": 2,
 		"id": "custom_elements_defining",
-		"Needs Translation": true
+		"Needs Translation": true,
+		"Description": "",
+		"Code snippet": "",
+		"URLs": ""
 	},
 	{
 		"Question": "`pattern` attribute for `<input>` ",
 		"Focus area": [
-			{
-				"@context": "http://schema.org/",
-				"@type": "StructuredValue",
-				"additionalType": "row",
-				"name": "Forms & Editing",
-				"url": "https://coda.io/d/_dTGBFYq175J#_tugrid-IF1UMmZNt5/_rui-HITV9PbnY3",
-				"tableId": "grid-IF1UMmZNt5",
-				"rowId": "i-HITV9PbnY3",
-				"tableUrl": "https://coda.io/d/_dTGBFYq175J#_tugrid-IF1UMmZNt5"
-			}
+			"Forms & Editing"
 		],
 		"Type": [
 			"HTML attribute"
 		],
-		"Discussion": {
-			"@context": "http://schema.org/",
-			"@type": "WebPage",
-			"url": "https://github.com/Devographics/surveys/discussions/172"
-		},
-		"Status": {
-			"@context": "http://schema.org/",
-			"@type": "StructuredValue",
-			"additionalType": "row",
-			"name": "Stable",
-			"url": "https://coda.io/d/_dTGBFYq175J#_tugrid-BqPGmglU_b/_rui-SyiVTehUqi",
-			"tableId": "grid-BqPGmglU_b",
-			"rowId": "i-SyiVTehUqi",
-			"tableUrl": "https://coda.io/d/_dTGBFYq175J#_tugrid-BqPGmglU_b"
-		},
-		"In Part 1": {
-			"@context": "http://schema.org/",
-			"@type": "StructuredValue",
-			"additionalType": "row",
-			"name": "No",
-			"url": "https://coda.io/d/_dTGBFYq175J#_tugrid-RUMkEBKBsZ/_rui-RjHDLbCCCx",
-			"tableId": "grid-RUMkEBKBsZ",
-			"rowId": "i-RjHDLbCCCx",
-			"tableUrl": "https://coda.io/d/_dTGBFYq175J#_tugrid-RUMkEBKBsZ"
-		},
+		"Discussion": "https://github.com/Devographics/surveys/discussions/172",
+		"Status": "Stable",
+		"In Part 1": "No",
 		"Upvotes": 23,
 		"id": "input_pattern",
-		"Needs Translation": true
+		"Needs Translation": true,
+		"Description": "",
+		"Code snippet": "",
+		"URLs": ""
 	},
 	{
 		"Question": "Isolated Web Apps",
 		"Focus area": [
-			{
-				"@context": "http://schema.org/",
-				"@type": "StructuredValue",
-				"additionalType": "row",
-				"name": "Bridging the gap with native",
-				"url": "https://coda.io/d/_dTGBFYq175J#_tugrid-IF1UMmZNt5/_rui-g0DSoXECnm",
-				"tableId": "grid-IF1UMmZNt5",
-				"rowId": "i-g0DSoXECnm",
-				"tableUrl": "https://coda.io/d/_dTGBFYq175J#_tugrid-IF1UMmZNt5"
-			},
-			{
-				"@context": "http://schema.org/",
-				"@type": "StructuredValue",
-				"additionalType": "row",
-				"name": "Security & Privacy",
-				"url": "https://coda.io/d/_dTGBFYq175J#_tugrid-IF1UMmZNt5/_rui-cgPPUwtNEO",
-				"tableId": "grid-IF1UMmZNt5",
-				"rowId": "i-cgPPUwtNEO",
-				"tableUrl": "https://coda.io/d/_dTGBFYq175J#_tugrid-IF1UMmZNt5"
-			}
+			"Progressive Web Apps",
+			"Security & Privacy"
 		],
 		"Type": [
 			"Other"
 		],
-		"Discussion": {
-			"@context": "http://schema.org/",
-			"@type": "WebPage",
-			"url": "https://github.com/Devographics/surveys/discussions/170"
-		},
-		"Status": {
-			"@context": "http://schema.org/",
-			"@type": "StructuredValue",
-			"additionalType": "row",
-			"name": "Future",
-			"url": "https://coda.io/d/_dTGBFYq175J#_tugrid-BqPGmglU_b/_rui-vwaDIcBrtd",
-			"tableId": "grid-BqPGmglU_b",
-			"rowId": "i-vwaDIcBrtd",
-			"tableUrl": "https://coda.io/d/_dTGBFYq175J#_tugrid-BqPGmglU_b"
-		},
-		"In Part 1": {
-			"@context": "http://schema.org/",
-			"@type": "StructuredValue",
-			"additionalType": "row",
-			"name": "Likely Yes",
-			"url": "https://coda.io/d/_dTGBFYq175J#_tugrid-RUMkEBKBsZ/_rui-4yGRpoH1zz",
-			"tableId": "grid-RUMkEBKBsZ",
-			"rowId": "i-4yGRpoH1zz",
-			"tableUrl": "https://coda.io/d/_dTGBFYq175J#_tugrid-RUMkEBKBsZ"
-		},
+		"Discussion": "https://github.com/Devographics/surveys/discussions/170",
+		"Status": "Future",
+		"In Part 1": "Maybe",
 		"Upvotes": 9,
 		"id": "isolated_webapps",
-		"Needs Translation": true
+		"Needs Translation": true,
+		"Description": "",
+		"Code snippet": "",
+		"URLs": ""
 	},
 	{
 		"Question": "Multi-handle sliders (`<input type=range multiple>` )",
 		"Focus area": [
-			{
-				"@context": "http://schema.org/",
-				"@type": "StructuredValue",
-				"additionalType": "row",
-				"name": "Forms & Editing",
-				"url": "https://coda.io/d/_dTGBFYq175J#_tugrid-IF1UMmZNt5/_rui-HITV9PbnY3",
-				"tableId": "grid-IF1UMmZNt5",
-				"rowId": "i-HITV9PbnY3",
-				"tableUrl": "https://coda.io/d/_dTGBFYq175J#_tugrid-IF1UMmZNt5"
-			}
+			"Forms & Editing"
 		],
 		"Type": [
 			"HTML element"
 		],
-		"Discussion": {
-			"@context": "http://schema.org/",
-			"@type": "WebPage",
-			"url": "https://github.com/Devographics/surveys/discussions/173"
-		},
-		"Status": {
-			"@context": "http://schema.org/",
-			"@type": "StructuredValue",
-			"additionalType": "row",
-			"name": "Removed",
-			"url": "https://coda.io/d/_dTGBFYq175J#_tugrid-BqPGmglU_b/_rui-bXfe43IRWh",
-			"tableId": "grid-BqPGmglU_b",
-			"rowId": "i-bXfe43IRWh",
-			"tableUrl": "https://coda.io/d/_dTGBFYq175J#_tugrid-BqPGmglU_b"
-		},
-		"In Part 1": {
-			"@context": "http://schema.org/",
-			"@type": "StructuredValue",
-			"additionalType": "row",
-			"name": "No",
-			"url": "https://coda.io/d/_dTGBFYq175J#_tugrid-RUMkEBKBsZ/_rui-RjHDLbCCCx",
-			"tableId": "grid-RUMkEBKBsZ",
-			"rowId": "i-RjHDLbCCCx",
-			"tableUrl": "https://coda.io/d/_dTGBFYq175J#_tugrid-RUMkEBKBsZ"
-		},
+		"Discussion": "https://github.com/Devographics/surveys/discussions/173",
+		"Status": "Removed",
+		"In Part 1": "No",
 		"Upvotes": 12,
 		"id": "multihandle_sliders",
-		"Needs Translation": true
+		"Needs Translation": true,
+		"Description": "",
+		"Code snippet": "",
+		"URLs": ""
 	},
 	{
 		"Question": "Navigation API",
 		"Focus area": [
-			{
-				"@context": "http://schema.org/",
-				"@type": "StructuredValue",
-				"additionalType": "row",
-				"name": "Interactivity",
-				"url": "https://coda.io/d/_dTGBFYq175J#_tugrid-IF1UMmZNt5/_rui-W4J_OBZ_-R",
-				"tableId": "grid-IF1UMmZNt5",
-				"rowId": "i-W4J_OBZ_-R",
-				"tableUrl": "https://coda.io/d/_dTGBFYq175J#_tugrid-IF1UMmZNt5"
-			}
+			"Interactivity"
 		],
 		"Type": [
 			"JS API"
 		],
-		"Discussion": {
-			"@context": "http://schema.org/",
-			"@type": "WebPage",
-			"url": "https://github.com/Devographics/surveys/discussions/175"
-		},
-		"Status": {
-			"@context": "http://schema.org/",
-			"@type": "StructuredValue",
-			"additionalType": "row",
-			"name": "Cutting Edge",
-			"url": "https://coda.io/d/_dTGBFYq175J#_tugrid-BqPGmglU_b/_rui-LMy3PoJR22",
-			"tableId": "grid-BqPGmglU_b",
-			"rowId": "i-LMy3PoJR22",
-			"tableUrl": "https://coda.io/d/_dTGBFYq175J#_tugrid-BqPGmglU_b"
-		},
-		"In Part 1": {
-			"@context": "http://schema.org/",
-			"@type": "StructuredValue",
-			"additionalType": "row",
-			"name": "Yes",
-			"url": "https://coda.io/d/_dTGBFYq175J#_tugrid-RUMkEBKBsZ/_rui-CiZ6xQAbPU",
-			"tableId": "grid-RUMkEBKBsZ",
-			"rowId": "i-CiZ6xQAbPU",
-			"tableUrl": "https://coda.io/d/_dTGBFYq175J#_tugrid-RUMkEBKBsZ"
-		},
+		"Discussion": "https://github.com/Devographics/surveys/discussions/175",
+		"Status": "Cutting Edge",
+		"In Part 1": "Maybe",
 		"Upvotes": 16,
 		"id": "navigation_api",
-		"Needs Translation": true
+		"Needs Translation": true,
+		"Description": "",
+		"Code snippet": "",
+		"URLs": ""
 	},
 	{
 		"Question": "HTML Modules",
 		"Focus area": [
-			{
-				"@context": "http://schema.org/",
-				"@type": "StructuredValue",
-				"additionalType": "row",
-				"name": "Consuming Web Components",
-				"url": "https://coda.io/d/_dTGBFYq175J#_tugrid-IF1UMmZNt5/_rui-KPeW6x5nOV",
-				"tableId": "grid-IF1UMmZNt5",
-				"rowId": "i-KPeW6x5nOV",
-				"tableUrl": "https://coda.io/d/_dTGBFYq175J#_tugrid-IF1UMmZNt5"
-			}
+			"Consuming Web Components"
 		],
 		"Type": [
 			"JS API"
 		],
-		"Discussion": {
-			"@context": "http://schema.org/",
-			"@type": "WebPage",
-			"url": "https://github.com/Devographics/surveys/discussions/169"
-		},
-		"Status": {
-			"@context": "http://schema.org/",
-			"@type": "StructuredValue",
-			"additionalType": "row",
-			"name": "Future",
-			"url": "https://coda.io/d/_dTGBFYq175J#_tugrid-BqPGmglU_b/_rui-vwaDIcBrtd",
-			"tableId": "grid-BqPGmglU_b",
-			"rowId": "i-vwaDIcBrtd",
-			"tableUrl": "https://coda.io/d/_dTGBFYq175J#_tugrid-BqPGmglU_b"
-		},
-		"In Part 1": {
-			"@context": "http://schema.org/",
-			"@type": "StructuredValue",
-			"additionalType": "row",
-			"name": "Yes",
-			"url": "https://coda.io/d/_dTGBFYq175J#_tugrid-RUMkEBKBsZ/_rui-CiZ6xQAbPU",
-			"tableId": "grid-RUMkEBKBsZ",
-			"rowId": "i-CiZ6xQAbPU",
-			"tableUrl": "https://coda.io/d/_dTGBFYq175J#_tugrid-RUMkEBKBsZ"
-		},
+		"Discussion": "https://github.com/Devographics/surveys/discussions/169",
+		"Status": "Future",
+		"In Part 1": "Yes",
 		"Upvotes": 22,
 		"id": "html_modules",
-		"Needs Translation": true
+		"Needs Translation": true,
+		"Description": "",
+		"Code snippet": "",
+		"URLs": ""
 	},
 	{
 		"Question": "Exclusive accordion (`<details name=”...”>`)",
 		"Focus area": [
-			{
-				"@context": "http://schema.org/",
-				"@type": "StructuredValue",
-				"additionalType": "row",
-				"name": "Interactivity",
-				"url": "https://coda.io/d/_dTGBFYq175J#_tugrid-IF1UMmZNt5/_rui-W4J_OBZ_-R",
-				"tableId": "grid-IF1UMmZNt5",
-				"rowId": "i-W4J_OBZ_-R",
-				"tableUrl": "https://coda.io/d/_dTGBFYq175J#_tugrid-IF1UMmZNt5"
-			}
+			"Interactivity"
 		],
 		"Type": [
 			"HTML element"
 		],
-		"Discussion": {
-			"@context": "http://schema.org/",
-			"@type": "WebPage",
-			"url": "https://github.com/Devographics/surveys/discussions/176"
-		},
-		"Status": {
-			"@context": "http://schema.org/",
-			"@type": "StructuredValue",
-			"additionalType": "row",
-			"name": "Future",
-			"url": "https://coda.io/d/_dTGBFYq175J#_tugrid-BqPGmglU_b/_rui-vwaDIcBrtd",
-			"tableId": "grid-BqPGmglU_b",
-			"rowId": "i-vwaDIcBrtd",
-			"tableUrl": "https://coda.io/d/_dTGBFYq175J#_tugrid-BqPGmglU_b"
-		},
-		"In Part 1": {
-			"@context": "http://schema.org/",
-			"@type": "StructuredValue",
-			"additionalType": "row",
-			"name": "Yes",
-			"url": "https://coda.io/d/_dTGBFYq175J#_tugrid-RUMkEBKBsZ/_rui-CiZ6xQAbPU",
-			"tableId": "grid-RUMkEBKBsZ",
-			"rowId": "i-CiZ6xQAbPU",
-			"tableUrl": "https://coda.io/d/_dTGBFYq175J#_tugrid-RUMkEBKBsZ"
-		},
+		"Discussion": "https://github.com/Devographics/surveys/discussions/176",
+		"Status": "Future",
+		"In Part 1": "Yes",
 		"Upvotes": 18,
 		"id": "accordion_element",
-		"Needs Translation": true
+		"Needs Translation": true,
+		"Description": "",
+		"Code snippet": "",
+		"URLs": ""
 	},
 	{
 		"Question": "`autocomplete=\"hint\"`",
 		"Focus area": [
-			{
-				"@context": "http://schema.org/",
-				"@type": "StructuredValue",
-				"additionalType": "row",
-				"name": "Forms & Editing",
-				"url": "https://coda.io/d/_dTGBFYq175J#_tugrid-IF1UMmZNt5/_rui-HITV9PbnY3",
-				"tableId": "grid-IF1UMmZNt5",
-				"rowId": "i-HITV9PbnY3",
-				"tableUrl": "https://coda.io/d/_dTGBFYq175J#_tugrid-IF1UMmZNt5"
-			}
+			"Forms & Editing"
 		],
 		"Type": [
 			"HTML attribute value"
 		],
-		"Discussion": {
-			"@context": "http://schema.org/",
-			"@type": "WebPage",
-			"url": "https://github.com/Devographics/surveys/discussions/162"
-		},
-		"Status": {
-			"@context": "http://schema.org/",
-			"@type": "StructuredValue",
-			"additionalType": "row",
-			"name": "Mixed",
-			"url": "https://coda.io/d/_dTGBFYq175J#_tugrid-BqPGmglU_b/_rui-7G-olOmKz9",
-			"tableId": "grid-BqPGmglU_b",
-			"rowId": "i-7G-olOmKz9",
-			"tableUrl": "https://coda.io/d/_dTGBFYq175J#_tugrid-BqPGmglU_b"
-		},
-		"In Part 1": {
-			"@context": "http://schema.org/",
-			"@type": "StructuredValue",
-			"additionalType": "row",
-			"name": "Yes",
-			"url": "https://coda.io/d/_dTGBFYq175J#_tugrid-RUMkEBKBsZ/_rui-CiZ6xQAbPU",
-			"tableId": "grid-RUMkEBKBsZ",
-			"rowId": "i-CiZ6xQAbPU",
-			"tableUrl": "https://coda.io/d/_dTGBFYq175J#_tugrid-RUMkEBKBsZ"
-		},
+		"Discussion": "https://github.com/Devographics/surveys/discussions/162",
+		"Status": "Mixed",
+		"In Part 1": "Yes",
 		"Upvotes": 41,
 		"id": "autocomplete_element",
-		"Needs Translation": false
+		"Needs Translation": false,
+		"Description": "",
+		"Code snippet": "",
+		"URLs": ""
 	},
 	{
 		"Question": "`<dialog>` ",
 		"Focus area": [
-			{
-				"@context": "http://schema.org/",
-				"@type": "StructuredValue",
-				"additionalType": "row",
-				"name": "Interactivity",
-				"url": "https://coda.io/d/_dTGBFYq175J#_tugrid-IF1UMmZNt5/_rui-W4J_OBZ_-R",
-				"tableId": "grid-IF1UMmZNt5",
-				"rowId": "i-W4J_OBZ_-R",
-				"tableUrl": "https://coda.io/d/_dTGBFYq175J#_tugrid-IF1UMmZNt5"
-			}
+			"Interactivity"
 		],
 		"Type": [
 			"HTML element"
 		],
-		"Discussion": {
-			"@context": "http://schema.org/",
-			"@type": "WebPage",
-			"url": "https://github.com/Devographics/surveys/discussions/158"
-		},
-		"Status": {
-			"@context": "http://schema.org/",
-			"@type": "StructuredValue",
-			"additionalType": "row",
-			"name": "Stable",
-			"url": "https://coda.io/d/_dTGBFYq175J#_tugrid-BqPGmglU_b/_rui-SyiVTehUqi",
-			"tableId": "grid-BqPGmglU_b",
-			"rowId": "i-SyiVTehUqi",
-			"tableUrl": "https://coda.io/d/_dTGBFYq175J#_tugrid-BqPGmglU_b"
-		},
-		"In Part 1": {
-			"@context": "http://schema.org/",
-			"@type": "StructuredValue",
-			"additionalType": "row",
-			"name": "Yes",
-			"url": "https://coda.io/d/_dTGBFYq175J#_tugrid-RUMkEBKBsZ/_rui-CiZ6xQAbPU",
-			"tableId": "grid-RUMkEBKBsZ",
-			"rowId": "i-CiZ6xQAbPU",
-			"tableUrl": "https://coda.io/d/_dTGBFYq175J#_tugrid-RUMkEBKBsZ"
-		},
+		"Discussion": "https://github.com/Devographics/surveys/discussions/158",
+		"Status": "Stable",
+		"In Part 1": "Yes",
 		"Upvotes": 77,
 		"id": "dialog_element",
-		"Needs Translation": false
+		"Needs Translation": false,
+		"Description": "",
+		"Code snippet": "",
+		"URLs": ""
 	},
 	{
 		"Question": "Shadow DOM",
 		"Focus area": [
-			{
-				"@context": "http://schema.org/",
-				"@type": "StructuredValue",
-				"additionalType": "row",
-				"name": "Making Web Components",
-				"url": "https://coda.io/d/_dTGBFYq175J#_tugrid-IF1UMmZNt5/_rui-FgI34TEfuP",
-				"tableId": "grid-IF1UMmZNt5",
-				"rowId": "i-FgI34TEfuP",
-				"tableUrl": "https://coda.io/d/_dTGBFYq175J#_tugrid-IF1UMmZNt5"
-			}
+			"Making Web Components"
 		],
 		"Type": [
 			"Other"
 		],
-		"Discussion": {
-			"@context": "http://schema.org/",
-			"@type": "WebPage",
-			"url": "https://github.com/Devographics/surveys/discussions/156"
-		},
-		"Status": {
-			"@context": "http://schema.org/",
-			"@type": "StructuredValue",
-			"additionalType": "row",
-			"name": "Stable",
-			"url": "https://coda.io/d/_dTGBFYq175J#_tugrid-BqPGmglU_b/_rui-SyiVTehUqi",
-			"tableId": "grid-BqPGmglU_b",
-			"rowId": "i-SyiVTehUqi",
-			"tableUrl": "https://coda.io/d/_dTGBFYq175J#_tugrid-BqPGmglU_b"
-		},
-		"In Part 1": {
-			"@context": "http://schema.org/",
-			"@type": "StructuredValue",
-			"additionalType": "row",
-			"name": "Yes",
-			"url": "https://coda.io/d/_dTGBFYq175J#_tugrid-RUMkEBKBsZ/_rui-CiZ6xQAbPU",
-			"tableId": "grid-RUMkEBKBsZ",
-			"rowId": "i-CiZ6xQAbPU",
-			"tableUrl": "https://coda.io/d/_dTGBFYq175J#_tugrid-RUMkEBKBsZ"
-		},
+		"Discussion": "https://github.com/Devographics/surveys/discussions/156",
+		"Status": "Stable",
+		"In Part 1": "Yes",
 		"Upvotes": 57,
 		"id": "shadow_dom",
-		"Needs Translation": false
+		"Needs Translation": false,
+		"Description": "",
+		"Code snippet": "",
+		"URLs": ""
 	},
 	{
 		"Question": "DOM Parts",
 		"Focus area": [
-			{
-				"@context": "http://schema.org/",
-				"@type": "StructuredValue",
-				"additionalType": "row",
-				"name": "Templating",
-				"url": "https://coda.io/d/_dTGBFYq175J#_tugrid-IF1UMmZNt5/_rui-_59LF43OON",
-				"tableId": "grid-IF1UMmZNt5",
-				"rowId": "i-_59LF43OON",
-				"tableUrl": "https://coda.io/d/_dTGBFYq175J#_tugrid-IF1UMmZNt5"
-			}
+			"Interactivity"
 		],
 		"Type": [
 			"HTML element"
 		],
-		"Discussion": {
-			"@context": "http://schema.org/",
-			"@type": "WebPage",
-			"url": "https://github.com/Devographics/surveys/discussions/157"
-		},
-		"Status": {
-			"@context": "http://schema.org/",
-			"@type": "StructuredValue",
-			"additionalType": "row",
-			"name": "Future",
-			"url": "https://coda.io/d/_dTGBFYq175J#_tugrid-BqPGmglU_b/_rui-vwaDIcBrtd",
-			"tableId": "grid-BqPGmglU_b",
-			"rowId": "i-vwaDIcBrtd",
-			"tableUrl": "https://coda.io/d/_dTGBFYq175J#_tugrid-BqPGmglU_b"
-		},
-		"In Part 1": {
-			"@context": "http://schema.org/",
-			"@type": "StructuredValue",
-			"additionalType": "row",
-			"name": "Yes",
-			"url": "https://coda.io/d/_dTGBFYq175J#_tugrid-RUMkEBKBsZ/_rui-CiZ6xQAbPU",
-			"tableId": "grid-RUMkEBKBsZ",
-			"rowId": "i-CiZ6xQAbPU",
-			"tableUrl": "https://coda.io/d/_dTGBFYq175J#_tugrid-RUMkEBKBsZ"
-		},
+		"Discussion": "https://github.com/Devographics/surveys/discussions/157",
+		"Status": "Future",
+		"In Part 1": "Yes",
 		"Upvotes": 25,
 		"id": "dom_parts",
-		"Needs Translation": true
+		"Needs Translation": true,
+		"Description": "",
+		"Code snippet": "",
+		"URLs": ""
 	},
 	{
 		"Question": "`contenteditable=”plaintext-only”` ",
 		"Focus area": [
-			{
-				"@context": "http://schema.org/",
-				"@type": "StructuredValue",
-				"additionalType": "row",
-				"name": "Forms & Editing",
-				"url": "https://coda.io/d/_dTGBFYq175J#_tugrid-IF1UMmZNt5/_rui-HITV9PbnY3",
-				"tableId": "grid-IF1UMmZNt5",
-				"rowId": "i-HITV9PbnY3",
-				"tableUrl": "https://coda.io/d/_dTGBFYq175J#_tugrid-IF1UMmZNt5"
-			}
+			"Forms & Editing"
 		],
 		"Type": [
 			"HTML attribute value"
 		],
-		"Discussion": {
-			"@context": "http://schema.org/",
-			"@type": "WebPage",
-			"url": "https://github.com/Devographics/surveys/discussions/155"
-		},
-		"Status": {
-			"@context": "http://schema.org/",
-			"@type": "StructuredValue",
-			"additionalType": "row",
-			"name": "Cutting Edge",
-			"url": "https://coda.io/d/_dTGBFYq175J#_tugrid-BqPGmglU_b/_rui-LMy3PoJR22",
-			"tableId": "grid-BqPGmglU_b",
-			"rowId": "i-LMy3PoJR22",
-			"tableUrl": "https://coda.io/d/_dTGBFYq175J#_tugrid-BqPGmglU_b"
-		},
-		"In Part 1": {
-			"@context": "http://schema.org/",
-			"@type": "StructuredValue",
-			"additionalType": "row",
-			"name": "Yes",
-			"url": "https://coda.io/d/_dTGBFYq175J#_tugrid-RUMkEBKBsZ/_rui-CiZ6xQAbPU",
-			"tableId": "grid-RUMkEBKBsZ",
-			"rowId": "i-CiZ6xQAbPU",
-			"tableUrl": "https://coda.io/d/_dTGBFYq175J#_tugrid-RUMkEBKBsZ"
-		},
+		"Discussion": "https://github.com/Devographics/surveys/discussions/155",
+		"Status": "Cutting Edge",
+		"In Part 1": "Yes",
 		"Upvotes": 25,
 		"id": "contenteditable_plaintext",
-		"Needs Translation": false
+		"Needs Translation": false,
+		"Description": "",
+		"Code snippet": "",
+		"URLs": ""
 	},
 	{
 		"Question": "Using Custom Elements",
 		"Focus area": [
-			{
-				"@context": "http://schema.org/",
-				"@type": "StructuredValue",
-				"additionalType": "row",
-				"name": "Consuming Web Components",
-				"url": "https://coda.io/d/_dTGBFYq175J#_tugrid-IF1UMmZNt5/_rui-KPeW6x5nOV",
-				"tableId": "grid-IF1UMmZNt5",
-				"rowId": "i-KPeW6x5nOV",
-				"tableUrl": "https://coda.io/d/_dTGBFYq175J#_tugrid-IF1UMmZNt5"
-			}
+			"Consuming Web Components"
 		],
 		"Type": [
 			"HTML element"
 		],
-		"Discussion": {
-			"@context": "http://schema.org/",
-			"@type": "WebPage",
-			"url": "https://github.com/Devographics/surveys/discussions/154"
-		},
-		"Status": {
-			"@context": "http://schema.org/",
-			"@type": "StructuredValue",
-			"additionalType": "row",
-			"name": "Stable",
-			"url": "https://coda.io/d/_dTGBFYq175J#_tugrid-BqPGmglU_b/_rui-SyiVTehUqi",
-			"tableId": "grid-BqPGmglU_b",
-			"rowId": "i-SyiVTehUqi",
-			"tableUrl": "https://coda.io/d/_dTGBFYq175J#_tugrid-BqPGmglU_b"
-		},
-		"In Part 1": {
-			"@context": "http://schema.org/",
-			"@type": "StructuredValue",
-			"additionalType": "row",
-			"name": "Yes",
-			"url": "https://coda.io/d/_dTGBFYq175J#_tugrid-RUMkEBKBsZ/_rui-CiZ6xQAbPU",
-			"tableId": "grid-RUMkEBKBsZ",
-			"rowId": "i-CiZ6xQAbPU",
-			"tableUrl": "https://coda.io/d/_dTGBFYq175J#_tugrid-RUMkEBKBsZ"
-		},
+		"Discussion": "https://github.com/Devographics/surveys/discussions/154",
+		"Status": "Stable",
+		"In Part 1": "Yes",
 		"Upvotes": 73,
 		"id": "custom_elements_using",
-		"Needs Translation": true
+		"Needs Translation": true,
+		"Description": "",
+		"Code snippet": "",
+		"URLs": ""
 	},
 	{
 		"Question": "`input.showPicker()` ",
 		"Focus area": [
-			{
-				"@context": "http://schema.org/",
-				"@type": "StructuredValue",
-				"additionalType": "row",
-				"name": "Forms & Editing",
-				"url": "https://coda.io/d/_dTGBFYq175J#_tugrid-IF1UMmZNt5/_rui-HITV9PbnY3",
-				"tableId": "grid-IF1UMmZNt5",
-				"rowId": "i-HITV9PbnY3",
-				"tableUrl": "https://coda.io/d/_dTGBFYq175J#_tugrid-IF1UMmZNt5"
-			}
+			"Forms & Editing"
 		],
 		"Type": [
 			"JS API"
 		],
-		"Discussion": {
-			"@context": "http://schema.org/",
-			"@type": "WebPage",
-			"url": "https://github.com/Devographics/surveys/discussions/153"
-		},
-		"Status": {
-			"@context": "http://schema.org/",
-			"@type": "StructuredValue",
-			"additionalType": "row",
-			"name": "Cutting Edge",
-			"url": "https://coda.io/d/_dTGBFYq175J#_tugrid-BqPGmglU_b/_rui-LMy3PoJR22",
-			"tableId": "grid-BqPGmglU_b",
-			"rowId": "i-LMy3PoJR22",
-			"tableUrl": "https://coda.io/d/_dTGBFYq175J#_tugrid-BqPGmglU_b"
-		},
-		"In Part 1": {
-			"@context": "http://schema.org/",
-			"@type": "StructuredValue",
-			"additionalType": "row",
-			"name": "Yes",
-			"url": "https://coda.io/d/_dTGBFYq175J#_tugrid-RUMkEBKBsZ/_rui-CiZ6xQAbPU",
-			"tableId": "grid-RUMkEBKBsZ",
-			"rowId": "i-CiZ6xQAbPU",
-			"tableUrl": "https://coda.io/d/_dTGBFYq175J#_tugrid-RUMkEBKBsZ"
-		},
+		"Discussion": "https://github.com/Devographics/surveys/discussions/153",
+		"Status": "Cutting Edge",
+		"In Part 1": "Yes",
 		"Upvotes": 34,
 		"id": "showpicker",
-		"Needs Translation": false
+		"Needs Translation": false,
+		"Description": "",
+		"Code snippet": "",
+		"URLs": ""
 	},
 	{
 		"Question": "Structured data (RDFa, Microdata, Microformats)",
 		"Focus area": [
-			{
-				"@context": "http://schema.org/",
-				"@type": "StructuredValue",
-				"additionalType": "row",
-				"name": "Semantic HTML",
-				"url": "https://coda.io/d/_dTGBFYq175J#_tugrid-IF1UMmZNt5/_rui-lnIUWZdEr5",
-				"tableId": "grid-IF1UMmZNt5",
-				"rowId": "i-lnIUWZdEr5",
-				"tableUrl": "https://coda.io/d/_dTGBFYq175J#_tugrid-IF1UMmZNt5"
-			}
+			"Content"
 		],
 		"Type": [
 			"Other"
 		],
-		"Discussion": {
-			"@context": "http://schema.org/",
-			"@type": "WebPage",
-			"url": "https://github.com/Devographics/surveys/discussions/152"
-		},
-		"Status": {
-			"@context": "http://schema.org/",
-			"@type": "StructuredValue",
-			"additionalType": "row",
-			"name": "Stable",
-			"url": "https://coda.io/d/_dTGBFYq175J#_tugrid-BqPGmglU_b/_rui-SyiVTehUqi",
-			"tableId": "grid-BqPGmglU_b",
-			"rowId": "i-SyiVTehUqi",
-			"tableUrl": "https://coda.io/d/_dTGBFYq175J#_tugrid-BqPGmglU_b"
-		},
-		"In Part 1": {
-			"@context": "http://schema.org/",
-			"@type": "StructuredValue",
-			"additionalType": "row",
-			"name": "In checkbox question",
-			"url": "https://coda.io/d/_dTGBFYq175J#_tugrid-RUMkEBKBsZ/_rui-r49H6EfVVa",
-			"tableId": "grid-RUMkEBKBsZ",
-			"rowId": "i-r49H6EfVVa",
-			"tableUrl": "https://coda.io/d/_dTGBFYq175J#_tugrid-RUMkEBKBsZ"
-		},
+		"Discussion": "https://github.com/Devographics/surveys/discussions/152",
+		"Status": "Stable",
+		"In Part 1": "In checkbox question",
 		"Upvotes": 28,
 		"id": "structured_data",
-		"Needs Translation": true
+		"Needs Translation": true,
+		"Description": "",
+		"Code snippet": "",
+		"URLs": ""
 	},
 	{
 		"Question": "Content-Security Policy (CSP)",
 		"Focus area": [
-			{
-				"@context": "http://schema.org/",
-				"@type": "StructuredValue",
-				"additionalType": "row",
-				"name": "Security & Privacy",
-				"url": "https://coda.io/d/_dTGBFYq175J#_tugrid-IF1UMmZNt5/_rui-cgPPUwtNEO",
-				"tableId": "grid-IF1UMmZNt5",
-				"rowId": "i-cgPPUwtNEO",
-				"tableUrl": "https://coda.io/d/_dTGBFYq175J#_tugrid-IF1UMmZNt5"
-			}
+			"Security & Privacy"
 		],
 		"Type": [
 			"HTTP"
 		],
-		"Discussion": {
-			"@context": "http://schema.org/",
-			"@type": "WebPage",
-			"url": "https://github.com/Devographics/surveys/discussions/151"
-		},
-		"Status": {
-			"@context": "http://schema.org/",
-			"@type": "StructuredValue",
-			"additionalType": "row",
-			"name": "Stable",
-			"url": "https://coda.io/d/_dTGBFYq175J#_tugrid-BqPGmglU_b/_rui-SyiVTehUqi",
-			"tableId": "grid-BqPGmglU_b",
-			"rowId": "i-SyiVTehUqi",
-			"tableUrl": "https://coda.io/d/_dTGBFYq175J#_tugrid-BqPGmglU_b"
-		},
-		"In Part 1": {
-			"@context": "http://schema.org/",
-			"@type": "StructuredValue",
-			"additionalType": "row",
-			"name": "Likely Yes",
-			"url": "https://coda.io/d/_dTGBFYq175J#_tugrid-RUMkEBKBsZ/_rui-4yGRpoH1zz",
-			"tableId": "grid-RUMkEBKBsZ",
-			"rowId": "i-4yGRpoH1zz",
-			"tableUrl": "https://coda.io/d/_dTGBFYq175J#_tugrid-RUMkEBKBsZ"
-		},
+		"Discussion": "https://github.com/Devographics/surveys/discussions/151",
+		"Status": "Stable",
+		"In Part 1": "Likely Yes",
 		"Upvotes": 28,
 		"id": "content_security_policy",
-		"Needs Translation": true
+		"Needs Translation": true,
+		"Description": "",
+		"Code snippet": "",
+		"URLs": ""
 	},
 	{
 		"Question": "CORS",
 		"Focus area": [
-			{
-				"@context": "http://schema.org/",
-				"@type": "StructuredValue",
-				"additionalType": "row",
-				"name": "Security & Privacy",
-				"url": "https://coda.io/d/_dTGBFYq175J#_tugrid-IF1UMmZNt5/_rui-cgPPUwtNEO",
-				"tableId": "grid-IF1UMmZNt5",
-				"rowId": "i-cgPPUwtNEO",
-				"tableUrl": "https://coda.io/d/_dTGBFYq175J#_tugrid-IF1UMmZNt5"
-			}
+			"Security & Privacy"
 		],
 		"Type": [
 			"HTTP"
 		],
-		"Discussion": {
-			"@context": "http://schema.org/",
-			"@type": "WebPage",
-			"url": "https://github.com/Devographics/surveys/discussions/150"
-		},
-		"Status": {
-			"@context": "http://schema.org/",
-			"@type": "StructuredValue",
-			"additionalType": "row",
-			"name": "Stable",
-			"url": "https://coda.io/d/_dTGBFYq175J#_tugrid-BqPGmglU_b/_rui-SyiVTehUqi",
-			"tableId": "grid-BqPGmglU_b",
-			"rowId": "i-SyiVTehUqi",
-			"tableUrl": "https://coda.io/d/_dTGBFYq175J#_tugrid-BqPGmglU_b"
-		},
-		"In Part 1": {
-			"@context": "http://schema.org/",
-			"@type": "StructuredValue",
-			"additionalType": "row",
-			"name": "Likely No",
-			"url": "https://coda.io/d/_dTGBFYq175J#_tugrid-RUMkEBKBsZ/_rui-tL7JBvZWvM",
-			"tableId": "grid-RUMkEBKBsZ",
-			"rowId": "i-tL7JBvZWvM",
-			"tableUrl": "https://coda.io/d/_dTGBFYq175J#_tugrid-RUMkEBKBsZ"
-		},
+		"Discussion": "https://github.com/Devographics/surveys/discussions/150",
+		"Status": "Stable",
+		"In Part 1": "Likely No",
 		"Upvotes": 24,
 		"id": "cors",
-		"Needs Translation": false
+		"Needs Translation": false,
+		"Description": "",
+		"Code snippet": "",
+		"URLs": ""
 	},
 	{
 		"Question": "`part` attribute",
 		"Focus area": [
-			{
-				"@context": "http://schema.org/",
-				"@type": "StructuredValue",
-				"additionalType": "row",
-				"name": "Making Web Components",
-				"url": "https://coda.io/d/_dTGBFYq175J#_tugrid-IF1UMmZNt5/_rui-FgI34TEfuP",
-				"tableId": "grid-IF1UMmZNt5",
-				"rowId": "i-FgI34TEfuP",
-				"tableUrl": "https://coda.io/d/_dTGBFYq175J#_tugrid-IF1UMmZNt5"
-			}
+			"Making Web Components"
 		],
 		"Type": [
 			"HTML attribute"
 		],
-		"Discussion": {
-			"@context": "http://schema.org/",
-			"@type": "WebPage",
-			"url": "https://github.com/Devographics/surveys/discussions/134"
-		},
-		"Status": {
-			"@context": "http://schema.org/",
-			"@type": "StructuredValue",
-			"additionalType": "row",
-			"name": "Stable",
-			"url": "https://coda.io/d/_dTGBFYq175J#_tugrid-BqPGmglU_b/_rui-SyiVTehUqi",
-			"tableId": "grid-BqPGmglU_b",
-			"rowId": "i-SyiVTehUqi",
-			"tableUrl": "https://coda.io/d/_dTGBFYq175J#_tugrid-BqPGmglU_b"
-		},
-		"In Part 1": {
-			"@context": "http://schema.org/",
-			"@type": "StructuredValue",
-			"additionalType": "row",
-			"name": "In checkbox question",
-			"url": "https://coda.io/d/_dTGBFYq175J#_tugrid-RUMkEBKBsZ/_rui-r49H6EfVVa",
-			"tableId": "grid-RUMkEBKBsZ",
-			"rowId": "i-r49H6EfVVa",
-			"tableUrl": "https://coda.io/d/_dTGBFYq175J#_tugrid-RUMkEBKBsZ"
-		},
+		"Discussion": "https://github.com/Devographics/surveys/discussions/134",
+		"Status": "Stable",
+		"In Part 1": "In checkbox question",
 		"Upvotes": 26,
 		"id": "part_attribute",
-		"Needs Translation": true
+		"Needs Translation": true,
+		"Description": "",
+		"Code snippet": "",
+		"URLs": ""
 	},
 	{
 		"Question": "Resource Hints (all)",
 		"Focus area": [
-			{
-				"@context": "http://schema.org/",
-				"@type": "StructuredValue",
-				"additionalType": "row",
-				"name": "Performance",
-				"url": "https://coda.io/d/_dTGBFYq175J#_tugrid-IF1UMmZNt5/_rui-bYbJdhJNeD",
-				"tableId": "grid-IF1UMmZNt5",
-				"rowId": "i-bYbJdhJNeD",
-				"tableUrl": "https://coda.io/d/_dTGBFYq175J#_tugrid-IF1UMmZNt5"
-			}
+			"Performance"
 		],
 		"Type": [
 			"HTML attribute value"
 		],
-		"Discussion": {
-			"@context": "http://schema.org/",
-			"@type": "WebPage",
-			"url": "https://github.com/Devographics/surveys/discussions/109"
-		},
-		"Status": {
-			"@context": "http://schema.org/",
-			"@type": "StructuredValue",
-			"additionalType": "row",
-			"name": "Cutting Edge",
-			"url": "https://coda.io/d/_dTGBFYq175J#_tugrid-BqPGmglU_b/_rui-LMy3PoJR22",
-			"tableId": "grid-BqPGmglU_b",
-			"rowId": "i-LMy3PoJR22",
-			"tableUrl": "https://coda.io/d/_dTGBFYq175J#_tugrid-BqPGmglU_b"
-		},
-		"In Part 1": {
-			"@context": "http://schema.org/",
-			"@type": "StructuredValue",
-			"additionalType": "row",
-			"name": "In checkbox question",
-			"url": "https://coda.io/d/_dTGBFYq175J#_tugrid-RUMkEBKBsZ/_rui-r49H6EfVVa",
-			"tableId": "grid-RUMkEBKBsZ",
-			"rowId": "i-r49H6EfVVa",
-			"tableUrl": "https://coda.io/d/_dTGBFYq175J#_tugrid-RUMkEBKBsZ"
-		},
+		"Discussion": "https://github.com/Devographics/surveys/discussions/109",
+		"Status": "Cutting Edge",
+		"In Part 1": "In checkbox question",
 		"Upvotes": 22,
 		"id": "resource_hints",
-		"Needs Translation": true
+		"Needs Translation": true,
+		"Description": "",
+		"Code snippet": "",
+		"URLs": ""
 	},
 	{
 		"Question": "`<breadcrumb>` ",
 		"Focus area": [
-			{
-				"@context": "http://schema.org/",
-				"@type": "StructuredValue",
-				"additionalType": "row",
-				"name": "Semantic HTML",
-				"url": "https://coda.io/d/_dTGBFYq175J#_tugrid-IF1UMmZNt5/_rui-lnIUWZdEr5",
-				"tableId": "grid-IF1UMmZNt5",
-				"rowId": "i-lnIUWZdEr5",
-				"tableUrl": "https://coda.io/d/_dTGBFYq175J#_tugrid-IF1UMmZNt5"
-			}
+			"Accessibility"
 		],
 		"Type": [
 			"HTML element"
 		],
-		"Discussion": {
-			"@context": "http://schema.org/",
-			"@type": "WebPage",
-			"url": "https://github.com/Devographics/surveys/discussions/116"
-		},
-		"Status": {
-			"@context": "http://schema.org/",
-			"@type": "StructuredValue",
-			"additionalType": "row",
-			"name": "Future",
-			"url": "https://coda.io/d/_dTGBFYq175J#_tugrid-BqPGmglU_b/_rui-vwaDIcBrtd",
-			"tableId": "grid-BqPGmglU_b",
-			"rowId": "i-vwaDIcBrtd",
-			"tableUrl": "https://coda.io/d/_dTGBFYq175J#_tugrid-BqPGmglU_b"
-		},
-		"In Part 1": {
-			"@context": "http://schema.org/",
-			"@type": "StructuredValue",
-			"additionalType": "row",
-			"name": "No",
-			"url": "https://coda.io/d/_dTGBFYq175J#_tugrid-RUMkEBKBsZ/_rui-RjHDLbCCCx",
-			"tableId": "grid-RUMkEBKBsZ",
-			"rowId": "i-RjHDLbCCCx",
-			"tableUrl": "https://coda.io/d/_dTGBFYq175J#_tugrid-RUMkEBKBsZ"
-		},
+		"Discussion": "https://github.com/Devographics/surveys/discussions/116",
+		"Status": "Future",
+		"In Part 1": "No",
 		"Upvotes": 54,
 		"id": "breadcrumb_element",
-		"Needs Translation": false
+		"Needs Translation": false,
+		"Description": "",
+		"Code snippet": "",
+		"URLs": ""
 	},
 	{
 		"Question": "Client Hints",
 		"Focus area": [
-			{
-				"@context": "http://schema.org/",
-				"@type": "StructuredValue",
-				"additionalType": "row",
-				"name": "Other",
-				"url": "https://coda.io/d/_dTGBFYq175J#_tugrid-IF1UMmZNt5/_rui-ywmcUsXGXQ",
-				"tableId": "grid-IF1UMmZNt5",
-				"rowId": "i-ywmcUsXGXQ",
-				"tableUrl": "https://coda.io/d/_dTGBFYq175J#_tugrid-IF1UMmZNt5"
-			}
+			"Security & Privacy"
 		],
 		"Type": [
 			"HTTP"
 		],
-		"Discussion": {
-			"@context": "http://schema.org/",
-			"@type": "WebPage",
-			"url": "https://github.com/Devographics/surveys/discussions/110"
-		},
-		"Status": {
-			"@context": "http://schema.org/",
-			"@type": "StructuredValue",
-			"additionalType": "row",
-			"name": "Cutting Edge",
-			"url": "https://coda.io/d/_dTGBFYq175J#_tugrid-BqPGmglU_b/_rui-LMy3PoJR22",
-			"tableId": "grid-BqPGmglU_b",
-			"rowId": "i-LMy3PoJR22",
-			"tableUrl": "https://coda.io/d/_dTGBFYq175J#_tugrid-BqPGmglU_b"
-		},
-		"In Part 1": {
-			"@context": "http://schema.org/",
-			"@type": "StructuredValue",
-			"additionalType": "row",
-			"name": "Likely No",
-			"url": "https://coda.io/d/_dTGBFYq175J#_tugrid-RUMkEBKBsZ/_rui-tL7JBvZWvM",
-			"tableId": "grid-RUMkEBKBsZ",
-			"rowId": "i-tL7JBvZWvM",
-			"tableUrl": "https://coda.io/d/_dTGBFYq175J#_tugrid-RUMkEBKBsZ"
-		},
+		"Discussion": "https://github.com/Devographics/surveys/discussions/110",
+		"Status": "Cutting Edge",
+		"In Part 1": "Likely No",
 		"Upvotes": 22,
 		"id": "client_hints",
-		"Needs Translation": true
+		"Needs Translation": true,
+		"Description": "",
+		"Code snippet": "",
+		"URLs": ""
 	},
 	{
 		"Question": "Imperative slot assignment",
 		"Focus area": [
-			{
-				"@context": "http://schema.org/",
-				"@type": "StructuredValue",
-				"additionalType": "row",
-				"name": "Making Web Components",
-				"url": "https://coda.io/d/_dTGBFYq175J#_tugrid-IF1UMmZNt5/_rui-FgI34TEfuP",
-				"tableId": "grid-IF1UMmZNt5",
-				"rowId": "i-FgI34TEfuP",
-				"tableUrl": "https://coda.io/d/_dTGBFYq175J#_tugrid-IF1UMmZNt5"
-			}
+			"Making Web Components"
 		],
 		"Type": [
 			"Other"
 		],
-		"Discussion": {
-			"@context": "http://schema.org/",
-			"@type": "WebPage",
-			"url": "https://github.com/Devographics/surveys/discussions/98"
-		},
-		"Status": {
-			"@context": "http://schema.org/",
-			"@type": "StructuredValue",
-			"additionalType": "row",
-			"name": "Recent",
-			"url": "https://coda.io/d/_dTGBFYq175J#_tugrid-BqPGmglU_b/_rui-bntRYhG1UO",
-			"tableId": "grid-BqPGmglU_b",
-			"rowId": "i-bntRYhG1UO",
-			"tableUrl": "https://coda.io/d/_dTGBFYq175J#_tugrid-BqPGmglU_b"
-		},
-		"In Part 1": {
-			"@context": "http://schema.org/",
-			"@type": "StructuredValue",
-			"additionalType": "row",
-			"name": "Yes",
-			"url": "https://coda.io/d/_dTGBFYq175J#_tugrid-RUMkEBKBsZ/_rui-CiZ6xQAbPU",
-			"tableId": "grid-RUMkEBKBsZ",
-			"rowId": "i-CiZ6xQAbPU",
-			"tableUrl": "https://coda.io/d/_dTGBFYq175J#_tugrid-RUMkEBKBsZ"
-		},
+		"Discussion": "https://github.com/Devographics/surveys/discussions/98",
+		"Status": "Recent",
+		"In Part 1": "Yes",
 		"Upvotes": 13,
 		"id": "imperative_slot",
-		"Needs Translation": true
+		"Needs Translation": true,
+		"Description": "",
+		"Code snippet": "",
+		"URLs": ""
 	},
 	{
 		"Question": "Form validation",
 		"Focus area": [
-			{
-				"@context": "http://schema.org/",
-				"@type": "StructuredValue",
-				"additionalType": "row",
-				"name": "Forms & Editing",
-				"url": "https://coda.io/d/_dTGBFYq175J#_tugrid-IF1UMmZNt5/_rui-HITV9PbnY3",
-				"tableId": "grid-IF1UMmZNt5",
-				"rowId": "i-HITV9PbnY3",
-				"tableUrl": "https://coda.io/d/_dTGBFYq175J#_tugrid-IF1UMmZNt5"
-			}
+			"Forms & Editing"
 		],
 		"Type": [
 			"JS API"
 		],
-		"Discussion": {
-			"@context": "http://schema.org/",
-			"@type": "WebPage",
-			"url": "https://github.com/Devographics/surveys/discussions/120"
-		},
-		"Status": {
-			"@context": "http://schema.org/",
-			"@type": "StructuredValue",
-			"additionalType": "row",
-			"name": "Stable",
-			"url": "https://coda.io/d/_dTGBFYq175J#_tugrid-BqPGmglU_b/_rui-SyiVTehUqi",
-			"tableId": "grid-BqPGmglU_b",
-			"rowId": "i-SyiVTehUqi",
-			"tableUrl": "https://coda.io/d/_dTGBFYq175J#_tugrid-BqPGmglU_b"
-		},
-		"In Part 1": {
-			"@context": "http://schema.org/",
-			"@type": "StructuredValue",
-			"additionalType": "row",
-			"name": "In checkbox question",
-			"url": "https://coda.io/d/_dTGBFYq175J#_tugrid-RUMkEBKBsZ/_rui-r49H6EfVVa",
-			"tableId": "grid-RUMkEBKBsZ",
-			"rowId": "i-r49H6EfVVa",
-			"tableUrl": "https://coda.io/d/_dTGBFYq175J#_tugrid-RUMkEBKBsZ"
-		},
+		"Discussion": "https://github.com/Devographics/surveys/discussions/120",
+		"Status": "Stable",
+		"In Part 1": "In checkbox question",
 		"Upvotes": 69,
 		"id": "form_validation",
-		"Needs Translation": true
+		"Needs Translation": true,
+		"Description": "",
+		"Code snippet": "",
+		"URLs": ""
 	},
 	{
 		"Question": "`<math>` ",
 		"Focus area": [
-			{
-				"@context": "http://schema.org/",
-				"@type": "StructuredValue",
-				"additionalType": "row",
-				"name": "Embedding",
-				"url": "https://coda.io/d/_dTGBFYq175J#_tugrid-IF1UMmZNt5/_rui-8jmGxZ5d17",
-				"tableId": "grid-IF1UMmZNt5",
-				"rowId": "i-8jmGxZ5d17",
-				"tableUrl": "https://coda.io/d/_dTGBFYq175J#_tugrid-IF1UMmZNt5"
-			}
+			"Embedding"
 		],
 		"Type": [
 			"HTML element"
 		],
-		"Discussion": {
-			"@context": "http://schema.org/",
-			"@type": "WebPage",
-			"url": "https://github.com/Devographics/surveys/discussions/126"
-		},
-		"Status": {
-			"@context": "http://schema.org/",
-			"@type": "StructuredValue",
-			"additionalType": "row",
-			"name": "Stable",
-			"url": "https://coda.io/d/_dTGBFYq175J#_tugrid-BqPGmglU_b/_rui-SyiVTehUqi",
-			"tableId": "grid-BqPGmglU_b",
-			"rowId": "i-SyiVTehUqi",
-			"tableUrl": "https://coda.io/d/_dTGBFYq175J#_tugrid-BqPGmglU_b"
-		},
-		"In Part 1": {
-			"@context": "http://schema.org/",
-			"@type": "StructuredValue",
-			"additionalType": "row",
-			"name": "In checkbox question",
-			"url": "https://coda.io/d/_dTGBFYq175J#_tugrid-RUMkEBKBsZ/_rui-r49H6EfVVa",
-			"tableId": "grid-RUMkEBKBsZ",
-			"rowId": "i-r49H6EfVVa",
-			"tableUrl": "https://coda.io/d/_dTGBFYq175J#_tugrid-RUMkEBKBsZ"
-		},
+		"Discussion": "https://github.com/Devographics/surveys/discussions/126",
+		"Status": "Stable",
+		"In Part 1": "In checkbox question",
 		"Upvotes": 18,
 		"id": "math_element",
-		"Needs Translation": false
+		"Needs Translation": false,
+		"Description": "",
+		"Code snippet": "",
+		"URLs": ""
 	},
 	{
 		"Question": "`<svg>` ",
 		"Focus area": [
-			{
-				"@context": "http://schema.org/",
-				"@type": "StructuredValue",
-				"additionalType": "row",
-				"name": "Embedding",
-				"url": "https://coda.io/d/_dTGBFYq175J#_tugrid-IF1UMmZNt5/_rui-8jmGxZ5d17",
-				"tableId": "grid-IF1UMmZNt5",
-				"rowId": "i-8jmGxZ5d17",
-				"tableUrl": "https://coda.io/d/_dTGBFYq175J#_tugrid-IF1UMmZNt5"
-			}
+			"Embedding"
 		],
 		"Type": [
 			"HTML element"
 		],
-		"Discussion": {
-			"@context": "http://schema.org/",
-			"@type": "WebPage",
-			"url": "https://github.com/Devographics/surveys/discussions/125"
-		},
-		"Status": {
-			"@context": "http://schema.org/",
-			"@type": "StructuredValue",
-			"additionalType": "row",
-			"name": "Stable",
-			"url": "https://coda.io/d/_dTGBFYq175J#_tugrid-BqPGmglU_b/_rui-SyiVTehUqi",
-			"tableId": "grid-BqPGmglU_b",
-			"rowId": "i-SyiVTehUqi",
-			"tableUrl": "https://coda.io/d/_dTGBFYq175J#_tugrid-BqPGmglU_b"
-		},
-		"In Part 1": {
-			"@context": "http://schema.org/",
-			"@type": "StructuredValue",
-			"additionalType": "row",
-			"name": "In checkbox question",
-			"url": "https://coda.io/d/_dTGBFYq175J#_tugrid-RUMkEBKBsZ/_rui-r49H6EfVVa",
-			"tableId": "grid-RUMkEBKBsZ",
-			"rowId": "i-r49H6EfVVa",
-			"tableUrl": "https://coda.io/d/_dTGBFYq175J#_tugrid-RUMkEBKBsZ"
-		},
+		"Discussion": "https://github.com/Devographics/surveys/discussions/125",
+		"Status": "Stable",
+		"In Part 1": "In checkbox question",
 		"Upvotes": 52,
 		"id": "svg_element",
-		"Needs Translation": false
+		"Needs Translation": false,
+		"Description": "",
+		"Code snippet": "",
+		"URLs": ""
 	},
 	{
 		"Question": "Fetch Priority API (`fetchpriority` attribute)",
 		"Focus area": [
-			{
-				"@context": "http://schema.org/",
-				"@type": "StructuredValue",
-				"additionalType": "row",
-				"name": "Performance",
-				"url": "https://coda.io/d/_dTGBFYq175J#_tugrid-IF1UMmZNt5/_rui-bYbJdhJNeD",
-				"tableId": "grid-IF1UMmZNt5",
-				"rowId": "i-bYbJdhJNeD",
-				"tableUrl": "https://coda.io/d/_dTGBFYq175J#_tugrid-IF1UMmZNt5"
-			},
-			{
-				"@context": "http://schema.org/",
-				"@type": "StructuredValue",
-				"additionalType": "row",
-				"name": "Embedding",
-				"url": "https://coda.io/d/_dTGBFYq175J#_tugrid-IF1UMmZNt5/_rui-8jmGxZ5d17",
-				"tableId": "grid-IF1UMmZNt5",
-				"rowId": "i-8jmGxZ5d17",
-				"tableUrl": "https://coda.io/d/_dTGBFYq175J#_tugrid-IF1UMmZNt5"
-			},
-			{
-				"@context": "http://schema.org/",
-				"@type": "StructuredValue",
-				"additionalType": "row",
-				"name": "Multimedia",
-				"url": "https://coda.io/d/_dTGBFYq175J#_tugrid-IF1UMmZNt5/_rui-KBPi_lQvQe",
-				"tableId": "grid-IF1UMmZNt5",
-				"rowId": "i-KBPi_lQvQe",
-				"tableUrl": "https://coda.io/d/_dTGBFYq175J#_tugrid-IF1UMmZNt5"
-			}
+			"Performance",
+			"Embedding",
+			"Multimedia"
 		],
 		"Type": [
 			"HTML attribute"
 		],
-		"Discussion": {
-			"@context": "http://schema.org/",
-			"@type": "WebPage",
-			"url": "https://github.com/Devographics/surveys/discussions/137"
-		},
-		"Status": {
-			"@context": "http://schema.org/",
-			"@type": "StructuredValue",
-			"additionalType": "row",
-			"name": "Cutting Edge",
-			"url": "https://coda.io/d/_dTGBFYq175J#_tugrid-BqPGmglU_b/_rui-LMy3PoJR22",
-			"tableId": "grid-BqPGmglU_b",
-			"rowId": "i-LMy3PoJR22",
-			"tableUrl": "https://coda.io/d/_dTGBFYq175J#_tugrid-BqPGmglU_b"
-		},
-		"In Part 1": {
-			"@context": "http://schema.org/",
-			"@type": "StructuredValue",
-			"additionalType": "row",
-			"name": "Yes",
-			"url": "https://coda.io/d/_dTGBFYq175J#_tugrid-RUMkEBKBsZ/_rui-CiZ6xQAbPU",
-			"tableId": "grid-RUMkEBKBsZ",
-			"rowId": "i-CiZ6xQAbPU",
-			"tableUrl": "https://coda.io/d/_dTGBFYq175J#_tugrid-RUMkEBKBsZ"
-		},
+		"Discussion": "https://github.com/Devographics/surveys/discussions/137",
+		"Status": "Cutting Edge",
+		"In Part 1": "Yes",
 		"Upvotes": 37,
 		"id": "fetchpriority_attribute",
-		"Needs Translation": true
+		"Needs Translation": true,
+		"Description": "",
+		"Code snippet": "",
+		"URLs": ""
 	},
 	{
 		"Question": "`decoding` attribute",
 		"Focus area": [
-			{
-				"@context": "http://schema.org/",
-				"@type": "StructuredValue",
-				"additionalType": "row",
-				"name": "Multimedia",
-				"url": "https://coda.io/d/_dTGBFYq175J#_tugrid-IF1UMmZNt5/_rui-KBPi_lQvQe",
-				"tableId": "grid-IF1UMmZNt5",
-				"rowId": "i-KBPi_lQvQe",
-				"tableUrl": "https://coda.io/d/_dTGBFYq175J#_tugrid-IF1UMmZNt5"
-			},
-			{
-				"@context": "http://schema.org/",
-				"@type": "StructuredValue",
-				"additionalType": "row",
-				"name": "Performance",
-				"url": "https://coda.io/d/_dTGBFYq175J#_tugrid-IF1UMmZNt5/_rui-bYbJdhJNeD",
-				"tableId": "grid-IF1UMmZNt5",
-				"rowId": "i-bYbJdhJNeD",
-				"tableUrl": "https://coda.io/d/_dTGBFYq175J#_tugrid-IF1UMmZNt5"
-			}
+			"Multimedia",
+			"Performance"
 		],
 		"Type": [
 			"HTML attribute"
 		],
-		"Discussion": {
-			"@context": "http://schema.org/",
-			"@type": "WebPage",
-			"url": "https://github.com/Devographics/surveys/discussions/136"
-		},
-		"Status": {
-			"@context": "http://schema.org/",
-			"@type": "StructuredValue",
-			"additionalType": "row",
-			"name": "Stable",
-			"url": "https://coda.io/d/_dTGBFYq175J#_tugrid-BqPGmglU_b/_rui-SyiVTehUqi",
-			"tableId": "grid-BqPGmglU_b",
-			"rowId": "i-SyiVTehUqi",
-			"tableUrl": "https://coda.io/d/_dTGBFYq175J#_tugrid-BqPGmglU_b"
-		},
-		"In Part 1": {
-			"@context": "http://schema.org/",
-			"@type": "StructuredValue",
-			"additionalType": "row",
-			"name": "In checkbox question",
-			"url": "https://coda.io/d/_dTGBFYq175J#_tugrid-RUMkEBKBsZ/_rui-r49H6EfVVa",
-			"tableId": "grid-RUMkEBKBsZ",
-			"rowId": "i-r49H6EfVVa",
-			"tableUrl": "https://coda.io/d/_dTGBFYq175J#_tugrid-RUMkEBKBsZ"
-		},
+		"Discussion": "https://github.com/Devographics/surveys/discussions/136",
+		"Status": "Stable",
+		"In Part 1": "In checkbox question",
 		"Upvotes": 13,
 		"id": "decoding_attribute",
-		"Needs Translation": true
+		"Needs Translation": true,
+		"Description": "",
+		"Code snippet": "",
+		"URLs": ""
 	},
 	{
 		"Question": "`<template>` ",
 		"Focus area": [
-			{
-				"@context": "http://schema.org/",
-				"@type": "StructuredValue",
-				"additionalType": "row",
-				"name": "Templating",
-				"url": "https://coda.io/d/_dTGBFYq175J#_tugrid-IF1UMmZNt5/_rui-_59LF43OON",
-				"tableId": "grid-IF1UMmZNt5",
-				"rowId": "i-_59LF43OON",
-				"tableUrl": "https://coda.io/d/_dTGBFYq175J#_tugrid-IF1UMmZNt5"
-			}
+			"Making Web Components"
 		],
 		"Type": [
 			"HTML element"
 		],
-		"Discussion": {
-			"@context": "http://schema.org/",
-			"@type": "WebPage",
-			"url": "https://github.com/Devographics/surveys/discussions/96"
-		},
-		"Status": {
-			"@context": "http://schema.org/",
-			"@type": "StructuredValue",
-			"additionalType": "row",
-			"name": "Stable",
-			"url": "https://coda.io/d/_dTGBFYq175J#_tugrid-BqPGmglU_b/_rui-SyiVTehUqi",
-			"tableId": "grid-BqPGmglU_b",
-			"rowId": "i-SyiVTehUqi",
-			"tableUrl": "https://coda.io/d/_dTGBFYq175J#_tugrid-BqPGmglU_b"
-		},
-		"In Part 1": {
-			"@context": "http://schema.org/",
-			"@type": "StructuredValue",
-			"additionalType": "row",
-			"name": "Likely Yes",
-			"url": "https://coda.io/d/_dTGBFYq175J#_tugrid-RUMkEBKBsZ/_rui-4yGRpoH1zz",
-			"tableId": "grid-RUMkEBKBsZ",
-			"rowId": "i-4yGRpoH1zz",
-			"tableUrl": "https://coda.io/d/_dTGBFYq175J#_tugrid-RUMkEBKBsZ"
-		},
+		"Discussion": "https://github.com/Devographics/surveys/discussions/96",
+		"Status": "Stable",
+		"In Part 1": "Likely Yes",
 		"Upvotes": 35,
 		"id": "template_element",
-		"Needs Translation": false
+		"Needs Translation": false,
+		"Description": "",
+		"Code snippet": "",
+		"URLs": ""
 	},
 	{
 		"Question": "Resource Hints: `<link rel=”preconnect”>` ",
 		"Focus area": [
-			{
-				"@context": "http://schema.org/",
-				"@type": "StructuredValue",
-				"additionalType": "row",
-				"name": "Performance",
-				"url": "https://coda.io/d/_dTGBFYq175J#_tugrid-IF1UMmZNt5/_rui-bYbJdhJNeD",
-				"tableId": "grid-IF1UMmZNt5",
-				"rowId": "i-bYbJdhJNeD",
-				"tableUrl": "https://coda.io/d/_dTGBFYq175J#_tugrid-IF1UMmZNt5"
-			}
+			"Performance"
 		],
 		"Type": [
 			"HTML element"
 		],
-		"Discussion": {
-			"@context": "http://schema.org/",
-			"@type": "WebPage",
-			"url": "https://github.com/Devographics/surveys/discussions/107"
-		},
-		"Status": {
-			"@context": "http://schema.org/",
-			"@type": "StructuredValue",
-			"additionalType": "row",
-			"name": "Recent",
-			"url": "https://coda.io/d/_dTGBFYq175J#_tugrid-BqPGmglU_b/_rui-bntRYhG1UO",
-			"tableId": "grid-BqPGmglU_b",
-			"rowId": "i-bntRYhG1UO",
-			"tableUrl": "https://coda.io/d/_dTGBFYq175J#_tugrid-BqPGmglU_b"
-		},
-		"In Part 1": {
-			"@context": "http://schema.org/",
-			"@type": "StructuredValue",
-			"additionalType": "row",
-			"name": "In checkbox question",
-			"url": "https://coda.io/d/_dTGBFYq175J#_tugrid-RUMkEBKBsZ/_rui-r49H6EfVVa",
-			"tableId": "grid-RUMkEBKBsZ",
-			"rowId": "i-r49H6EfVVa",
-			"tableUrl": "https://coda.io/d/_dTGBFYq175J#_tugrid-RUMkEBKBsZ"
-		},
+		"Discussion": "https://github.com/Devographics/surveys/discussions/107",
+		"Status": "Recent",
+		"In Part 1": "In checkbox question",
 		"Upvotes": 14,
 		"id": "rh_preconnect",
-		"Needs Translation": true
+		"Needs Translation": true,
+		"Description": "",
+		"Code snippet": "",
+		"URLs": ""
 	},
 	{
 		"Question": "PWA manifest",
 		"Focus area": [
-			{
-				"@context": "http://schema.org/",
-				"@type": "StructuredValue",
-				"additionalType": "row",
-				"name": "Bridging the gap with native",
-				"url": "https://coda.io/d/_dTGBFYq175J#_tugrid-IF1UMmZNt5/_rui-g0DSoXECnm",
-				"tableId": "grid-IF1UMmZNt5",
-				"rowId": "i-g0DSoXECnm",
-				"tableUrl": "https://coda.io/d/_dTGBFYq175J#_tugrid-IF1UMmZNt5"
-			}
+			"Progressive Web Apps"
 		],
 		"Type": [
 			"Other"
 		],
-		"Discussion": {
-			"@context": "http://schema.org/",
-			"@type": "WebPage",
-			"url": "https://github.com/Devographics/surveys/discussions/119"
-		},
-		"Status": {
-			"@context": "http://schema.org/",
-			"@type": "StructuredValue",
-			"additionalType": "row",
-			"name": "Stable",
-			"url": "https://coda.io/d/_dTGBFYq175J#_tugrid-BqPGmglU_b/_rui-SyiVTehUqi",
-			"tableId": "grid-BqPGmglU_b",
-			"rowId": "i-SyiVTehUqi",
-			"tableUrl": "https://coda.io/d/_dTGBFYq175J#_tugrid-BqPGmglU_b"
-		},
-		"In Part 1": {
-			"@context": "http://schema.org/",
-			"@type": "StructuredValue",
-			"additionalType": "row",
-			"name": "In checkbox question",
-			"url": "https://coda.io/d/_dTGBFYq175J#_tugrid-RUMkEBKBsZ/_rui-r49H6EfVVa",
-			"tableId": "grid-RUMkEBKBsZ",
-			"rowId": "i-r49H6EfVVa",
-			"tableUrl": "https://coda.io/d/_dTGBFYq175J#_tugrid-RUMkEBKBsZ"
-		},
+		"Discussion": "https://github.com/Devographics/surveys/discussions/119",
+		"Status": "Stable",
+		"In Part 1": "In checkbox question",
 		"Upvotes": 33,
 		"id": "pwa_manifest",
-		"Needs Translation": true
+		"Needs Translation": true,
+		"Description": "",
+		"Code snippet": "",
+		"URLs": ""
 	},
 	{
 		"Question": "Resource Hints: `<link rel=”prerender”>` ",
 		"Focus area": [
-			{
-				"@context": "http://schema.org/",
-				"@type": "StructuredValue",
-				"additionalType": "row",
-				"name": "Performance",
-				"url": "https://coda.io/d/_dTGBFYq175J#_tugrid-IF1UMmZNt5/_rui-bYbJdhJNeD",
-				"tableId": "grid-IF1UMmZNt5",
-				"rowId": "i-bYbJdhJNeD",
-				"tableUrl": "https://coda.io/d/_dTGBFYq175J#_tugrid-IF1UMmZNt5"
-			}
+			"Performance"
 		],
 		"Type": [
 			"HTML element"
 		],
-		"Discussion": {
-			"@context": "http://schema.org/",
-			"@type": "WebPage",
-			"url": "https://github.com/Devographics/surveys/discussions/106"
-		},
-		"Status": {
-			"@context": "http://schema.org/",
-			"@type": "StructuredValue",
-			"additionalType": "row",
-			"name": "Deprecated",
-			"url": "https://coda.io/d/_dTGBFYq175J#_tugrid-BqPGmglU_b/_rui-kk1oMqoM2T",
-			"tableId": "grid-BqPGmglU_b",
-			"rowId": "i-kk1oMqoM2T",
-			"tableUrl": "https://coda.io/d/_dTGBFYq175J#_tugrid-BqPGmglU_b"
-		},
-		"In Part 1": {
-			"@context": "http://schema.org/",
-			"@type": "StructuredValue",
-			"additionalType": "row",
-			"name": "In checkbox question",
-			"url": "https://coda.io/d/_dTGBFYq175J#_tugrid-RUMkEBKBsZ/_rui-r49H6EfVVa",
-			"tableId": "grid-RUMkEBKBsZ",
-			"rowId": "i-r49H6EfVVa",
-			"tableUrl": "https://coda.io/d/_dTGBFYq175J#_tugrid-RUMkEBKBsZ"
-		},
+		"Discussion": "https://github.com/Devographics/surveys/discussions/106",
+		"Status": "Deprecated",
+		"In Part 1": "In checkbox question",
 		"Upvotes": 12,
 		"id": "rh_prerender",
-		"Needs Translation": true
+		"Needs Translation": true,
+		"Description": "",
+		"Code snippet": "",
+		"URLs": ""
 	},
 	{
 		"Question": "`focusgroup` attribute",
 		"Focus area": [
-			{
-				"@context": "http://schema.org/",
-				"@type": "StructuredValue",
-				"additionalType": "row",
-				"name": "ARIA & Accessibility APIs",
-				"url": "https://coda.io/d/_dTGBFYq175J#_tugrid-IF1UMmZNt5/_rui-qdh-vpq31x",
-				"tableId": "grid-IF1UMmZNt5",
-				"rowId": "i-qdh-vpq31x",
-				"tableUrl": "https://coda.io/d/_dTGBFYq175J#_tugrid-IF1UMmZNt5"
-			},
-			{
-				"@context": "http://schema.org/",
-				"@type": "StructuredValue",
-				"additionalType": "row",
-				"name": "Interactivity",
-				"url": "https://coda.io/d/_dTGBFYq175J#_tugrid-IF1UMmZNt5/_rui-W4J_OBZ_-R",
-				"tableId": "grid-IF1UMmZNt5",
-				"rowId": "i-W4J_OBZ_-R",
-				"tableUrl": "https://coda.io/d/_dTGBFYq175J#_tugrid-IF1UMmZNt5"
-			}
+			"Accessibility",
+			"Interactivity"
 		],
 		"Type": [
 			"HTML attribute"
 		],
-		"Discussion": {
-			"@context": "http://schema.org/",
-			"@type": "WebPage",
-			"url": "https://github.com/Devographics/surveys/discussions/102"
-		},
-		"Status": {
-			"@context": "http://schema.org/",
-			"@type": "StructuredValue",
-			"additionalType": "row",
-			"name": "Future",
-			"url": "https://coda.io/d/_dTGBFYq175J#_tugrid-BqPGmglU_b/_rui-vwaDIcBrtd",
-			"tableId": "grid-BqPGmglU_b",
-			"rowId": "i-vwaDIcBrtd",
-			"tableUrl": "https://coda.io/d/_dTGBFYq175J#_tugrid-BqPGmglU_b"
-		},
-		"In Part 1": {
-			"@context": "http://schema.org/",
-			"@type": "StructuredValue",
-			"additionalType": "row",
-			"name": "Yes",
-			"url": "https://coda.io/d/_dTGBFYq175J#_tugrid-RUMkEBKBsZ/_rui-CiZ6xQAbPU",
-			"tableId": "grid-RUMkEBKBsZ",
-			"rowId": "i-CiZ6xQAbPU",
-			"tableUrl": "https://coda.io/d/_dTGBFYq175J#_tugrid-RUMkEBKBsZ"
-		},
+		"Discussion": "https://github.com/Devographics/surveys/discussions/102",
+		"Status": "Future",
+		"In Part 1": "Yes",
 		"Upvotes": 18,
 		"id": "focusgroup_attribute",
-		"Needs Translation": true
+		"Needs Translation": true,
+		"Description": "",
+		"Code snippet": "",
+		"URLs": ""
 	},
 	{
 		"Question": "`referrerpolicy` attribute",
 		"Focus area": [
-			{
-				"@context": "http://schema.org/",
-				"@type": "StructuredValue",
-				"additionalType": "row",
-				"name": "Security & Privacy",
-				"url": "https://coda.io/d/_dTGBFYq175J#_tugrid-IF1UMmZNt5/_rui-cgPPUwtNEO",
-				"tableId": "grid-IF1UMmZNt5",
-				"rowId": "i-cgPPUwtNEO",
-				"tableUrl": "https://coda.io/d/_dTGBFYq175J#_tugrid-IF1UMmZNt5"
-			}
+			"Security & Privacy"
 		],
 		"Type": [
 			"HTML attribute"
 		],
-		"Discussion": {
-			"@context": "http://schema.org/",
-			"@type": "WebPage",
-			"url": "https://github.com/Devographics/surveys/discussions/146"
-		},
-		"Status": {
-			"@context": "http://schema.org/",
-			"@type": "StructuredValue",
-			"additionalType": "row",
-			"name": "Stable",
-			"url": "https://coda.io/d/_dTGBFYq175J#_tugrid-BqPGmglU_b/_rui-SyiVTehUqi",
-			"tableId": "grid-BqPGmglU_b",
-			"rowId": "i-SyiVTehUqi",
-			"tableUrl": "https://coda.io/d/_dTGBFYq175J#_tugrid-BqPGmglU_b"
-		},
-		"In Part 1": {
-			"@context": "http://schema.org/",
-			"@type": "StructuredValue",
-			"additionalType": "row",
-			"name": "Likely No",
-			"url": "https://coda.io/d/_dTGBFYq175J#_tugrid-RUMkEBKBsZ/_rui-tL7JBvZWvM",
-			"tableId": "grid-RUMkEBKBsZ",
-			"rowId": "i-tL7JBvZWvM",
-			"tableUrl": "https://coda.io/d/_dTGBFYq175J#_tugrid-RUMkEBKBsZ"
-		},
+		"Discussion": "https://github.com/Devographics/surveys/discussions/146",
+		"Status": "Stable",
+		"In Part 1": "Likely No",
 		"Upvotes": 11,
 		"id": "referrerpolicy_attribute",
-		"Needs Translation": true
+		"Needs Translation": true,
+		"Description": "",
+		"Code snippet": "",
+		"URLs": ""
 	},
 	{
 		"Question": "Subresource Integrity (`integrity` attribute)",
 		"Focus area": [
-			{
-				"@context": "http://schema.org/",
-				"@type": "StructuredValue",
-				"additionalType": "row",
-				"name": "Security & Privacy",
-				"url": "https://coda.io/d/_dTGBFYq175J#_tugrid-IF1UMmZNt5/_rui-cgPPUwtNEO",
-				"tableId": "grid-IF1UMmZNt5",
-				"rowId": "i-cgPPUwtNEO",
-				"tableUrl": "https://coda.io/d/_dTGBFYq175J#_tugrid-IF1UMmZNt5"
-			}
+			"Security & Privacy"
 		],
 		"Type": [
 			"HTML attribute"
 		],
-		"Discussion": {
-			"@context": "http://schema.org/",
-			"@type": "WebPage",
-			"url": "https://github.com/Devographics/surveys/discussions/145"
-		},
-		"Status": {
-			"@context": "http://schema.org/",
-			"@type": "StructuredValue",
-			"additionalType": "row",
-			"name": "Stable",
-			"url": "https://coda.io/d/_dTGBFYq175J#_tugrid-BqPGmglU_b/_rui-SyiVTehUqi",
-			"tableId": "grid-BqPGmglU_b",
-			"rowId": "i-SyiVTehUqi",
-			"tableUrl": "https://coda.io/d/_dTGBFYq175J#_tugrid-BqPGmglU_b"
-		},
-		"In Part 1": {
-			"@context": "http://schema.org/",
-			"@type": "StructuredValue",
-			"additionalType": "row",
-			"name": "In checkbox question",
-			"url": "https://coda.io/d/_dTGBFYq175J#_tugrid-RUMkEBKBsZ/_rui-r49H6EfVVa",
-			"tableId": "grid-RUMkEBKBsZ",
-			"rowId": "i-r49H6EfVVa",
-			"tableUrl": "https://coda.io/d/_dTGBFYq175J#_tugrid-RUMkEBKBsZ"
-		},
+		"Discussion": "https://github.com/Devographics/surveys/discussions/145",
+		"Status": "Stable",
+		"In Part 1": "In checkbox question",
 		"Upvotes": 11,
 		"id": "integrity_attribute",
-		"Needs Translation": true
+		"Needs Translation": true,
+		"Description": "",
+		"Code snippet": "",
+		"URLs": ""
 	},
 	{
 		"Question": "`crossorigin` attribute",
 		"Focus area": [
-			{
-				"@context": "http://schema.org/",
-				"@type": "StructuredValue",
-				"additionalType": "row",
-				"name": "Security & Privacy",
-				"url": "https://coda.io/d/_dTGBFYq175J#_tugrid-IF1UMmZNt5/_rui-cgPPUwtNEO",
-				"tableId": "grid-IF1UMmZNt5",
-				"rowId": "i-cgPPUwtNEO",
-				"tableUrl": "https://coda.io/d/_dTGBFYq175J#_tugrid-IF1UMmZNt5"
-			},
-			{
-				"@context": "http://schema.org/",
-				"@type": "StructuredValue",
-				"additionalType": "row",
-				"name": "Embedding",
-				"url": "https://coda.io/d/_dTGBFYq175J#_tugrid-IF1UMmZNt5/_rui-8jmGxZ5d17",
-				"tableId": "grid-IF1UMmZNt5",
-				"rowId": "i-8jmGxZ5d17",
-				"tableUrl": "https://coda.io/d/_dTGBFYq175J#_tugrid-IF1UMmZNt5"
-			}
+			"Security & Privacy",
+			"Embedding"
 		],
 		"Type": [
 			"HTML attribute"
 		],
-		"Discussion": {
-			"@context": "http://schema.org/",
-			"@type": "WebPage",
-			"url": "https://github.com/Devographics/surveys/discussions/144"
-		},
-		"Status": {
-			"@context": "http://schema.org/",
-			"@type": "StructuredValue",
-			"additionalType": "row",
-			"name": "Stable",
-			"url": "https://coda.io/d/_dTGBFYq175J#_tugrid-BqPGmglU_b/_rui-SyiVTehUqi",
-			"tableId": "grid-BqPGmglU_b",
-			"rowId": "i-SyiVTehUqi",
-			"tableUrl": "https://coda.io/d/_dTGBFYq175J#_tugrid-BqPGmglU_b"
-		},
-		"In Part 1": {
-			"@context": "http://schema.org/",
-			"@type": "StructuredValue",
-			"additionalType": "row",
-			"name": "Likely No",
-			"url": "https://coda.io/d/_dTGBFYq175J#_tugrid-RUMkEBKBsZ/_rui-tL7JBvZWvM",
-			"tableId": "grid-RUMkEBKBsZ",
-			"rowId": "i-tL7JBvZWvM",
-			"tableUrl": "https://coda.io/d/_dTGBFYq175J#_tugrid-RUMkEBKBsZ"
-		},
+		"Discussion": "https://github.com/Devographics/surveys/discussions/144",
+		"Status": "Stable",
+		"In Part 1": "Likely No",
 		"Upvotes": 23,
 		"id": "crossorigin_attribute",
-		"Needs Translation": false
+		"Needs Translation": false,
+		"Description": "",
+		"Code snippet": "",
+		"URLs": ""
 	},
 	{
 		"Question": "ARIA",
 		"Focus area": [
-			{
-				"@context": "http://schema.org/",
-				"@type": "StructuredValue",
-				"additionalType": "row",
-				"name": "ARIA & Accessibility APIs",
-				"url": "https://coda.io/d/_dTGBFYq175J#_tugrid-IF1UMmZNt5/_rui-qdh-vpq31x",
-				"tableId": "grid-IF1UMmZNt5",
-				"rowId": "i-qdh-vpq31x",
-				"tableUrl": "https://coda.io/d/_dTGBFYq175J#_tugrid-IF1UMmZNt5"
-			}
+			"Accessibility"
 		],
 		"Type": [
 			"HTML attribute"
 		],
-		"Discussion": {
-			"@context": "http://schema.org/",
-			"@type": "WebPage",
-			"url": "https://github.com/Devographics/surveys/discussions/114"
-		},
-		"Status": {
-			"@context": "http://schema.org/",
-			"@type": "StructuredValue",
-			"additionalType": "row",
-			"name": "Stable",
-			"url": "https://coda.io/d/_dTGBFYq175J#_tugrid-BqPGmglU_b/_rui-SyiVTehUqi",
-			"tableId": "grid-BqPGmglU_b",
-			"rowId": "i-SyiVTehUqi",
-			"tableUrl": "https://coda.io/d/_dTGBFYq175J#_tugrid-BqPGmglU_b"
-		},
-		"In Part 1": {
-			"@context": "http://schema.org/",
-			"@type": "StructuredValue",
-			"additionalType": "row",
-			"name": "In checkbox question",
-			"url": "https://coda.io/d/_dTGBFYq175J#_tugrid-RUMkEBKBsZ/_rui-r49H6EfVVa",
-			"tableId": "grid-RUMkEBKBsZ",
-			"rowId": "i-r49H6EfVVa",
-			"tableUrl": "https://coda.io/d/_dTGBFYq175J#_tugrid-RUMkEBKBsZ"
-		},
+		"Discussion": "https://github.com/Devographics/surveys/discussions/114",
+		"Status": "Stable",
+		"In Part 1": "In checkbox question",
 		"Upvotes": 44,
 		"id": "aria",
-		"Needs Translation": false
+		"Needs Translation": false,
+		"Description": "",
+		"Code snippet": "",
+		"URLs": ""
 	},
 	{
 		"Question": "`srcset` and `sizes` attributes",
 		"Focus area": [
-			{
-				"@context": "http://schema.org/",
-				"@type": "StructuredValue",
-				"additionalType": "row",
-				"name": "Multimedia",
-				"url": "https://coda.io/d/_dTGBFYq175J#_tugrid-IF1UMmZNt5/_rui-KBPi_lQvQe",
-				"tableId": "grid-IF1UMmZNt5",
-				"rowId": "i-KBPi_lQvQe",
-				"tableUrl": "https://coda.io/d/_dTGBFYq175J#_tugrid-IF1UMmZNt5"
-			}
+			"Multimedia"
 		],
 		"Type": [
 			"HTML attribute"
 		],
-		"Discussion": {
-			"@context": "http://schema.org/",
-			"@type": "WebPage",
-			"url": "https://github.com/Devographics/surveys/discussions/123"
-		},
-		"Status": {
-			"@context": "http://schema.org/",
-			"@type": "StructuredValue",
-			"additionalType": "row",
-			"name": "Stable",
-			"url": "https://coda.io/d/_dTGBFYq175J#_tugrid-BqPGmglU_b/_rui-SyiVTehUqi",
-			"tableId": "grid-BqPGmglU_b",
-			"rowId": "i-SyiVTehUqi",
-			"tableUrl": "https://coda.io/d/_dTGBFYq175J#_tugrid-BqPGmglU_b"
-		},
-		"In Part 1": {
-			"@context": "http://schema.org/",
-			"@type": "StructuredValue",
-			"additionalType": "row",
-			"name": "In checkbox question",
-			"url": "https://coda.io/d/_dTGBFYq175J#_tugrid-RUMkEBKBsZ/_rui-r49H6EfVVa",
-			"tableId": "grid-RUMkEBKBsZ",
-			"rowId": "i-r49H6EfVVa",
-			"tableUrl": "https://coda.io/d/_dTGBFYq175J#_tugrid-RUMkEBKBsZ"
-		},
+		"Discussion": "https://github.com/Devographics/surveys/discussions/123",
+		"Status": "Stable",
+		"In Part 1": "In checkbox question",
 		"Upvotes": 44,
 		"id": "respimg_attributes",
-		"Needs Translation": true
+		"Needs Translation": true,
+		"Description": "",
+		"Code snippet": "",
+		"URLs": ""
 	},
 	{
 		"Question": "HTML Media Capture",
 		"Focus area": [
-			{
-				"@context": "http://schema.org/",
-				"@type": "StructuredValue",
-				"additionalType": "row",
-				"name": "Multimedia",
-				"url": "https://coda.io/d/_dTGBFYq175J#_tugrid-IF1UMmZNt5/_rui-KBPi_lQvQe",
-				"tableId": "grid-IF1UMmZNt5",
-				"rowId": "i-KBPi_lQvQe",
-				"tableUrl": "https://coda.io/d/_dTGBFYq175J#_tugrid-IF1UMmZNt5"
-			},
-			{
-				"@context": "http://schema.org/",
-				"@type": "StructuredValue",
-				"additionalType": "row",
-				"name": "Forms & Editing",
-				"url": "https://coda.io/d/_dTGBFYq175J#_tugrid-IF1UMmZNt5/_rui-HITV9PbnY3",
-				"tableId": "grid-IF1UMmZNt5",
-				"rowId": "i-HITV9PbnY3",
-				"tableUrl": "https://coda.io/d/_dTGBFYq175J#_tugrid-IF1UMmZNt5"
-			}
+			"Multimedia",
+			"Forms & Editing"
 		],
 		"Type": [
 			"HTML attribute"
 		],
-		"Discussion": {
-			"@context": "http://schema.org/",
-			"@type": "WebPage",
-			"url": "https://github.com/Devographics/surveys/discussions/133"
-		},
-		"Status": {
-			"@context": "http://schema.org/",
-			"@type": "StructuredValue",
-			"additionalType": "row",
-			"name": "Cutting Edge",
-			"url": "https://coda.io/d/_dTGBFYq175J#_tugrid-BqPGmglU_b/_rui-LMy3PoJR22",
-			"tableId": "grid-BqPGmglU_b",
-			"rowId": "i-LMy3PoJR22",
-			"tableUrl": "https://coda.io/d/_dTGBFYq175J#_tugrid-BqPGmglU_b"
-		},
-		"In Part 1": {
-			"@context": "http://schema.org/",
-			"@type": "StructuredValue",
-			"additionalType": "row",
-			"name": "Yes",
-			"url": "https://coda.io/d/_dTGBFYq175J#_tugrid-RUMkEBKBsZ/_rui-CiZ6xQAbPU",
-			"tableId": "grid-RUMkEBKBsZ",
-			"rowId": "i-CiZ6xQAbPU",
-			"tableUrl": "https://coda.io/d/_dTGBFYq175J#_tugrid-RUMkEBKBsZ"
-		},
+		"Discussion": "https://github.com/Devographics/surveys/discussions/133",
+		"Status": "Cutting Edge",
+		"In Part 1": "Yes",
 		"Upvotes": 14,
 		"id": "media_capture",
-		"Needs Translation": true
+		"Needs Translation": true,
+		"Description": "",
+		"Code snippet": "",
+		"URLs": ""
 	},
 	{
 		"Question": "Credentialless iframes\n\n```\n<iframe credentialless>\n```",
 		"Focus area": [
-			{
-				"@context": "http://schema.org/",
-				"@type": "StructuredValue",
-				"additionalType": "row",
-				"name": "Security & Privacy",
-				"url": "https://coda.io/d/_dTGBFYq175J#_tugrid-IF1UMmZNt5/_rui-cgPPUwtNEO",
-				"tableId": "grid-IF1UMmZNt5",
-				"rowId": "i-cgPPUwtNEO",
-				"tableUrl": "https://coda.io/d/_dTGBFYq175J#_tugrid-IF1UMmZNt5"
-			},
-			{
-				"@context": "http://schema.org/",
-				"@type": "StructuredValue",
-				"additionalType": "row",
-				"name": "Embedding",
-				"url": "https://coda.io/d/_dTGBFYq175J#_tugrid-IF1UMmZNt5/_rui-8jmGxZ5d17",
-				"tableId": "grid-IF1UMmZNt5",
-				"rowId": "i-8jmGxZ5d17",
-				"tableUrl": "https://coda.io/d/_dTGBFYq175J#_tugrid-IF1UMmZNt5"
-			}
+			"Security & Privacy",
+			"Embedding"
 		],
 		"Type": [
 			"HTML attribute"
 		],
-		"Discussion": {
-			"@context": "http://schema.org/",
-			"@type": "WebPage",
-			"url": "https://github.com/Devographics/surveys/discussions/143"
-		},
-		"Status": {
-			"@context": "http://schema.org/",
-			"@type": "StructuredValue",
-			"additionalType": "row",
-			"name": "Cutting Edge",
-			"url": "https://coda.io/d/_dTGBFYq175J#_tugrid-BqPGmglU_b/_rui-LMy3PoJR22",
-			"tableId": "grid-BqPGmglU_b",
-			"rowId": "i-LMy3PoJR22",
-			"tableUrl": "https://coda.io/d/_dTGBFYq175J#_tugrid-BqPGmglU_b"
-		},
-		"In Part 1": {
-			"@context": "http://schema.org/",
-			"@type": "StructuredValue",
-			"additionalType": "row",
-			"name": "In checkbox question",
-			"url": "https://coda.io/d/_dTGBFYq175J#_tugrid-RUMkEBKBsZ/_rui-r49H6EfVVa",
-			"tableId": "grid-RUMkEBKBsZ",
-			"rowId": "i-r49H6EfVVa",
-			"tableUrl": "https://coda.io/d/_dTGBFYq175J#_tugrid-RUMkEBKBsZ"
-		},
+		"Discussion": "https://github.com/Devographics/surveys/discussions/143",
+		"Status": "Cutting Edge",
+		"In Part 1": "In checkbox question",
 		"Upvotes": 9,
 		"id": "credentialless_attribute",
-		"Needs Translation": true
+		"Needs Translation": true,
+		"Description": "",
+		"Code snippet": "",
+		"URLs": ""
 	},
 	{
 		"Question": "`sandbox` attribute for iframes",
 		"Focus area": [
-			{
-				"@context": "http://schema.org/",
-				"@type": "StructuredValue",
-				"additionalType": "row",
-				"name": "Security & Privacy",
-				"url": "https://coda.io/d/_dTGBFYq175J#_tugrid-IF1UMmZNt5/_rui-cgPPUwtNEO",
-				"tableId": "grid-IF1UMmZNt5",
-				"rowId": "i-cgPPUwtNEO",
-				"tableUrl": "https://coda.io/d/_dTGBFYq175J#_tugrid-IF1UMmZNt5"
-			},
-			{
-				"@context": "http://schema.org/",
-				"@type": "StructuredValue",
-				"additionalType": "row",
-				"name": "Embedding",
-				"url": "https://coda.io/d/_dTGBFYq175J#_tugrid-IF1UMmZNt5/_rui-8jmGxZ5d17",
-				"tableId": "grid-IF1UMmZNt5",
-				"rowId": "i-8jmGxZ5d17",
-				"tableUrl": "https://coda.io/d/_dTGBFYq175J#_tugrid-IF1UMmZNt5"
-			}
+			"Security & Privacy",
+			"Embedding"
 		],
 		"Type": [
 			"HTML attribute"
 		],
-		"Discussion": {
-			"@context": "http://schema.org/",
-			"@type": "WebPage",
-			"url": "https://github.com/Devographics/surveys/discussions/142"
-		},
-		"Status": {
-			"@context": "http://schema.org/",
-			"@type": "StructuredValue",
-			"additionalType": "row",
-			"name": "Stable",
-			"url": "https://coda.io/d/_dTGBFYq175J#_tugrid-BqPGmglU_b/_rui-SyiVTehUqi",
-			"tableId": "grid-BqPGmglU_b",
-			"rowId": "i-SyiVTehUqi",
-			"tableUrl": "https://coda.io/d/_dTGBFYq175J#_tugrid-BqPGmglU_b"
-		},
-		"In Part 1": {
-			"@context": "http://schema.org/",
-			"@type": "StructuredValue",
-			"additionalType": "row",
-			"name": "Likely No",
-			"url": "https://coda.io/d/_dTGBFYq175J#_tugrid-RUMkEBKBsZ/_rui-tL7JBvZWvM",
-			"tableId": "grid-RUMkEBKBsZ",
-			"rowId": "i-tL7JBvZWvM",
-			"tableUrl": "https://coda.io/d/_dTGBFYq175J#_tugrid-RUMkEBKBsZ"
-		},
+		"Discussion": "https://github.com/Devographics/surveys/discussions/142",
+		"Status": "Stable",
+		"In Part 1": "Likely No",
 		"Upvotes": 13,
 		"id": "sandbox_attribute",
-		"Needs Translation": true
+		"Needs Translation": true,
+		"Description": "",
+		"Code snippet": "",
+		"URLs": ""
 	},
 	{
 		"Question": "`<track>` ",
 		"Focus area": [
-			{
-				"@context": "http://schema.org/",
-				"@type": "StructuredValue",
-				"additionalType": "row",
-				"name": "Multimedia",
-				"url": "https://coda.io/d/_dTGBFYq175J#_tugrid-IF1UMmZNt5/_rui-KBPi_lQvQe",
-				"tableId": "grid-IF1UMmZNt5",
-				"rowId": "i-KBPi_lQvQe",
-				"tableUrl": "https://coda.io/d/_dTGBFYq175J#_tugrid-IF1UMmZNt5"
-			}
+			"Multimedia"
 		],
 		"Type": [
 			"HTML element"
 		],
-		"Discussion": {
-			"@context": "http://schema.org/",
-			"@type": "WebPage",
-			"url": "https://github.com/Devographics/surveys/discussions/132"
-		},
-		"Status": {
-			"@context": "http://schema.org/",
-			"@type": "StructuredValue",
-			"additionalType": "row",
-			"name": "Stable",
-			"url": "https://coda.io/d/_dTGBFYq175J#_tugrid-BqPGmglU_b/_rui-SyiVTehUqi",
-			"tableId": "grid-BqPGmglU_b",
-			"rowId": "i-SyiVTehUqi",
-			"tableUrl": "https://coda.io/d/_dTGBFYq175J#_tugrid-BqPGmglU_b"
-		},
-		"In Part 1": {
-			"@context": "http://schema.org/",
-			"@type": "StructuredValue",
-			"additionalType": "row",
-			"name": "In checkbox question",
-			"url": "https://coda.io/d/_dTGBFYq175J#_tugrid-RUMkEBKBsZ/_rui-r49H6EfVVa",
-			"tableId": "grid-RUMkEBKBsZ",
-			"rowId": "i-r49H6EfVVa",
-			"tableUrl": "https://coda.io/d/_dTGBFYq175J#_tugrid-RUMkEBKBsZ"
-		},
+		"Discussion": "https://github.com/Devographics/surveys/discussions/132",
+		"Status": "Stable",
+		"In Part 1": "In checkbox question",
 		"Upvotes": 18,
 		"id": "track_element",
-		"Needs Translation": true
+		"Needs Translation": true,
+		"Description": "",
+		"Code snippet": "",
+		"URLs": ""
 	},
 	{
 		"Question": "Lazy loading",
 		"Focus area": [
-			{
-				"@context": "http://schema.org/",
-				"@type": "StructuredValue",
-				"additionalType": "row",
-				"name": "Performance",
-				"url": "https://coda.io/d/_dTGBFYq175J#_tugrid-IF1UMmZNt5/_rui-bYbJdhJNeD",
-				"tableId": "grid-IF1UMmZNt5",
-				"rowId": "i-bYbJdhJNeD",
-				"tableUrl": "https://coda.io/d/_dTGBFYq175J#_tugrid-IF1UMmZNt5"
-			},
-			{
-				"@context": "http://schema.org/",
-				"@type": "StructuredValue",
-				"additionalType": "row",
-				"name": "Multimedia",
-				"url": "https://coda.io/d/_dTGBFYq175J#_tugrid-IF1UMmZNt5/_rui-KBPi_lQvQe",
-				"tableId": "grid-IF1UMmZNt5",
-				"rowId": "i-KBPi_lQvQe",
-				"tableUrl": "https://coda.io/d/_dTGBFYq175J#_tugrid-IF1UMmZNt5"
-			}
+			"Performance",
+			"Multimedia"
 		],
 		"Type": [
 			"JS API"
 		],
-		"Discussion": {
-			"@context": "http://schema.org/",
-			"@type": "WebPage",
-			"url": "https://github.com/Devographics/surveys/discussions/141"
-		},
-		"Status": {
-			"@context": "http://schema.org/",
-			"@type": "StructuredValue",
-			"additionalType": "row",
-			"name": "Stable",
-			"url": "https://coda.io/d/_dTGBFYq175J#_tugrid-BqPGmglU_b/_rui-SyiVTehUqi",
-			"tableId": "grid-BqPGmglU_b",
-			"rowId": "i-SyiVTehUqi",
-			"tableUrl": "https://coda.io/d/_dTGBFYq175J#_tugrid-BqPGmglU_b"
-		},
-		"In Part 1": {
-			"@context": "http://schema.org/",
-			"@type": "StructuredValue",
-			"additionalType": "row",
-			"name": "In checkbox question",
-			"url": "https://coda.io/d/_dTGBFYq175J#_tugrid-RUMkEBKBsZ/_rui-r49H6EfVVa",
-			"tableId": "grid-RUMkEBKBsZ",
-			"rowId": "i-r49H6EfVVa",
-			"tableUrl": "https://coda.io/d/_dTGBFYq175J#_tugrid-RUMkEBKBsZ"
-		},
+		"Discussion": "https://github.com/Devographics/surveys/discussions/141",
+		"Status": "Stable",
+		"In Part 1": "In checkbox question",
 		"Upvotes": 68,
 		"id": "lazy_loading",
-		"Needs Translation": true
+		"Needs Translation": true,
+		"Description": "",
+		"Code snippet": "",
+		"URLs": ""
 	},
 	{
 		"Question": "`blocking=”render”` ",
 		"Focus area": [
-			{
-				"@context": "http://schema.org/",
-				"@type": "StructuredValue",
-				"additionalType": "row",
-				"name": "Performance",
-				"url": "https://coda.io/d/_dTGBFYq175J#_tugrid-IF1UMmZNt5/_rui-bYbJdhJNeD",
-				"tableId": "grid-IF1UMmZNt5",
-				"rowId": "i-bYbJdhJNeD",
-				"tableUrl": "https://coda.io/d/_dTGBFYq175J#_tugrid-IF1UMmZNt5"
-			},
-			{
-				"@context": "http://schema.org/",
-				"@type": "StructuredValue",
-				"additionalType": "row",
-				"name": "Embedding",
-				"url": "https://coda.io/d/_dTGBFYq175J#_tugrid-IF1UMmZNt5/_rui-8jmGxZ5d17",
-				"tableId": "grid-IF1UMmZNt5",
-				"rowId": "i-8jmGxZ5d17",
-				"tableUrl": "https://coda.io/d/_dTGBFYq175J#_tugrid-IF1UMmZNt5"
-			}
+			"Performance",
+			"Embedding"
 		],
 		"Type": [
 			"HTML attribute"
 		],
-		"Discussion": {
-			"@context": "http://schema.org/",
-			"@type": "WebPage",
-			"url": "https://github.com/Devographics/surveys/discussions/140"
-		},
-		"Status": {
-			"@context": "http://schema.org/",
-			"@type": "StructuredValue",
-			"additionalType": "row",
-			"name": "Cutting Edge",
-			"url": "https://coda.io/d/_dTGBFYq175J#_tugrid-BqPGmglU_b/_rui-LMy3PoJR22",
-			"tableId": "grid-BqPGmglU_b",
-			"rowId": "i-LMy3PoJR22",
-			"tableUrl": "https://coda.io/d/_dTGBFYq175J#_tugrid-BqPGmglU_b"
-		},
-		"In Part 1": {
-			"@context": "http://schema.org/",
-			"@type": "StructuredValue",
-			"additionalType": "row",
-			"name": "Yes",
-			"url": "https://coda.io/d/_dTGBFYq175J#_tugrid-RUMkEBKBsZ/_rui-CiZ6xQAbPU",
-			"tableId": "grid-RUMkEBKBsZ",
-			"rowId": "i-CiZ6xQAbPU",
-			"tableUrl": "https://coda.io/d/_dTGBFYq175J#_tugrid-RUMkEBKBsZ"
-		},
+		"Discussion": "https://github.com/Devographics/surveys/discussions/140",
+		"Status": "Cutting Edge",
+		"In Part 1": "Yes",
 		"Upvotes": 25,
 		"id": "blocking_render",
-		"Needs Translation": false
+		"Needs Translation": false,
+		"Description": "",
+		"Code snippet": "",
+		"URLs": ""
 	},
 	{
 		"Question": "Resource Hints: `<link rel=”prefetch”>` ",
 		"Focus area": [
-			{
-				"@context": "http://schema.org/",
-				"@type": "StructuredValue",
-				"additionalType": "row",
-				"name": "Performance",
-				"url": "https://coda.io/d/_dTGBFYq175J#_tugrid-IF1UMmZNt5/_rui-bYbJdhJNeD",
-				"tableId": "grid-IF1UMmZNt5",
-				"rowId": "i-bYbJdhJNeD",
-				"tableUrl": "https://coda.io/d/_dTGBFYq175J#_tugrid-IF1UMmZNt5"
-			}
+			"Performance"
 		],
 		"Type": [
 			"HTML element"
 		],
-		"Discussion": {
-			"@context": "http://schema.org/",
-			"@type": "WebPage",
-			"url": "https://github.com/Devographics/surveys/discussions/105"
-		},
-		"Status": {
-			"@context": "http://schema.org/",
-			"@type": "StructuredValue",
-			"additionalType": "row",
-			"name": "Cutting Edge",
-			"url": "https://coda.io/d/_dTGBFYq175J#_tugrid-BqPGmglU_b/_rui-LMy3PoJR22",
-			"tableId": "grid-BqPGmglU_b",
-			"rowId": "i-LMy3PoJR22",
-			"tableUrl": "https://coda.io/d/_dTGBFYq175J#_tugrid-BqPGmglU_b"
-		},
-		"In Part 1": {
-			"@context": "http://schema.org/",
-			"@type": "StructuredValue",
-			"additionalType": "row",
-			"name": "In checkbox question",
-			"url": "https://coda.io/d/_dTGBFYq175J#_tugrid-RUMkEBKBsZ/_rui-r49H6EfVVa",
-			"tableId": "grid-RUMkEBKBsZ",
-			"rowId": "i-r49H6EfVVa",
-			"tableUrl": "https://coda.io/d/_dTGBFYq175J#_tugrid-RUMkEBKBsZ"
-		},
+		"Discussion": "https://github.com/Devographics/surveys/discussions/105",
+		"Status": "Cutting Edge",
+		"In Part 1": "In checkbox question",
 		"Upvotes": 12,
 		"id": "rh_prefetch",
-		"Needs Translation": true
+		"Needs Translation": true,
+		"Description": "",
+		"Code snippet": "",
+		"URLs": ""
 	},
 	{
 		"Question": "Resource Hints: `<link rel=”preload”>` ",
 		"Focus area": [
-			{
-				"@context": "http://schema.org/",
-				"@type": "StructuredValue",
-				"additionalType": "row",
-				"name": "Performance",
-				"url": "https://coda.io/d/_dTGBFYq175J#_tugrid-IF1UMmZNt5/_rui-bYbJdhJNeD",
-				"tableId": "grid-IF1UMmZNt5",
-				"rowId": "i-bYbJdhJNeD",
-				"tableUrl": "https://coda.io/d/_dTGBFYq175J#_tugrid-IF1UMmZNt5"
-			}
+			"Performance"
 		],
 		"Type": [
 			"HTML element"
 		],
-		"Discussion": {
-			"@context": "http://schema.org/",
-			"@type": "WebPage",
-			"url": "https://github.com/Devographics/surveys/discussions/104"
-		},
-		"Status": {
-			"@context": "http://schema.org/",
-			"@type": "StructuredValue",
-			"additionalType": "row",
-			"name": "Recent",
-			"url": "https://coda.io/d/_dTGBFYq175J#_tugrid-BqPGmglU_b/_rui-bntRYhG1UO",
-			"tableId": "grid-BqPGmglU_b",
-			"rowId": "i-bntRYhG1UO",
-			"tableUrl": "https://coda.io/d/_dTGBFYq175J#_tugrid-BqPGmglU_b"
-		},
-		"In Part 1": {
-			"@context": "http://schema.org/",
-			"@type": "StructuredValue",
-			"additionalType": "row",
-			"name": "In checkbox question",
-			"url": "https://coda.io/d/_dTGBFYq175J#_tugrid-RUMkEBKBsZ/_rui-r49H6EfVVa",
-			"tableId": "grid-RUMkEBKBsZ",
-			"rowId": "i-r49H6EfVVa",
-			"tableUrl": "https://coda.io/d/_dTGBFYq175J#_tugrid-RUMkEBKBsZ"
-		},
+		"Discussion": "https://github.com/Devographics/surveys/discussions/104",
+		"Status": "Recent",
+		"In Part 1": "In checkbox question",
 		"Upvotes": 14,
 		"id": "rh_preload",
-		"Needs Translation": true
+		"Needs Translation": true,
+		"Description": "",
+		"Code snippet": "",
+		"URLs": ""
 	},
 	{
 		"Question": "`ElementInternals`",
 		"Focus area": [
-			{
-				"@context": "http://schema.org/",
-				"@type": "StructuredValue",
-				"additionalType": "row",
-				"name": "Making Web Components",
-				"url": "https://coda.io/d/_dTGBFYq175J#_tugrid-IF1UMmZNt5/_rui-FgI34TEfuP",
-				"tableId": "grid-IF1UMmZNt5",
-				"rowId": "i-FgI34TEfuP",
-				"tableUrl": "https://coda.io/d/_dTGBFYq175J#_tugrid-IF1UMmZNt5"
-			}
+			"Making Web Components"
 		],
 		"Type": [
 			"JS API"
 		],
-		"Discussion": {
-			"@context": "http://schema.org/",
-			"@type": "WebPage",
-			"url": "https://github.com/Devographics/surveys/discussions/101"
-		},
-		"Status": {
-			"@context": "http://schema.org/",
-			"@type": "StructuredValue",
-			"additionalType": "row",
-			"name": "Cutting Edge",
-			"url": "https://coda.io/d/_dTGBFYq175J#_tugrid-BqPGmglU_b/_rui-LMy3PoJR22",
-			"tableId": "grid-BqPGmglU_b",
-			"rowId": "i-LMy3PoJR22",
-			"tableUrl": "https://coda.io/d/_dTGBFYq175J#_tugrid-BqPGmglU_b"
-		},
-		"In Part 1": {
-			"@context": "http://schema.org/",
-			"@type": "StructuredValue",
-			"additionalType": "row",
-			"name": "Yes",
-			"url": "https://coda.io/d/_dTGBFYq175J#_tugrid-RUMkEBKBsZ/_rui-CiZ6xQAbPU",
-			"tableId": "grid-RUMkEBKBsZ",
-			"rowId": "i-CiZ6xQAbPU",
-			"tableUrl": "https://coda.io/d/_dTGBFYq175J#_tugrid-RUMkEBKBsZ"
-		},
+		"Discussion": "https://github.com/Devographics/surveys/discussions/101",
+		"Status": "Cutting Edge",
+		"In Part 1": "Yes",
 		"Upvotes": 25,
 		"id": "element_internals",
-		"Needs Translation": false
+		"Needs Translation": false,
+		"Description": "",
+		"Code snippet": "",
+		"URLs": ""
 	},
 	{
 		"Question": "Styling component host (`:host`, `:host()`, `:host-context()`)",
 		"Focus area": [
-			{
-				"@context": "http://schema.org/",
-				"@type": "StructuredValue",
-				"additionalType": "row",
-				"name": "Making Web Components",
-				"url": "https://coda.io/d/_dTGBFYq175J#_tugrid-IF1UMmZNt5/_rui-FgI34TEfuP",
-				"tableId": "grid-IF1UMmZNt5",
-				"rowId": "i-FgI34TEfuP",
-				"tableUrl": "https://coda.io/d/_dTGBFYq175J#_tugrid-IF1UMmZNt5"
-			}
+			"Making Web Components"
 		],
 		"Type": [
 			"CSS"
 		],
-		"Discussion": {
-			"@context": "http://schema.org/",
-			"@type": "WebPage",
-			"url": "https://github.com/Devographics/surveys/discussions/149"
-		},
-		"Status": {
-			"@context": "http://schema.org/",
-			"@type": "StructuredValue",
-			"additionalType": "row",
-			"name": "Stable",
-			"url": "https://coda.io/d/_dTGBFYq175J#_tugrid-BqPGmglU_b/_rui-SyiVTehUqi",
-			"tableId": "grid-BqPGmglU_b",
-			"rowId": "i-SyiVTehUqi",
-			"tableUrl": "https://coda.io/d/_dTGBFYq175J#_tugrid-BqPGmglU_b"
-		},
-		"In Part 1": {
-			"@context": "http://schema.org/",
-			"@type": "StructuredValue",
-			"additionalType": "row",
-			"name": "In checkbox question",
-			"url": "https://coda.io/d/_dTGBFYq175J#_tugrid-RUMkEBKBsZ/_rui-r49H6EfVVa",
-			"tableId": "grid-RUMkEBKBsZ",
-			"rowId": "i-r49H6EfVVa",
-			"tableUrl": "https://coda.io/d/_dTGBFYq175J#_tugrid-RUMkEBKBsZ"
-		},
+		"Discussion": "https://github.com/Devographics/surveys/discussions/149",
+		"Status": "Stable",
+		"In Part 1": "In checkbox question",
 		"Upvotes": 42,
 		"id": "host_css",
-		"Needs Translation": true
+		"Needs Translation": true,
+		"Description": "",
+		"Code snippet": "",
+		"URLs": ""
 	},
 	{
 		"Question": "`inert`  attribute",
 		"Focus area": [
-			{
-				"@context": "http://schema.org/",
-				"@type": "StructuredValue",
-				"additionalType": "row",
-				"name": "Interactivity",
-				"url": "https://coda.io/d/_dTGBFYq175J#_tugrid-IF1UMmZNt5/_rui-W4J_OBZ_-R",
-				"tableId": "grid-IF1UMmZNt5",
-				"rowId": "i-W4J_OBZ_-R",
-				"tableUrl": "https://coda.io/d/_dTGBFYq175J#_tugrid-IF1UMmZNt5"
-			}
+			"Interactivity"
 		],
 		"Type": [
 			"HTML attribute"
 		],
-		"Discussion": {
-			"@context": "http://schema.org/",
-			"@type": "WebPage",
-			"url": "https://github.com/Devographics/surveys/discussions/139"
-		},
-		"Status": {
-			"@context": "http://schema.org/",
-			"@type": "StructuredValue",
-			"additionalType": "row",
-			"name": "Recent",
-			"url": "https://coda.io/d/_dTGBFYq175J#_tugrid-BqPGmglU_b/_rui-bntRYhG1UO",
-			"tableId": "grid-BqPGmglU_b",
-			"rowId": "i-bntRYhG1UO",
-			"tableUrl": "https://coda.io/d/_dTGBFYq175J#_tugrid-BqPGmglU_b"
-		},
-		"In Part 1": {
-			"@context": "http://schema.org/",
-			"@type": "StructuredValue",
-			"additionalType": "row",
-			"name": "Yes",
-			"url": "https://coda.io/d/_dTGBFYq175J#_tugrid-RUMkEBKBsZ/_rui-CiZ6xQAbPU",
-			"tableId": "grid-RUMkEBKBsZ",
-			"rowId": "i-CiZ6xQAbPU",
-			"tableUrl": "https://coda.io/d/_dTGBFYq175J#_tugrid-RUMkEBKBsZ"
-		},
+		"Discussion": "https://github.com/Devographics/surveys/discussions/139",
+		"Status": "Recent",
+		"In Part 1": "Yes",
 		"Upvotes": 44,
 		"id": "inert_attribute",
-		"Needs Translation": true
+		"Needs Translation": true,
+		"Description": "",
+		"Code snippet": "",
+		"URLs": ""
 	},
 	{
 		"Question": "Extended built-ins",
 		"Focus area": [
-			{
-				"@context": "http://schema.org/",
-				"@type": "StructuredValue",
-				"additionalType": "row",
-				"name": "Consuming Web Components",
-				"url": "https://coda.io/d/_dTGBFYq175J#_tugrid-IF1UMmZNt5/_rui-KPeW6x5nOV",
-				"tableId": "grid-IF1UMmZNt5",
-				"rowId": "i-KPeW6x5nOV",
-				"tableUrl": "https://coda.io/d/_dTGBFYq175J#_tugrid-IF1UMmZNt5"
-			},
-			{
-				"@context": "http://schema.org/",
-				"@type": "StructuredValue",
-				"additionalType": "row",
-				"name": "Making Web Components",
-				"url": "https://coda.io/d/_dTGBFYq175J#_tugrid-IF1UMmZNt5/_rui-FgI34TEfuP",
-				"tableId": "grid-IF1UMmZNt5",
-				"rowId": "i-FgI34TEfuP",
-				"tableUrl": "https://coda.io/d/_dTGBFYq175J#_tugrid-IF1UMmZNt5"
-			}
+			"Consuming Web Components",
+			"Making Web Components"
 		],
 		"Type": [
 			"JS API"
 		],
-		"Discussion": {
-			"@context": "http://schema.org/",
-			"@type": "WebPage",
-			"url": "https://github.com/Devographics/surveys/discussions/99"
-		},
-		"Status": {
-			"@context": "http://schema.org/",
-			"@type": "StructuredValue",
-			"additionalType": "row",
-			"name": "Controversial",
-			"url": "https://coda.io/d/_dTGBFYq175J#_tugrid-BqPGmglU_b/_rui-gxWA6yQFpf",
-			"tableId": "grid-BqPGmglU_b",
-			"rowId": "i-gxWA6yQFpf",
-			"tableUrl": "https://coda.io/d/_dTGBFYq175J#_tugrid-BqPGmglU_b"
-		},
-		"In Part 1": {
-			"@context": "http://schema.org/",
-			"@type": "StructuredValue",
-			"additionalType": "row",
-			"name": "In checkbox question",
-			"url": "https://coda.io/d/_dTGBFYq175J#_tugrid-RUMkEBKBsZ/_rui-r49H6EfVVa",
-			"tableId": "grid-RUMkEBKBsZ",
-			"rowId": "i-r49H6EfVVa",
-			"tableUrl": "https://coda.io/d/_dTGBFYq175J#_tugrid-RUMkEBKBsZ"
-		},
+		"Discussion": "https://github.com/Devographics/surveys/discussions/99",
+		"Status": "Controversial",
+		"In Part 1": "In checkbox question",
 		"Upvotes": 23,
 		"id": "extended_builtins",
-		"Needs Translation": true
+		"Needs Translation": true,
+		"Description": "",
+		"Code snippet": "",
+		"URLs": ""
 	},
 	{
 		"Question": "Explicit slot assignment\n\n`slot=\"foo\"`",
 		"Focus area": [
-			{
-				"@context": "http://schema.org/",
-				"@type": "StructuredValue",
-				"additionalType": "row",
-				"name": "Consuming Web Components",
-				"url": "https://coda.io/d/_dTGBFYq175J#_tugrid-IF1UMmZNt5/_rui-KPeW6x5nOV",
-				"tableId": "grid-IF1UMmZNt5",
-				"rowId": "i-KPeW6x5nOV",
-				"tableUrl": "https://coda.io/d/_dTGBFYq175J#_tugrid-IF1UMmZNt5"
-			}
+			"Consuming Web Components"
 		],
 		"Type": [
 			"HTML attribute"
 		],
-		"Discussion": {
-			"@context": "http://schema.org/",
-			"@type": "WebPage",
-			"url": "https://github.com/Devographics/surveys/discussions/97"
-		},
-		"Status": {
-			"@context": "http://schema.org/",
-			"@type": "StructuredValue",
-			"additionalType": "row",
-			"name": "Stable",
-			"url": "https://coda.io/d/_dTGBFYq175J#_tugrid-BqPGmglU_b/_rui-SyiVTehUqi",
-			"tableId": "grid-BqPGmglU_b",
-			"rowId": "i-SyiVTehUqi",
-			"tableUrl": "https://coda.io/d/_dTGBFYq175J#_tugrid-BqPGmglU_b"
-		},
-		"In Part 1": {
-			"@context": "http://schema.org/",
-			"@type": "StructuredValue",
-			"additionalType": "row",
-			"name": "In checkbox question",
-			"url": "https://coda.io/d/_dTGBFYq175J#_tugrid-RUMkEBKBsZ/_rui-r49H6EfVVa",
-			"tableId": "grid-RUMkEBKBsZ",
-			"rowId": "i-r49H6EfVVa",
-			"tableUrl": "https://coda.io/d/_dTGBFYq175J#_tugrid-RUMkEBKBsZ"
-		},
+		"Discussion": "https://github.com/Devographics/surveys/discussions/97",
+		"Status": "Stable",
+		"In Part 1": "In checkbox question",
 		"Upvotes": 19,
 		"id": "slot_assignment",
-		"Needs Translation": true
+		"Needs Translation": true,
+		"Description": "",
+		"Code snippet": "",
+		"URLs": ""
 	},
 	{
 		"Question": "Defining slots (`<slot>` ) ",
 		"Focus area": [
-			{
-				"@context": "http://schema.org/",
-				"@type": "StructuredValue",
-				"additionalType": "row",
-				"name": "Making Web Components",
-				"url": "https://coda.io/d/_dTGBFYq175J#_tugrid-IF1UMmZNt5/_rui-FgI34TEfuP",
-				"tableId": "grid-IF1UMmZNt5",
-				"rowId": "i-FgI34TEfuP",
-				"tableUrl": "https://coda.io/d/_dTGBFYq175J#_tugrid-IF1UMmZNt5"
-			}
+			"Making Web Components"
 		],
 		"Type": [
 			"HTML element"
 		],
-		"Discussion": {
-			"@context": "http://schema.org/",
-			"@type": "WebPage",
-			"url": "https://github.com/Devographics/surveys/discussions/129"
-		},
-		"Status": {
-			"@context": "http://schema.org/",
-			"@type": "StructuredValue",
-			"additionalType": "row",
-			"name": "Stable",
-			"url": "https://coda.io/d/_dTGBFYq175J#_tugrid-BqPGmglU_b/_rui-SyiVTehUqi",
-			"tableId": "grid-BqPGmglU_b",
-			"rowId": "i-SyiVTehUqi",
-			"tableUrl": "https://coda.io/d/_dTGBFYq175J#_tugrid-BqPGmglU_b"
-		},
-		"In Part 1": {
-			"@context": "http://schema.org/",
-			"@type": "StructuredValue",
-			"additionalType": "row",
-			"name": "In checkbox question",
-			"url": "https://coda.io/d/_dTGBFYq175J#_tugrid-RUMkEBKBsZ/_rui-r49H6EfVVa",
-			"tableId": "grid-RUMkEBKBsZ",
-			"rowId": "i-r49H6EfVVa",
-			"tableUrl": "https://coda.io/d/_dTGBFYq175J#_tugrid-RUMkEBKBsZ"
-		},
+		"Discussion": "https://github.com/Devographics/surveys/discussions/129",
+		"Status": "Stable",
+		"In Part 1": "In checkbox question",
 		"Upvotes": 47,
 		"id": "slot_def",
-		"Needs Translation": true
+		"Needs Translation": true,
+		"Description": "",
+		"Code snippet": "",
+		"URLs": ""
 	},
 	{
 		"Question": "`<fencedframe>`",
 		"Focus area": [
-			{
-				"@context": "http://schema.org/",
-				"@type": "StructuredValue",
-				"additionalType": "row",
-				"name": "Embedding",
-				"url": "https://coda.io/d/_dTGBFYq175J#_tugrid-IF1UMmZNt5/_rui-8jmGxZ5d17",
-				"tableId": "grid-IF1UMmZNt5",
-				"rowId": "i-8jmGxZ5d17",
-				"tableUrl": "https://coda.io/d/_dTGBFYq175J#_tugrid-IF1UMmZNt5"
-			},
-			{
-				"@context": "http://schema.org/",
-				"@type": "StructuredValue",
-				"additionalType": "row",
-				"name": "Security & Privacy",
-				"url": "https://coda.io/d/_dTGBFYq175J#_tugrid-IF1UMmZNt5/_rui-cgPPUwtNEO",
-				"tableId": "grid-IF1UMmZNt5",
-				"rowId": "i-cgPPUwtNEO",
-				"tableUrl": "https://coda.io/d/_dTGBFYq175J#_tugrid-IF1UMmZNt5"
-			}
+			"Embedding",
+			"Security & Privacy"
 		],
 		"Type": [
 			"HTML element"
 		],
-		"Discussion": {
-			"@context": "http://schema.org/",
-			"@type": "WebPage",
-			"url": "https://github.com/Devographics/surveys/discussions/127"
-		},
-		"Status": {
-			"@context": "http://schema.org/",
-			"@type": "StructuredValue",
-			"additionalType": "row",
-			"name": "Cutting Edge",
-			"url": "https://coda.io/d/_dTGBFYq175J#_tugrid-BqPGmglU_b/_rui-LMy3PoJR22",
-			"tableId": "grid-BqPGmglU_b",
-			"rowId": "i-LMy3PoJR22",
-			"tableUrl": "https://coda.io/d/_dTGBFYq175J#_tugrid-BqPGmglU_b"
-		},
-		"In Part 1": {
-			"@context": "http://schema.org/",
-			"@type": "StructuredValue",
-			"additionalType": "row",
-			"name": "Maybe",
-			"url": "https://coda.io/d/_dTGBFYq175J#_tugrid-RUMkEBKBsZ/_rui-rCEFqlqfFX",
-			"tableId": "grid-RUMkEBKBsZ",
-			"rowId": "i-rCEFqlqfFX",
-			"tableUrl": "https://coda.io/d/_dTGBFYq175J#_tugrid-RUMkEBKBsZ"
-		},
+		"Discussion": "https://github.com/Devographics/surveys/discussions/127",
+		"Status": "Cutting Edge",
+		"In Part 1": "Maybe",
 		"Upvotes": 11,
 		"id": "fencedframe_element",
-		"Needs Translation": false
+		"Needs Translation": false,
+		"Description": "",
+		"Code snippet": "",
+		"URLs": ""
 	},
 	{
 		"Question": "Popover API\n\n`<div popover>` ",
 		"Focus area": [
-			{
-				"@context": "http://schema.org/",
-				"@type": "StructuredValue",
-				"additionalType": "row",
-				"name": "Interactivity",
-				"url": "https://coda.io/d/_dTGBFYq175J#_tugrid-IF1UMmZNt5/_rui-W4J_OBZ_-R",
-				"tableId": "grid-IF1UMmZNt5",
-				"rowId": "i-W4J_OBZ_-R",
-				"tableUrl": "https://coda.io/d/_dTGBFYq175J#_tugrid-IF1UMmZNt5"
-			}
+			"Interactivity"
 		],
 		"Type": [
 			"HTML attribute",
 			"JS API",
 			"CSS"
 		],
-		"Discussion": {
-			"@context": "http://schema.org/",
-			"@type": "WebPage",
-			"url": "https://github.com/Devographics/surveys/discussions/138"
-		},
-		"Status": {
-			"@context": "http://schema.org/",
-			"@type": "StructuredValue",
-			"additionalType": "row",
-			"name": "Cutting Edge",
-			"url": "https://coda.io/d/_dTGBFYq175J#_tugrid-BqPGmglU_b/_rui-LMy3PoJR22",
-			"tableId": "grid-BqPGmglU_b",
-			"rowId": "i-LMy3PoJR22",
-			"tableUrl": "https://coda.io/d/_dTGBFYq175J#_tugrid-BqPGmglU_b"
-		},
-		"In Part 1": {
-			"@context": "http://schema.org/",
-			"@type": "StructuredValue",
-			"additionalType": "row",
-			"name": "Yes",
-			"url": "https://coda.io/d/_dTGBFYq175J#_tugrid-RUMkEBKBsZ/_rui-CiZ6xQAbPU",
-			"tableId": "grid-RUMkEBKBsZ",
-			"rowId": "i-CiZ6xQAbPU",
-			"tableUrl": "https://coda.io/d/_dTGBFYq175J#_tugrid-RUMkEBKBsZ"
-		},
+		"Discussion": "https://github.com/Devographics/surveys/discussions/138",
+		"Status": "Cutting Edge",
+		"In Part 1": "Yes",
 		"Upvotes": 74,
 		"id": "popover_api",
-		"Needs Translation": false
+		"Needs Translation": false,
+		"Description": "",
+		"Code snippet": "",
+		"URLs": ""
 	},
 	{
 		"Question": "`<details>` / `<summary>` ",
 		"Focus area": [
-			{
-				"@context": "http://schema.org/",
-				"@type": "StructuredValue",
-				"additionalType": "row",
-				"name": "Interactivity",
-				"url": "https://coda.io/d/_dTGBFYq175J#_tugrid-IF1UMmZNt5/_rui-W4J_OBZ_-R",
-				"tableId": "grid-IF1UMmZNt5",
-				"rowId": "i-W4J_OBZ_-R",
-				"tableUrl": "https://coda.io/d/_dTGBFYq175J#_tugrid-IF1UMmZNt5"
-			}
+			"Interactivity"
 		],
 		"Type": [
 			"HTML element"
 		],
-		"Discussion": {
-			"@context": "http://schema.org/",
-			"@type": "WebPage",
-			"url": "https://github.com/Devographics/surveys/discussions/128"
-		},
-		"Status": {
-			"@context": "http://schema.org/",
-			"@type": "StructuredValue",
-			"additionalType": "row",
-			"name": "Stable",
-			"url": "https://coda.io/d/_dTGBFYq175J#_tugrid-BqPGmglU_b/_rui-SyiVTehUqi",
-			"tableId": "grid-BqPGmglU_b",
-			"rowId": "i-SyiVTehUqi",
-			"tableUrl": "https://coda.io/d/_dTGBFYq175J#_tugrid-BqPGmglU_b"
-		},
-		"In Part 1": {
-			"@context": "http://schema.org/",
-			"@type": "StructuredValue",
-			"additionalType": "row",
-			"name": "Yes",
-			"url": "https://coda.io/d/_dTGBFYq175J#_tugrid-RUMkEBKBsZ/_rui-CiZ6xQAbPU",
-			"tableId": "grid-RUMkEBKBsZ",
-			"rowId": "i-CiZ6xQAbPU",
-			"tableUrl": "https://coda.io/d/_dTGBFYq175J#_tugrid-RUMkEBKBsZ"
-		},
+		"Discussion": "https://github.com/Devographics/surveys/discussions/128",
+		"Status": "Stable",
+		"In Part 1": "Yes",
 		"Upvotes": 49,
 		"id": "details_element",
-		"Needs Translation": false
+		"Needs Translation": false,
+		"Description": "",
+		"Code snippet": "",
+		"URLs": ""
 	},
 	{
 		"Question": "`<search>` ",
 		"Focus area": [
-			{
-				"@context": "http://schema.org/",
-				"@type": "StructuredValue",
-				"additionalType": "row",
-				"name": "Semantic HTML",
-				"url": "https://coda.io/d/_dTGBFYq175J#_tugrid-IF1UMmZNt5/_rui-lnIUWZdEr5",
-				"tableId": "grid-IF1UMmZNt5",
-				"rowId": "i-lnIUWZdEr5",
-				"tableUrl": "https://coda.io/d/_dTGBFYq175J#_tugrid-IF1UMmZNt5"
-			},
-			{
-				"@context": "http://schema.org/",
-				"@type": "StructuredValue",
-				"additionalType": "row",
-				"name": "ARIA & Accessibility APIs",
-				"url": "https://coda.io/d/_dTGBFYq175J#_tugrid-IF1UMmZNt5/_rui-qdh-vpq31x",
-				"tableId": "grid-IF1UMmZNt5",
-				"rowId": "i-qdh-vpq31x",
-				"tableUrl": "https://coda.io/d/_dTGBFYq175J#_tugrid-IF1UMmZNt5"
-			}
+			"Accessibility"
 		],
 		"Type": [
 			"HTML element"
 		],
-		"Discussion": {
-			"@context": "http://schema.org/",
-			"@type": "WebPage",
-			"url": "https://github.com/Devographics/surveys/discussions/130"
-		},
-		"Status": {
-			"@context": "http://schema.org/",
-			"@type": "StructuredValue",
-			"additionalType": "row",
-			"name": "Future",
-			"url": "https://coda.io/d/_dTGBFYq175J#_tugrid-BqPGmglU_b/_rui-vwaDIcBrtd",
-			"tableId": "grid-BqPGmglU_b",
-			"rowId": "i-vwaDIcBrtd",
-			"tableUrl": "https://coda.io/d/_dTGBFYq175J#_tugrid-BqPGmglU_b"
-		},
-		"In Part 1": {
-			"@context": "http://schema.org/",
-			"@type": "StructuredValue",
-			"additionalType": "row",
-			"name": "Yes",
-			"url": "https://coda.io/d/_dTGBFYq175J#_tugrid-RUMkEBKBsZ/_rui-CiZ6xQAbPU",
-			"tableId": "grid-RUMkEBKBsZ",
-			"rowId": "i-CiZ6xQAbPU",
-			"tableUrl": "https://coda.io/d/_dTGBFYq175J#_tugrid-RUMkEBKBsZ"
-		},
+		"Discussion": "https://github.com/Devographics/surveys/discussions/130",
+		"Status": "Future",
+		"In Part 1": "Yes",
 		"Upvotes": 39,
 		"id": "search_element",
-		"Needs Translation": false
+		"Needs Translation": false,
+		"Description": "",
+		"Code snippet": "",
+		"URLs": ""
 	},
 	{
 		"Question": "`controlslist` attribute",
 		"Focus area": [
-			{
-				"@context": "http://schema.org/",
-				"@type": "StructuredValue",
-				"additionalType": "row",
-				"name": "Multimedia",
-				"url": "https://coda.io/d/_dTGBFYq175J#_tugrid-IF1UMmZNt5/_rui-KBPi_lQvQe",
-				"tableId": "grid-IF1UMmZNt5",
-				"rowId": "i-KBPi_lQvQe",
-				"tableUrl": "https://coda.io/d/_dTGBFYq175J#_tugrid-IF1UMmZNt5"
-			}
+			"Multimedia"
 		],
 		"Type": [
 			"HTML attribute"
 		],
-		"Discussion": {
-			"@context": "http://schema.org/",
-			"@type": "WebPage",
-			"url": "https://github.com/Devographics/surveys/discussions/131"
-		},
-		"Status": {
-			"@context": "http://schema.org/",
-			"@type": "StructuredValue",
-			"additionalType": "row",
-			"name": "Controversial",
-			"url": "https://coda.io/d/_dTGBFYq175J#_tugrid-BqPGmglU_b/_rui-gxWA6yQFpf",
-			"tableId": "grid-BqPGmglU_b",
-			"rowId": "i-gxWA6yQFpf",
-			"tableUrl": "https://coda.io/d/_dTGBFYq175J#_tugrid-BqPGmglU_b"
-		},
-		"In Part 1": {
-			"@context": "http://schema.org/",
-			"@type": "StructuredValue",
-			"additionalType": "row",
-			"name": "In checkbox question",
-			"url": "https://coda.io/d/_dTGBFYq175J#_tugrid-RUMkEBKBsZ/_rui-r49H6EfVVa",
-			"tableId": "grid-RUMkEBKBsZ",
-			"rowId": "i-r49H6EfVVa",
-			"tableUrl": "https://coda.io/d/_dTGBFYq175J#_tugrid-RUMkEBKBsZ"
-		},
+		"Discussion": "https://github.com/Devographics/surveys/discussions/131",
+		"Status": "Controversial",
+		"In Part 1": "In checkbox question",
 		"Upvotes": 14,
 		"id": "controlslist_attribute",
-		"Needs Translation": true
+		"Needs Translation": true,
+		"Description": "",
+		"Code snippet": "",
+		"URLs": ""
 	},
 	{
 		"Question": "Adaptive streaming",
 		"Focus area": [
-			{
-				"@context": "http://schema.org/",
-				"@type": "StructuredValue",
-				"additionalType": "row",
-				"name": "Multimedia",
-				"url": "https://coda.io/d/_dTGBFYq175J#_tugrid-IF1UMmZNt5/_rui-KBPi_lQvQe",
-				"tableId": "grid-IF1UMmZNt5",
-				"rowId": "i-KBPi_lQvQe",
-				"tableUrl": "https://coda.io/d/_dTGBFYq175J#_tugrid-IF1UMmZNt5"
-			}
+			"Multimedia"
 		],
 		"Type": [
 			"HTTP"
 		],
-		"Discussion": {
-			"@context": "http://schema.org/",
-			"@type": "WebPage",
-			"url": "https://github.com/Devographics/surveys/discussions/147"
-		},
-		"Status": {
-			"@context": "http://schema.org/",
-			"@type": "StructuredValue",
-			"additionalType": "row",
-			"name": "Future",
-			"url": "https://coda.io/d/_dTGBFYq175J#_tugrid-BqPGmglU_b/_rui-vwaDIcBrtd",
-			"tableId": "grid-BqPGmglU_b",
-			"rowId": "i-vwaDIcBrtd",
-			"tableUrl": "https://coda.io/d/_dTGBFYq175J#_tugrid-BqPGmglU_b"
-		},
-		"In Part 1": {
-			"@context": "http://schema.org/",
-			"@type": "StructuredValue",
-			"additionalType": "row",
-			"name": "No",
-			"url": "https://coda.io/d/_dTGBFYq175J#_tugrid-RUMkEBKBsZ/_rui-RjHDLbCCCx",
-			"tableId": "grid-RUMkEBKBsZ",
-			"rowId": "i-RjHDLbCCCx",
-			"tableUrl": "https://coda.io/d/_dTGBFYq175J#_tugrid-RUMkEBKBsZ"
-		},
+		"Discussion": "https://github.com/Devographics/surveys/discussions/147",
+		"Status": "Future",
+		"In Part 1": "No",
 		"Upvotes": 11,
 		"id": "adaptive_streaming",
-		"Needs Translation": true
+		"Needs Translation": true,
+		"Description": "",
+		"Code snippet": "",
+		"URLs": ""
 	},
 	{
 		"Question": "`<model>` ",
 		"Focus area": [
-			{
-				"@context": "http://schema.org/",
-				"@type": "StructuredValue",
-				"additionalType": "row",
-				"name": "Multimedia",
-				"url": "https://coda.io/d/_dTGBFYq175J#_tugrid-IF1UMmZNt5/_rui-KBPi_lQvQe",
-				"tableId": "grid-IF1UMmZNt5",
-				"rowId": "i-KBPi_lQvQe",
-				"tableUrl": "https://coda.io/d/_dTGBFYq175J#_tugrid-IF1UMmZNt5"
-			}
+			"Multimedia"
 		],
 		"Type": [
 			"HTML element"
 		],
-		"Discussion": {
-			"@context": "http://schema.org/",
-			"@type": "WebPage",
-			"url": "https://github.com/Devographics/surveys/discussions/124"
-		},
-		"Status": {
-			"@context": "http://schema.org/",
-			"@type": "StructuredValue",
-			"additionalType": "row",
-			"name": "Future",
-			"url": "https://coda.io/d/_dTGBFYq175J#_tugrid-BqPGmglU_b/_rui-vwaDIcBrtd",
-			"tableId": "grid-BqPGmglU_b",
-			"rowId": "i-vwaDIcBrtd",
-			"tableUrl": "https://coda.io/d/_dTGBFYq175J#_tugrid-BqPGmglU_b"
-		},
-		"In Part 1": {
-			"@context": "http://schema.org/",
-			"@type": "StructuredValue",
-			"additionalType": "row",
-			"name": "Likely Yes",
-			"url": "https://coda.io/d/_dTGBFYq175J#_tugrid-RUMkEBKBsZ/_rui-4yGRpoH1zz",
-			"tableId": "grid-RUMkEBKBsZ",
-			"rowId": "i-4yGRpoH1zz",
-			"tableUrl": "https://coda.io/d/_dTGBFYq175J#_tugrid-RUMkEBKBsZ"
-		},
+		"Discussion": "https://github.com/Devographics/surveys/discussions/124",
+		"Status": "Future",
+		"In Part 1": "Likely Yes",
 		"Upvotes": 17,
 		"id": "model_element",
-		"Needs Translation": false
+		"Needs Translation": false,
+		"Description": "",
+		"Code snippet": "",
+		"URLs": ""
 	},
 	{
 		"Question": "`exportparts` attribute",
 		"Focus area": [
-			{
-				"@context": "http://schema.org/",
-				"@type": "StructuredValue",
-				"additionalType": "row",
-				"name": "Making Web Components",
-				"url": "https://coda.io/d/_dTGBFYq175J#_tugrid-IF1UMmZNt5/_rui-FgI34TEfuP",
-				"tableId": "grid-IF1UMmZNt5",
-				"rowId": "i-FgI34TEfuP",
-				"tableUrl": "https://coda.io/d/_dTGBFYq175J#_tugrid-IF1UMmZNt5"
-			}
+			"Making Web Components"
 		],
 		"Type": [
 			"HTML attribute"
 		],
-		"Discussion": {
-			"@context": "http://schema.org/",
-			"@type": "WebPage",
-			"url": "https://github.com/Devographics/surveys/discussions/135"
-		},
-		"Status": {
-			"@context": "http://schema.org/",
-			"@type": "StructuredValue",
-			"additionalType": "row",
-			"name": "Stable",
-			"url": "https://coda.io/d/_dTGBFYq175J#_tugrid-BqPGmglU_b/_rui-SyiVTehUqi",
-			"tableId": "grid-BqPGmglU_b",
-			"rowId": "i-SyiVTehUqi",
-			"tableUrl": "https://coda.io/d/_dTGBFYq175J#_tugrid-BqPGmglU_b"
-		},
-		"In Part 1": {
-			"@context": "http://schema.org/",
-			"@type": "StructuredValue",
-			"additionalType": "row",
-			"name": "No",
-			"url": "https://coda.io/d/_dTGBFYq175J#_tugrid-RUMkEBKBsZ/_rui-RjHDLbCCCx",
-			"tableId": "grid-RUMkEBKBsZ",
-			"rowId": "i-RjHDLbCCCx",
-			"tableUrl": "https://coda.io/d/_dTGBFYq175J#_tugrid-RUMkEBKBsZ"
-		},
+		"Discussion": "https://github.com/Devographics/surveys/discussions/135",
+		"Status": "Stable",
+		"In Part 1": "No",
 		"Upvotes": 14,
 		"id": "exportparts_attribute",
-		"Needs Translation": true
+		"Needs Translation": true,
+		"Description": "",
+		"Code snippet": "",
+		"URLs": ""
 	},
 	{
 		"Question": "`<picture>` ",
 		"Focus area": [
-			{
-				"@context": "http://schema.org/",
-				"@type": "StructuredValue",
-				"additionalType": "row",
-				"name": "Multimedia",
-				"url": "https://coda.io/d/_dTGBFYq175J#_tugrid-IF1UMmZNt5/_rui-KBPi_lQvQe",
-				"tableId": "grid-IF1UMmZNt5",
-				"rowId": "i-KBPi_lQvQe",
-				"tableUrl": "https://coda.io/d/_dTGBFYq175J#_tugrid-IF1UMmZNt5"
-			}
+			"Multimedia"
 		],
 		"Type": [
 			"HTML element"
 		],
-		"Discussion": {
-			"@context": "http://schema.org/",
-			"@type": "WebPage",
-			"url": "https://github.com/Devographics/surveys/discussions/122"
-		},
-		"Status": {
-			"@context": "http://schema.org/",
-			"@type": "StructuredValue",
-			"additionalType": "row",
-			"name": "Stable",
-			"url": "https://coda.io/d/_dTGBFYq175J#_tugrid-BqPGmglU_b/_rui-SyiVTehUqi",
-			"tableId": "grid-BqPGmglU_b",
-			"rowId": "i-SyiVTehUqi",
-			"tableUrl": "https://coda.io/d/_dTGBFYq175J#_tugrid-BqPGmglU_b"
-		},
-		"In Part 1": {
-			"@context": "http://schema.org/",
-			"@type": "StructuredValue",
-			"additionalType": "row",
-			"name": "In checkbox question",
-			"url": "https://coda.io/d/_dTGBFYq175J#_tugrid-RUMkEBKBsZ/_rui-r49H6EfVVa",
-			"tableId": "grid-RUMkEBKBsZ",
-			"rowId": "i-r49H6EfVVa",
-			"tableUrl": "https://coda.io/d/_dTGBFYq175J#_tugrid-RUMkEBKBsZ"
-		},
+		"Discussion": "https://github.com/Devographics/surveys/discussions/122",
+		"Status": "Stable",
+		"In Part 1": "In checkbox question",
 		"Upvotes": 50,
 		"id": "picture_element",
-		"Needs Translation": false
+		"Needs Translation": false,
+		"Description": "",
+		"Code snippet": "",
+		"URLs": ""
 	},
 	{
 		"Question": "`<portal>` ",
 		"Focus area": [
-			{
-				"@context": "http://schema.org/",
-				"@type": "StructuredValue",
-				"additionalType": "row",
-				"name": "Embedding",
-				"url": "https://coda.io/d/_dTGBFYq175J#_tugrid-IF1UMmZNt5/_rui-8jmGxZ5d17",
-				"tableId": "grid-IF1UMmZNt5",
-				"rowId": "i-8jmGxZ5d17",
-				"tableUrl": "https://coda.io/d/_dTGBFYq175J#_tugrid-IF1UMmZNt5"
-			}
+			"Embedding"
 		],
 		"Type": [
 			"HTML element"
 		],
-		"Discussion": {
-			"@context": "http://schema.org/",
-			"@type": "WebPage",
-			"url": "https://github.com/Devographics/surveys/discussions/103"
-		},
-		"Status": {
-			"@context": "http://schema.org/",
-			"@type": "StructuredValue",
-			"additionalType": "row",
-			"name": "Near Future",
-			"url": "https://coda.io/d/_dTGBFYq175J#_tugrid-BqPGmglU_b/_rui-aNMqPe7AtT",
-			"tableId": "grid-BqPGmglU_b",
-			"rowId": "i-aNMqPe7AtT",
-			"tableUrl": "https://coda.io/d/_dTGBFYq175J#_tugrid-BqPGmglU_b"
-		},
-		"In Part 1": {
-			"@context": "http://schema.org/",
-			"@type": "StructuredValue",
-			"additionalType": "row",
-			"name": "Yes",
-			"url": "https://coda.io/d/_dTGBFYq175J#_tugrid-RUMkEBKBsZ/_rui-CiZ6xQAbPU",
-			"tableId": "grid-RUMkEBKBsZ",
-			"rowId": "i-CiZ6xQAbPU",
-			"tableUrl": "https://coda.io/d/_dTGBFYq175J#_tugrid-RUMkEBKBsZ"
-		},
+		"Discussion": "https://github.com/Devographics/surveys/discussions/103",
+		"Status": "Near Future",
+		"In Part 1": "Yes",
 		"Upvotes": 32,
 		"id": "portal_element",
-		"Needs Translation": false
+		"Needs Translation": false,
+		"Description": "",
+		"Code snippet": "",
+		"URLs": ""
 	},
 	{
 		"Question": "`tabindex` attribute",
 		"Focus area": [
-			{
-				"@context": "http://schema.org/",
-				"@type": "StructuredValue",
-				"additionalType": "row",
-				"name": "ARIA & Accessibility APIs",
-				"url": "https://coda.io/d/_dTGBFYq175J#_tugrid-IF1UMmZNt5/_rui-qdh-vpq31x",
-				"tableId": "grid-IF1UMmZNt5",
-				"rowId": "i-qdh-vpq31x",
-				"tableUrl": "https://coda.io/d/_dTGBFYq175J#_tugrid-IF1UMmZNt5"
-			}
+			"Accessibility"
 		],
 		"Type": [
 			"HTML attribute"
 		],
-		"Discussion": {
-			"@context": "http://schema.org/",
-			"@type": "WebPage",
-			"url": "https://github.com/Devographics/surveys/discussions/113"
-		},
-		"Status": {
-			"@context": "http://schema.org/",
-			"@type": "StructuredValue",
-			"additionalType": "row",
-			"name": "Stable",
-			"url": "https://coda.io/d/_dTGBFYq175J#_tugrid-BqPGmglU_b/_rui-SyiVTehUqi",
-			"tableId": "grid-BqPGmglU_b",
-			"rowId": "i-SyiVTehUqi",
-			"tableUrl": "https://coda.io/d/_dTGBFYq175J#_tugrid-BqPGmglU_b"
-		},
-		"In Part 1": {
-			"@context": "http://schema.org/",
-			"@type": "StructuredValue",
-			"additionalType": "row",
-			"name": "In checkbox question",
-			"url": "https://coda.io/d/_dTGBFYq175J#_tugrid-RUMkEBKBsZ/_rui-r49H6EfVVa",
-			"tableId": "grid-RUMkEBKBsZ",
-			"rowId": "i-r49H6EfVVa",
-			"tableUrl": "https://coda.io/d/_dTGBFYq175J#_tugrid-RUMkEBKBsZ"
-		},
+		"Discussion": "https://github.com/Devographics/surveys/discussions/113",
+		"Status": "Stable",
+		"In Part 1": "In checkbox question",
 		"Upvotes": 30,
 		"id": "tabindex_attribute",
-		"Needs Translation": true
+		"Needs Translation": true,
+		"Description": "",
+		"Code snippet": "",
+		"URLs": ""
 	},
 	{
 		"Question": "`<selectlist>`  (ex `<selectmenu>` )",
 		"Focus area": [
-			{
-				"@context": "http://schema.org/",
-				"@type": "StructuredValue",
-				"additionalType": "row",
-				"name": "Forms & Editing",
-				"url": "https://coda.io/d/_dTGBFYq175J#_tugrid-IF1UMmZNt5/_rui-HITV9PbnY3",
-				"tableId": "grid-IF1UMmZNt5",
-				"rowId": "i-HITV9PbnY3",
-				"tableUrl": "https://coda.io/d/_dTGBFYq175J#_tugrid-IF1UMmZNt5"
-			}
+			"Forms & Editing"
 		],
 		"Type": [
 			"HTML element"
 		],
-		"Discussion": {
-			"@context": "http://schema.org/",
-			"@type": "WebPage",
-			"url": "https://github.com/Devographics/surveys/discussions/95"
-		},
-		"Status": {
-			"@context": "http://schema.org/",
-			"@type": "StructuredValue",
-			"additionalType": "row",
-			"name": "Future",
-			"url": "https://coda.io/d/_dTGBFYq175J#_tugrid-BqPGmglU_b/_rui-vwaDIcBrtd",
-			"tableId": "grid-BqPGmglU_b",
-			"rowId": "i-vwaDIcBrtd",
-			"tableUrl": "https://coda.io/d/_dTGBFYq175J#_tugrid-BqPGmglU_b"
-		},
-		"In Part 1": {
-			"@context": "http://schema.org/",
-			"@type": "StructuredValue",
-			"additionalType": "row",
-			"name": "Yes",
-			"url": "https://coda.io/d/_dTGBFYq175J#_tugrid-RUMkEBKBsZ/_rui-CiZ6xQAbPU",
-			"tableId": "grid-RUMkEBKBsZ",
-			"rowId": "i-CiZ6xQAbPU",
-			"tableUrl": "https://coda.io/d/_dTGBFYq175J#_tugrid-RUMkEBKBsZ"
-		},
+		"Discussion": "https://github.com/Devographics/surveys/discussions/95",
+		"Status": "Future",
+		"In Part 1": "Yes",
 		"Upvotes": 61,
 		"id": "selectlist_element",
-		"Needs Translation": false
+		"Needs Translation": false,
+		"Description": "",
+		"Code snippet": "",
+		"URLs": ""
 	},
 	{
 		"Question": "`::part()` ",
 		"Focus area": [
-			{
-				"@context": "http://schema.org/",
-				"@type": "StructuredValue",
-				"additionalType": "row",
-				"name": "Consuming Web Components",
-				"url": "https://coda.io/d/_dTGBFYq175J#_tugrid-IF1UMmZNt5/_rui-KPeW6x5nOV",
-				"tableId": "grid-IF1UMmZNt5",
-				"rowId": "i-KPeW6x5nOV",
-				"tableUrl": "https://coda.io/d/_dTGBFYq175J#_tugrid-IF1UMmZNt5"
-			}
+			"Consuming Web Components"
 		],
 		"Type": [
 			"CSS"
 		],
-		"Discussion": {
-			"@context": "http://schema.org/",
-			"@type": "WebPage",
-			"url": "https://github.com/Devographics/surveys/discussions/148"
-		},
-		"Status": {
-			"@context": "http://schema.org/",
-			"@type": "StructuredValue",
-			"additionalType": "row",
-			"name": "Stable",
-			"url": "https://coda.io/d/_dTGBFYq175J#_tugrid-BqPGmglU_b/_rui-SyiVTehUqi",
-			"tableId": "grid-BqPGmglU_b",
-			"rowId": "i-SyiVTehUqi",
-			"tableUrl": "https://coda.io/d/_dTGBFYq175J#_tugrid-BqPGmglU_b"
-		},
-		"In Part 1": {
-			"@context": "http://schema.org/",
-			"@type": "StructuredValue",
-			"additionalType": "row",
-			"name": "In checkbox question",
-			"url": "https://coda.io/d/_dTGBFYq175J#_tugrid-RUMkEBKBsZ/_rui-r49H6EfVVa",
-			"tableId": "grid-RUMkEBKBsZ",
-			"rowId": "i-r49H6EfVVa",
-			"tableUrl": "https://coda.io/d/_dTGBFYq175J#_tugrid-RUMkEBKBsZ"
-		},
+		"Discussion": "https://github.com/Devographics/surveys/discussions/148",
+		"Status": "Stable",
+		"In Part 1": "In checkbox question",
 		"Upvotes": 35,
 		"id": "part_selector",
-		"Needs Translation": false
+		"Needs Translation": false,
+		"Description": "",
+		"Code snippet": "",
+		"URLs": ""
 	},
 	{
 		"Question": "Declarative Shadow DOM",
 		"Focus area": [
-			{
-				"@context": "http://schema.org/",
-				"@type": "StructuredValue",
-				"additionalType": "row",
-				"name": "Making Web Components",
-				"url": "https://coda.io/d/_dTGBFYq175J#_tugrid-IF1UMmZNt5/_rui-FgI34TEfuP",
-				"tableId": "grid-IF1UMmZNt5",
-				"rowId": "i-FgI34TEfuP",
-				"tableUrl": "https://coda.io/d/_dTGBFYq175J#_tugrid-IF1UMmZNt5"
-			}
+			"Making Web Components"
 		],
 		"Type": [
 			"HTML attribute"
 		],
-		"Discussion": {
-			"@context": "http://schema.org/",
-			"@type": "WebPage",
-			"url": "https://github.com/Devographics/surveys/discussions/100"
-		},
-		"Status": {
-			"@context": "http://schema.org/",
-			"@type": "StructuredValue",
-			"additionalType": "row",
-			"name": "Cutting Edge",
-			"url": "https://coda.io/d/_dTGBFYq175J#_tugrid-BqPGmglU_b/_rui-LMy3PoJR22",
-			"tableId": "grid-BqPGmglU_b",
-			"rowId": "i-LMy3PoJR22",
-			"tableUrl": "https://coda.io/d/_dTGBFYq175J#_tugrid-BqPGmglU_b"
-		},
-		"In Part 1": {
-			"@context": "http://schema.org/",
-			"@type": "StructuredValue",
-			"additionalType": "row",
-			"name": "Yes",
-			"url": "https://coda.io/d/_dTGBFYq175J#_tugrid-RUMkEBKBsZ/_rui-CiZ6xQAbPU",
-			"tableId": "grid-RUMkEBKBsZ",
-			"rowId": "i-CiZ6xQAbPU",
-			"tableUrl": "https://coda.io/d/_dTGBFYq175J#_tugrid-RUMkEBKBsZ"
-		},
+		"Discussion": "https://github.com/Devographics/surveys/discussions/100",
+		"Status": "Cutting Edge",
+		"In Part 1": "Yes",
 		"Upvotes": 42,
 		"id": "declarative_shadow_dom",
-		"Needs Translation": true
+		"Needs Translation": true,
+		"Description": "",
+		"Code snippet": "",
+		"URLs": ""
 	}
 ]
