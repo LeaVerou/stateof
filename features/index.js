@@ -166,6 +166,18 @@ globalThis.app = createApp({
 					let language = code.shift().trim();
 					code = code.join("\n");
 
+					if (!language) {
+						if (meta.Type.includes("CSS")) {
+							language = "css";
+						}
+						else if (meta.Type.includes("HTML Element") || meta.Type.includes("HTML attribute") || meta.Type.includes("HTML attribute value")) {
+							language = "html";
+						}
+						else if (meta.Type.includes("JS API")) {
+							language = "js";
+						}
+					}
+
 					ret.example = { language, code };
 				}
 				else if (body?.includes("```")) {
