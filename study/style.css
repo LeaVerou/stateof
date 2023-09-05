@@ -102,3 +102,8 @@ details {
 	font-size: .7rem;
 	margin-left: 1em;
 }
+
+.template {
+	font-size: 70%;
+	color: hsl(220 10% 45%);
+}
