@@ -76,7 +76,7 @@ export default {
 	},
 
 	template: `
-	<div class="timer" :class="{ edited: edited }">
+	<div class="timer" :class="{ edited: edited, empty: time === 0 }">
 		<input class="time" pattern="\d+:\d{2}.\d" :value="formatTime(time)" @input="overrideTime($event.target.value);" />
 		<button class=start @click="running? pause() : start()">{{ running? '⏸️ Pause' : (startTime? '▶️ Resume' : '▶️ Start') }}</button>
 		<button class=stop @click="clear()" :disabled="!(running || time > 0)" title="Clear">❌</button>

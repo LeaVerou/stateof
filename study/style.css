@@ -67,7 +67,7 @@ th, td {
 
 .timer {
 	display: flex;
-	gap: .3em;
+	gap: .5em;
 
 	& time {
 		min-width: 4ch;
@@ -81,9 +81,14 @@ th, td {
 	& input {
 		width: 6ch;
 
+		&:is(.empty *) {
+			background: hsl(220 10% 97%);
+		}
+
 		&:is(.edited *) {
 			background: hsl(0 50% 95%);
 		}
+
 	}
 }
 
@@ -92,6 +97,8 @@ details {
 }
 
 .toolbar {
-	display: flex;
+	display: inline-flex;
 	gap: .5em;
+	font-size: .7rem;
+	margin-left: 1em;
 }

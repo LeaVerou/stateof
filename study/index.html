@@ -13,12 +13,14 @@
 
 <section id="timings">
 
-<h2>Participant Timings</h2>
+<h2>Participant Timings
+	<div class="toolbar">
+		<a :href="csvURL" class="button" download="timings.csv" @pointerdown="updateCSVURL()">⬇️ Download CSV</a>
+		<button @click="clear">❌ Clear All</button>
+	</div>
+</h2>
 
-<div class="toolbar">
-	<a :href="csvURL" class="button" download="timings.csv" @pointerdown="updateCSVURL()">⬇️ Download CSV</a>
-	<button @click="clear">❌ Clear All</button>
-</div>
+
 
 <details v-for="category of categories" open>
 	<summary>{{ category.id }}</summary>
