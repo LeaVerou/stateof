@@ -3,6 +3,7 @@
 ## UI/UX work
 
 - [Mockups & Prototypes](./mocks/)
+- [Feature templates comparison](./feature-templates/)
 
 ## Automation
 
