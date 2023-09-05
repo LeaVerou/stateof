@@ -26,6 +26,7 @@ input, button, select {
 input {
 	background: white;
 	border: 1px solid hsl(220 10% 40% / .4);
+	padding: .2em .4em;
 }
 
 button, .button {

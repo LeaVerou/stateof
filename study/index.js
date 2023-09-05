@@ -82,6 +82,8 @@ globalThis.app = createApp({
 	}
 }).mount(document.body);
 
+app.categories = await github.load();
+
 github.addEventListener("mv-login", async e => {
 	app.categories = await github.load();
 });
