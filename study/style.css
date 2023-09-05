@@ -1,0 +1,97 @@
+body {
+	font: 100%/1.5 system-ui, sans-serif;
+	padding: 1em;
+}
+
+h1, h2, h3 {
+	margin-block: 0;
+}
+
+@media (width > 1200px) {
+	body {
+		display: grid;
+		grid-template-columns: 1fr auto;
+		gap: .5em;
+	}
+
+	h1 {
+		grid-column: 1 / -1;
+	}
+}
+
+input, button, select {
+	font: inherit;
+}
+
+input {
+	background: white;
+	border: 1px solid hsl(220 10% 40% / .4);
+}
+
+button, .button {
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	background: hsl(220 10% 95%);
+	border: 1px solid hsl(220 10% 80%);
+	padding: .3em .5em;
+	border-radius: .2em;
+	cursor: pointer;
+	text-decoration: none;
+	color: black;
+
+	&:hover {
+		background: hsl(220 10% 90%);
+	}
+
+	&:active {
+		transform: scale(.95);
+	}
+}
+
+table {
+	border-collapse: collapse;
+	table-layout: fixed;
+}
+
+th {
+	background-color: hsl(220 10% 95%);
+	text-align: left;
+	padding: 0.5em;
+}
+
+th, td {
+	padding: .3em .5em;
+	border: 1px solid hsl(220 10% 90%);
+}
+
+.timer {
+	display: flex;
+	gap: .3em;
+
+	& time {
+		min-width: 4ch;
+	}
+
+	& .start {
+		min-width: 7.5ch;
+		box-sizing: content-box;
+	}
+
+	& input {
+		width: 6ch;
+
+		&:is(.edited *) {
+			background: hsl(0 50% 95%);
+		}
+	}
+}
+
+details {
+	margin-block: 1em;
+}
+
+.toolbar {
+	display: flex;
+	gap: .5em;
+}

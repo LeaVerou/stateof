@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Question timings for user study</title>
+	<link rel="stylesheet" href="style.css">
+	<script type="module" src="index.js"></script>
+</head>
+<body>
+
+<h1>Questions & Times</h1>
+
+<section id="timings">
+
+<h2>Participant Timings</h2>
+
+<div class="toolbar">
+	<a :href="csvURL" class="button" download="timings.csv" @pointerdown="updateCSVURL()">⬇️ Download CSV</a>
+	<button @click="clear">❌ Clear All</button>
+</div>
+
+<details v-for="category of categories" open>
+	<summary>{{ category.id }}</summary>
+
+	<table>
+		<thead>
+			<tr>
+				<th>Question</th>
+				<th>Template</th>
+				<th>Time</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr v-for="question of category.questions">
+				<td>{{ question.id }}</td>
+				<td>{{ question.template ?? category.template }}</td>
+				<td>
+					<study-timer :initial="timings[question.id] ?? 0" @update="time => updated(question, time)" @change="saveProgress()"></study-timer>
+				</td>
+			</tr>
+		</tbody>
+	</table>
+</details>
+
+</section>
+
+<section>
+	<h2>Stats</h2>
+
+	<table>
+		<thead>
+			<tr>
+				<th>Template</th>
+				<th>Question count</th>
+				<th>Average time</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr v-for="(questions, template) in questionsByTemplate">
+				<td>{{ template }}</td>
+				<td>{{ questions.length }}</td>
+				<td>{{ formatTime(totalTimeByTemplate[template] / questions.length) }}</td>
+			</tr>
+		</tbody>
+	</table>
+</section>
+</body>
+</html>
