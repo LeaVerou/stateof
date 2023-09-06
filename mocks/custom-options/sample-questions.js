@@ -3,7 +3,7 @@ import { Question, SingleChoiceQuestion, MultiChoiceQuestion } from './models.js
 export default [
 	new MultiChoiceQuestion({
 		id: "input_types",
-		question: "Input types",
+		question: "Tools",
 		description: "What frameworks, libraries, or tools do you use across multiple projects?",
 		allowCustom: true,
 		// maxCustomCount: 3,
