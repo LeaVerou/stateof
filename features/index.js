@@ -213,7 +213,7 @@ globalThis.app = createApp({
 				}
 
 				// Extract URLs
-				let urlText = meta.URLs ?? body;
+				let urlText = meta.URLs || body;
 
 				if (/https?:\/\//.test(urlText)) {
 					let urlMatches = urlText.matchAll(/https?:\/\/[^\s\)]+/g);
