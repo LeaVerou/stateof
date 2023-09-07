@@ -1,22 +1,58 @@
-- id: isolated_webapps
-  name: Isolated Web Apps
+- id: urlpattern
+  name: URLPattern API
+  needsTranslation: false
+  description: Match URLs or parts of URLs against a pattern
+  example:
+    language: js
+    code: |
+      let repoPattern = new URLPattern("https://github.com/:owner/:repo/");
+  mdn: en-US/docs/Web/API/URLPattern](https://developer.mozilla.org/en-US/docs/Web/API/URLPattern
+  caniuse: mdn-api_urlpattern](https://caniuse.com/mdn-api_urlpattern
+  tags:
+    - features
+
+- id: landmark_elements
+  name: Landmark elements
   needsTranslation: true
+  description: "`<main>`, `<nav>`, `<aside>`, `<header>`, `<footer>`, `<section>`"
+  tags:
+    - features
+
+- id: datalist_element
+  name: "`<datalist>`"
+  needsTranslation: false
+  description: Method of providing a list of presets for a user to select in a
+    form control, while still allowing custom options.
+  example:
+    language: html
+    code: |-
+      <input name="country" list="countries">
+      <datalist id="countries">
+        <option>Afghanistan</option>
+        ...
+      </datalist>
+  mdn: en-US/docs/Web/HTML/Element/datalist
   resources:
-    - url: https://github.com/WICG/isolated-web-apps
-      title: "GitHub - WICG/isolated-web-apps: Repository for explainers and other
-        documents related to the Isolated Web Apps proposal."
-    - url: https://chromestatus.com/feature/5146307550248960
-      title: Chrome Platform Status
-    - url: https://github.com/WICG/isolated-web-apps/blob/64ee186/README.md?plain=1#L11
+    - url: https://html.spec.whatwg.org/multipage/form-elements.html#the-datalist-element
+  caniuse: datalist
+  tags:
+    - features
+
+- id: form_request_submit
+  name: "`form.requestSubmit()`"
+  needsTranslation: false
+  description: Programmatically submit a form in a way that mimics real form submission
+  mdn: en-US/docs/Web/API/HTMLFormElement/requestSubmit](https://developer.mozilla.org/en-US/docs/Web/API/HTMLFormElement/requestSubmit
   tags:
     - features
 
 - id: borderless_mode
   name: Borderless mode
   needsTranslation: true
+  description: Allows recreating the window title area and controls, for more customization
   example:
     language: json
-    code: |
+    code: |-
       {
         "display_override": [ "borderless" ]
       }
@@ -31,26 +67,13 @@
   tags:
     - features
 
-- id: shadow_dom
-  name: Shadow DOM
-  needsTranslation: false
-  description: Encapsulate elements not visible from the outside, and style them
-    with CSS not affecting the rest of the page.
-  example:
-    language: html
-    code: |
-      this.shadowRoot = this.attachShadow({mode: "open"});
-  mdn: en-US/docs/Web/API/Web_components/Using_shadow_DOM
-  tags:
-    - features
-
 - id: text_fragments
   name: URLs to Text Fragments
   needsTranslation: true
+  description: Link to specific parts of the page, whether they have ids or not
   example:
     language: html
-    code: |
-      https://example.com#:~:text=prefix-,startText,endText,-suffix
+    code: https://example.com#:~:text=prefix-,startText,endText,-suffix
   mdn: en-US/docs/Web/Text_fragments
   resources:
     - url: https://wicg.github.io/scroll-to-text-fragment/
@@ -69,8 +92,7 @@
     whose controls become an overlay.
   example:
     language: js
-    code: |
-      navigator.windowControlsOverlay
+    code: navigator.windowControlsOverlay
   mdn: en-US/docs/Web/API/Window_Controls_Overlay_API
   resources:
     - url: https://wicg.github.io/window-controls-overlay/
@@ -88,8 +110,7 @@
   description: Exposes a mechanism for sharing content to various user-selected targets.
   example:
     language: js
-    code: |
-      navigator.share(shareData)
+    code: navigator.share(shareData)
   mdn: en-US/docs/Web/API/Web_Share_API
   w3c: TR/web-share/
   resources:
@@ -106,8 +127,7 @@
     state in a less intrusive, persistent way.
   example:
     language: js
-    code: |
-      navigator.setAppBadge(unreadCount)
+    code: navigator.setAppBadge(unreadCount)
   mdn: en-US/docs/Web/API/Badging_API
   w3c: TR/badging/
   resources:
@@ -116,165 +136,91 @@
   tags:
     - features
 
-- id: selectmenu
-  name: "`<selectlist>` (ex `<selectmenu>`)"
-  needsTranslation: false
-  description: |-
-    ```html
-    <selectmenu>
-    	<option>Option 1</option>
-    	<option>Option 2</option>
-    	<option>Option 3</option>
-    </selectmenu>
-  resources:
-    - url: https://open-ui.org/components/selectmenu/
-      title: Selectmenu Element (Explainer) | Open UI
-    - url: https://web.dev/state-of-css-2022/#customizing-select-elements
-      title: State of CSS 2022
-    - url: https://css-tricks.com/the-selectmenu-element/
-      title: The selectmenu HTML Tag | CSS-Tricks - CSS-Tricks
-    - url: https://www.smashingmagazine.com/2023/06/advanced-form-control-styling-selectmenu-anchoring-api/
-      title: Advanced Form Control Styling With Selectmenu And Anchoring API —
-        Smashing Magazine
-    - url: https://hidde.blog/custom-select-with-selectmenu/
-    - url: https://microsoftedge.github.io/Demos/selectmenu/
-      title: Open UI's selectmenu demos
-  tags:
-    - features
-
-- id: portal_element
-  name: "`<portal>`"
-  needsTranslation: false
-  description: Enables the embedding of another HTML page into the current one for
-    the purposes of allowing smoother navigation into new pages.
-  example:
-    language: html
-    code: |
-      <portal id="exampleportal" src="https://example.com/"></portal>
-  mdn: en-US/docs/Web/HTML/Element/portal
-  resources:
-    - url: https://wicg.github.io/portals/#the-portal-element
-      title: Portals
-  caniuse: mdn-html_elements_portal
-  tags:
-    - features
-
-- id: model_element
-  name: "`<model>` for AR/VR/3D content"
-  needsTranslation: false
-  description: Allows embedding 3D graphical content into HTML.
-  example:
-    language: html
-    code: |
-      <model src="3d-assets/car"></model>
-  resources:
-    - url: https://immersive-web.github.io/model-element/
-      title: The &lt;model&gt; element
-    - url: https://keithclark.co.uk/labs/3d-model-custom-element/examples/tests/
-      title: "HTML model element: Test page"
-    - url: https://css-tricks.com/ar-vr-and-a-model-for-3d-in-html/
-      title: AR, VR, and a Model for 3D in HTML | CSS-Tricks - CSS-Tricks
-    - url: https://github.com/WebKit/explainers/blob/main/model/HistoryAndEvolution.md
-    - url: https://developer.apple.com/documentation/safari-technology-preview-release-notes/stp-release-137
-      title: Safari Technology Preview 137 Release Notes | Apple Developer
-        Documentation
-  tags:
-    - features
-
-- id: popover_api
-  name: Popover API
-  needsTranslation: false
-  description: HTML syntax and JS API facilitating popovers such as overlays,
-    popups, menus etc.
-  example:
-    language: html
-    code: |
-      <button popovertarget="foo">Toggle the popover</button>
-      <div id="foo" popover>Popover content</div>
-  mdn: en-US/docs/Web/API/Popover_API
-  resources:
-    - url: https://html.spec.whatwg.org/multipage/popover.html#dom-popover
-      title: HTML Standard
-    - url: https://github.com/w3ctag/design-reviews/issues/743
-      title: "The Popover API (previously Popup) · Issue #743 · w3ctag/design-reviews
-        · GitHub"
-    - url: https://open-ui.org/components/popover.research.explainer/
-      title: Popover API (Explainer) | Open UI
-  caniuse: mdn-html_global_attributes_popover
-  tags:
-    - features
-
-- id: details_element
-  name: "`<details>` and `<summary>`"
-  needsTranslation: false
-  description: A disclosure widget that can be toggled to hide or show content
-    interactively.
-  example:
-    language: html
-    code: |
-      <details>
-          <summary>Details</summary>
-          Longer content
-      </details>
-  mdn: en-US/docs/Web/HTML/Element/details
-  resources:
-    - url: https://html.spec.whatwg.org/multipage/interactive-elements.html#the-details-element
-      title: HTML Standard
-  tags:
-    - features
-
-- id: element_internals
-  name: "`ElementInternals` API"
-  needsTranslation: false
-  description: Assign hidden semantics to custom elements, facilitating
-    accessibility and allowing them to participate fully in forms.
+- id: formdata
+  name: FormData API
+  needsTranslation: true
+  description: Easy handling of form data values
   example:
     language: js
     code: |
-      this.#internals = this.attachInternals()
-      this.#internals.ariaChecked = true;
-  mdn: en-US/docs/Web/API/ElementInternals
+      let fd = new FormData(form);
+      let data = JSON.stringify(Object.fromEntries(fd));
+  mdn: en-US/docs/Web/API/FormData/FormData](https://developer.mozilla.org/en-US/docs/Web/API/FormData/FormData
   resources:
-    - url: https://html.spec.whatwg.org/multipage/custom-elements.html#the-elementinternals-interface
-      title: HTML Standard
-  caniuse: mdn-api_elementinternals
+    - url: https://xhr.spec.whatwg.org/#dom-formdata](https://xhr.spec.whatwg.org/#dom-formdata
+  caniuse: mdn-api_formdata](https://caniuse.com/mdn-api_formdata
   tags:
     - features
 
-- id: content_security_policy
-  name: Content-Security Policy (CSP)
+- id: scoped_element_registries
+  name: Scoped Custom Element Registries
   needsTranslation: true
-  description: An added layer of security that helps to detect and mitigate XSS
-    and other attacks.
+  description: Allow multiple custom element definitions for a single tag name to
+    exist within a page.
   example:
-    language: http
-    code: |
-      Content-Security-Policy: default-src 'self'
-  mdn: en-US/docs/Web/HTTP/CSP
-  w3c: TR/CSP3/
-  caniuse: contentsecuritypolicy2
+    language: js
+    code: |-
+      const registry = new CustomElementRegistry();
+      registry.define('sub-element', SubElement);
+  resources:
+    - url: https://github.com/WICG/webcomponents/blob/gh-pages/proposals/Scoped-Custom-Element-Registries.md
+    - url: https://chromestatus.com/feature/5090435261792256
+      title: Chrome Platform Status
   tags:
     - features
 
-- id: dialog_element
-  name: "`<dialog>`"
-  needsTranslation: false
-  description: For dialog boxes or other interactive components, such as a
-    dismissible alerts, or subwindows.
+- id: custom_elements_defining
+  name: Defining Custom Elements
+  needsTranslation: true
+  description: Defining custom elements for use by others.
   example:
-    language: html
-    code: |
-      <dialog id="confirm">
-      	<form method="dialog">
-      		Are you sure?
-      		<button value="1">Yes</button>
-      		<button value="0">No</button>
-      	</form>
-      </dialog>
-  mdn: en-US/docs/Web/HTML/Element/dialog
+    language: js
+    code: |-
+      class MyElement extends HTMLElement { … }
+      customElements.define("my-element", MyElement);
+  mdn: en-US/docs/Web/API/CustomElementRegistry/define
   resources:
-    - url: https://html.spec.whatwg.org/multipage/interactive-elements.html#the-dialog-element
+    - url: https://html.spec.whatwg.org/multipage/custom-elements.html#dom-customelementregistry-define-dev
       title: HTML Standard
+  tags:
+    - features
+
+- id: isolated_webapps
+  name: Isolated Web Apps
+  needsTranslation: true
+  description: Native-like packaging, permissions and signed updates for PWAs.
+  example:
+    language: ""
+    code: |
+      isolated-app://4tkr2qbhf7rlz2a3wo3rh4wqaaic/index.html
+  resources:
+    - url: https://github.com/WICG/isolated-web-apps
+      title: "GitHub - WICG/isolated-web-apps: Repository for explainers and other
+        documents related to the Isolated Web Apps proposal."
+    - url: https://chromestatus.com/feature/5146307550248960
+      title: Chrome Platform Status
+    - url: https://github.com/WICG/isolated-web-apps/blob/64ee186/README.md?plain=1#L11
+  tags:
+    - features
+
+- id: navigation_api
+  name: Navigation API
+  needsTranslation: true
+  description: Initiate, intercept, and manage navigation actions, examine history
+    entries. Successor to the older `history` and `location` APIs.
+  example:
+    language: js
+    code: |-
+      navigation.navigate(url, {history: "push"});
+      navigation.addEventListener("navigate", interceptNavigation);
+  mdn: en-US/docs/Web/API/Navigation_API
+  resources:
+    - url: https://wicg.github.io/navigation-api/
+      title: The navigation API has moved to the HTML Standard
+    - url: https://github.com/WICG/navigation-api
+      title: "GitHub - WICG/navigation-api: The new navigation API provides a new
+        interface for navigations and session history, with a focus on
+        single-page application navigations."
   tags:
     - features
 
@@ -284,7 +230,7 @@
   description: Import HTML files via JS imports and access their elements and JS exports.
   example:
     language: html
-    code: |
+    code: |-
       <script type="module">
       	import { TabList } from "./tablist.html";
       	customElements.define("tab-list", TabList);
@@ -297,14 +243,14 @@
   tags:
     - features
 
-- id: accordion
+- id: accordion_element
   name: Exclusive accordion
   needsTranslation: true
   description: Group `<details>` elements so that only up to one in the group can
     be open at a time.
   example:
     language: html
-    code: |
+    code: |-
       <details open name="sidebar_panel" id="main_info">
       	<summary>Main info</summary>
       	<!-- controls -->
@@ -327,21 +273,124 @@
   tags:
     - features
 
-- id: template_element
-  name: "`<template>`"
+- id: autocomplete_element
+  name: Autocomplete hints
   needsTranslation: false
-  description: A mechanism for holding HTML that is not to be rendered immediately
-    but may be utilized later via JS.
+  description: Provide hints about what kind of information is expected, e.g.
+    `name`, `honorific-prefix`, `tel`,  `cc-number` etc
   example:
     language: html
-    code: |
-      <template id="counter">
-      	<div class="counter">Clicked {{ times }} times</div>
-      </template>
-  mdn: en-US/docs/Web/HTML/Element/template
+    code: <input name="address_firstline" autocomplete="billing street-address" />
+  mdn: en-US/docs/Web/HTML/Attributes/autocomplete
   resources:
-    - url: https://html.spec.whatwg.org/multipage/scripting.html#the-template-element
+    - url: https://html.spec.whatwg.org/multipage/form-control-infrastructure.html#attr-fe-autocomplete
       title: HTML Standard
+  tags:
+    - features
+
+- id: dialog_element
+  name: "`<dialog>`"
+  needsTranslation: false
+  description: For dialog boxes or other interactive components, such as a
+    dismissible alerts, or subwindows.
+  example:
+    language: html
+    code: |-
+      <dialog id="confirm">
+      	<form method="dialog">
+      		Are you sure?
+      		<button value="1">Yes</button>
+      		<button value="0">No</button>
+      	</form>
+      </dialog>
+  mdn: en-US/docs/Web/HTML/Element/dialog
+  resources:
+    - url: https://html.spec.whatwg.org/multipage/interactive-elements.html#the-dialog-element
+      title: HTML Standard
+  tags:
+    - features
+
+- id: shadow_dom
+  name: Shadow DOM
+  needsTranslation: false
+  description: Encapsulate elements not visible from the outside, and style them
+    with CSS not affecting the rest of the page.
+  example:
+    language: js
+    code: 'this.shadowRoot = this.attachShadow({mode: "open"});'
+  mdn: en-US/docs/Web/API/Web_components/Using_shadow_DOM
+  tags:
+    - features
+
+- id: dom_parts
+  name: DOM Parts
+  needsTranslation: true
+  description: A cacheable representation of a part of the DOM that can be updated
+    performantly.
+  resources:
+    - url: https://github.com/WICG/webcomponents/blob/gh-pages/proposals/DOM-Parts.md
+    - url: https://github.com/tbondwilkinson/dom-parts#readme
+      title: GitHub - tbondwilkinson/dom-parts
+    - url: https://groups.google.com/a/chromium.org/g/blink-dev/c/wIADRnljZDA/m/Ghfv2jyRAgAJ
+  tags:
+    - features
+
+- id: contenteditable_plaintext
+  name: '`contenteditable="plaintext-only"`'
+  needsTranslation: false
+  description: Permits editing of the element's raw text, but not rich text formatting.
+  example:
+    language: html
+    code: <h2 class="title" contenteditable="plaintext-only"></h2>
+  mdn: en-US/docs/Web/HTML/Global_attributes/contenteditable
+  resources:
+    - url: https://html.spec.whatwg.org/multipage/interaction.html#attr-contenteditable
+      title: HTML Standard
+  tags:
+    - features
+
+- id: custom_elements_using
+  name: Using Custom Elements
+  needsTranslation: true
+  description: Using custom elements, that you or someone else defined.
+  example:
+    language: html
+    code: <sl-switch>Switch</sl-switch>
+  mdn: en-US/docs/Web/API/Web_components/Using_custom_elements
+  tags:
+    - features
+
+- id: showpicker
+  name: "`input.showPicker()`"
+  needsTranslation: false
+  description: Programmatically open the picker of form controls that have one
+    (color pickers, date inputs etc).
+  example:
+    language: html
+    code: |-
+      <input id="dateInput" type="date">
+      <button onclick="dateInput.showPicker()">Select date</button>
+  mdn: en-US/docs/Web/API/HTMLInputElement/showPicker
+  resources:
+    - url: https://html.spec.whatwg.org/multipage/input.html#dom-input-showpicker
+      title: HTML Standard
+    - url: https://github.com/w3ctag/design-reviews/issues/688
+      title: "HTMLInputElement showPicker() · Issue #688 · w3ctag/design-reviews ·
+        GitHub"
+  tags:
+    - features
+
+- id: content_security_policy
+  name: Content-Security Policy (CSP)
+  needsTranslation: true
+  description: An added layer of security that helps to detect and mitigate XSS
+    and other attacks.
+  example:
+    language: http
+    code: "Content-Security-Policy: default-src 'self'"
+  mdn: en-US/docs/Web/HTTP/CSP
+  w3c: TR/CSP3/
+  caniuse: contentsecuritypolicy2
   tags:
     - features
 
@@ -352,7 +401,7 @@
     assignment does not have to be managed by the component consumers.
   example:
     language: js
-    code: |
+    code: |-
       this.attachShadow({mode: "open", slotAssignment: "manual" });
       this.shadowRoot.querySelector("slot[name=foo]").assign(element);
   mdn: en-US/docs/Web/API/HTMLSlotElement/assign
@@ -363,14 +412,55 @@
   tags:
     - features
 
-- id: focusgroup
+- id: fetchpriority_attribute
+  name: Fetch Priority API (`fetchpriority` attribute)
+  needsTranslation: true
+  description: Allows specifying a hint to help the browser prioritize fetching
+    various resources.
+  example:
+    language: html
+    code: <img src="logo.svg" fetchpriority="high" />
+  mdn: en-US/docs/Web/API/HTMLImageElement/fetchPriority
+  resources:
+    - url: https://wicg.github.io/priority-hints/
+      title: Priority Hints (obsolete)
+    - url: https://github.com/w3ctag/design-reviews/issues/704
+      title: "Priority Hints API · Issue #704 · w3ctag/design-reviews · GitHub"
+    - url: https://github.com/WICG/priority-hints/blob/main/EXPLAINER.md
+    - url: https://chromestatus.com/feature/5273474901737472
+      title: Chrome Platform Status
+    - url: https://web.dev/fetch-priority/
+      title: Optimizing resource loading with the Fetch Priority API
+  caniuse: mdn-html_elements_script_fetchpriority
+  tags:
+    - features
+
+- id: template_element
+  name: "`<template>`"
+  needsTranslation: false
+  description: A mechanism for holding HTML that is not to be rendered immediately
+    but may be utilized later via JS.
+  example:
+    language: html
+    code: |-
+      <template id="counter">
+      	<div class="counter">Clicked {{ times }} times</div>
+      </template>
+  mdn: en-US/docs/Web/HTML/Element/template
+  resources:
+    - url: https://html.spec.whatwg.org/multipage/scripting.html#the-template-element
+      title: HTML Standard
+  tags:
+    - features
+
+- id: focusgroup_attribute
   name: "`focusgroup` attribute"
   needsTranslation: true
   description: Facilitate keyboard focus navigation using the keyboard arrow keys
     among a set of focusable elements.
   example:
     language: html
-    code: |
+    code: |-
       <div focusgroup="wrap horizontal">
       	<!-- child elements -->
       </div>
@@ -386,109 +476,112 @@
   tags:
     - features
 
-- id: declarative_shadow
-  name: Declarative Shadow DOM (`<template shadowrootmode="open">`)
-  needsTranslation: true
-  description: Define shadow trees with HTML.
+- id: aria
+  name: ARIA
+  needsTranslation: false
+  description: "`role` and `aria-*` attributes"
   example:
     language: html
-    code: |
-      <host-element>
-          <template shadowrootmode="open">
-              <!-- Shadow content -->
-          </template>
-      </host-element>
-  resources:
-    - url: https://github.com/mfreed7/declarative-shadow-dom
-      title: "GitHub - mfreed7/declarative-shadow-dom: Declarative Shadow DOM feature
-        development"
-    - url: https://developer.chrome.com/en/articles/declarative-shadow-dom/
-      title: Declarative Shadow DOM - Chrome Developers
-    - url: https://webkit.org/blog/13851/declarative-shadow-dom/
-      title: Declarative Shadow DOM | WebKit
-    - url: https://chromestatus.com/feature/5191745052606464
-      title: Chrome Platform Status
-  caniuse: declarative-shadow-dom
+    code: >-
+      <div id="tab1" aria-controls="panel1" role="tab">Prices</div>
+
+      <div id="panel1" class="panel" aria-labelledby="tab1" role="tabpanel">       
+      	<!-- tab content -->
+      </div> 
+  mdn: en-US/docs/Web/Accessibility/ARIA/Attributes
+  w3c: TR/wai-aria-1.2/
   tags:
     - features
 
-- id: scoped_element_registries
-  name: Scoped Custom Element Registries
+- id: media_capture
+  name: HTML Media Capture
   needsTranslation: true
-  description: Allow multiple custom element definitions for a single tag name to
-    exist within a page.
+  description: Capture input from the user’s camera.
   example:
-    language: js
-    code: |
-      const registry = new CustomElementRegistry();
-      registry.define('sub-element', SubElement);
+    language: html
+    code: <input type="file" accept="video/*" capture>
+  mdn: en-US/docs/Web/HTML/Attributes/capture
   resources:
-    - url: https://github.com/WICG/webcomponents/blob/gh-pages/proposals/Scoped-Custom-Element-Registries.md
-    - url: https://chromestatus.com/feature/5090435261792256
-      title: Chrome Platform Status
+    - url: https://w3c.github.io/html-media-capture/#dfn-capture
+      title: HTML Media Capture
+    - url: https://addpipe.com/html-media-capture-demo/
+      title: HTML Media Capture Syntax Examples - addpipe.com
+    - url: https://mgearon.com/html/html-media-capture/
+      title: HTML Media Capture | Michael Gearon
+  caniuse: html-media-capture
   tags:
     - features
 
-- id: navigation_api
-  name: Navigation API
-  needsTranslation: true
-  description: Initiate, intercept, and manage navigation actions, examine history
-    entries. Successor to the older `history` and `location` APIs.
+- id: blocking_render
+  name: '`blocking="render"`'
+  needsTranslation: false
+  description: Specify that resources (scripts, stylesheets etc) should block
+    rendering until loaded.
   example:
-    language: js
-    code: |
-      navigation.navigate(url, {history: "push"});
-      navigation.addEventListener("navigate", interceptNavigation);
-  mdn: en-US/docs/Web/API/Navigation_API
+    language: html
+    code: <script blocking="render" async src="async-script.js"></script>
+  mdn: en-US/docs/Web/HTML/Element/script#blocking
   resources:
-    - url: https://wicg.github.io/navigation-api/
-      title: The navigation API has moved to the HTML Standard
-    - url: https://github.com/WICG/navigation-api
-      title: "GitHub - WICG/navigation-api: The new navigation API provides a new
-        interface for navigations and session history, with a focus on
-        single-page application navigations."
-  tags:
-    - features
-
-- id: custom_elements_defining
-  name: Defining Custom Elements
-  needsTranslation: true
-  description: |-
-    Defining custom elements for use by others.
-    If you have never used this, you can probably skip the rest of this section.
-  example:
-    language: js
-    code: |
-      class MyElement extends HTMLElement { … }
-      customElements.define("my-element", MyElement);
-  mdn: en-US/docs/Web/API/CustomElementRegistry/define
-  resources:
-    - url: https://html.spec.whatwg.org/multipage/custom-elements.html#dom-customelementregistry-define-dev
+    - url: https://html.spec.whatwg.org/multipage/urls-and-fetching.html#blocking-attributes
       title: HTML Standard
+    - url: https://gist.github.com/xiaochengh/9404abbecdc3b45c0e9f3d5e99fbc65d
+      title: proposal-v3.md · GitHub
+    - url: https://github.com/w3ctag/design-reviews/issues/727
+      title: "Review request on `blocking=render` attribute for scripts and
+        stylesheets · Issue #727 · w3ctag/design-reviews · GitHub"
+  caniuse: mdn-html_elements_link_blocking
   tags:
     - features
 
-- id: custom_elements_using
-  name: Using Custom Elements
+- id: element_internals
+  name: "`ElementInternals` API"
+  needsTranslation: false
+  description: Assign hidden semantics to custom elements, facilitating
+    accessibility and allowing them to participate fully in forms.
+  example:
+    language: js
+    code: |-
+      this.#internals = this.attachInternals()
+      this.#internals.ariaChecked = true;
+  mdn: en-US/docs/Web/API/ElementInternals
+  resources:
+    - url: https://html.spec.whatwg.org/multipage/custom-elements.html#the-elementinternals-interface
+      title: HTML Standard
+  caniuse: mdn-api_elementinternals
+  tags:
+    - features
+
+- id: inert_attribute
+  name: "`inert` attribute"
   needsTranslation: true
-  description: Using custom elements, that you or someone else defined.
+  description: Attribute to make an element and its descendants non-interactive,
+    and invisible to assistive technology.
   example:
     language: html
-    code: |
-      <sl-switch>Switch</sl-switch>
-  mdn: en-US/docs/Web/API/Web_components/Using_custom_elements
+    code: |-
+      <div id=app inert class=loading>
+        ...
+      </div>
+  mdn: en-US/docs/Web/HTML/Global_attributes/inert
+  resources:
+    - url: https://html.spec.whatwg.org/multipage/interaction.html#the-inert-attribute
+      title: HTML Standard
+    - url: https://developer.chrome.com/articles/inert/
+      title: Introducing inert - Chrome Developers
+    - url: https://www.stefanjudis.com/blog/the-inert-attribute-is-finally-coming-to-the-web/
+      title: The "inert" attribute is finally coming to the web | Stefan Judis Web
+        Development
   tags:
     - features
 
-- id: fencedframe
+- id: fencedframe_element
   name: Fenced frames
   needsTranslation: false
   description: Α new element to embed documents on a page that prevents
     communication between the embedder and the frame.
   example:
     language: html
-    code: |
-      <fencedframe src="https://adsite.com/ads.html"></fencedframe>
+    code: <fencedframe src="https://adsite.com/ads.html"></fencedframe>
   resources:
     - url: https://wicg.github.io/fenced-frame/
       title: Fenced Frame
@@ -508,93 +601,45 @@
   tags:
     - features
 
-- id: media_capture
-  name: HTML Media Capture
-  needsTranslation: true
-  description: Capture input from the user’s camera.
-  example:
-    language: html
-    code: |
-      <input type="file" accept="video/*" capture>
-  mdn: en-US/docs/Web/HTML/Attributes/capture
-  resources:
-    - url: https://w3c.github.io/html-media-capture/#dfn-capture
-      title: HTML Media Capture
-    - url: https://addpipe.com/html-media-capture-demo/
-      title: HTML Media Capture Syntax Examples - addpipe.com
-    - url: https://mgearon.com/html/html-media-capture/
-      title: HTML Media Capture | Michael Gearon
-  caniuse: html-media-capture
-  tags:
-    - features
-
-- id: contenteditable_plaintext
-  name: "`plaintext-only` value for `contenteditable`"
+- id: popover_api
+  name: Popover API
   needsTranslation: false
-  description: Permits editing of the element's raw text, but not rich text formatting.
+  description: HTML syntax and JS API facilitating popovers such as overlays,
+    popups, menus etc.
   example:
     language: html
-    code: |
-      <h2 class="title" contenteditable="plaintext-only"></h2>
-  mdn: en-US/docs/Web/HTML/Global_attributes/contenteditable
+    code: |-
+      <button popovertarget="foo">Toggle the popover</button>
+      <div id="foo" popover>Popover content</div>
+  mdn: en-US/docs/Web/API/Popover_API
   resources:
-    - url: https://html.spec.whatwg.org/multipage/interaction.html#attr-contenteditable
+    - url: https://html.spec.whatwg.org/multipage/popover.html#dom-popover
       title: HTML Standard
+    - url: https://github.com/w3ctag/design-reviews/issues/743
+      title: "The Popover API (previously Popup) · Issue #743 · w3ctag/design-reviews
+        · GitHub"
+    - url: https://open-ui.org/components/popover.research.explainer/
+      title: Popover API (Explainer) | Open UI
+  caniuse: mdn-html_global_attributes_popover
   tags:
     - features
 
-- id: blocking_render
-  name: '`blocking="render"`'
+- id: details_element
+  name: "`<details>` and `<summary>`"
   needsTranslation: false
-  description: Specify that resources (scripts, stylesheets etc) should block
-    rendering until loaded.
+  description: A disclosure widget that can be toggled to hide or show content
+    interactively.
   example:
     language: html
-    code: |
-      <script blocking="render" async src="async-script.js"></script>
-  mdn: en-US/docs/Web/HTML/Element/script#blocking
+    code: |-
+      <details>
+          <summary>Details</summary>
+          Longer content
+      </details>
+  mdn: en-US/docs/Web/HTML/Element/details
   resources:
-    - url: https://html.spec.whatwg.org/multipage/urls-and-fetching.html#blocking-attributes
+    - url: https://html.spec.whatwg.org/multipage/interactive-elements.html#the-details-element
       title: HTML Standard
-    - url: https://gist.github.com/xiaochengh/9404abbecdc3b45c0e9f3d5e99fbc65d
-      title: proposal-v3.md · GitHub
-    - url: https://github.com/w3ctag/design-reviews/issues/727
-      title: "Review request on `blocking=render` attribute for scripts and
-        stylesheets · Issue #727 · w3ctag/design-reviews · GitHub"
-  caniuse: mdn-html_elements_link_blocking
-  tags:
-    - features
-
-- id: dom_parts
-  name: DOM Parts
-  needsTranslation: true
-  description: A cacheable representation of a part of the DOM that can be updated
-    performantly.
-  resources:
-    - url: https://github.com/WICG/webcomponents/blob/gh-pages/proposals/DOM-Parts.md
-    - url: https://github.com/tbondwilkinson/dom-parts#readme
-      title: GitHub - tbondwilkinson/dom-parts
-    - url: https://groups.google.com/a/chromium.org/g/blink-dev/c/wIADRnljZDA/m/Ghfv2jyRAgAJ
-  tags:
-    - features
-
-- id: showpicker
-  name: "`input.showPicker()`"
-  needsTranslation: false
-  description: Programmatically open the picker of form controls that have one
-    (color pickers, date inputs etc).
-  example:
-    language: html
-    code: |
-      <input id="dateInput" type="date">
-      <button onclick="dateInput.showPicker()">Select date</button>
-  mdn: en-US/docs/Web/API/HTMLInputElement/showPicker
-  resources:
-    - url: https://html.spec.whatwg.org/multipage/input.html#dom-input-showpicker
-      title: HTML Standard
-    - url: https://github.com/w3ctag/design-reviews/issues/688
-      title: "HTMLInputElement showPicker() · Issue #688 · w3ctag/design-reviews ·
-        GitHub"
   tags:
     - features
 
@@ -604,7 +649,7 @@
   description: Semantic element for wrapping search UI.
   example:
     language: html
-    code: |
+    code: |-
       <search>
         <form action="search.php">
           <label>Find: <input name="q" type="search"></label>
@@ -624,64 +669,93 @@
   tags:
     - features
 
-- id: fetchpriority
-  name: Fetch Priority API (`fetchpriority` attribute)
-  needsTranslation: true
-  description: Allows specifying a hint to help the browser prioritize fetching
-    various resources.
-  example:
-    language: html
-    code: |
-      <img src="logo.svg" fetchpriority="high" />
-  mdn: en-US/docs/Web/API/HTMLImageElement/fetchPriority
-  resources:
-    - url: https://wicg.github.io/priority-hints/
-      title: Priority Hints (obsolete)
-    - url: https://github.com/w3ctag/design-reviews/issues/704
-      title: "Priority Hints API · Issue #704 · w3ctag/design-reviews · GitHub"
-    - url: https://github.com/WICG/priority-hints/blob/main/EXPLAINER.md
-    - url: https://chromestatus.com/feature/5273474901737472
-      title: Chrome Platform Status
-    - url: https://web.dev/fetch-priority/
-      title: Optimizing resource loading with the Fetch Priority API
-  caniuse: mdn-html_elements_script_fetchpriority
-  tags:
-    - features
-
-- id: autocomplete
-  name: '`autocomplete="hint"`'
+- id: model_element
+  name: "`<model>` for AR/VR/3D content"
   needsTranslation: false
-  description: Provide hints about what kind of information should be autocompleted.
+  description: Allows embedding 3D graphical content into HTML.
   example:
     language: html
-    code: |
-      <input name="first_name" autocomplete="given-name" />
-  mdn: en-US/docs/Web/HTML/Attributes/autocomplete
+    code: <model src="3d-assets/car"></model>
   resources:
-    - url: https://html.spec.whatwg.org/multipage/form-control-infrastructure.html#attr-fe-autocomplete
-      title: HTML Standard
+    - url: https://immersive-web.github.io/model-element/
+      title: The &lt;model&gt; element
+    - url: https://keithclark.co.uk/labs/3d-model-custom-element/examples/tests/
+      title: "HTML model element: Test page"
+    - url: https://css-tricks.com/ar-vr-and-a-model-for-3d-in-html/
+      title: AR, VR, and a Model for 3D in HTML | CSS-Tricks - CSS-Tricks
+    - url: https://github.com/WebKit/explainers/blob/main/model/HistoryAndEvolution.md
+    - url: https://developer.apple.com/documentation/safari-technology-preview-release-notes/stp-release-137
+      title: Safari Technology Preview 137 Release Notes | Apple Developer
+        Documentation
   tags:
     - features
 
-- id: inert_attribute
-  name: "`inert` attribute"
-  needsTranslation: true
-  description: Attribute to make an element and its descendants non-interactive,
-    and invisible to assistive technology.
+- id: portal_element
+  name: "`<portal>`"
+  needsTranslation: false
+  description: Enables the embedding of another HTML page into the current one for
+    the purposes of allowing smoother navigation into new pages.
   example:
     language: html
-    code: |
-      <div id=app inert class=loading>
-        ...
-      </div>
-  mdn: en-US/docs/Web/HTML/Global_attributes/inert
+    code: <portal id="exampleportal" src="https://example.com/"></portal>
+  mdn: en-US/docs/Web/HTML/Element/portal
   resources:
-    - url: https://html.spec.whatwg.org/multipage/interaction.html#the-inert-attribute
-      title: HTML Standard
-    - url: https://developer.chrome.com/articles/inert/
-      title: Introducing inert - Chrome Developers
-    - url: https://www.stefanjudis.com/blog/the-inert-attribute-is-finally-coming-to-the-web/
-      title: The "inert" attribute is finally coming to the web | Stefan Judis Web
-        Development
+    - url: https://wicg.github.io/portals/#the-portal-element
+      title: Portals
+  caniuse: mdn-html_elements_portal
+  tags:
+    - features
+
+- id: selectlist_element
+  name: "`<selectlist>` (ex `<selectmenu>`)"
+  needsTranslation: false
+  description: Stylable, customizable dropdown control.
+  example:
+    language: html
+    code: |-
+      <selectmenu>
+      	<option>Option 1</option>
+      	<option>Option 2</option>
+      	<option>Option 3</option>
+      </selectmenu>
+  resources:
+    - url: https://open-ui.org/components/selectmenu/
+      title: Selectmenu Element (Explainer) | Open UI
+    - url: https://web.dev/state-of-css-2022/#customizing-select-elements
+      title: State of CSS 2022
+    - url: https://css-tricks.com/the-selectmenu-element/
+      title: The selectmenu HTML Tag | CSS-Tricks - CSS-Tricks
+    - url: https://www.smashingmagazine.com/2023/06/advanced-form-control-styling-selectmenu-anchoring-api/
+      title: Advanced Form Control Styling With Selectmenu And Anchoring API —
+        Smashing Magazine
+    - url: https://hidde.blog/custom-select-with-selectmenu/
+    - url: https://microsoftedge.github.io/Demos/selectmenu/
+      title: Open UI's selectmenu demos
+  tags:
+    - features
+
+- id: declarative_shadow_dom
+  name: Declarative Shadow DOM (`<template shadowrootmode="open">`)
+  needsTranslation: true
+  description: Define shadow trees with HTML.
+  example:
+    language: html
+    code: |-
+      <host-element>
+          <template shadowrootmode="open">
+              <!-- Shadow content -->
+          </template>
+      </host-element>
+  resources:
+    - url: https://github.com/mfreed7/declarative-shadow-dom
+      title: "GitHub - mfreed7/declarative-shadow-dom: Declarative Shadow DOM feature
+        development"
+    - url: https://developer.chrome.com/en/articles/declarative-shadow-dom/
+      title: Declarative Shadow DOM - Chrome Developers
+    - url: https://webkit.org/blog/13851/declarative-shadow-dom/
+      title: Declarative Shadow DOM | WebKit
+    - url: https://chromestatus.com/feature/5191745052606464
+      title: Chrome Platform Status
+  caniuse: declarative-shadow-dom
   tags:
     - features
