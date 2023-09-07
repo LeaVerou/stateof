@@ -1,5 +1,39 @@
 [
 	{
+		"Question": "URLPattern API",
+		"Focus area": "",
+		"Type": [
+			"JS API"
+		],
+		"Discussion": "",
+		"Status": "Controversial",
+		"In Part 1": "Yes",
+		"Upvotes": "",
+		"id": "urlpattern",
+		"Needs Translation": false,
+		"Description": "Match URLs or parts of URLs against a pattern",
+		"Code snippet": "```\nlet repoPattern = new URLPattern(\"https://github.com/:owner/:repo/\");\n```",
+		"URLs": "- [https://developer.mozilla.org/en-US/docs/Web/API/URLPattern](https://developer.mozilla.org/en-US/docs/Web/API/URLPattern)\n- [https://caniuse.com/mdn-api_urlpattern](https://caniuse.com/mdn-api_urlpattern)"
+	},
+	{
+		"Question": "Landmark elements",
+		"Focus area": [
+			"Accessibility"
+		],
+		"Type": [
+			"HTML element"
+		],
+		"Discussion": "",
+		"Status": "Stable",
+		"In Part 1": "Yes",
+		"Upvotes": "",
+		"id": "landmark_elements",
+		"Needs Translation": true,
+		"Description": "`<main>`, `<nav>`, `<aside>`, `<header>`, `<footer>`, `<section>`",
+		"Code snippet": "",
+		"URLs": ""
+	},
+	{
 		"Question": "`<datalist>` ",
 		"Focus area": [
 			"Forms & Editing"
@@ -50,7 +84,7 @@
 		"Upvotes": 2,
 		"id": "borderless_mode",
 		"Needs Translation": true,
-		"Description": "",
+		"Description": "Allows recreating the window title area and controls, for more customization",
 		"Code snippet": "",
 		"URLs": ""
 	},
@@ -82,7 +116,7 @@
 		],
 		"Discussion": "https://github.com/Devographics/surveys/discussions/200",
 		"Status": "Stable",
-		"In Part 1": "Likely Yes",
+		"In Part 1": "No",
 		"Upvotes": 2,
 		"id": "menu_element",
 		"Needs Translation": false,
@@ -106,7 +140,7 @@
 		"Upvotes": 1,
 		"id": "text_fragments",
 		"Needs Translation": true,
-		"Description": "",
+		"Description": "Link to specific parts of the page, whether they have ids or not",
 		"Code snippet": "",
 		"URLs": ""
 	},
@@ -271,8 +305,8 @@
 		"Upvotes": 9,
 		"id": "isolated_webapps",
 		"Needs Translation": true,
-		"Description": "",
-		"Code snippet": "",
+		"Description": "Native-like packaging, permissions and signed updates for PWAs.",
+		"Code snippet": "```\nisolated-app://4tkr2qbhf7rlz2a3wo3rh4wqaaic/index.html\n```",
 		"URLs": ""
 	},
 	{
@@ -866,11 +900,11 @@
 		],
 		"Discussion": "https://github.com/Devographics/surveys/discussions/114",
 		"Status": "Stable",
-		"In Part 1": "In checkbox question",
+		"In Part 1": "Yes",
 		"Upvotes": 44,
 		"id": "aria",
 		"Needs Translation": false,
-		"Description": "",
+		"Description": "`role` and `aria-*` attributes",
 		"Code snippet": "",
 		"URLs": ""
 	},
