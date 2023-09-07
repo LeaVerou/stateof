@@ -44,6 +44,7 @@ globalThis.app = createApp({
 				urls: "json",
 			},
 			includeIf: ["Yes", "Likely Yes", "Maybe"],
+			includeAll: true,
 			github: Backend.from("https://github.com/leaverou/stateof/"),
 			gh_discussions,
 			coda_features,

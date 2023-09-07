@@ -31,11 +31,20 @@ pre {
 			</select> ({{ features.length }})
 			<download-button :filename="`features.${format.features}`" :data="stringified_features"></download-button>
 			<button @click="copy(stringified_features)">Copy</button>
-			<div>
-				<label v-for="state in consideration_states">
-					<input type="checkbox" v-model="includeIf" :value="state"> {{ state }}
+			<fieldset>
+				<legend>Include</legend>
+				<label>
+					<input type="radio" v-model="includeAll" :value="true" />
+					All
 				</label>
-			</div>
+				<label>
+					<input type="radio" v-model="includeAll" :value="false" />
+					Specific states:
+				</label>
+				<label v-for="state in consideration_states">
+					<input type="checkbox" v-model="includeIf" :value="state" :disabled="includeAll" /> {{ state }}
+				</label>
+			</fieldset>
 		</summary>
 		<pre>{{ stringified_features }}</pre>
 	</details>
