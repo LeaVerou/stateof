@@ -121,7 +121,7 @@ globalThis.app = createApp({
 				return [];
 			}
 
-			return feature_meta.flatMap((meta, i) => {
+			let ret = feature_meta.flatMap((meta, i) => {
 				let discussion_url = meta.Discussion;
 				let id = meta.id;
 
@@ -256,6 +256,11 @@ globalThis.app = createApp({
 
 				return ret;
 			});
+
+			// Sort alphabeticallly by id
+			ret.sort((a, b) => a.id.localeCompare(b.id));
+
+			return ret;
 		},
 
 		unknown_url_count () {
