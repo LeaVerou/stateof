@@ -12,7 +12,7 @@ const fixed_data = {
 		multipleWithOtherSentiment: {score: .25, per: "option"},
 		multipleWithOther: {score: .15, per: "option"},
 		multiple: {score: .15, per: "option", max: 3},
-		textList: 3,
+		textList: 2.5,
 		text: 3,
 		longtext: 3,
 	},
