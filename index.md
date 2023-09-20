@@ -1,5 +1,10 @@
 # State of X work
 
+## Analysis
+
+- [Survey Analyzer](./analyzer/)
+- [User study timing tool](./study/)
+
 ## UI/UX work
 
 - [Mockups & Prototypes](./mocks/)
