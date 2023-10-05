@@ -1,63 +1,14 @@
+@import url("../style.css");
+
 body {
-	font: 100%/1.5 system-ui, sans-serif;
 	padding: 1em;
+	display: grid;
+	grid-template-columns: auto auto;
+	justify-content: center;
 }
 
 h1, h2, h3 {
 	margin-block: 0;
-}
-
-input, button, select {
-	font: inherit;
-}
-
-input {
-	background: white;
-	border: 1px solid hsl(220 10% 40% / .4);
-	padding: .2em .4em;
-}
-
-button, .button, ::part(button) {
-	display: inline-flex;
-	align-items: center;
-	justify-content: center;
-	background: hsl(220 10% 95%);
-	border: 1px solid hsl(220 10% 80%);
-	padding: .3em .5em;
-	border-radius: .2em;
-	cursor: pointer;
-	text-decoration: none;
-	color: black;
-
-	&:hover {
-		background: hsl(220 10% 90%);
-	}
-
-	&:active {
-		transform: scale(.95);
-	}
-}
-
-table {
-	border-collapse: collapse;
-	table-layout: fixed;
-}
-
-th {
-	background-color: hsl(220 10% 95%);
-	text-align: left;
-	padding: 0.5em;
-}
-
-th, td {
-	padding: .3em .5em;
-	border: 1px solid hsl(220 10% 90%);
-}
-
-body {
-	display: grid;
-	grid-template-columns: auto auto;
-	justify-content: center;
 }
 
 header {

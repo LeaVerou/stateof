@@ -1,0 +1,18 @@
+@import url("../style.css");
+
+textarea {
+	form-sizing: normal;
+	display: block;
+	width: 30em;
+	height: 10lh;
+	height: 15em;
+	margin-block: .3em;
+}
+
+form {
+	margin-block: 1em;
+}
+
+a[download][href=""] {
+	display: none;
+}

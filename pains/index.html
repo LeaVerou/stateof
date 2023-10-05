@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Pain Points & Missing Features</title>
+	<script type="module" src="index.js"></script>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<form id="fetch_responses_form">
+<label>
+	Questions to include in YAML format (page ids to question ids):
+	<textarea id="questions_textarea">
+forms:
+  - forms_pain_points
+interactivity:
+  - interactivity_pain_points
+content:
+  - content_pain_points
+web_components:
+  - using_web_components_pain_points
+  - making_web_components_pain_points
+accessibility:
+  - accessibility_pain_points
+mobile_web_apps:
+  - mobile_web_apps_pain_points
+#usage:
+#  - html_interoperability_features
+#  - html_functionality_features
+#  - html_missing_elements
+</textarea>
+	<button>Go</button>
+</label>
+</form>
+
+<p>Check the browser console for the GraphQL query and the raw data</p>
+
+<a id="download_json" href="" download="pains.json" class="button">Download as JSON</a>
+&nbsp;
+<a id="download_csv" href="" download="pains.csv" class="button">Download as CSV</a>
+
+</body>
+</html>
